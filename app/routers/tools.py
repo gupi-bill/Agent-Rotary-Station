@@ -77,13 +77,47 @@ def decide(body: ApprovalDecision):
             result_payload = {"ok": True, "request_id": body.request_id,
                               "status": "done", "result": result_text}
         except Exception as exc:  # noqa: BLE001
-            db.execute("UPDATE tool_requests SET status='failed', result=? WHERE request_id=?",
+            db.enqueue_tool(body.request_id, req['agent_id'], req['skill_id'], req.get('params','{}'))
+            db.execute("UPDATE tool_requests SET status='queued', result=? WHERE request_id=?",
                        (str(exc), body.request_id))
             db.audit("system", "tool_exec_failed", req["skill_id"],
                      {"request_id": body.request_id, "error": str(exc)})
             result_payload = {"ok": False, "request_id": body.request_id,
                               "status": "failed", "error": str(exc)}
     return result_payload
+
+
+@router.get("/queue/pending")
+def queue_pending():
+    rows = db.query_all("SELECT * FROM tool_queue WHERE status='queued' ORDER BY created_at ASC")
+    return {"ok": True, "queued": rows}
+
+
+@router.post("/queue/process")
+def queue_process():
+    from .. import config as cfg
+    results = []
+    while True:
+        item = db.next_queued_tool()
+        if not item:
+            break
+        skill = db.query_one("SELECT * FROM skills WHERE skill_id=?", (item["skill_id"],))
+        if not skill or not skill["endpoint_url"]:
+            db.mark_queue_failed_or_retry(item["request_id"], item["max_retries"], item["expire_at"], cfg.TOOL_QUEUE_RETRY_INTERVAL)
+            results.append({"request_id": item["request_id"], "result": "no-endpoint"})
+            continue
+        try:
+            with httpx.Client(timeout=cfg.HTTP_TIMEOUT) as client:
+                resp = client.post(skill["endpoint_url"], json={"skill_id": skill["skill_id"], "params": json.loads(item["params"] or "{}")})
+                resp.raise_for_status()
+                result_text = resp.text
+            db.execute("UPDATE tool_requests SET status='done', result=? WHERE request_id=?", (result_text, item["request_id"]))
+            db.mark_queue_done(item["request_id"])
+            results.append({"request_id": item["request_id"], "result": "done"})
+        except Exception as exc:
+            verdict = db.mark_queue_failed_or_retry(item["request_id"], item["max_retries"], item["expire_at"], cfg.TOOL_QUEUE_RETRY_INTERVAL)
+            results.append({"request_id": item["request_id"], "result": verdict})
+    return {"ok": True, "processed": results}
 
 
 @router.get("/requests/pending")

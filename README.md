@@ -84,6 +84,14 @@ Agent-Rotary-Station/
 │       ├── skills.py      # 技能注册
 │       ├── tools.py       # 工具调用审批
 │       └── system.py      # 健康/审计/紧急刹车
+├── webui/                 # v0.2 P2 网页控制台（零构建静态 SPA）
+│   ├── index.html         # 控制台入口
+│   ├── styles.css
+│   └── src/
+│       ├── App.js         # 多页面壳
+│       ├── api.js         # 后端 REST API 封装
+│       ├── store.js       # 极简事件总线
+│       └── pages/         # 各功能页面
 ├── tests/
 │   └── test_demo.py      # 端到端自检
 ├── data/                  # SQLite 数据库
@@ -101,9 +109,42 @@ Agent-Rotary-Station/
 5. MCP 技能注册表：工具能力全局互通，Agent 无感工具部署位置
 6. 完整审计链路，底座拥有紧急刹车能力
 
-## v0.1 不实现（留到后续迭代）
+## v0.2 网页控制台（P2）
 
-- 无 WebUI 控制台
+启动后浏览器访问：<http://127.0.0.1:8000/webui/>
+
+零构建、开箱即用：纯静态 SPA，CDN 引入 React + htm + ReactFlow，前端只调用后端 REST API，不直连数据库，不引入任何 LLM/向量/RAG。
+
+### 功能页面
+
+- 📊 总览：Agent 数、工作流数、待审批数、紧急刹车状态
+- 🤖 Agent 管理：注册、心跳、上下线、设置/撤销管理岗
+- 💬 聊天：私聊 + 任务群聊历史
+- 🧠 记忆池：三层记忆域浏览 + 写记忆（走审批）
+- 🛠 技能市场：注册、列表、调用
+- 🔀 工作流：新建、编辑、运行、查看 run、删除
+- ✏️ 工作流编辑器：ReactFlow 拖拽画布，5 种节点（agent / tool / memory_write / memory_read / approval），连线即 DAG，保存前做环检测
+- 📥 审批收件箱：记忆审批 + 工具审批 + 工作流挂起审批统一处理
+- 🛡 系统面板：健康检查、审计日志、紧急刹车开关
+
+### 工作流 definition 契约
+
+```json
+{
+  "nodes": [
+    {"id": "n1", "type": "agent", "data": {"agent_id": "a2", "content": "去干活"}},
+    {"id": "n2", "type": "tool", "data": {"skill_id": "echo", "owner_agent_id": "a2", "params": {}}},
+    {"id": "n3", "type": "memory_write", "data": {"owner_agent_id": "a2", "domain": "global", "mem_key": "k", "content": "v"}}
+  ],
+  "edges": [{"source": "n1", "target": "n2"}, {"source": "n2", "target": "n3"}]
+}
+```
+
+注意：`memory_write/read` 节点必须填写 `owner_agent_id`，否则后端会 404。
+
+## v0.1 不实现（已迭代部分，后续仍不实现）
+
+- ~~无 WebUI 控制台~~ → 已完成 `webui/`，访问 `/webui/`
 - 不做向量检索、RAG、记忆自动压缩总结
 - 不做工具离线排队、负载均衡
 - 默认 HTTP 通信；IronMesh 离线网格作为可选后续扩展

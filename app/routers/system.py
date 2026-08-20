@@ -1,4 +1,4 @@
-"""系统：健康检查、审计日志、紧急刹车。"""
+"""系统：健康检查、审计日志、紧急刹车、心跳超时、工具队列。"""
 from __future__ import annotations
 
 import json
@@ -44,3 +44,17 @@ def toggle_block(active: bool = True):
     config.EMERGENCY_BLOCK = active
     db.audit("human", "emergency_block_toggle", str(active))
     return {"ok": True, "emergency_block": config.EMERGENCY_BLOCK}
+
+
+@router.post("/heartbeat-check")
+def heartbeat_check():
+    """手动触发心跳超时检查：超时 Agent 置为 offline。"""
+    count = db.mark_stale_agents_offline(config.AGENT_HEARTBEAT_TIMEOUT)
+    return {"ok": True, "marked_offline": count}
+
+
+@router.post("/tool-queue/process")
+def tool_queue_process():
+    """手动触发待补发工具队列。"""
+    from . import tools
+    return tools.queue_process()

@@ -90,3 +90,26 @@ class ToolCall(BaseModel):
 
 class ManagerSet(BaseModel):
     agent_id: str
+
+
+# ---- v0.2 工作流 ----
+
+
+class WorkflowCreate(BaseModel):
+    name: str
+    description: str = ""
+    definition: dict[str, Any] = Field(
+        default_factory=lambda: {"nodes": [], "edges": []}
+    )
+
+
+class WorkflowUpdate(BaseModel):
+    name: str | None = None
+    description: str | None = None
+    definition: dict[str, Any] | None = None
+    status: str | None = None  # active | disabled
+
+
+class WorkflowStepDecision(BaseModel):
+    approve: bool
+    comment: str = ""

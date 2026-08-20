@@ -129,6 +129,44 @@ CREATE INDEX IF NOT EXISTS idx_messages_channel ON messages(channel_type);
 CREATE INDEX IF NOT EXISTS idx_memories_domain ON memories(domain);
 CREATE INDEX IF NOT EXISTS idx_tool_requests_status ON tool_requests(status);
 CREATE INDEX IF NOT EXISTS idx_audit_ts ON audit_logs(ts);
+
+CREATE TABLE IF NOT EXISTS workflows (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    workflow_id  TEXT NOT NULL UNIQUE,
+    name         TEXT NOT NULL,
+    description  TEXT NOT NULL DEFAULT '',
+    definition   TEXT NOT NULL DEFAULT '{"nodes":[],"edges":[]}',
+    status       TEXT NOT NULL DEFAULT 'active',
+    created_at   REAL NOT NULL,
+    updated_at   REAL NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS workflow_runs (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    run_id       TEXT NOT NULL UNIQUE,
+    workflow_id  TEXT NOT NULL,
+    status       TEXT NOT NULL DEFAULT 'pending',
+    current_node TEXT NOT NULL DEFAULT '',
+    result       TEXT NOT NULL DEFAULT '',
+    error        TEXT NOT NULL DEFAULT '',
+    created_at   REAL NOT NULL,
+    started_at   REAL,
+    finished_at  REAL
+);
+CREATE TABLE IF NOT EXISTS tool_queue (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    request_id   TEXT NOT NULL UNIQUE,
+    agent_id     TEXT NOT NULL,
+    skill_id     TEXT NOT NULL,
+    params       TEXT NOT NULL DEFAULT '{}',
+    retries      INTEGER NOT NULL DEFAULT 0,
+    max_retries  INTEGER NOT NULL DEFAULT 5,
+    expire_at    REAL NOT NULL,
+    status       TEXT NOT NULL DEFAULT 'queued',
+    created_at   REAL NOT NULL,
+    next_try_at  REAL NOT NULL
+);
+
 """
 
 
@@ -247,3 +285,61 @@ def can_read_memory(reader_agent: str, domain: str) -> bool:
         )
         return row is not None
     return False
+
+
+# ---- v0.2 P1 工具离线排队 ----
+
+def enqueue_tool(request_id: str, agent_id: str, skill_id: str, params: str,
+                 max_retries: int = 5, expire_seconds: float = 300.0) -> int:
+    ts = now()
+    return execute(
+        "INSERT INTO tool_queue (request_id, agent_id, skill_id, params, retries, max_retries, expire_at, status, created_at, next_try_at) "
+        "VALUES (?, ?, ?, ?, 0, ?, ?, 'queued', ?, ?) "
+        "ON CONFLICT(request_id) DO UPDATE SET status='queued', retries=0, next_try_at=excluded.next_try_at",
+        (request_id, agent_id, skill_id, params, max_retries, ts + expire_seconds, ts, ts),
+    )
+
+
+def next_queued_tool(now_ts: float | None = None) -> dict | None:
+    ts = now_ts if now_ts is not None else now()
+    return query_one(
+        "SELECT * FROM tool_queue WHERE status='queued' AND next_try_at<=? AND expire_at>? "
+        "ORDER BY created_at ASC LIMIT 1",
+        (ts, ts),
+    )
+
+
+def mark_queue_done(request_id: str) -> None:
+    execute("DELETE FROM tool_queue WHERE request_id=?", (request_id,))
+
+
+def mark_queue_failed_or_retry(request_id: str, max_retries: int, expire_at: float,
+                               retry_interval: float = 5.0) -> str:
+    row = query_one("SELECT * FROM tool_queue WHERE request_id=?", (request_id,))
+    if not row:
+        return "missing"
+    if row["expire_at"] <= now():
+        execute("UPDATE tool_queue SET status='expired' WHERE request_id=?", (request_id,))
+        return "expired"
+    if row["retries"] >= max_retries:
+        execute("UPDATE tool_queue SET status='failed' WHERE request_id=?", (request_id,))
+        return "failed"
+    execute(
+        "UPDATE tool_queue SET retries=retries+1, next_try_at=? WHERE request_id=?",
+        (now() + retry_interval, request_id),
+    )
+    return "retry"
+
+
+# ---- v0.2 P1 Agent 心跳超时 ----
+
+def mark_stale_agents_offline(timeout_seconds: float) -> int:
+    cutoff = now() - timeout_seconds
+    rows = query_all(
+        "SELECT agent_id FROM agents WHERE status='online' AND last_seen>0 AND last_seen<?",
+        (cutoff,),
+    )
+    for r in rows:
+        execute("UPDATE agents SET status='offline' WHERE agent_id=?", (r["agent_id"],))
+        audit("system", "agent_heartbeat_timeout", r["agent_id"], {"cutoff": cutoff})
+    return len(rows)
