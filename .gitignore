@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 运行时产物（不入库）
+data/*.db
+data/*.log
+*.log
+
+# 虚拟环境
+venv/
+.venv/
+env/
