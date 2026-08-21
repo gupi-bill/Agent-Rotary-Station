@@ -10,7 +10,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 
 from . import db
-from .routers import agents, memories, messages, skills, system, tasks, tools, workflows
+from .routers import agents, files, memories, messages, skills, system, tasks, tools, workflows
 
 
 def _maintenance_loop() -> None:
@@ -63,6 +63,7 @@ app.include_router(skills.router)
 app.include_router(tools.router)
 app.include_router(system.router)
 app.include_router(workflows.router)
+app.include_router(files.router)
 
 
 # ---- P2 WebUI 静态托管（唯一后端改动：不修改任何 router 业务逻辑） ----
