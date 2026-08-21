@@ -13,6 +13,7 @@ class AgentRegister(BaseModel):
     capabilities: list[str] = Field(default_factory=list)
     endpoint_url: str = ""
     token: str = ""
+    auto_reply: dict[str, Any] = Field(default_factory=dict)
 
 
 class AgentHeartbeat(BaseModel):
@@ -23,6 +24,13 @@ class AgentUpdate(BaseModel):
     name: str | None = None
     capabilities: list[str] | None = None
     endpoint_url: str | None = None
+    auto_reply: dict[str, Any] | None = None
+
+
+class AgentAutoReply(BaseModel):
+    """子 Agent 自动应答配置：收到任务消息时按模板自动回复。"""
+    enabled: bool = True
+    reply_template: str = "收到，{from}。任务「{task}」已记录，处理中…"
 
 
 class TaskCreate(BaseModel):
@@ -90,6 +98,17 @@ class ToolCall(BaseModel):
 
 class ManagerSet(BaseModel):
     agent_id: str
+
+
+class DelegateRequest(BaseModel):
+    """Agent 委托调用：父 Agent 给目标子 Agent 派任务。
+
+    目标子 Agent 若开了自动应答(auto_reply)，底座立即生成应答并写回消息，
+    形成「调用 → 应答」闭环；未开则消息进其收件箱，等人工/后续处理。
+    """
+    from_agent: str
+    to_agent: str
+    task_content: str
 
 
 # ---- v0.2 工作流 ----
