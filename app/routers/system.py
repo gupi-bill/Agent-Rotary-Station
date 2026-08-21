@@ -49,14 +49,31 @@ def stats():
 
 
 @router.get("/audit-logs")
-def audit_logs(limit: int = 100, actor: str | None = None):
+def audit_logs(limit: int = 100, actor: str | None = None,
+               action: str | None = None, start: float | None = None,
+               end: float | None = None, q: str | None = None):
+    """审计日志，支持按 actor / action / 时间窗 / 关键字过滤搜索。"""
+    sql = "SELECT * FROM audit_logs WHERE 1=1"
+    params: list = []
     if actor:
-        rows = db.query_all(
-            "SELECT * FROM audit_logs WHERE actor=? ORDER BY id DESC LIMIT ?",
-            (actor, limit),
-        )
-    else:
-        rows = db.query_all("SELECT * FROM audit_logs ORDER BY id DESC LIMIT ?", (limit,))
+        sql += " AND actor=?"
+        params.append(actor)
+    if action:
+        sql += " AND action=?"
+        params.append(action)
+    if start is not None:
+        sql += " AND ts>=?"
+        params.append(start)
+    if end is not None:
+        sql += " AND ts<=?"
+        params.append(end)
+    if q:
+        sql += " AND (actor LIKE ? OR action LIKE ? OR target LIKE ? OR detail LIKE ?)"
+        like = f"%{q}%"
+        params += [like, like, like, like]
+    sql += " ORDER BY id DESC LIMIT ?"
+    params.append(limit)
+    rows = db.query_all(sql, params)
     for r in rows:
         try:
             r["detail"] = json.loads(r.get("detail") or "{}")

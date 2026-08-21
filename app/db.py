@@ -175,6 +175,43 @@ CREATE TABLE IF NOT EXISTS settings (
     updated_at  REAL NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS projects (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_id  TEXT NOT NULL UNIQUE,
+    name        TEXT NOT NULL,
+    description TEXT NOT NULL DEFAULT '',
+    agent_ids   TEXT NOT NULL DEFAULT '[]',
+    status      TEXT NOT NULL DEFAULT 'active',
+    created_at  REAL NOT NULL,
+    updated_at  REAL NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS crons (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    cron_id     TEXT NOT NULL UNIQUE,
+    name        TEXT NOT NULL,
+    schedule    TEXT NOT NULL,            -- 简单间隔秒数或 cron 表达式（本实现按 interval 秒）
+    interval_sec INTEGER NOT NULL DEFAULT 3600,
+    action      TEXT NOT NULL DEFAULT 'message',  -- message | workflow
+    target      TEXT NOT NULL DEFAULT '',  -- 目标 agent_id 或 workflow_id
+    payload     TEXT NOT NULL DEFAULT '{}',
+    enabled     INTEGER NOT NULL DEFAULT 1,
+    last_run_at REAL,
+    next_run_at REAL,
+    created_at  REAL NOT NULL,
+    updated_at  REAL NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS cron_runs (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    run_id      TEXT NOT NULL UNIQUE,
+    cron_id     TEXT NOT NULL,
+    status      TEXT NOT NULL DEFAULT 'success',  -- success | error | manual
+    detail      TEXT NOT NULL DEFAULT '',
+    triggered_by TEXT NOT NULL DEFAULT 'schedule',
+    created_at  REAL NOT NULL
+);
+
 """
 
 

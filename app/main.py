@@ -10,7 +10,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 
 from . import db
-from .routers import agents, files, memories, messages, skills, system, tasks, tools, workflows
+from .routers import agents, crons, files, memories, messages, projects, skills, system, tasks, tools, workflows
 
 
 def _maintenance_loop() -> None:
@@ -29,12 +29,18 @@ def _maintenance_loop() -> None:
         time.sleep(config.TOOL_QUEUE_RETRY_INTERVAL)
 
 
+_stop = threading.Event()
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     db.init_db()
     t = threading.Thread(target=_maintenance_loop, daemon=True)
     t.start()
+    from .routers import crons as _crons
+    tc = threading.Thread(target=_crons.scheduler_loop, args=(_stop,), daemon=True)
+    tc.start()
     yield
+    _stop.set()
 
 
 app = FastAPI(
@@ -63,6 +69,8 @@ app.include_router(skills.router)
 app.include_router(tools.router)
 app.include_router(system.router)
 app.include_router(workflows.router)
+app.include_router(projects.router)
+app.include_router(crons.router)
 app.include_router(files.router)
 
 
