@@ -109,6 +109,10 @@ def update(agent_id: str, body: AgentUpdate):
     if body.auto_reply is not None:
         db.execute("UPDATE agents SET auto_reply=? WHERE agent_id=?",
                    (json.dumps(body.auto_reply, ensure_ascii=False), agent_id))
+    if body.system_prompt is not None:
+        db.execute("UPDATE agents SET system_prompt=? WHERE agent_id=?",
+                   (body.system_prompt, agent_id))
+        db.audit(agent_id, "system_prompt_update", agent_id)
     db.audit(agent_id, "update_profile", agent_id)
     return {"ok": True}
 
@@ -143,11 +147,11 @@ def set_autoreply(agent_id: str, body: AgentAutoReply):
 def list_agents(role: str | None = None):
     if role:
         rows = db.query_all(
-            "SELECT agent_id, name, role, status, capabilities, auto_reply, last_seen FROM agents WHERE role=?",
+            "SELECT agent_id, name, role, status, capabilities, auto_reply, system_prompt, last_seen FROM agents WHERE role=?",
             (role,))
     else:
         rows = db.query_all(
-            "SELECT agent_id, name, role, status, capabilities, auto_reply, last_seen FROM agents")
+            "SELECT agent_id, name, role, status, capabilities, auto_reply, system_prompt, last_seen FROM agents")
     for r in rows:
         r["capabilities"] = json.loads(r.get("capabilities") or "[]")
         try:
@@ -198,3 +202,25 @@ def delegate(body: DelegateRequest):
         "reply": None,
         "hint": f"{body.to_agent} 未开启自动应答，任务已进其收件箱（见消息页）",
     }
+
+
+@router.post("/manager/set")
+def set_manager(body: ManagerSet):
+    if not db.get_agent(body.agent_id):
+        raise HTTPException(status_code=404, detail="agent not found")
+    m = db.set_manager(body.agent_id)
+    return {"ok": True, "manager": m}
+
+
+@router.get("/manager/current")
+def get_manager():
+    m = db.current_manager()
+    return {"ok": True, "manager": m}
+
+
+@router.post("/manager/clear")
+def clear_manager():
+    """撤销管理岗：当前 manager 降回 worker。"""
+    m = db.clear_manager()
+    return {"ok": True, "cleared": m}
+

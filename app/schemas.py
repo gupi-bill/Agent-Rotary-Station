@@ -25,6 +25,7 @@ class AgentUpdate(BaseModel):
     capabilities: list[str] | None = None
     endpoint_url: str | None = None
     auto_reply: dict[str, Any] | None = None
+    system_prompt: str | None = None
 
 
 class AgentAutoReply(BaseModel):

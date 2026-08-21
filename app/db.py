@@ -29,6 +29,7 @@ CREATE TABLE IF NOT EXISTS agents (
     endpoint_url TEXT NOT NULL DEFAULT '',
     token       TEXT NOT NULL DEFAULT '',
     auto_reply  TEXT NOT NULL DEFAULT '{}',
+    system_prompt TEXT NOT NULL DEFAULT '',
     last_seen   REAL NOT NULL DEFAULT 0,
     created_at  REAL NOT NULL
 );
@@ -202,10 +203,12 @@ def init_db() -> None:
         conn = connect()
         try:
             conn.executescript(SCHEMA)
-            # 兼容旧库：补列（已存在的库第一次启动时缺 auto_reply）
+            # 兼容旧库：补列（已存在的库第一次启动时缺 auto_reply / system_prompt）
             cols = {r["name"] for r in conn.execute("PRAGMA table_info(agents)").fetchall()}
             if "auto_reply" not in cols:
                 conn.execute("ALTER TABLE agents ADD COLUMN auto_reply TEXT NOT NULL DEFAULT '{}'")
+            if "system_prompt" not in cols:
+                conn.execute("ALTER TABLE agents ADD COLUMN system_prompt TEXT NOT NULL DEFAULT ''")
             conn.commit()
         finally:
             conn.close()
