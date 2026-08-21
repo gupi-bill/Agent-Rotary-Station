@@ -44,6 +44,17 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+# ---- CORS：允许跨域（供 BlueDeer new_ui 等外部前端直连） ----
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 app.include_router(agents.router)
 app.include_router(tasks.router)
 app.include_router(messages.router)
