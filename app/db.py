@@ -168,6 +168,12 @@ CREATE TABLE IF NOT EXISTS tool_queue (
     next_try_at  REAL NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS settings (
+    key         TEXT PRIMARY KEY,
+    value       TEXT NOT NULL,
+    updated_at  REAL NOT NULL
+);
+
 """
 
 

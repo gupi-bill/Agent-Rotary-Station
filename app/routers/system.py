@@ -89,6 +89,78 @@ def heartbeat_check():
     return {"ok": True, "marked_offline": count}
 
 
+# ---- 控制台设置（前端设置中心存底座，真实生效） ----
+
+
+def _get_settings() -> dict:
+    rows = db.query_all("SELECT key, value FROM settings")
+    out: dict = {}
+    for r in rows:
+        try:
+            out[r["key"]] = json.loads(r["value"])
+        except Exception:
+            out[r["key"]] = r["value"]
+    return out
+
+
+@router.get("/settings")
+def get_settings():
+    """控制台设置（默认自动应答模板等），前端设置中心读写。"""
+    return {"ok": True, "settings": _get_settings()}
+
+
+@router.post("/settings")
+def save_settings(body: dict):
+    """合并保存设置（只写传入的 key）。"""
+    if not isinstance(body, dict):
+        return {"ok": False, "error": "body must be object"}
+    ts = db.now()
+    for k, v in body.items():
+        db.execute(
+            "INSERT INTO settings (key, value, updated_at) VALUES (?, ?, ?) "
+            "ON CONFLICT(key) DO UPDATE SET value=excluded.value, updated_at=excluded.updated_at",
+            (k, json.dumps(v, ensure_ascii=False), ts),
+        )
+    db.audit("human", "settings_save", ",".join(body.keys()))
+    return {"ok": True, "settings": _get_settings()}
+
+
+@router.get("/probe-models")
+def probe_models(api_base: str = "", api_key: str = ""):
+    """真实探测模型列表。
+
+    api_base 为空 → 探测本地 Ollama(11434 /api/tags)；
+    否则按 OpenAI 兼容端点 GET {api_base}/models（支持硅基流动/DeepSeek/GitHub Models/智谱）。
+    """
+    import urllib.request
+
+    if not api_base:
+        try:
+            req = urllib.request.Request("http://127.0.0.1:11434/api/tags", method="GET")
+            with urllib.request.urlopen(req, timeout=3.0) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            models = [m.get("name", "") for m in data.get("models", []) if m.get("name")]
+            return {"ok": True, "source": "ollama", "models": models}
+        except Exception as e:
+            return {"ok": False, "source": "ollama", "models": [], "error": f"Ollama 未运行: {e}"}
+
+    base = api_base.rstrip("/")
+    url = base + "/models"
+    try:
+        req = urllib.request.Request(url, method="GET")
+        if api_key:
+            req.add_header("Authorization", "Bearer " + api_key)
+        with urllib.request.urlopen(req, timeout=5.0) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        models = [m.get("id", "") for m in data.get("data", []) if m.get("id")]
+        if not models and isinstance(data, dict):
+            # 兼容 {models:[...]} 形态
+            models = [m.get("id", m if isinstance(m, str) else "") for m in data.get("models", [])]
+        return {"ok": True, "source": base, "models": models}
+    except Exception as e:
+        return {"ok": False, "source": base, "models": [], "error": str(e)}
+
+
 @router.post("/tool-queue/process")
 def tool_queue_process():
     """手动触发待补发工具队列。"""
