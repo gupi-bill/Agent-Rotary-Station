@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException
 
-from .. import db
+from .. import db, events, nats_bus
 from ..schemas import TaskAssign, TaskBroadcast, TaskCreate, TaskStatus
 
 router = APIRouter(prefix="/tasks", tags=["tasks"])
@@ -22,6 +22,7 @@ def create(body: TaskCreate):
         (task_id, body.title, body.description, db.now(), db.now()),
     )
     db.audit("human", "task_create", task_id, {"title": body.title})
+    events.publish("task_created", {"task_id": task_id, "title": body.title})
     return {"ok": True, "task_id": task_id}
 
 
@@ -35,6 +36,10 @@ def broadcast(body: TaskBroadcast):
         (body.manager_id, db.now(), body.task_id),
     )
     db.audit(body.manager_id, "task_broadcast", body.task_id)
+    nats_bus.publish_task_broadcast(body.task_id, {"task_id": body.task_id,
+                                                  "manager_id": body.manager_id})
+    events.publish("task_broadcast", {"task_id": body.task_id,
+                                      "manager_id": body.manager_id})
     return {"ok": True, "task_id": body.task_id, "status": "broadcasting"}
 
 
@@ -64,6 +69,7 @@ def status(body: TaskStatus):
     db.execute("UPDATE tasks SET status=?, updated_at=? WHERE task_id=?",
                (body.status, db.now(), body.task_id))
     db.audit("system", "task_status", body.task_id, {"status": body.status})
+    events.publish("task_status", {"task_id": body.task_id, "status": body.status})
     return {"ok": True, "task_id": body.task_id, "status": body.status}
 
 

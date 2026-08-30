@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException
 
-from .. import config, db
+from .. import config, db, events, nats_bus
 from ..schemas import MessageSend
 
 router = APIRouter(prefix="/messages", tags=["messages"])
@@ -24,6 +24,14 @@ def send(body: MessageSend):
     )
     db.audit(body.from_agent, "message_send", body.to_agent or body.task_id,
              {"channel": body.channel_type, "msg_id": msg_id})
+    _payload = {"msg_id": msg_id, "channel": body.channel_type,
+                "from": body.from_agent, "to": body.to_agent,
+                "task_id": body.task_id, "content": body.content}
+    events.publish("message", _payload)
+    if body.channel_type == "task" and body.task_id:
+        nats_bus.publish_task_grab(body.task_id, _payload)
+    elif body.to_agent:
+        nats_bus.publish_agent_inbox(body.to_agent, _payload)
     return {"ok": True, "msg_id": msg_id}
 
 

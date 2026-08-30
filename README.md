@@ -144,6 +144,33 @@ python tests\test_demo.py
 
 ---
 
+## 外部 Agent 对接示例
+
+> 这是接入的关键：底座零智能，全靠外部 Agent 用 REST API 协作。
+
+`examples/` 目录提供两个零依赖示例：
+
+1. **mock_tool.py** —— 极简 Echo 工具服务，演示"工具节点"如何被工作站审批后调用。
+2. **agent_demo.py** —— 完整对接示例：注册 manager/员工 → 建任务 → 广播抢单 → 私聊 → 写记忆（审批）→ 注册技能 → 调工具（审批）→ 查任务。
+
+运行：
+
+```powershell
+# 终端 1：启动工作站
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+
+# 终端 2：启动 mock 工具节点
+python examples\mock_tool.py
+
+# 终端 3：跑完整对接示例
+python examples\agent_demo.py
+```
+
+核心约定：
+- 注册即上线，心跳续期，超时自动离线（不改任务与审批单）。
+- 写记忆 / 调工具必须先落审批单，由当前 manager 在 `/approvals/decide` 放行后才真正执行。
+- 聊天只留流水，不自动转长期记忆。
+
 ## 目录结构
 
 ```

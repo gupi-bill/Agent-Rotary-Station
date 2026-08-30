@@ -23,6 +23,11 @@ TOOL_QUEUE_RETRY_INTERVAL = float(os.getenv("ARS_TOOL_QUEUE_RETRY_INTERVAL", "5"
 # v0.2 P1 Agent 心跳超时（秒）
 AGENT_HEARTBEAT_TIMEOUT = float(os.getenv("ARS_AGENT_HEARTBEAT_TIMEOUT", "60"))
 
+# v3 P0 NATS 通信层（默认关闭；装好 nats-server 后设 ARS_NATS_ENABLED=1 启用）
+NATS_URL = os.getenv("ARS_NATS_URL", "nats://127.0.0.1:4222")
+NATS_ENABLED = os.getenv("ARS_NATS_ENABLED", "0") == "1"
+NATS_CONNECT_TIMEOUT = float(os.getenv("ARS_NATS_CONNECT_TIMEOUT", "3"))
+
 
 def ensure_dirs() -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)

@@ -11,6 +11,7 @@ import System from './pages/System.js';
 import Workflows from './pages/Workflows.js';
 import WorkflowEditor from './pages/WorkflowEditor.js';
 import ApprovalInbox from './pages/ApprovalInbox.js';
+import { store } from './store.js';
 
 const h = htm.bind(React.createElement);
 
@@ -28,6 +29,7 @@ const NAV = [
 export default function App() {
   const [page, setPage] = React.useState('dashboard');
   const [editingId, setEditingId] = React.useState(null); // 非空时进入工作流编辑器
+  React.useEffect(() => { store.startRealtime(); return () => store.stopRealtime(); }, []);
 
   function nav(key) {
     setEditingId(null);

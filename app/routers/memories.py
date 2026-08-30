@@ -17,7 +17,7 @@ import time
 
 from fastapi import APIRouter, HTTPException
 
-from .. import config, db
+from .. import config, db, events
 from ..schemas import ApprovalDecision, MemoryDelete, MemoryWrite
 
 router = APIRouter(prefix="/memories", tags=["memories"])
