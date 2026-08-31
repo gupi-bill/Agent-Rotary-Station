@@ -114,7 +114,7 @@ def queue_process():
             db.execute("UPDATE tool_requests SET status='done', result=? WHERE request_id=?", (result_text, item["request_id"]))
             db.mark_queue_done(item["request_id"])
             results.append({"request_id": item["request_id"], "result": "done"})
-        except Exception as exc:
+        except Exception:
             verdict = db.mark_queue_failed_or_retry(item["request_id"], item["max_retries"], item["expire_at"], cfg.TOOL_QUEUE_RETRY_INTERVAL)
             results.append({"request_id": item["request_id"], "result": verdict})
     return {"ok": True, "processed": results}

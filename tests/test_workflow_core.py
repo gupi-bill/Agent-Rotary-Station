@@ -43,7 +43,7 @@ def test_wf_memory_write_via_approval():
         "edges": [],
     }))
     # memory 节点走 v0.1 异步审批：run 返回后 pending 审批单应已生成
-    r = workflows.run(wf["workflow_id"], trigger_by="human")
+    workflows.run(wf["workflow_id"], trigger_by="human")
     ra = db.query_one("SELECT * FROM memory_approvals WHERE status='pending' ORDER BY id DESC")
     assert ra is not None, "memory_write node must create a pending approval"
     memories.decide(ApprovalDecision(manager_id="m1", request_id=ra["request_id"], approve=True))
@@ -64,7 +64,7 @@ def test_wf_tool_node_pending():
                    "data": {"skill_id": "t1", "params": {}}}],
         "edges": [],
     }))
-    r = workflows.run(wf["workflow_id"], trigger_by="human")
+    workflows.run(wf["workflow_id"], trigger_by="human")
     tr = db.query_one("SELECT * FROM tool_requests WHERE status='pending' ORDER BY id DESC")
     assert tr is not None, "tool node must create a pending tool_request"
     print("OK wf tool node -> pending approval (no direct exec)")
