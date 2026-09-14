@@ -1,1 +1,5 @@
-QGVjaG8gb2ZmDQpSRU0gQWdlbnQtUm90YXJ5LVN0YXRpb24g5LiA6ZSu5ZCv5Yqo77yI5Y+M5Ye75Y2z5Y+v77yJDQpjZCAvZCAiJX5kcDAiDQpweXRob24gLW0gdXZpY29ybiBhcHAubWFpbjphcHAgLS1ob3N0IDEyNy4wLjAuMSAtLXBvcnQgODAwMA0KcGF1c2UNCg==
+@echo off
+REM Agent-Rotary-Station 一键启动（双击即可）
+cd /d "%~dp0"
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+pause

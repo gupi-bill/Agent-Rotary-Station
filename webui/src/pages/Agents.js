@@ -1,1 +1,100 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ2h0dHBzOi8vZXNtLnNoL3JlYWN0QDE4JzsKaW1wb3J0IGh0bSBmcm9tICdodHRwczovL2VzbS5zaC9odG1AMyc7CmltcG9ydCB7IEFnZW50cyBhcyBBZ2VudHNBcGkgfSBmcm9tICcuLi9hcGkuanMnOwppbXBvcnQgeyBzdG9yZSB9IGZyb20gJy4uL3N0b3JlLmpzJzsKY29uc3QgaCA9IGh0bS5iaW5kKFJlYWN0LmNyZWF0ZUVsZW1lbnQpOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQWdlbnRzKCkgewogIGNvbnN0IFthZ2VudHMsIHNldEFnZW50c10gPSBSZWFjdC51c2VTdGF0ZShbXSk7CiAgY29uc3QgW21hbmFnZXIsIHNldE1hbmFnZXJdID0gUmVhY3QudXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW21zZywgc2V0TXNnXSA9IFJlYWN0LnVzZVN0YXRlKCcnKTsKICBjb25zdCBbZm9ybSwgc2V0Rm9ybV0gPSBSZWFjdC51c2VTdGF0ZSh7IGFnZW50X2lkOiAnJywgbmFtZTogJycsIHJvbGU6ICd3b3JrZXInLCBjYXBhYmlsaXRpZXM6ICcnLCBlbmRwb2ludF91cmw6ICcnLCB0b2tlbjogJycgfSk7CgogIGFzeW5jIGZ1bmN0aW9uIGxvYWQoKSB7CiAgICB0cnkgewogICAgICBjb25zdCBbYSwgbV0gPSBhd2FpdCBQcm9taXNlLmFsbChbQWdlbnRzQXBpLmxpc3QoKSwgQWdlbnRzQXBpLm1hbmFnZXJDdXJyZW50KCldKTsKICAgICAgc2V0QWdlbnRzKGEuYWdlbnRzIHx8IFtdKTsKICAgICAgc2V0TWFuYWdlcigobS5tYW5hZ2VyKSB8fCBudWxsKTsKICAgIH0gY2F0Y2ggKGUpIHsgc2V0TXNnKGUubWVzc2FnZSk7IH0KICB9CgogIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7IGxvYWQoKTsgfSwgW10pOwoKICBhc3luYyBmdW5jdGlvbiBkb1JlZ2lzdGVyKCkgewogICAgc2V0TXNnKCcnKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGNhcHMgPSBmb3JtLmNhcGFiaWxpdGllcy5zcGxpdCgnLCcpLm1hcChzID0+IHMudHJpbSgpKS5maWx0ZXIoQm9vbGVhbik7CiAgICAgIGF3YWl0IEFnZW50c0FwaS5yZWdpc3Rlcih7IC4uLmZvcm0sIGNhcGFiaWxpdGllczogY2Fwcywgcm9sZTogZm9ybS5yb2xlIHx8ICd3b3JrZXInIH0pOwogICAgICBzZXRNc2coJ+W3suazqOWGjCcpOwogICAgICBhd2FpdCBsb2FkKCk7CiAgICAgIHN0b3JlLm5vdGlmeSgpOwogICAgfSBjYXRjaCAoZSkgeyBzZXRNc2coZS5tZXNzYWdlKTsgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gZG9BY3Rpb24oYWN0aW9uLCBhZ2VudF9pZCkgewogICAgc2V0TXNnKCcnKTsKICAgIHRyeSB7CiAgICAgIGlmIChhY3Rpb24gPT09ICdoZWFydGJlYXQnKSBhd2FpdCBBZ2VudHNBcGkuaGVhcnRiZWF0KGFnZW50X2lkKTsKICAgICAgZWxzZSBpZiAoYWN0aW9uID09PSAnb2ZmbGluZScpIGF3YWl0IEFnZW50c0FwaS5vZmZsaW5lKGFnZW50X2lkKTsKICAgICAgZWxzZSBpZiAoYWN0aW9uID09PSAnbWFuYWdlcicpIGF3YWl0IEFnZW50c0FwaS5tYW5hZ2VyU2V0KGFnZW50X2lkKTsKICAgICAgc2V0TXNnKCflt7LmiafooYwnKTsKICAgICAgYXdhaXQgbG9hZCgpOwogICAgICBzdG9yZS5ub3RpZnkoKTsKICAgIH0gY2F0Y2ggKGUpIHsgc2V0TXNnKGUubWVzc2FnZSk7IH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGNsZWFyTWFuYWdlcigpIHsKICAgIHNldE1zZygnJyk7CiAgICB0cnkgeyBhd2FpdCBBZ2VudHNBcGkubWFuYWdlckNsZWFyKCk7IGF3YWl0IGxvYWQoKTsgc3RvcmUubm90aWZ5KCk7IH0gY2F0Y2ggKGUpIHsgc2V0TXNnKGUubWVzc2FnZSk7IH0KICB9CgogIHJldHVybiBoYAogIDxkaXY+CiAgICA8aDIgY2xhc3M9InBhZ2UtdGl0bGUiPvCfpJYgQWdlbnQg566h55CGPC9oMj4KICAgICR7bXNnICYmIGhgPGRpdiBjbGFzcz0idG9hc3QiPiR7bXNnfTwvZGl2PmB9CiAgICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgICAgPGgzPueuoeeQhuWylzwvaDM+CiAgICAgIDxkaXYgY2xhc3M9InJvdyI+CiAgICAgICAgJHttYW5hZ2VyCiAgICAgICAgICA/IGhgPHNwYW4gY2xhc3M9ImNoaXAiPiR7bWFuYWdlci5uYW1lfSAoJHttYW5hZ2VyLmFnZW50X2lkfSk8L3NwYW4+YAogICAgICAgICAgOiBoYDxzcGFuIGNsYXNzPSJkaW0iPuaaguaXoOeuoeeQhuWylzwvc3Bhbj5gfQogICAgICAgIDxidXR0b24gY2xhc3M9InNlY29uZGFyeSIgb25DbGljaz0ke2NsZWFyTWFuYWdlcn0gZGlzYWJsZWQ9JHshbWFuYWdlcn0+5pKk6ZSA566h55CG5bKXPC9idXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgICAgPGgzPuazqOWGjOaWsCBBZ2VudDwvaDM+CiAgICAgIDxkaXYgY2xhc3M9InJvdyI+CiAgICAgICAgPGlucHV0IHBsYWNlaG9sZGVyPSJhZ2VudF9pZCIgdmFsdWU9JHtmb3JtLmFnZW50X2lkfSBvbklucHV0PSR7ZSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgYWdlbnRfaWQ6IGUudGFyZ2V0LnZhbHVlIH0pfSAvPgogICAgICAgIDxpbnB1dCBwbGFjZWhvbGRlcj0i5ZCN56ewIiB2YWx1ZT0ke2Zvcm0ubmFtZX0gb25JbnB1dD0ke2UgPT4gc2V0Rm9ybSh7IC4uLmZvcm0sIG5hbWU6IGUudGFyZ2V0LnZhbHVlIH0pfSAvPgogICAgICAgIDxzZWxlY3QgdmFsdWU9JHtmb3JtLnJvbGV9IG9uQ2hhbmdlPSR7ZSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgcm9sZTogZS50YXJnZXQudmFsdWUgfSl9PgogICAgICAgICAgPG9wdGlvbiB2YWx1ZT0id29ya2VyIj53b3JrZXI8L29wdGlvbj4KICAgICAgICAgIDxvcHRpb24gdmFsdWU9InRvb2xub2RlIj50b29sbm9kZTwvb3B0aW9uPgogICAgICAgIDwvc2VsZWN0PgogICAgICAgIDxpbnB1dCBwbGFjZWhvbGRlcj0i6IO95Yqb5qCH562+77yM6YCX5Y+35YiG6ZqUIiB2YWx1ZT0ke2Zvcm0uY2FwYWJpbGl0aWVzfSBvbklucHV0PSR7ZSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgY2FwYWJpbGl0aWVzOiBlLnRhcmdldC52YWx1ZSB9KX0gc3R5bGU9JHt7IG1pbldpZHRoOiAnMTgwcHgnIH19IC8+CiAgICAgICAgPGlucHV0IHBsYWNlaG9sZGVyPSJlbmRwb2ludF91cmzvvIjlj6/nqbrvvIkiIHZhbHVlPSR7Zm9ybS5lbmRwb2ludF91cmx9IG9uSW5wdXQ9JHtlID0+IHNldEZvcm0oeyAuLi5mb3JtLCBlbmRwb2ludF91cmw6IGUudGFyZ2V0LnZhbHVlIH0pfSAvPgogICAgICAgIDxidXR0b24gb25DbGljaz0ke2RvUmVnaXN0ZXJ9PuazqOWGjDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2FyZCI+CiAgICAgIDxoMz5BZ2VudCDliJfooag8L2gzPgogICAgICA8dGFibGUgY2xhc3M9InRhYmxlIj4KICAgICAgICA8dGhlYWQ+PHRyPjx0aD5JRDwvdGg+PHRoPuWQjeensDwvdGg+PHRoPuinkuiJsjwvdGg+PHRoPueKtuaAgTwvdGg+PHRoPuiDveWKmzwvdGg+PHRoPuaTjeS9nDwvdGg+PC90cj48L3RoZWFkPgogICAgICAgIDx0Ym9keT4KICAgICAgICAgICR7YWdlbnRzLm1hcChhID0+IGhgPHRyIGtleT0ke2EuYWdlbnRfaWR9PgogICAgICAgICAgICA8dGQ+JHthLmFnZW50X2lkfTwvdGQ+CiAgICAgICAgICAgIDx0ZD4ke2EubmFtZX08L3RkPgogICAgICAgICAgICA8dGQ+JHthLnJvbGV9PC90ZD4KICAgICAgICAgICAgPHRkIGNsYXNzPSR7YS5zdGF0dXMgPT09ICdvbmxpbmUnID8gJ29rJyA6ICdkaW0nfT4ke2Euc3RhdHVzfTwvdGQ+CiAgICAgICAgICAgIDx0ZD4keyhhLmNhcGFiaWxpdGllcyB8fCBbXSkubWFwKGMgPT4gaGA8c3BhbiBjbGFzcz0iY2hpcCIga2V5PSR7Y30+JHtjfTwvc3Bhbj5gKX08L3RkPgogICAgICAgICAgICA8dGQgY2xhc3M9InJvdyI+CiAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iZ2hvc3QiIG9uQ2xpY2s9JHsoKSA9PiBkb0FjdGlvbignaGVhcnRiZWF0JywgYS5hZ2VudF9pZCl9PuW/g+i3szwvYnV0dG9uPgogICAgICAgICAgICAgIDxidXR0b24gY2xhc3M9Imdob3N0IiBvbkNsaWNrPSR7KCkgPT4gZG9BY3Rpb24oJ29mZmxpbmUnLCBhLmFnZW50X2lkKX0+5LiL57q/PC9idXR0b24+CiAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iZ2hvc3QiIG9uQ2xpY2s9JHsoKSA9PiBkb0FjdGlvbignbWFuYWdlcicsIGEuYWdlbnRfaWQpfT7orr7nrqHnkIblspc8L2J1dHRvbj4KICAgICAgICAgICAgPC90ZD4KICAgICAgICAgIDwvdHI+YCl9CiAgICAgICAgPC90Ym9keT4KICAgICAgPC90YWJsZT4KICAgIDwvZGl2PgogICAgPGJ1dHRvbiBjbGFzcz0ic2Vjb25kYXJ5IiBvbkNsaWNrPSR7bG9hZH0+8J+UhCDliLfmlrA8L2J1dHRvbj4KICA8L2Rpdj5gOwp9Cg==
+import React from 'https://esm.sh/react@18';
+import htm from 'https://esm.sh/htm@3';
+import { Agents as AgentsApi } from '../api.js';
+import { store } from '../store.js';
+const h = htm.bind(React.createElement);
+
+export default function Agents() {
+  const [agents, setAgents] = React.useState([]);
+  const [manager, setManager] = React.useState(null);
+  const [msg, setMsg] = React.useState('');
+  const [form, setForm] = React.useState({ agent_id: '', name: '', role: 'worker', capabilities: '', endpoint_url: '', token: '' });
+
+  async function load() {
+    try {
+      const [a, m] = await Promise.all([AgentsApi.list(), AgentsApi.managerCurrent()]);
+      setAgents(a.agents || []);
+      setManager((m.manager) || null);
+    } catch (e) { setMsg(e.message); }
+  }
+
+  React.useEffect(() => { load(); }, []);
+
+  async function doRegister() {
+    setMsg('');
+    try {
+      const caps = form.capabilities.split(',').map(s => s.trim()).filter(Boolean);
+      await AgentsApi.register({ ...form, capabilities: caps, role: form.role || 'worker' });
+      setMsg('已注册');
+      await load();
+      store.notify();
+    } catch (e) { setMsg(e.message); }
+  }
+
+  async function doAction(action, agent_id) {
+    setMsg('');
+    try {
+      if (action === 'heartbeat') await AgentsApi.heartbeat(agent_id);
+      else if (action === 'offline') await AgentsApi.offline(agent_id);
+      else if (action === 'manager') await AgentsApi.managerSet(agent_id);
+      setMsg('已执行');
+      await load();
+      store.notify();
+    } catch (e) { setMsg(e.message); }
+  }
+
+  async function clearManager() {
+    setMsg('');
+    try { await AgentsApi.managerClear(); await load(); store.notify(); } catch (e) { setMsg(e.message); }
+  }
+
+  return h`
+  <div>
+    <h2 class="page-title">🤖 Agent 管理</h2>
+    ${msg && h`<div class="toast">${msg}</div>`}
+    <div class="card">
+      <h3>管理岗</h3>
+      <div class="row">
+        ${manager
+          ? h`<span class="chip">${manager.name} (${manager.agent_id})</span>`
+          : h`<span class="dim">暂无管理岗</span>`}
+        <button class="secondary" onClick=${clearManager} disabled=${!manager}>撤销管理岗</button>
+      </div>
+    </div>
+    <div class="card">
+      <h3>注册新 Agent</h3>
+      <div class="row">
+        <input placeholder="agent_id" value=${form.agent_id} onInput=${e => setForm({ ...form, agent_id: e.target.value })} />
+        <input placeholder="名称" value=${form.name} onInput=${e => setForm({ ...form, name: e.target.value })} />
+        <select value=${form.role} onChange=${e => setForm({ ...form, role: e.target.value })}>
+          <option value="worker">worker</option>
+          <option value="toolnode">toolnode</option>
+        </select>
+        <input placeholder="能力标签，逗号分隔" value=${form.capabilities} onInput=${e => setForm({ ...form, capabilities: e.target.value })} style=${{ minWidth: '180px' }} />
+        <input placeholder="endpoint_url（可空）" value=${form.endpoint_url} onInput=${e => setForm({ ...form, endpoint_url: e.target.value })} />
+        <button onClick=${doRegister}>注册</button>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Agent 列表</h3>
+      <table class="table">
+        <thead><tr><th>ID</th><th>名称</th><th>角色</th><th>状态</th><th>能力</th><th>操作</th></tr></thead>
+        <tbody>
+          ${agents.map(a => h`<tr key=${a.agent_id}>
+            <td>${a.agent_id}</td>
+            <td>${a.name}</td>
+            <td>${a.role}</td>
+            <td class=${a.status === 'online' ? 'ok' : 'dim'}>${a.status}</td>
+            <td>${(a.capabilities || []).map(c => h`<span class="chip" key=${c}>${c}</span>`)}</td>
+            <td class="row">
+              <button class="ghost" onClick=${() => doAction('heartbeat', a.agent_id)}>心跳</button>
+              <button class="ghost" onClick=${() => doAction('offline', a.agent_id)}>下线</button>
+              <button class="ghost" onClick=${() => doAction('manager', a.agent_id)}>设管理岗</button>
+            </td>
+          </tr>`)}
+        </tbody>
+      </table>
+    </div>
+    <button class="secondary" onClick=${load}>🔄 刷新</button>
+  </div>`;
+}

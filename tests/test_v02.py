@@ -1,1 +1,87 @@
-IiIidjAuMiB0ZXN0czogd29ya2Zsb3cgKyBQMS4iIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IHN5cwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50LnBhcmVudApzeXMucGF0aC5pbnNlcnQoMCwgc3RyKFJPT1QpKQoKZnJvbSBhcHAgaW1wb3J0IGNvbmZpZywgZGIKZnJvbSBhcHAucm91dGVycyBpbXBvcnQgYWdlbnRzLCBza2lsbHMsIHRvb2xzLCB3b3JrZmxvd3MKZnJvbSBhcHAuc2NoZW1hcyBpbXBvcnQgKAogICAgQWdlbnRSZWdpc3RlciwKICAgIE1hbmFnZXJTZXQsCiAgICBTa2lsbFJlZ2lzdGVyLAogICAgVG9vbENhbGwsCiAgICBXb3JrZmxvd0NyZWF0ZSwKICAgIEFwcHJvdmFsRGVjaXNpb24sCikKCmNvbmZpZy5FTUVSR0VOQ1lfQkxPQ0sgPSBGYWxzZQoKCmRlZiBjbGVhbigpOgogICAgZGIuaW5pdF9kYigpCiAgICBmb3IgdCBpbiBbIndvcmtmbG93X3J1bnMiLCAid29ya2Zsb3dzIiwgInRvb2xfcXVldWUiLCAidG9vbF9yZXF1ZXN0cyIsCiAgICAgICAgICAgICAgIm1lbW9yeV9hcHByb3ZhbHMiLCAibWVtb3JpZXMiLCAidGFza19tZW1iZXJzIiwgInRhc2tzIiwKICAgICAgICAgICAgICAibWVzc2FnZXMiLCAic2tpbGxzIiwgImF1ZGl0X2xvZ3MiLCAiYWdlbnRzIl06CiAgICAgICAgZGIuZXhlY3V0ZShmIkRFTEVURSBGUk9NIHt0fSIpCgoKZGVmIHRlc3RfaGVhcnRiZWF0KCk6CiAgICBjbGVhbigpCiAgICBhZ2VudHMucmVnaXN0ZXIoQWdlbnRSZWdpc3RlcihhZ2VudF9pZD0iaDEiLCBuYW1lPSJIMSIpKQogICAgZGIuZXhlY3V0ZSgiVVBEQVRFIGFnZW50cyBTRVQgbGFzdF9zZWVuPTEuMCBXSEVSRSBhZ2VudF9pZD0/IiwgKCJoMSIsKSkKICAgIG4gPSBkYi5tYXJrX3N0YWxlX2FnZW50c19vZmZsaW5lKGNvbmZpZy5BR0VOVF9IRUFSVEJFQVRfVElNRU9VVCkKICAgIGFzc2VydCBkYi5nZXRfYWdlbnQoImgxIilbInN0YXR1cyJdID09ICJvZmZsaW5lIgogICAgYXNzZXJ0IG4gPj0gMQogICAgcHJpbnQoIk9LIGhlYXJ0YmVhdCIpCgoKZGVmIHRlc3RfYXBwcm92YWwoKToKICAgIGNsZWFuKCkKICAgIGFnZW50cy5yZWdpc3RlcihBZ2VudFJlZ2lzdGVyKGFnZW50X2lkPSJhMSIsIG5hbWU9IkExIikpCiAgICBhZ2VudHMucmVnaXN0ZXIoQWdlbnRSZWdpc3RlcihhZ2VudF9pZD0ibWdyIiwgbmFtZT0iTUdSIikpCiAgICBhZ2VudHMuc2V0X21hbmFnZXIoTWFuYWdlclNldChhZ2VudF9pZD0ibWdyIikpCiAgICB3ID0gd29ya2Zsb3dzLmNyZWF0ZShXb3JrZmxvd0NyZWF0ZSgKICAgICAgICBuYW1lPSJhcHByb3ZhbC13ZiIsCiAgICAgICAgZGVmaW5pdGlvbj17CiAgICAgICAgICAgICJub2RlcyI6IFsKICAgICAgICAgICAgICAgIHsiaWQiOiAibjEiLCAidHlwZSI6ICJhZ2VudCIsICJkYXRhIjogeyJhZ2VudF9pZCI6ICJhMSIsICJjb250ZW50IjogInN0YXJ0In19LAogICAgICAgICAgICAgICAgeyJpZCI6ICJuMiIsICJ0eXBlIjogImFwcHJvdmFsIiwgImRhdGEiOiB7fX0sCiAgICAgICAgICAgICAgICB7ImlkIjogIm4zIiwgInR5cGUiOiAiYWdlbnQiLCAiZGF0YSI6IHsiYWdlbnRfaWQiOiAiYTEiLCAiY29udGVudCI6ICJhZnRlciJ9fSwKICAgICAgICAgICAgXSwKICAgICAgICAgICAgImVkZ2VzIjogWwogICAgICAgICAgICAgICAgeyJzb3VyY2UiOiAibjEiLCAidGFyZ2V0IjogIm4yIn0sCiAgICAgICAgICAgICAgICB7InNvdXJjZSI6ICJuMiIsICJ0YXJnZXQiOiAibjMifSwKICAgICAgICAgICAgXSwKICAgICAgICB9LAogICAgKSkKICAgIHIgPSB3b3JrZmxvd3MucnVuKHdbIndvcmtmbG93X2lkIl0sIHRyaWdnZXJfYnk9Imh1bWFuIikKICAgIGFzc2VydCByWyJzdGF0dXMiXSA9PSAiYXdhaXRpbmdfYXBwcm92YWwiLCBzdHIocikKICAgIHIyID0gd29ya2Zsb3dzLmFwcHJvdmVfcnVuKHJbInJ1bl9pZCJdLCBtYW5hZ2VyX2lkPSJtZ3IiKQogICAgYXNzZXJ0IHIyWyJzdGF0dXMiXSA9PSAiZG9uZSIsIHN0cihyMikKICAgIHByaW50KCJPSyBhcHByb3ZhbCIpCgoKZGVmIHRlc3RfcXVldWUoKToKICAgIGNsZWFuKCkKICAgIGFnZW50cy5yZWdpc3RlcihBZ2VudFJlZ2lzdGVyKGFnZW50X2lkPSJ0bjEiLCBuYW1lPSJUb29sTm9kZSIsIHJvbGU9InRvb2xub2RlIikpCiAgICBhZ2VudHMucmVnaXN0ZXIoQWdlbnRSZWdpc3RlcihhZ2VudF9pZD0ibWdyIiwgbmFtZT0iTUdSIikpCiAgICBhZ2VudHMuc2V0X21hbmFnZXIoTWFuYWdlclNldChhZ2VudF9pZD0ibWdyIikpCiAgICBza2lsbHMucmVnaXN0ZXIoU2tpbGxSZWdpc3RlcigKICAgICAgICBza2lsbF9pZD0icV9lY2hvIiwgbmFtZT0iUXVldWVFY2hvIiwgZW5kcG9pbnRfdXJsPSJodHRwOi8vMTI3LjAuMC4xOjkvbm9wZSIsCiAgICAgICAgcHJvdmlkZXJfbm9kZT0idG4xIiwKICAgICkpCiAgICByID0gdG9vbHMuY2FsbChUb29sQ2FsbChhZ2VudF9pZD0iYTEiLCBza2lsbF9pZD0icV9lY2hvIiwgcGFyYW1zPXt9KSkKICAgIGQgPSB0b29scy5kZWNpZGUoQXBwcm92YWxEZWNpc2lvbihtYW5hZ2VyX2lkPSJtZ3IiLCByZXF1ZXN0X2lkPXJbInJlcXVlc3RfaWQiXSwgYXBwcm92ZT1UcnVlKSkKICAgIGFzc2VydCBkWyJzdGF0dXMiXSBpbiAoInF1ZXVlZCIsICJmYWlsZWQiKSwgc3RyKGQpCiAgICBwcmludCgiT0sgcXVldWUiKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICB0ZXN0X2hlYXJ0YmVhdCgpCiAgICB0ZXN0X2FwcHJvdmFsKCkKICAgIHRlc3RfcXVldWUoKQogICAgcHJpbnQoIlYwMl9BTExfUEFTUyIpCg==
+"""v0.2 tests: workflow + P1."""
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+from app import config, db
+from app.routers import agents, skills, tools, workflows
+from app.schemas import (
+    AgentRegister,
+    ManagerSet,
+    SkillRegister,
+    ToolCall,
+    WorkflowCreate,
+    ApprovalDecision,
+)
+
+config.EMERGENCY_BLOCK = False
+
+
+def clean():
+    db.init_db()
+    for t in ["workflow_runs", "workflows", "tool_queue", "tool_requests",
+              "memory_approvals", "memories", "task_members", "tasks",
+              "messages", "skills", "audit_logs", "agents"]:
+        db.execute(f"DELETE FROM {t}")
+
+
+def test_heartbeat():
+    clean()
+    agents.register(AgentRegister(agent_id="h1", name="H1"))
+    db.execute("UPDATE agents SET last_seen=1.0 WHERE agent_id=?", ("h1",))
+    n = db.mark_stale_agents_offline(config.AGENT_HEARTBEAT_TIMEOUT)
+    assert db.get_agent("h1")["status"] == "offline"
+    assert n >= 1
+    print("OK heartbeat")
+
+
+def test_approval():
+    clean()
+    agents.register(AgentRegister(agent_id="a1", name="A1"))
+    agents.register(AgentRegister(agent_id="mgr", name="MGR"))
+    agents.set_manager(ManagerSet(agent_id="mgr"))
+    w = workflows.create(WorkflowCreate(
+        name="approval-wf",
+        definition={
+            "nodes": [
+                {"id": "n1", "type": "agent", "data": {"agent_id": "a1", "content": "start"}},
+                {"id": "n2", "type": "approval", "data": {}},
+                {"id": "n3", "type": "agent", "data": {"agent_id": "a1", "content": "after"}},
+            ],
+            "edges": [
+                {"source": "n1", "target": "n2"},
+                {"source": "n2", "target": "n3"},
+            ],
+        },
+    ))
+    r = workflows.run(w["workflow_id"], trigger_by="human")
+    assert r["status"] == "awaiting_approval", str(r)
+    r2 = workflows.approve_run(r["run_id"], manager_id="mgr")
+    assert r2["status"] == "done", str(r2)
+    print("OK approval")
+
+
+def test_queue():
+    clean()
+    agents.register(AgentRegister(agent_id="tn1", name="ToolNode", role="toolnode"))
+    agents.register(AgentRegister(agent_id="mgr", name="MGR"))
+    agents.set_manager(ManagerSet(agent_id="mgr"))
+    skills.register(SkillRegister(
+        skill_id="q_echo", name="QueueEcho", endpoint_url="http://127.0.0.1:9/nope",
+        provider_node="tn1",
+    ))
+    r = tools.call(ToolCall(agent_id="a1", skill_id="q_echo", params={}))
+    d = tools.decide(ApprovalDecision(manager_id="mgr", request_id=r["request_id"], approve=True))
+    assert d["status"] in ("queued", "failed"), str(d)
+    print("OK queue")
+
+
+if __name__ == "__main__":
+    test_heartbeat()
+    test_approval()
+    test_queue()
+    print("V02_ALL_PASS")

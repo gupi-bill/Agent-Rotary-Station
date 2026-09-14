@@ -1,1 +1,46 @@
-Ly8gc3RvcmUuanMg4oCU4oCUIOaegeeugOWFqOWxgOS6i+S7tuaAu+e6v++8jOi3qOmhtemdouWIt+aWsOmAmuefpeOAggovLyDmlK/mjIHmnKzlnLAgbm90aWZ5ICsg5ZCO56uvIFNTRSDlrp7ml7bkuovku7bvvIgvc3lzdGVtL2V2ZW50c++8ieOAggpleHBvcnQgY29uc3Qgc3RvcmUgPSB7CiAgX2xpc3RlbmVyczogbmV3IFNldCgpLAogIF9sYXN0RXZlbnQ6IG51bGwsCiAgX2VzOiBudWxsLAoKICBzdWJzY3JpYmUoZm4pIHsKICAgIHRoaXMuX2xpc3RlbmVycy5hZGQoZm4pOwogICAgcmV0dXJuICgpID0+IHRoaXMuX2xpc3RlbmVycy5kZWxldGUoZm4pOwogIH0sCgogIGVtaXQoKSB7CiAgICB0aGlzLl9saXN0ZW5lcnMuZm9yRWFjaChmbiA9PiB7IHRyeSB7IGZuKCk7IH0gY2F0Y2gge30gfSk7CiAgfSwKCiAgbm90aWZ5KCkgeyB0aGlzLmVtaXQoKTsgfSwKCiAgc3RhcnRSZWFsdGltZSgpIHsKICAgIGlmICh0aGlzLl9lcyB8fCB0eXBlb2YgRXZlbnRTb3VyY2UgPT09ICd1bmRlZmluZWQnKSByZXR1cm47CiAgICB0cnkgewogICAgICBjb25zdCBlcyA9IG5ldyBFdmVudFNvdXJjZSgnL3N5c3RlbS9ldmVudHMnKTsKICAgICAgdGhpcy5fZXMgPSBlczsKICAgICAgZXMub25tZXNzYWdlID0gKGUpID0+IHsKICAgICAgICB0cnkgewogICAgICAgICAgdGhpcy5fbGFzdEV2ZW50ID0gSlNPTi5wYXJzZShlLmRhdGEpOwogICAgICAgIH0gY2F0Y2ggewogICAgICAgICAgdGhpcy5fbGFzdEV2ZW50ID0geyByYXc6IGUuZGF0YSB9OwogICAgICAgIH0KICAgICAgICB0aGlzLmVtaXQoKTsKICAgICAgfTsKICAgICAgZXMub25lcnJvciA9ICgpID0+IHsKICAgICAgICAvLyDmlq3nur/nlLEgRXZlbnRTb3VyY2Ug6Ieq5Yqo6YeN6L+e77yb5LiN5Li75Yqo5YWz6ZetCiAgICAgIH07CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgY29uc29sZS53YXJuKCdTU0Ug5LiN5Y+v55So77yM6ZmN57qn5Li65omL5Yqo5Yi35pawJywgZXJyKTsKICAgIH0KICB9LAoKICBzdG9wUmVhbHRpbWUoKSB7CiAgICBpZiAodGhpcy5fZXMpIHsKICAgICAgdHJ5IHsgdGhpcy5fZXMuY2xvc2UoKTsgfSBjYXRjaCB7fQogICAgICB0aGlzLl9lcyA9IG51bGw7CiAgICB9CiAgfSwKfTsK
+// store.js —— 极简全局事件总线，跨页面刷新通知。
+// 支持本地 notify + 后端 SSE 实时事件（/system/events）。
+export const store = {
+  _listeners: new Set(),
+  _lastEvent: null,
+  _es: null,
+
+  subscribe(fn) {
+    this._listeners.add(fn);
+    return () => this._listeners.delete(fn);
+  },
+
+  emit() {
+    this._listeners.forEach(fn => { try { fn(); } catch {} });
+  },
+
+  notify() { this.emit(); },
+
+  startRealtime() {
+    if (this._es || typeof EventSource === 'undefined') return;
+    try {
+      const es = new EventSource('/system/events');
+      this._es = es;
+      es.onmessage = (e) => {
+        try {
+          this._lastEvent = JSON.parse(e.data);
+        } catch {
+          this._lastEvent = { raw: e.data };
+        }
+        this.emit();
+      };
+      es.onerror = () => {
+        // 断线由 EventSource 自动重连；不主动关闭
+      };
+    } catch (err) {
+      console.warn('SSE 不可用，降级为手动刷新', err);
+    }
+  },
+
+  stopRealtime() {
+    if (this._es) {
+      try { this._es.close(); } catch {}
+      this._es = null;
+    }
+  },
+};

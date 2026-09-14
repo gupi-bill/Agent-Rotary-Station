@@ -1,1 +1,219 @@
-IiIi5LiJ5bGC6K6w5b+G5rGg77ya5YaZ5YWlL+WIoOmZpOW/hemhu+e7j+i/h+WcqOWyl+euoeeQhuWyl+WuoeaJueOAggoK56Gs5oCn6KeE5YiZ77yaCjEuIHNjb3BlIOS4ieenje+8mmFnZW50OjxpZD4g56eB5pyJIC8gdGFzazo8aWQ+IOS7u+WKoee7hCAvIGdsb2JhbCDlhajlsYAKMi4g5YaZL+WIoOiusOW/huS4jeebtOaOpeaTjeS9nCBtZW1vcmllcyDooajvvJoKICAgLSDlhYjlhpkgbWVtb3J5X2FwcHJvdmFscyDlrqHmibnljZUocGVuZGluZykKICAgLSDmiorlrqHmibnor7fmsYLkvZzkuLrmtojmga/mipXpgJLnu5nlvZPliY0gbWFuYWdlciDoioLngrkKICAgLSDlt6XkvZznq5nlkIzmraXnrYnlvoUgbWFuYWdlciDlrqHmibnnu5PmnpzvvIjova7or6LlrqHmibnljZXvvIzluKbotoXml7bvvIkKICAgLSBhcHByb3ZlIOaJjeecn+ato+WGmeWFpS/liKDpmaQgbWVtb3JpZXPvvJtkZW55IOi/lOWbnuaLkue7ne+8m+i2heaXtui/lOWbniBwZW5kaW5nCjMuIOafpeivouiusOW/huaMieadg+mZkOi/h+a7pAo0LiDlj6rlrZjljp/lp4vmlofmnKzvvIzkuI3lgZrmkZjopoEv5ZCR6YePL1JBRwoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGpzb24KaW1wb3J0IHRpbWUKCmZyb20gZmFzdGFwaSBpbXBvcnQgQVBJUm91dGVyLCBIVFRQRXhjZXB0aW9uCgpmcm9tIC4uIGltcG9ydCBjb25maWcsIGRiLCBldmVudHMKZnJvbSAuLnNjaGVtYXMgaW1wb3J0IEFwcHJvdmFsRGVjaXNpb24sIE1lbW9yeURlbGV0ZSwgTWVtb3J5V3JpdGUKCnJvdXRlciA9IEFQSVJvdXRlcihwcmVmaXg9Ii9tZW1vcmllcyIsIHRhZ3M9WyJtZW1vcmllcyJdKQoKIyDlkIzmraXnrYnlvoUgbWFuYWdlciDlrqHmibnnmoTmnIDplb/ova7or6Lml7bpl7TvvIjnp5LvvIkKQVBQUk9WQUxfV0FJVF9USU1FT1VUID0gMzAuMApBUFBST1ZBTF9QT0xMX0lOVEVSVkFMID0gMC4yCgoKZGVmIF92YWxpZF9kb21haW4oZG9tYWluOiBzdHIpIC0+IGJvb2w6CiAgICByZXR1cm4gZG9tYWluID09ICJnbG9iYWwiIG9yIGRvbWFpbi5zdGFydHN3aXRoKCJhZ2VudDoiKSBvciBkb21haW4uc3RhcnRzd2l0aCgidGFzazoiKQoKCmRlZiBfbm90aWZ5X21hbmFnZXIocmVxdWVzdF9pZDogc3RyLCBhZ2VudF9pZDogc3RyLCBkb21haW46IHN0ciwgYWN0aW9uOiBzdHIsCiAgICAgICAgICAgICAgICAgICAgbWVtX2tleTogc3RyLCBjb250ZW50OiBzdHIpIC0+IE5vbmU6CiAgICAiIiLmiorlrqHmibnor7fmsYLkvZzkuLrmtojmga/mipXpgJLnu5nlvZPliY0gbWFuYWdlciDoioLngrnjgIIiIiIKICAgIG1hbmFnZXIgPSBkYi5jdXJyZW50X21hbmFnZXIoKQogICAgaWYgbm90IG1hbmFnZXI6CiAgICAgICAgcmV0dXJuCiAgICBtc2dfaWQgPSBkYi5uZXdfaWQoIm1zZyIpCiAgICBwYXlsb2FkID0gewogICAgICAgICJ0eXBlIjogIm1lbW9yeV9hcHByb3ZhbF9yZXF1ZXN0IiwKICAgICAgICAicmVxdWVzdF9pZCI6IHJlcXVlc3RfaWQsCiAgICAgICAgImFnZW50X2lkIjogYWdlbnRfaWQsCiAgICAgICAgImRvbWFpbiI6IGRvbWFpbiwKICAgICAgICAiYWN0aW9uIjogYWN0aW9uLAogICAgICAgICJtZW1fa2V5IjogbWVtX2tleSwKICAgICAgICAiY29udGVudCI6IGNvbnRlbnQsCiAgICB9CiAgICBkYi5leGVjdXRlKAogICAgICAgICJJTlNFUlQgSU5UTyBtZXNzYWdlcyAobXNnX2lkLCBjaGFubmVsX3R5cGUsIGZyb21fYWdlbnQsIHRvX2FnZW50LCB0YXNrX2lkLCBjb250ZW50LCBjcmVhdGVkX2F0KSAiCiAgICAgICAgIlZBTFVFUyAoPywgJ2FwcHJvdmFsJywgPywgPywgJycsID8sID8pIiwKICAgICAgICAobXNnX2lkLCBhZ2VudF9pZCwgbWFuYWdlclsiYWdlbnRfaWQiXSwKICAgICAgICAganNvbi5kdW1wcyhwYXlsb2FkLCBlbnN1cmVfYXNjaWk9RmFsc2UpLCBkYi5ub3coKSksCiAgICApCgoKZGVmIF9ub3RpZnlfcmVxdWVzdGVyKHJlcXVlc3RfaWQ6IHN0ciwgYWdlbnRfaWQ6IHN0ciwgZGVjaXNpb246IHN0cikgLT4gTm9uZToKICAgICIiIuaKiuWuoeaJuee7k+aenOa2iOaBr+WbnuaKlee7meWPkei1tyBhZ2VudOOAgiIiIgogICAgbXNnX2lkID0gZGIubmV3X2lkKCJtc2ciKQogICAgcGF5bG9hZCA9IHsKICAgICAgICAidHlwZSI6ICJtZW1vcnlfYXBwcm92YWxfcmVzdWx0IiwKICAgICAgICAicmVxdWVzdF9pZCI6IHJlcXVlc3RfaWQsCiAgICAgICAgImRlY2lzaW9uIjogZGVjaXNpb24sCiAgICB9CiAgICBkYi5leGVjdXRlKAogICAgICAgICJJTlNFUlQgSU5UTyBtZXNzYWdlcyAobXNnX2lkLCBjaGFubmVsX3R5cGUsIGZyb21fYWdlbnQsIHRvX2FnZW50LCB0YXNrX2lkLCBjb250ZW50LCBjcmVhdGVkX2F0KSAiCiAgICAgICAgIlZBTFVFUyAoPywgJ2FwcHJvdmFsJywgJ3N5c3RlbScsID8sICcnLCA/LCA/KSIsCiAgICAgICAgKG1zZ19pZCwgYWdlbnRfaWQsIGpzb24uZHVtcHMocGF5bG9hZCwgZW5zdXJlX2FzY2lpPUZhbHNlKSwgZGIubm93KCkpLAogICAgKQoKCmRlZiBfYXBwcm92YWxfc3RhdHVzKHJlcXVlc3RfaWQ6IHN0cikgLT4gc3RyIHwgTm9uZToKICAgIHJvdyA9IGRiLnF1ZXJ5X29uZSgiU0VMRUNUIHN0YXR1cyBGUk9NIG1lbW9yeV9hcHByb3ZhbHMgV0hFUkUgcmVxdWVzdF9pZD0/IiwgKHJlcXVlc3RfaWQsKSkKICAgIHJldHVybiByb3dbInN0YXR1cyJdIGlmIHJvdyBlbHNlIE5vbmUKCgpkZWYgX3dhaXRfZm9yX2RlY2lzaW9uKHJlcXVlc3RfaWQ6IHN0cikgLT4gc3RyOgogICAgIiIi5ZCM5q2l562J5b6FIG1hbmFnZXIg5a6h5om557uT5p6c77yM6L+U5ZueIGFwcHJvdmVkIC8gZGVuaWVkIC8gcGVuZGluZ+OAgiIiIgogICAgZGVhZGxpbmUgPSB0aW1lLnRpbWUoKSArIEFQUFJPVkFMX1dBSVRfVElNRU9VVAogICAgd2hpbGUgdGltZS50aW1lKCkgPCBkZWFkbGluZToKICAgICAgICBzdGF0dXMgPSBfYXBwcm92YWxfc3RhdHVzKHJlcXVlc3RfaWQpCiAgICAgICAgaWYgc3RhdHVzIGluICgiYXBwcm92ZWQiLCAiZGVuaWVkIik6CiAgICAgICAgICAgIHJldHVybiBzdGF0dXMKICAgICAgICB0aW1lLnNsZWVwKEFQUFJPVkFMX1BPTExfSU5URVJWQUwpCiAgICByZXR1cm4gInBlbmRpbmciCgoKZGVmIF9hcHBseV9kZWNpc2lvbihyZXE6IGRpY3QsIGFwcHJvdmU6IGJvb2wpIC0+IE5vbmU6CiAgICAiIiLmoLnmja7lrqHmibnnu5PmnpznnJ/mraPmiafooYzlhpkv5YigIG1lbW9yaWVz44CCIiIiCiAgICBpZiBub3QgYXBwcm92ZToKICAgICAgICByZXR1cm4KICAgIGlmIHJlcVsiYWN0aW9uIl0gPT0gIndyaXRlIjoKICAgICAgICBkYi5leGVjdXRlKAogICAgICAgICAgICAiSU5TRVJUIElOVE8gbWVtb3JpZXMgKGRvbWFpbiwgbWVtX2tleSwgY29udGVudCwgb3duZXJfYWdlbnQsIGNyZWF0ZWRfYXQsIHVwZGF0ZWRfYXQpICIKICAgICAgICAgICAgIlZBTFVFUyAoPywgPywgPywgPywgPywgPykgIgogICAgICAgICAgICAiT04gQ09ORkxJQ1QoZG9tYWluLCBtZW1fa2V5KSBETyBVUERBVEUgU0VUIGNvbnRlbnQ9ZXhjbHVkZWQuY29udGVudCwgdXBkYXRlZF9hdD1leGNsdWRlZC51cGRhdGVkX2F0IiwKICAgICAgICAgICAgKHJlcVsiZG9tYWluIl0sIHJlcVsibWVtX2tleSJdLCByZXFbImNvbnRlbnQiXSwgcmVxWyJhZ2VudF9pZCJdLCBkYi5ub3coKSwgZGIubm93KCkpLAogICAgICAgICkKICAgIGVsaWYgcmVxWyJhY3Rpb24iXSA9PSAiZGVsZXRlIjoKICAgICAgICBkYi5leGVjdXRlKCJERUxFVEUgRlJPTSBtZW1vcmllcyBXSEVSRSBkb21haW49PyBBTkQgbWVtX2tleT0/IiwKICAgICAgICAgICAgICAgICAgIChyZXFbImRvbWFpbiJdLCByZXFbIm1lbV9rZXkiXSkpCgoKQHJvdXRlci5wb3N0KCIvd3JpdGUiKQpkZWYgd3JpdGUoYm9keTogTWVtb3J5V3JpdGUpOgogICAgIiIi5Y+R6LW35YaZ6K6w5b+G6K+35rGC77ya5YWI5a6h5om55ZCO6JC95bqT77yM5ZCM5q2l562J5b6FIG1hbmFnZXIg5Yaz562W44CCIiIiCiAgICBpZiBjb25maWcuRU1FUkdFTkNZX0JMT0NLOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDIzLCBkZXRhaWw9ImVtZXJnZW5jeSBibG9jayBpcyBhY3RpdmUiKQogICAgaWYgbm90IF92YWxpZF9kb21haW4oYm9keS5kb21haW4pOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9ImludmFsaWQgZG9tYWluIikKICAgIGlmIG5vdCBkYi5nZXRfYWdlbnQoYm9keS5hZ2VudF9pZCk6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDQsIGRldGFpbD0iYWdlbnQgbm90IGZvdW5kIikKICAgIG1hbmFnZXIgPSBkYi5jdXJyZW50X21hbmFnZXIoKQogICAgaWYgbm90IG1hbmFnZXI6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDksIGRldGFpbD0ibm8gbWFuYWdlciBvbmxpbmUiKQogICAgcmVxdWVzdF9pZCA9IGRiLm5ld19pZCgibWVtcmVxIikKICAgIGRiLmV4ZWN1dGUoCiAgICAgICAgIklOU0VSVCBJTlRPIG1lbW9yeV9hcHByb3ZhbHMgKHJlcXVlc3RfaWQsIGFnZW50X2lkLCBkb21haW4sIGFjdGlvbiwgbWVtX2tleSwgY29udGVudCwgc3RhdHVzLCBjcmVhdGVkX2F0KSAiCiAgICAgICAgIlZBTFVFUyAoPywgPywgPywgJ3dyaXRlJywgPywgPywgJ3BlbmRpbmcnLCA/KSIsCiAgICAgICAgKHJlcXVlc3RfaWQsIGJvZHkuYWdlbnRfaWQsIGJvZHkuZG9tYWluLCBib2R5Lm1lbV9rZXksIGJvZHkuY29udGVudCwgZGIubm93KCkpLAogICAgKQogICAgX25vdGlmeV9tYW5hZ2VyKHJlcXVlc3RfaWQsIGJvZHkuYWdlbnRfaWQsIGJvZHkuZG9tYWluLCAid3JpdGUiLCBib2R5Lm1lbV9rZXksIGJvZHkuY29udGVudCkKICAgIGRiLmF1ZGl0KGJvZHkuYWdlbnRfaWQsICJtZW1vcnlfd3JpdGVfcmVxdWVzdCIsIGJvZHkuZG9tYWluLAogICAgICAgICAgICAgeyJyZXF1ZXN0X2lkIjogcmVxdWVzdF9pZCwgIm1lbV9rZXkiOiBib2R5Lm1lbV9rZXl9KQoKICAgIGRlY2lzaW9uID0gX3dhaXRfZm9yX2RlY2lzaW9uKHJlcXVlc3RfaWQpCiAgICBpZiBkZWNpc2lvbiA9PSAicGVuZGluZyI6CiAgICAgICAgcmV0dXJuIHsib2siOiBUcnVlLCAicmVxdWVzdF9pZCI6IHJlcXVlc3RfaWQsICJzdGF0dXMiOiAicGVuZGluZyIsCiAgICAgICAgICAgICAgICAiZGV0YWlsIjogIndhaXRpbmcgZm9yIG1hbmFnZXIgYXBwcm92YWwifQogICAgaWYgZGVjaXNpb24gPT0gImRlbmllZCI6CiAgICAgICAgcmV0dXJuIHsib2siOiBGYWxzZSwgInJlcXVlc3RfaWQiOiByZXF1ZXN0X2lkLCAic3RhdHVzIjogImRlbmllZCIsCiAgICAgICAgICAgICAgICAiZGV0YWlsIjogIm1hbmFnZXIgZGVuaWVkIHRoaXMgbWVtb3J5IHdyaXRlIn0KICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInJlcXVlc3RfaWQiOiByZXF1ZXN0X2lkLCAic3RhdHVzIjogImFwcHJvdmVkIn0KCgpAcm91dGVyLnBvc3QoIi9kZWxldGUiKQpkZWYgZGVsZXRlKGJvZHk6IE1lbW9yeURlbGV0ZSk6CiAgICAiIiLlj5HotbfliKDorrDlv4bor7fmsYLvvJrlhYjlrqHmibnlkI7liKDpmaTvvIzlkIzmraXnrYnlvoUgbWFuYWdlciDlhrPnrZbjgIIiIiIKICAgIGlmIGNvbmZpZy5FTUVSR0VOQ1lfQkxPQ0s6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MjMsIGRldGFpbD0iZW1lcmdlbmN5IGJsb2NrIGlzIGFjdGl2ZSIpCiAgICBpZiBub3QgX3ZhbGlkX2RvbWFpbihib2R5LmRvbWFpbik6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDAsIGRldGFpbD0iaW52YWxpZCBkb21haW4iKQogICAgbWFuYWdlciA9IGRiLmN1cnJlbnRfbWFuYWdlcigpCiAgICBpZiBub3QgbWFuYWdlcjoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwOSwgZGV0YWlsPSJubyBtYW5hZ2VyIG9ubGluZSIpCiAgICByZXF1ZXN0X2lkID0gZGIubmV3X2lkKCJtZW1yZXEiKQogICAgZGIuZXhlY3V0ZSgKICAgICAgICAiSU5TRVJUIElOVE8gbWVtb3J5X2FwcHJvdmFscyAocmVxdWVzdF9pZCwgYWdlbnRfaWQsIGRvbWFpbiwgYWN0aW9uLCBtZW1fa2V5LCBjb250ZW50LCBzdGF0dXMsIGNyZWF0ZWRfYXQpICIKICAgICAgICAiVkFMVUVTICg/LCA/LCA/LCAnZGVsZXRlJywgPywgJycsICdwZW5kaW5nJywgPykiLAogICAgICAgIChyZXF1ZXN0X2lkLCBib2R5LmFnZW50X2lkLCBib2R5LmRvbWFpbiwgYm9keS5tZW1fa2V5LCBkYi5ub3coKSksCiAgICApCiAgICBfbm90aWZ5X21hbmFnZXIocmVxdWVzdF9pZCwgYm9keS5hZ2VudF9pZCwgYm9keS5kb21haW4sICJkZWxldGUiLCBib2R5Lm1lbV9rZXksICIiKQogICAgZGIuYXVkaXQoYm9keS5hZ2VudF9pZCwgIm1lbW9yeV9kZWxldGVfcmVxdWVzdCIsIGJvZHkuZG9tYWluLAogICAgICAgICAgICAgeyJyZXF1ZXN0X2lkIjogcmVxdWVzdF9pZCwgIm1lbV9rZXkiOiBib2R5Lm1lbV9rZXl9KQoKICAgIGRlY2lzaW9uID0gX3dhaXRfZm9yX2RlY2lzaW9uKHJlcXVlc3RfaWQpCiAgICBpZiBkZWNpc2lvbiA9PSAicGVuZGluZyI6CiAgICAgICAgcmV0dXJuIHsib2siOiBUcnVlLCAicmVxdWVzdF9pZCI6IHJlcXVlc3RfaWQsICJzdGF0dXMiOiAicGVuZGluZyIsCiAgICAgICAgICAgICAgICAiZGV0YWlsIjogIndhaXRpbmcgZm9yIG1hbmFnZXIgYXBwcm92YWwifQogICAgaWYgZGVjaXNpb24gPT0gImRlbmllZCI6CiAgICAgICAgcmV0dXJuIHsib2siOiBGYWxzZSwgInJlcXVlc3RfaWQiOiByZXF1ZXN0X2lkLCAic3RhdHVzIjogImRlbmllZCIsCiAgICAgICAgICAgICAgICAiZGV0YWlsIjogIm1hbmFnZXIgZGVuaWVkIHRoaXMgbWVtb3J5IGRlbGV0ZSJ9CiAgICByZXR1cm4geyJvayI6IFRydWUsICJyZXF1ZXN0X2lkIjogcmVxdWVzdF9pZCwgInN0YXR1cyI6ICJhcHByb3ZlZCJ9CgoKQHJvdXRlci5wb3N0KCIvYXBwcm92YWxzL2RlY2lkZSIpCmRlZiBkZWNpZGUoYm9keTogQXBwcm92YWxEZWNpc2lvbik6CiAgICAiIiLnrqHnkIblspflrqHmibnvvJrmm7TmlrDlrqHmibnljZXnirbmgIHvvJvpgJrov4flkI7nq4vljbPmiafooYzokL3lupMv5Yig6Zmk44CCIiIiCiAgICBtYW5hZ2VyID0gZGIuY3VycmVudF9tYW5hZ2VyKCkKICAgIGlmIG5vdCBtYW5hZ2VyOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDA5LCBkZXRhaWw9Im5vIG1hbmFnZXIgb25saW5lIikKICAgIGlmIG1hbmFnZXJbImFnZW50X2lkIl0gIT0gYm9keS5tYW5hZ2VyX2lkOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAzLCBkZXRhaWw9Im9ubHkgY3VycmVudCBtYW5hZ2VyIGNhbiBhcHByb3ZlIikKICAgIHJlcSA9IGRiLnF1ZXJ5X29uZSgiU0VMRUNUICogRlJPTSBtZW1vcnlfYXBwcm92YWxzIFdIRVJFIHJlcXVlc3RfaWQ9PyIsIChib2R5LnJlcXVlc3RfaWQsKSkKICAgIGlmIG5vdCByZXE6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDQsIGRldGFpbD0icmVxdWVzdCBub3QgZm91bmQiKQogICAgaWYgcmVxWyJzdGF0dXMiXSAhPSAicGVuZGluZyI6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDksIGRldGFpbD0icmVxdWVzdCBhbHJlYWR5IGRlY2lkZWQiKQogICAgbmV3X3N0YXR1cyA9ICJhcHByb3ZlZCIgaWYgYm9keS5hcHByb3ZlIGVsc2UgImRlbmllZCIKICAgIGRiLmV4ZWN1dGUoCiAgICAgICAgIlVQREFURSBtZW1vcnlfYXBwcm92YWxzIFNFVCBzdGF0dXM9PywgZGVjaWRlZF9hdD0/LCBkZWNpZGVkX2J5PT8gV0hFUkUgcmVxdWVzdF9pZD0/IiwKICAgICAgICAobmV3X3N0YXR1cywgZGIubm93KCksIGJvZHkubWFuYWdlcl9pZCwgYm9keS5yZXF1ZXN0X2lkKSwKICAgICkKICAgIF9hcHBseV9kZWNpc2lvbihyZXEsIGJvZHkuYXBwcm92ZSkKICAgIF9ub3RpZnlfcmVxdWVzdGVyKGJvZHkucmVxdWVzdF9pZCwgcmVxWyJhZ2VudF9pZCJdLCBuZXdfc3RhdHVzKQogICAgZGIuYXVkaXQoYm9keS5tYW5hZ2VyX2lkLCAibWVtb3J5X2FwcHJvdmFsIiwgcmVxWyJkb21haW4iXSwKICAgICAgICAgICAgIHsicmVxdWVzdF9pZCI6IGJvZHkucmVxdWVzdF9pZCwgImRlY2lzaW9uIjogbmV3X3N0YXR1c30pCiAgICByZXR1cm4geyJvayI6IFRydWUsICJyZXF1ZXN0X2lkIjogYm9keS5yZXF1ZXN0X2lkLCAic3RhdHVzIjogbmV3X3N0YXR1c30KCgpAcm91dGVyLmdldCgiL2FwcHJvdmFscy9wZW5kaW5nIikKZGVmIHBlbmRpbmcoKToKICAgIHJvd3MgPSBkYi5xdWVyeV9hbGwoCiAgICAgICAgIlNFTEVDVCAqIEZST00gbWVtb3J5X2FwcHJvdmFscyBXSEVSRSBzdGF0dXM9J3BlbmRpbmcnIE9SREVSIEJZIGNyZWF0ZWRfYXQgQVNDIgogICAgKQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAicGVuZGluZyI6IHJvd3N9CgoKQHJvdXRlci5nZXQoIi9yZWFkIikKZGVmIHJlYWQocmVhZGVyOiBzdHIsIGRvbWFpbjogc3RyLCBtZW1fa2V5OiBzdHIgfCBOb25lID0gTm9uZSk6CiAgICAiIiLor7vorrDlv4bpgbXlvqrlj6/op4HmgKfop4TliJnvvIzml6DpnIDlrqHmibnjgIIiIiIKICAgIGlmIG5vdCBfdmFsaWRfZG9tYWluKGRvbWFpbik6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDAsIGRldGFpbD0iaW52YWxpZCBkb21haW4iKQogICAgaWYgbm90IGRiLmNhbl9yZWFkX21lbW9yeShyZWFkZXIsIGRvbWFpbik6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDMsIGRldGFpbD0ibm8gcGVybWlzc2lvbiBmb3IgdGhpcyBkb21haW4iKQogICAgaWYgbWVtX2tleToKICAgICAgICByb3cgPSBkYi5xdWVyeV9vbmUoIlNFTEVDVCAqIEZST00gbWVtb3JpZXMgV0hFUkUgZG9tYWluPT8gQU5EIG1lbV9rZXk9PyIsIChkb21haW4sIG1lbV9rZXkpKQogICAgICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgIm1lbW9yeSI6IHJvd30KICAgIHJvd3MgPSBkYi5xdWVyeV9hbGwoIlNFTEVDVCAqIEZST00gbWVtb3JpZXMgV0hFUkUgZG9tYWluPT8gT1JERVIgQlkgdXBkYXRlZF9hdCBERVNDIiwgKGRvbWFpbiwpKQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAibWVtb3JpZXMiOiByb3dzfQoKCkByb3V0ZXIuZ2V0KCIvbGlzdC1kb21haW5zIikKZGVmIGxpc3RfZG9tYWlucyhyZWFkZXI6IHN0cik6CiAgICAiIiLov5Tlm57or6UgYWdlbnQg5Y+v6KeB55qE5omA5pyJIGRvbWFpbuOAgiIiIgogICAgcm93cyA9IGRiLnF1ZXJ5X2FsbCgiU0VMRUNUIERJU1RJTkNUIGRvbWFpbiBGUk9NIG1lbW9yaWVzIikKICAgIHZpc2libGUgPSBbclsiZG9tYWluIl0gZm9yIHIgaW4gcm93cyBpZiBkYi5jYW5fcmVhZF9tZW1vcnkocmVhZGVyLCByWyJkb21haW4iXSldCiAgICByZXR1cm4geyJvayI6IFRydWUsICJkb21haW5zIjogdmlzaWJsZX0K
+"""三层记忆池：写入/删除必须经过在岗管理岗审批。
+
+硬性规则：
+1. scope 三种：agent:<id> 私有 / task:<id> 任务组 / global 全局
+2. 写/删记忆不直接操作 memories 表：
+   - 先写 memory_approvals 审批单(pending)
+   - 把审批请求作为消息投递给当前 manager 节点
+   - 工作站同步等待 manager 审批结果（轮询审批单，带超时）
+   - approve 才真正写入/删除 memories；deny 返回拒绝；超时返回 pending
+3. 查询记忆按权限过滤
+4. 只存原始文本，不做摘要/向量/RAG
+"""
+from __future__ import annotations
+
+import json
+import time
+
+from fastapi import APIRouter, HTTPException
+
+from .. import config, db, events
+from ..schemas import ApprovalDecision, MemoryDelete, MemoryWrite
+
+router = APIRouter(prefix="/memories", tags=["memories"])
+
+# 同步等待 manager 审批的最长轮询时间（秒）
+APPROVAL_WAIT_TIMEOUT = 30.0
+APPROVAL_POLL_INTERVAL = 0.2
+
+
+def _valid_domain(domain: str) -> bool:
+    return domain == "global" or domain.startswith("agent:") or domain.startswith("task:")
+
+
+def _notify_manager(request_id: str, agent_id: str, domain: str, action: str,
+                    mem_key: str, content: str) -> None:
+    """把审批请求作为消息投递给当前 manager 节点。"""
+    manager = db.current_manager()
+    if not manager:
+        return
+    msg_id = db.new_id("msg")
+    payload = {
+        "type": "memory_approval_request",
+        "request_id": request_id,
+        "agent_id": agent_id,
+        "domain": domain,
+        "action": action,
+        "mem_key": mem_key,
+        "content": content,
+    }
+    db.execute(
+        "INSERT INTO messages (msg_id, channel_type, from_agent, to_agent, task_id, content, created_at) "
+        "VALUES (?, 'approval', ?, ?, '', ?, ?)",
+        (msg_id, agent_id, manager["agent_id"],
+         json.dumps(payload, ensure_ascii=False), db.now()),
+    )
+
+
+def _notify_requester(request_id: str, agent_id: str, decision: str) -> None:
+    """把审批结果消息回投给发起 agent。"""
+    msg_id = db.new_id("msg")
+    payload = {
+        "type": "memory_approval_result",
+        "request_id": request_id,
+        "decision": decision,
+    }
+    db.execute(
+        "INSERT INTO messages (msg_id, channel_type, from_agent, to_agent, task_id, content, created_at) "
+        "VALUES (?, 'approval', 'system', ?, '', ?, ?)",
+        (msg_id, agent_id, json.dumps(payload, ensure_ascii=False), db.now()),
+    )
+
+
+def _approval_status(request_id: str) -> str | None:
+    row = db.query_one("SELECT status FROM memory_approvals WHERE request_id=?", (request_id,))
+    return row["status"] if row else None
+
+
+def _wait_for_decision(request_id: str) -> str:
+    """同步等待 manager 审批结果，返回 approved / denied / pending。"""
+    deadline = time.time() + APPROVAL_WAIT_TIMEOUT
+    while time.time() < deadline:
+        status = _approval_status(request_id)
+        if status in ("approved", "denied"):
+            return status
+        time.sleep(APPROVAL_POLL_INTERVAL)
+    return "pending"
+
+
+def _apply_decision(req: dict, approve: bool) -> None:
+    """根据审批结果真正执行写/删 memories。"""
+    if not approve:
+        return
+    if req["action"] == "write":
+        db.execute(
+            "INSERT INTO memories (domain, mem_key, content, owner_agent, created_at, updated_at) "
+            "VALUES (?, ?, ?, ?, ?, ?) "
+            "ON CONFLICT(domain, mem_key) DO UPDATE SET content=excluded.content, updated_at=excluded.updated_at",
+            (req["domain"], req["mem_key"], req["content"], req["agent_id"], db.now(), db.now()),
+        )
+    elif req["action"] == "delete":
+        db.execute("DELETE FROM memories WHERE domain=? AND mem_key=?",
+                   (req["domain"], req["mem_key"]))
+
+
+@router.post("/write")
+def write(body: MemoryWrite):
+    """发起写记忆请求：先审批后落库，同步等待 manager 决策。"""
+    if config.EMERGENCY_BLOCK:
+        raise HTTPException(status_code=423, detail="emergency block is active")
+    if not _valid_domain(body.domain):
+        raise HTTPException(status_code=400, detail="invalid domain")
+    if not db.get_agent(body.agent_id):
+        raise HTTPException(status_code=404, detail="agent not found")
+    manager = db.current_manager()
+    if not manager:
+        raise HTTPException(status_code=409, detail="no manager online")
+    request_id = db.new_id("memreq")
+    db.execute(
+        "INSERT INTO memory_approvals (request_id, agent_id, domain, action, mem_key, content, status, created_at) "
+        "VALUES (?, ?, ?, 'write', ?, ?, 'pending', ?)",
+        (request_id, body.agent_id, body.domain, body.mem_key, body.content, db.now()),
+    )
+    _notify_manager(request_id, body.agent_id, body.domain, "write", body.mem_key, body.content)
+    db.audit(body.agent_id, "memory_write_request", body.domain,
+             {"request_id": request_id, "mem_key": body.mem_key})
+
+    decision = _wait_for_decision(request_id)
+    if decision == "pending":
+        return {"ok": True, "request_id": request_id, "status": "pending",
+                "detail": "waiting for manager approval"}
+    if decision == "denied":
+        return {"ok": False, "request_id": request_id, "status": "denied",
+                "detail": "manager denied this memory write"}
+    return {"ok": True, "request_id": request_id, "status": "approved"}
+
+
+@router.post("/delete")
+def delete(body: MemoryDelete):
+    """发起删记忆请求：先审批后删除，同步等待 manager 决策。"""
+    if config.EMERGENCY_BLOCK:
+        raise HTTPException(status_code=423, detail="emergency block is active")
+    if not _valid_domain(body.domain):
+        raise HTTPException(status_code=400, detail="invalid domain")
+    manager = db.current_manager()
+    if not manager:
+        raise HTTPException(status_code=409, detail="no manager online")
+    request_id = db.new_id("memreq")
+    db.execute(
+        "INSERT INTO memory_approvals (request_id, agent_id, domain, action, mem_key, content, status, created_at) "
+        "VALUES (?, ?, ?, 'delete', ?, '', 'pending', ?)",
+        (request_id, body.agent_id, body.domain, body.mem_key, db.now()),
+    )
+    _notify_manager(request_id, body.agent_id, body.domain, "delete", body.mem_key, "")
+    db.audit(body.agent_id, "memory_delete_request", body.domain,
+             {"request_id": request_id, "mem_key": body.mem_key})
+
+    decision = _wait_for_decision(request_id)
+    if decision == "pending":
+        return {"ok": True, "request_id": request_id, "status": "pending",
+                "detail": "waiting for manager approval"}
+    if decision == "denied":
+        return {"ok": False, "request_id": request_id, "status": "denied",
+                "detail": "manager denied this memory delete"}
+    return {"ok": True, "request_id": request_id, "status": "approved"}
+
+
+@router.post("/approvals/decide")
+def decide(body: ApprovalDecision):
+    """管理岗审批：更新审批单状态；通过后立即执行落库/删除。"""
+    manager = db.current_manager()
+    if not manager:
+        raise HTTPException(status_code=409, detail="no manager online")
+    if manager["agent_id"] != body.manager_id:
+        raise HTTPException(status_code=403, detail="only current manager can approve")
+    req = db.query_one("SELECT * FROM memory_approvals WHERE request_id=?", (body.request_id,))
+    if not req:
+        raise HTTPException(status_code=404, detail="request not found")
+    if req["status"] != "pending":
+        raise HTTPException(status_code=409, detail="request already decided")
+    new_status = "approved" if body.approve else "denied"
+    db.execute(
+        "UPDATE memory_approvals SET status=?, decided_at=?, decided_by=? WHERE request_id=?",
+        (new_status, db.now(), body.manager_id, body.request_id),
+    )
+    _apply_decision(req, body.approve)
+    _notify_requester(body.request_id, req["agent_id"], new_status)
+    db.audit(body.manager_id, "memory_approval", req["domain"],
+             {"request_id": body.request_id, "decision": new_status})
+    return {"ok": True, "request_id": body.request_id, "status": new_status}
+
+
+@router.get("/approvals/pending")
+def pending():
+    rows = db.query_all(
+        "SELECT * FROM memory_approvals WHERE status='pending' ORDER BY created_at ASC"
+    )
+    return {"ok": True, "pending": rows}
+
+
+@router.get("/read")
+def read(reader: str, domain: str, mem_key: str | None = None):
+    """读记忆遵循可见性规则，无需审批。"""
+    if not _valid_domain(domain):
+        raise HTTPException(status_code=400, detail="invalid domain")
+    if not db.can_read_memory(reader, domain):
+        raise HTTPException(status_code=403, detail="no permission for this domain")
+    if mem_key:
+        row = db.query_one("SELECT * FROM memories WHERE domain=? AND mem_key=?", (domain, mem_key))
+        return {"ok": True, "memory": row}
+    rows = db.query_all("SELECT * FROM memories WHERE domain=? ORDER BY updated_at DESC", (domain,))
+    return {"ok": True, "memories": rows}
+
+
+@router.get("/list-domains")
+def list_domains(reader: str):
+    """返回该 agent 可见的所有 domain。"""
+    rows = db.query_all("SELECT DISTINCT domain FROM memories")
+    visible = [r["domain"] for r in rows if db.can_read_memory(reader, r["domain"])]
+    return {"ok": True, "domains": visible}

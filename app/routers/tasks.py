@@ -1,1 +1,97 @@
-IiIi5Lu75Yqh77ya5Lq657G75LiL5Y+R44CB566h55CG5bKX5bm/5pKt44CB5ZGY5bel57uE6Zif44CB54q25oCB5rWB6L2s44CCIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gZmFzdGFwaSBpbXBvcnQgQVBJUm91dGVyLCBIVFRQRXhjZXB0aW9uCgpmcm9tIC4uIGltcG9ydCBkYiwgZXZlbnRzLCBuYXRzX2J1cwpmcm9tIC4uc2NoZW1hcyBpbXBvcnQgVGFza0Fzc2lnbiwgVGFza0Jyb2FkY2FzdCwgVGFza0NyZWF0ZSwgVGFza1N0YXR1cwoKcm91dGVyID0gQVBJUm91dGVyKHByZWZpeD0iL3Rhc2tzIiwgdGFncz1bInRhc2tzIl0pCgoKZGVmIF9leGlzdHModGFza19pZDogc3RyKSAtPiBib29sOgogICAgcmV0dXJuIGRiLnF1ZXJ5X29uZSgiU0VMRUNUIDEgRlJPTSB0YXNrcyBXSEVSRSB0YXNrX2lkPT8iLCAodGFza19pZCwpKSBpcyBub3QgTm9uZQoKCkByb3V0ZXIucG9zdCgiL2NyZWF0ZSIpCmRlZiBjcmVhdGUoYm9keTogVGFza0NyZWF0ZSk6CiAgICB0YXNrX2lkID0gZGIubmV3X2lkKCJ0YXNrIikKICAgIGRiLmV4ZWN1dGUoCiAgICAgICAgIklOU0VSVCBJTlRPIHRhc2tzICh0YXNrX2lkLCB0aXRsZSwgZGVzY3JpcHRpb24sIHN0YXR1cywgY3JlYXRlZF9ieSwgY3JlYXRlZF9hdCwgdXBkYXRlZF9hdCkgIgogICAgICAgICJWQUxVRVMgKD8sID8sID8sICdwZW5kaW5nJywgJ2h1bWFuJywgPywgPykiLAogICAgICAgICh0YXNrX2lkLCBib2R5LnRpdGxlLCBib2R5LmRlc2NyaXB0aW9uLCBkYi5ub3coKSwgZGIubm93KCkpLAogICAgKQogICAgZGIuYXVkaXQoImh1bWFuIiwgInRhc2tfY3JlYXRlIiwgdGFza19pZCwgeyJ0aXRsZSI6IGJvZHkudGl0bGV9KQogICAgZXZlbnRzLnB1Ymxpc2goInRhc2tfY3JlYXRlZCIsIHsidGFza19pZCI6IHRhc2tfaWQsICJ0aXRsZSI6IGJvZHkudGl0bGV9KQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAidGFza19pZCI6IHRhc2tfaWR9CgoKQHJvdXRlci5wb3N0KCIvYnJvYWRjYXN0IikKZGVmIGJyb2FkY2FzdChib2R5OiBUYXNrQnJvYWRjYXN0KToKICAgICIiIueuoeeQhuWyl+ehruiupOaOpeaJi+W5tuW8gOWni+W5v+aSreaKouWNleOAguW6leW6p+WPquiusOW9leeKtuaAge+8jOS4jeaLhuWIhuS7u+WKoeOAgiIiIgogICAgaWYgbm90IF9leGlzdHMoYm9keS50YXNrX2lkKToKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgZGV0YWlsPSJ0YXNrIG5vdCBmb3VuZCIpCiAgICBkYi5leGVjdXRlKAogICAgICAgICJVUERBVEUgdGFza3MgU0VUIHN0YXR1cz0nYnJvYWRjYXN0aW5nJywgbWFuYWdlcl9pZD0/LCB1cGRhdGVkX2F0PT8gV0hFUkUgdGFza19pZD0/IiwKICAgICAgICAoYm9keS5tYW5hZ2VyX2lkLCBkYi5ub3coKSwgYm9keS50YXNrX2lkKSwKICAgICkKICAgIGRiLmF1ZGl0KGJvZHkubWFuYWdlcl9pZCwgInRhc2tfYnJvYWRjYXN0IiwgYm9keS50YXNrX2lkKQogICAgbmF0c19idXMucHVibGlzaF90YXNrX2Jyb2FkY2FzdChib2R5LnRhc2tfaWQsIHsidGFza19pZCI6IGJvZHkudGFza19pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAibWFuYWdlcl9pZCI6IGJvZHkubWFuYWdlcl9pZH0pCiAgICBldmVudHMucHVibGlzaCgidGFza19icm9hZGNhc3QiLCB7InRhc2tfaWQiOiBib2R5LnRhc2tfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIm1hbmFnZXJfaWQiOiBib2R5Lm1hbmFnZXJfaWR9KQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAidGFza19pZCI6IGJvZHkudGFza19pZCwgInN0YXR1cyI6ICJicm9hZGNhc3RpbmcifQoKCkByb3V0ZXIucG9zdCgiL2Fzc2lnbiIpCmRlZiBhc3NpZ24oYm9keTogVGFza0Fzc2lnbik6CiAgICAiIiLnrqHnkIblspfmiorlkZjlt6Xmi4nov5vku7vliqHnu4TjgIIiIiIKICAgIGlmIG5vdCBfZXhpc3RzKGJvZHkudGFza19pZCk6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDQsIGRldGFpbD0idGFzayBub3QgZm91bmQiKQogICAgaWYgbm90IGRiLmdldF9hZ2VudChib2R5LmFnZW50X2lkKToKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgZGV0YWlsPSJhZ2VudCBub3QgZm91bmQiKQogICAgZGIuZXhlY3V0ZSgKICAgICAgICAiSU5TRVJUIElOVE8gdGFza19tZW1iZXJzICh0YXNrX2lkLCBhZ2VudF9pZCwgcm9sZSwgam9pbmVkX2F0KSBWQUxVRVMgKD8sID8sID8sID8pICIKICAgICAgICAiT04gQ09ORkxJQ1QodGFza19pZCwgYWdlbnRfaWQpIERPIFVQREFURSBTRVQgcm9sZT1leGNsdWRlZC5yb2xlIiwKICAgICAgICAoYm9keS50YXNrX2lkLCBib2R5LmFnZW50X2lkLCBib2R5LnJvbGUsIGRiLm5vdygpKSwKICAgICkKICAgIGRiLmF1ZGl0KGJvZHkuYWdlbnRfaWQsICJ0YXNrX2Fzc2lnbiIsIGJvZHkudGFza19pZCwgeyJyb2xlIjogYm9keS5yb2xlfSkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInRhc2tfaWQiOiBib2R5LnRhc2tfaWQsICJhZ2VudF9pZCI6IGJvZHkuYWdlbnRfaWR9CgoKQHJvdXRlci5wb3N0KCIvc3RhdHVzIikKZGVmIHN0YXR1cyhib2R5OiBUYXNrU3RhdHVzKToKICAgIGlmIG5vdCBfZXhpc3RzKGJvZHkudGFza19pZCk6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDQsIGRldGFpbD0idGFzayBub3QgZm91bmQiKQogICAgYWxsb3dlZCA9IHsicGVuZGluZyIsICJicm9hZGNhc3RpbmciLCAiaW5fcHJvZ3Jlc3MiLCAiZG9uZSIsICJmYWlsZWQiLCAiY2FuY2VsbGVkIn0KICAgIGlmIGJvZHkuc3RhdHVzIG5vdCBpbiBhbGxvd2VkOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9ImludmFsaWQgc3RhdHVzIikKICAgIGRiLmV4ZWN1dGUoIlVQREFURSB0YXNrcyBTRVQgc3RhdHVzPT8sIHVwZGF0ZWRfYXQ9PyBXSEVSRSB0YXNrX2lkPT8iLAogICAgICAgICAgICAgICAoYm9keS5zdGF0dXMsIGRiLm5vdygpLCBib2R5LnRhc2tfaWQpKQogICAgZGIuYXVkaXQoInN5c3RlbSIsICJ0YXNrX3N0YXR1cyIsIGJvZHkudGFza19pZCwgeyJzdGF0dXMiOiBib2R5LnN0YXR1c30pCiAgICBldmVudHMucHVibGlzaCgidGFza19zdGF0dXMiLCB7InRhc2tfaWQiOiBib2R5LnRhc2tfaWQsICJzdGF0dXMiOiBib2R5LnN0YXR1c30pCiAgICByZXR1cm4geyJvayI6IFRydWUsICJ0YXNrX2lkIjogYm9keS50YXNrX2lkLCAic3RhdHVzIjogYm9keS5zdGF0dXN9CgoKQHJvdXRlci5nZXQoIi97dGFza19pZH0iKQpkZWYgZGV0YWlsKHRhc2tfaWQ6IHN0cik6CiAgICB0ID0gZGIucXVlcnlfb25lKCJTRUxFQ1QgKiBGUk9NIHRhc2tzIFdIRVJFIHRhc2tfaWQ9PyIsICh0YXNrX2lkLCkpCiAgICBpZiBub3QgdDoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgZGV0YWlsPSJ0YXNrIG5vdCBmb3VuZCIpCiAgICBtZW1iZXJzID0gZGIucXVlcnlfYWxsKCJTRUxFQ1QgYWdlbnRfaWQsIHJvbGUsIGpvaW5lZF9hdCBGUk9NIHRhc2tfbWVtYmVycyBXSEVSRSB0YXNrX2lkPT8iLCAodGFza19pZCwpKQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAidGFzayI6IHQsICJtZW1iZXJzIjogbWVtYmVyc30KCgpAcm91dGVyLmdldCgiIikKZGVmIGxpc3RfdGFza3Moc3RhdHVzOiBzdHIgfCBOb25lID0gTm9uZSk6CiAgICBpZiBzdGF0dXM6CiAgICAgICAgcm93cyA9IGRiLnF1ZXJ5X2FsbCgiU0VMRUNUICogRlJPTSB0YXNrcyBXSEVSRSBzdGF0dXM9PyBPUkRFUiBCWSBjcmVhdGVkX2F0IERFU0MiLCAoc3RhdHVzLCkpCiAgICBlbHNlOgogICAgICAgIHJvd3MgPSBkYi5xdWVyeV9hbGwoIlNFTEVDVCAqIEZST00gdGFza3MgT1JERVIgQlkgY3JlYXRlZF9hdCBERVNDIikKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInRhc2tzIjogcm93c30KCgpAcm91dGVyLmdldCgiL3t0YXNrX2lkfS9tZW1iZXJzIikKZGVmIG1lbWJlcnModGFza19pZDogc3RyKToKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgIm1lbWJlcnMiOiBkYi5xdWVyeV9hbGwoCiAgICAgICAgIlNFTEVDVCBhZ2VudF9pZCwgcm9sZSwgam9pbmVkX2F0IEZST00gdGFza19tZW1iZXJzIFdIRVJFIHRhc2tfaWQ9PyIsICh0YXNrX2lkLCkpfQo=
+"""任务：人类下发、管理岗广播、员工组队、状态流转。"""
+from __future__ import annotations
+
+from fastapi import APIRouter, HTTPException
+
+from .. import db, events, nats_bus
+from ..schemas import TaskAssign, TaskBroadcast, TaskCreate, TaskStatus
+
+router = APIRouter(prefix="/tasks", tags=["tasks"])
+
+
+def _exists(task_id: str) -> bool:
+    return db.query_one("SELECT 1 FROM tasks WHERE task_id=?", (task_id,)) is not None
+
+
+@router.post("/create")
+def create(body: TaskCreate):
+    task_id = db.new_id("task")
+    db.execute(
+        "INSERT INTO tasks (task_id, title, description, status, created_by, created_at, updated_at) "
+        "VALUES (?, ?, ?, 'pending', 'human', ?, ?)",
+        (task_id, body.title, body.description, db.now(), db.now()),
+    )
+    db.audit("human", "task_create", task_id, {"title": body.title})
+    events.publish("task_created", {"task_id": task_id, "title": body.title})
+    return {"ok": True, "task_id": task_id}
+
+
+@router.post("/broadcast")
+def broadcast(body: TaskBroadcast):
+    """管理岗确认接手并开始广播抢单。底座只记录状态，不拆分任务。"""
+    if not _exists(body.task_id):
+        raise HTTPException(status_code=404, detail="task not found")
+    db.execute(
+        "UPDATE tasks SET status='broadcasting', manager_id=?, updated_at=? WHERE task_id=?",
+        (body.manager_id, db.now(), body.task_id),
+    )
+    db.audit(body.manager_id, "task_broadcast", body.task_id)
+    nats_bus.publish_task_broadcast(body.task_id, {"task_id": body.task_id,
+                                                  "manager_id": body.manager_id})
+    events.publish("task_broadcast", {"task_id": body.task_id,
+                                      "manager_id": body.manager_id})
+    return {"ok": True, "task_id": body.task_id, "status": "broadcasting"}
+
+
+@router.post("/assign")
+def assign(body: TaskAssign):
+    """管理岗把员工拉进任务组。"""
+    if not _exists(body.task_id):
+        raise HTTPException(status_code=404, detail="task not found")
+    if not db.get_agent(body.agent_id):
+        raise HTTPException(status_code=404, detail="agent not found")
+    db.execute(
+        "INSERT INTO task_members (task_id, agent_id, role, joined_at) VALUES (?, ?, ?, ?) "
+        "ON CONFLICT(task_id, agent_id) DO UPDATE SET role=excluded.role",
+        (body.task_id, body.agent_id, body.role, db.now()),
+    )
+    db.audit(body.agent_id, "task_assign", body.task_id, {"role": body.role})
+    return {"ok": True, "task_id": body.task_id, "agent_id": body.agent_id}
+
+
+@router.post("/status")
+def status(body: TaskStatus):
+    if not _exists(body.task_id):
+        raise HTTPException(status_code=404, detail="task not found")
+    allowed = {"pending", "broadcasting", "in_progress", "done", "failed", "cancelled"}
+    if body.status not in allowed:
+        raise HTTPException(status_code=400, detail="invalid status")
+    db.execute("UPDATE tasks SET status=?, updated_at=? WHERE task_id=?",
+               (body.status, db.now(), body.task_id))
+    db.audit("system", "task_status", body.task_id, {"status": body.status})
+    events.publish("task_status", {"task_id": body.task_id, "status": body.status})
+    return {"ok": True, "task_id": body.task_id, "status": body.status}
+
+
+@router.get("/{task_id}")
+def detail(task_id: str):
+    t = db.query_one("SELECT * FROM tasks WHERE task_id=?", (task_id,))
+    if not t:
+        raise HTTPException(status_code=404, detail="task not found")
+    members = db.query_all("SELECT agent_id, role, joined_at FROM task_members WHERE task_id=?", (task_id,))
+    return {"ok": True, "task": t, "members": members}
+
+
+@router.get("")
+def list_tasks(status: str | None = None):
+    if status:
+        rows = db.query_all("SELECT * FROM tasks WHERE status=? ORDER BY created_at DESC", (status,))
+    else:
+        rows = db.query_all("SELECT * FROM tasks ORDER BY created_at DESC")
+    return {"ok": True, "tasks": rows}
+
+
+@router.get("/{task_id}/members")
+def members(task_id: str):
+    return {"ok": True, "members": db.query_all(
+        "SELECT agent_id, role, joined_at FROM task_members WHERE task_id=?", (task_id,))}

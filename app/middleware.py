@@ -1,1 +1,35 @@
-IiIiQVBJIOiupOivgeS4remXtOS7tu+8mueUqCBBUlNfU1RBVElPTl9UT0tFTiDlgZogQmVhcmVyIHRva2VuIOagoemqjOOAggoK5pyq6YWN572u77yI56m677yJ5pe25pS+6KGM5omA5pyJ6K+35rGC77yI5byA5Y+R5qih5byP77yJ44CCCuW3sumFjee9ruaXtu+8jOmZpCBoZWFsdGggLyBkb2NzIC8gc3dhZ2dlciAvIHdlYnVpIOWklueahOaJgOaciei3r+eUsemDvemcgOimgSB0b2tlbuOAggoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IG9zCgpmcm9tIGZhc3RhcGkgaW1wb3J0IFJlcXVlc3QsIFJlc3BvbnNlCmZyb20gc3RhcmxldHRlLm1pZGRsZXdhcmUuYmFzZSBpbXBvcnQgQmFzZUhUVFBNaWRkbGV3YXJlCgoKY2xhc3MgQXV0aE1pZGRsZXdhcmUoQmFzZUhUVFBNaWRkbGV3YXJlKToKICAgICIiIkJlYXJlciB0b2tlbiDmoKHpqozkuK3pl7Tku7bjgIIiIiIKCiAgICBfU0tJUF9QUkVGSVhFUyA9ICgiL2RvY3MiLCAiL29wZW5hcGkuanNvbiIsICIvcmVkb2MiLCAiL3dlYnVpIiwgIi9zeXN0ZW0vaGVhbHRoIikKICAgIF9UT0tFTiA9IG9zLmdldGVudigiQVJTX1NUQVRJT05fVE9LRU4iLCAiIikuc3RyaXAoKQoKICAgIGFzeW5jIGRlZiBkaXNwYXRjaChzZWxmLCByZXF1ZXN0OiBSZXF1ZXN0LCBjYWxsX25leHQpOgogICAgICAgIGlmIG5vdCBzZWxmLl9UT0tFTjoKICAgICAgICAgICAgcmV0dXJuIGF3YWl0IGNhbGxfbmV4dChyZXF1ZXN0KQogICAgICAgIGlmIGFueShyZXF1ZXN0LnVybC5wYXRoLnN0YXJ0c3dpdGgocCkgZm9yIHAgaW4gc2VsZi5fU0tJUF9QUkVGSVhFUyk6CiAgICAgICAgICAgIHJldHVybiBhd2FpdCBjYWxsX25leHQocmVxdWVzdCkKICAgICAgICBhdXRoID0gcmVxdWVzdC5oZWFkZXJzLmdldCgiQXV0aG9yaXphdGlvbiIsICIiKQogICAgICAgIGlmIGF1dGguc3RhcnRzd2l0aCgiQmVhcmVyICIpOgogICAgICAgICAgICB0b2tlbiA9IGF1dGhbNzpdCiAgICAgICAgICAgIGlmIHRva2VuID09IHNlbGYuX1RPS0VOOgogICAgICAgICAgICAgICAgcmVzcG9uc2UgPSBhd2FpdCBjYWxsX25leHQocmVxdWVzdCkKICAgICAgICAgICAgICAgIHJldHVybiByZXNwb25zZQogICAgICAgIHJldHVybiBSZXNwb25zZSgKICAgICAgICAgICAgYid7ImVycm9yIjoidW5hdXRob3JpemVkIn0nLAogICAgICAgICAgICBzdGF0dXNfY29kZT00MDEsCiAgICAgICAgICAgIG1lZGlhX3R5cGU9ImFwcGxpY2F0aW9uL2pzb24iLAogICAgICAgICk=
+"""API 认证中间件：用 ARS_STATION_TOKEN 做 Bearer token 校验。
+
+未配置（空）时放行所有请求（开发模式）。
+已配置时，除 health / docs / swagger / webui 外的所有路由都需要 token。
+"""
+from __future__ import annotations
+
+import os
+
+from fastapi import Request, Response
+from starlette.middleware.base import BaseHTTPMiddleware
+
+
+class AuthMiddleware(BaseHTTPMiddleware):
+    """Bearer token 校验中间件。"""
+
+    _SKIP_PREFIXES = ("/docs", "/openapi.json", "/redoc", "/webui", "/system/health")
+    _TOKEN = os.getenv("ARS_STATION_TOKEN", "").strip()
+
+    async def dispatch(self, request: Request, call_next):
+        if not self._TOKEN:
+            return await call_next(request)
+        if any(request.url.path.startswith(p) for p in self._SKIP_PREFIXES):
+            return await call_next(request)
+        auth = request.headers.get("Authorization", "")
+        if auth.startswith("Bearer "):
+            token = auth[7:]
+            if token == self._TOKEN:
+                response = await call_next(request)
+                return response
+        return Response(
+            b'{"error":"unauthorized"}',
+            status_code=401,
+            media_type="application/json",
+        )

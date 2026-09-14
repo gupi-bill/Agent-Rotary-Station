@@ -1,1 +1,88 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ2h0dHBzOi8vZXNtLnNoL3JlYWN0QDE4JzsKaW1wb3J0IGh0bSBmcm9tICdodHRwczovL2VzbS5zaC9odG1AMyc7CmltcG9ydCB7IE1lc3NhZ2VzIGFzIE1zZ0FwaSwgQWdlbnRzIGFzIEFnZW50c0FwaSwgVGFza3MgYXMgVGFza3NBcGkgfSBmcm9tICcuLi9hcGkuanMnOwpjb25zdCBoID0gaHRtLmJpbmQoUmVhY3QuY3JlYXRlRWxlbWVudCk7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBDaGF0KCkgewogIGNvbnN0IFttZXNzYWdlcywgc2V0TWVzc2FnZXNdID0gUmVhY3QudXNlU3RhdGUoW10pOwogIGNvbnN0IFthZ2VudHMsIHNldEFnZW50c10gPSBSZWFjdC51c2VTdGF0ZShbXSk7CiAgY29uc3QgW3Rhc2tzLCBzZXRUYXNrc10gPSBSZWFjdC51c2VTdGF0ZShbXSk7CiAgY29uc3QgW2Zvcm0sIHNldEZvcm1dID0gUmVhY3QudXNlU3RhdGUoeyBmcm9tX2FnZW50OiAnJywgY2hhbm5lbF90eXBlOiAncHJpdmF0ZScsIHRvX2FnZW50OiAnJywgdGFza19pZDogJycsIGNvbnRlbnQ6ICcnIH0pOwogIGNvbnN0IFttc2csIHNldE1zZ10gPSBSZWFjdC51c2VTdGF0ZSgnJyk7CgogIGFzeW5jIGZ1bmN0aW9uIGxvYWRNZXRhKCkgewogICAgdHJ5IHsKICAgICAgY29uc3QgW2EsIHRdID0gYXdhaXQgUHJvbWlzZS5hbGwoW0FnZW50c0FwaS5saXN0KCksIFRhc2tzQXBpLmxpc3QoKV0pOwogICAgICBzZXRBZ2VudHMoYS5hZ2VudHMgfHwgW10pOwogICAgICBzZXRUYXNrcyh0LnRhc2tzIHx8IFtdKTsKICAgIH0gY2F0Y2ggKGUpIHsgc2V0TXNnKGUubWVzc2FnZSk7IH0KICB9CiAgYXN5bmMgZnVuY3Rpb24gbG9hZEhpc3RvcnkoKSB7CiAgICB0cnkgewogICAgICBjb25zdCBwYXJhbXMgPSB7IGxpbWl0OiAxMDAgfTsKICAgICAgaWYgKGZvcm0uY2hhbm5lbF90eXBlKSBwYXJhbXMuY2hhbm5lbF90eXBlID0gZm9ybS5jaGFubmVsX3R5cGU7CiAgICAgIGlmIChmb3JtLnRhc2tfaWQpIHBhcmFtcy50YXNrX2lkID0gZm9ybS50YXNrX2lkOwogICAgICBpZiAoZm9ybS50b19hZ2VudCkgcGFyYW1zLnRvX2FnZW50ID0gZm9ybS50b19hZ2VudDsKICAgICAgaWYgKGZvcm0uZnJvbV9hZ2VudCkgcGFyYW1zLmZyb21fYWdlbnQgPSBmb3JtLmZyb21fYWdlbnQ7CiAgICAgIGNvbnN0IHIgPSBhd2FpdCBNc2dBcGkuaGlzdG9yeShwYXJhbXMpOwogICAgICBzZXRNZXNzYWdlcyhyLm1lc3NhZ2VzIHx8IFtdKTsKICAgIH0gY2F0Y2ggKGUpIHsgc2V0TXNnKGUubWVzc2FnZSk7IH0KICB9CiAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsgbG9hZE1ldGEoKTsgbG9hZEhpc3RvcnkoKTsgfSwgW10pOwoKICBhc3luYyBmdW5jdGlvbiBzZW5kKCkgewogICAgc2V0TXNnKCcnKTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IE1zZ0FwaS5zZW5kKGZvcm0pOwogICAgICBzZXRNc2coJ+W3suWPkemAgScpOwogICAgICBsb2FkSGlzdG9yeSgpOwogICAgfSBjYXRjaCAoZSkgeyBzZXRNc2coZS5tZXNzYWdlKTsgfQogIH0KCiAgcmV0dXJuIGhgCiAgPGRpdj4KICAgIDxoMiBjbGFzcz0icGFnZS10aXRsZSI+8J+SrCBBZ2VudCDpgJrorq88L2gyPgogICAgJHttc2cgJiYgaGA8ZGl2IGNsYXNzPSJ0b2FzdCI+JHttc2d9PC9kaXY+YH0KICAgIDxkaXYgY2xhc3M9ImNhcmQiPgogICAgICA8aDM+5Y+R5raI5oGvPC9oMz4KICAgICAgPGRpdiBjbGFzcz0icm93Ij4KICAgICAgICA8c2VsZWN0IHZhbHVlPSR7Zm9ybS5mcm9tX2FnZW50fSBvbkNoYW5nZT0ke2UgPT4gc2V0Rm9ybSh7IC4uLmZvcm0sIGZyb21fYWdlbnQ6IGUudGFyZ2V0LnZhbHVlIH0pfT4KICAgICAgICAgIDxvcHRpb24gdmFsdWU9IiI+ZnJvbV9hZ2VudDwvb3B0aW9uPgogICAgICAgICAgJHthZ2VudHMubWFwKGEgPT4gaGA8b3B0aW9uIHZhbHVlPSR7YS5hZ2VudF9pZH0ga2V5PSR7YS5hZ2VudF9pZH0+JHthLm5hbWV9ICgke2EuYWdlbnRfaWR9KTwvb3B0aW9uPmApfQogICAgICAgIDwvc2VsZWN0PgogICAgICAgIDxzZWxlY3QgdmFsdWU9JHtmb3JtLmNoYW5uZWxfdHlwZX0gb25DaGFuZ2U9JHtlID0+IHNldEZvcm0oeyAuLi5mb3JtLCBjaGFubmVsX3R5cGU6IGUudGFyZ2V0LnZhbHVlIH0pfT4KICAgICAgICAgIDxvcHRpb24gdmFsdWU9InByaXZhdGUiPnByaXZhdGU8L29wdGlvbj4KICAgICAgICAgIDxvcHRpb24gdmFsdWU9Imdyb3VwIj5ncm91cDwvb3B0aW9uPgogICAgICAgICAgPG9wdGlvbiB2YWx1ZT0idGFzayI+dGFzazwvb3B0aW9uPgogICAgICAgIDwvc2VsZWN0PgogICAgICAgIDxzZWxlY3QgdmFsdWU9JHtmb3JtLnRvX2FnZW50fSBvbkNoYW5nZT0ke2UgPT4gc2V0Rm9ybSh7IC4uLmZvcm0sIHRvX2FnZW50OiBlLnRhcmdldC52YWx1ZSB9KX0+CiAgICAgICAgICA8b3B0aW9uIHZhbHVlPSIiPnRvX2FnZW5077yI5Y+v56m677yJPC9vcHRpb24+CiAgICAgICAgICAke2FnZW50cy5tYXAoYSA9PiBoYDxvcHRpb24gdmFsdWU9JHthLmFnZW50X2lkfSBrZXk9JHthLmFnZW50X2lkfT4ke2EubmFtZX0gKCR7YS5hZ2VudF9pZH0pPC9vcHRpb24+YCl9CiAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgPHNlbGVjdCB2YWx1ZT0ke2Zvcm0udGFza19pZH0gb25DaGFuZ2U9JHtlID0+IHNldEZvcm0oeyAuLi5mb3JtLCB0YXNrX2lkOiBlLnRhcmdldC52YWx1ZSB9KX0+CiAgICAgICAgICA8b3B0aW9uIHZhbHVlPSIiPnRhc2tfaWTvvIjlj6/nqbrvvIk8L29wdGlvbj4KICAgICAgICAgICR7dGFza3MubWFwKHQgPT4gaGA8b3B0aW9uIHZhbHVlPSR7dC50YXNrX2lkfSBrZXk9JHt0LnRhc2tfaWR9PiR7dC50aXRsZX0gKCR7dC50YXNrX2lkfSk8L29wdGlvbj5gKX0KICAgICAgICA8L3NlbGVjdD4KICAgICAgICA8aW5wdXQgcGxhY2Vob2xkZXI9IuWGheWuuSIgdmFsdWU9JHtmb3JtLmNvbnRlbnR9IG9uSW5wdXQ9JHtlID0+IHNldEZvcm0oeyAuLi5mb3JtLCBjb250ZW50OiBlLnRhcmdldC52YWx1ZSB9KX0gc3R5bGU9JHt7IGZsZXg6IDEgfX0gLz4KICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9JHtzZW5kfT7lj5HpgIE8L2J1dHRvbj4KICAgICAgICA8YnV0dG9uIGNsYXNzPSJzZWNvbmRhcnkiIG9uQ2xpY2s9JHtsb2FkSGlzdG9yeX0+5Yi35pawPC9idXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgICAgPGgzPua2iOaBr+WOhuWPsjwvaDM+CiAgICAgIDx0YWJsZSBjbGFzcz0idGFibGUiPgogICAgICAgIDx0aGVhZD48dHI+PHRoPuaXtumXtDwvdGg+PHRoPumikemBkzwvdGg+PHRoPkZyb208L3RoPjx0aD5UbzwvdGg+PHRoPlRhc2s8L3RoPjx0aD7lhoXlrrk8L3RoPjwvdHI+PC90aGVhZD4KICAgICAgICA8dGJvZHk+CiAgICAgICAgICAke21lc3NhZ2VzLm1hcChtID0+IGhgPHRyIGtleT0ke20ubXNnX2lkIHx8IG0uaWR9PgogICAgICAgICAgICA8dGQgY2xhc3M9Im11dGVkIj4ke20uY3JlYXRlZF9hdH08L3RkPgogICAgICAgICAgICA8dGQ+JHttLmNoYW5uZWxfdHlwZX08L3RkPgogICAgICAgICAgICA8dGQ+JHttLmZyb21fYWdlbnR9PC90ZD4KICAgICAgICAgICAgPHRkPiR7bS50b19hZ2VudCB8fCAnJ308L3RkPgogICAgICAgICAgICA8dGQ+JHttLnRhc2tfaWQgfHwgJyd9PC90ZD4KICAgICAgICAgICAgPHRkPiR7bS5jb250ZW50fTwvdGQ+CiAgICAgICAgICA8L3RyPmApfQogICAgICAgIDwvdGJvZHk+CiAgICAgIDwvdGFibGU+CiAgICA8L2Rpdj4KICA8L2Rpdj5gOwp9Cg==
+import React from 'https://esm.sh/react@18';
+import htm from 'https://esm.sh/htm@3';
+import { Messages as MsgApi, Agents as AgentsApi, Tasks as TasksApi } from '../api.js';
+const h = htm.bind(React.createElement);
+
+export default function Chat() {
+  const [messages, setMessages] = React.useState([]);
+  const [agents, setAgents] = React.useState([]);
+  const [tasks, setTasks] = React.useState([]);
+  const [form, setForm] = React.useState({ from_agent: '', channel_type: 'private', to_agent: '', task_id: '', content: '' });
+  const [msg, setMsg] = React.useState('');
+
+  async function loadMeta() {
+    try {
+      const [a, t] = await Promise.all([AgentsApi.list(), TasksApi.list()]);
+      setAgents(a.agents || []);
+      setTasks(t.tasks || []);
+    } catch (e) { setMsg(e.message); }
+  }
+  async function loadHistory() {
+    try {
+      const params = { limit: 100 };
+      if (form.channel_type) params.channel_type = form.channel_type;
+      if (form.task_id) params.task_id = form.task_id;
+      if (form.to_agent) params.to_agent = form.to_agent;
+      if (form.from_agent) params.from_agent = form.from_agent;
+      const r = await MsgApi.history(params);
+      setMessages(r.messages || []);
+    } catch (e) { setMsg(e.message); }
+  }
+  React.useEffect(() => { loadMeta(); loadHistory(); }, []);
+
+  async function send() {
+    setMsg('');
+    try {
+      await MsgApi.send(form);
+      setMsg('已发送');
+      loadHistory();
+    } catch (e) { setMsg(e.message); }
+  }
+
+  return h`
+  <div>
+    <h2 class="page-title">💬 Agent 通讯</h2>
+    ${msg && h`<div class="toast">${msg}</div>`}
+    <div class="card">
+      <h3>发消息</h3>
+      <div class="row">
+        <select value=${form.from_agent} onChange=${e => setForm({ ...form, from_agent: e.target.value })}>
+          <option value="">from_agent</option>
+          ${agents.map(a => h`<option value=${a.agent_id} key=${a.agent_id}>${a.name} (${a.agent_id})</option>`)}
+        </select>
+        <select value=${form.channel_type} onChange=${e => setForm({ ...form, channel_type: e.target.value })}>
+          <option value="private">private</option>
+          <option value="group">group</option>
+          <option value="task">task</option>
+        </select>
+        <select value=${form.to_agent} onChange=${e => setForm({ ...form, to_agent: e.target.value })}>
+          <option value="">to_agent（可空）</option>
+          ${agents.map(a => h`<option value=${a.agent_id} key=${a.agent_id}>${a.name} (${a.agent_id})</option>`)}
+        </select>
+        <select value=${form.task_id} onChange=${e => setForm({ ...form, task_id: e.target.value })}>
+          <option value="">task_id（可空）</option>
+          ${tasks.map(t => h`<option value=${t.task_id} key=${t.task_id}>${t.title} (${t.task_id})</option>`)}
+        </select>
+        <input placeholder="内容" value=${form.content} onInput=${e => setForm({ ...form, content: e.target.value })} style=${{ flex: 1 }} />
+        <button onClick=${send}>发送</button>
+        <button class="secondary" onClick=${loadHistory}>刷新</button>
+      </div>
+    </div>
+    <div class="card">
+      <h3>消息历史</h3>
+      <table class="table">
+        <thead><tr><th>时间</th><th>频道</th><th>From</th><th>To</th><th>Task</th><th>内容</th></tr></thead>
+        <tbody>
+          ${messages.map(m => h`<tr key=${m.msg_id || m.id}>
+            <td class="muted">${m.created_at}</td>
+            <td>${m.channel_type}</td>
+            <td>${m.from_agent}</td>
+            <td>${m.to_agent || ''}</td>
+            <td>${m.task_id || ''}</td>
+            <td>${m.content}</td>
+          </tr>`)}
+        </tbody>
+      </table>
+    </div>
+  </div>`;
+}

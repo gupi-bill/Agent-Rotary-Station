@@ -1,1 +1,95 @@
-IiIi6aG555uu56m66Ze077ya5oqK5LiA5om5IEFnZW50IOW9kuWIsOWQjOS4gOmhueebru+8jOmhueebruacieeLrOeri+a2iOaBr+S8muivneS4juW3peS9nOa1geOAgiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQganNvbgoKZnJvbSBmYXN0YXBpIGltcG9ydCBBUElSb3V0ZXIsIEhUVFBFeGNlcHRpb24KCmZyb20gLi4gaW1wb3J0IGRiCgpyb3V0ZXIgPSBBUElSb3V0ZXIocHJlZml4PSIvcHJvamVjdHMiLCB0YWdzPVsicHJvamVjdHMiXSkKCgpAcm91dGVyLmdldCgiIikKZGVmIGxpc3RfcHJvamVjdHMoKToKICAgIHJvd3MgPSBkYi5xdWVyeV9hbGwoIlNFTEVDVCAqIEZST00gcHJvamVjdHMgT1JERVIgQlkgY3JlYXRlZF9hdCBERVNDIikKICAgIGZvciByIGluIHJvd3M6CiAgICAgICAgdHJ5OgogICAgICAgICAgICByWyJhZ2VudF9pZHMiXSA9IGpzb24ubG9hZHMoci5nZXQoImFnZW50X2lkcyIpIG9yICJbXSIpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgclsiYWdlbnRfaWRzIl0gPSBbXQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAicHJvamVjdHMiOiByb3dzfQoKCkByb3V0ZXIucG9zdCgiL2NyZWF0ZSIpCmRlZiBjcmVhdGVfcHJvamVjdChib2R5OiBkaWN0KToKICAgIG5hbWUgPSAoYm9keS5nZXQoIm5hbWUiKSBvciAiIikuc3RyaXAoKQogICAgaWYgbm90IG5hbWU6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDAsIGRldGFpbD0ibmFtZSByZXF1aXJlZCIpCiAgICBwcm9qZWN0X2lkID0gZGIubmV3X2lkKCJwcm9qIikKICAgIHRzID0gZGIubm93KCkKICAgIGRiLmV4ZWN1dGUoCiAgICAgICAgIklOU0VSVCBJTlRPIHByb2plY3RzIChwcm9qZWN0X2lkLCBuYW1lLCBkZXNjcmlwdGlvbiwgYWdlbnRfaWRzLCBzdGF0dXMsIGNyZWF0ZWRfYXQsIHVwZGF0ZWRfYXQpICIKICAgICAgICAiVkFMVUVTICg/LCA/LCA/LCA/LCAnYWN0aXZlJywgPywgPykiLAogICAgICAgIChwcm9qZWN0X2lkLCBuYW1lLCBib2R5LmdldCgiZGVzY3JpcHRpb24iLCAiIiksCiAgICAgICAgIGpzb24uZHVtcHMoYm9keS5nZXQoImFnZW50X2lkcyIsIFtdKSwgZW5zdXJlX2FzY2lpPUZhbHNlKSwgdHMsIHRzKSwKICAgICkKICAgIGRiLmF1ZGl0KCJodW1hbiIsICJwcm9qZWN0X2NyZWF0ZSIsIHByb2plY3RfaWQsIHsibmFtZSI6IG5hbWV9KQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAicHJvamVjdF9pZCI6IHByb2plY3RfaWR9CgoKQHJvdXRlci5wb3N0KCIve3Byb2plY3RfaWR9L3VwZGF0ZSIpCmRlZiB1cGRhdGVfcHJvamVjdChwcm9qZWN0X2lkOiBzdHIsIGJvZHk6IGRpY3QpOgogICAgaWYgbm90IGRiLnF1ZXJ5X29uZSgiU0VMRUNUIDEgRlJPTSBwcm9qZWN0cyBXSEVSRSBwcm9qZWN0X2lkPT8iLCAocHJvamVjdF9pZCwpKToKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgZGV0YWlsPSJwcm9qZWN0IG5vdCBmb3VuZCIpCiAgICBpZiAibmFtZSIgaW4gYm9keToKICAgICAgICBkYi5leGVjdXRlKCJVUERBVEUgcHJvamVjdHMgU0VUIG5hbWU9PyBXSEVSRSBwcm9qZWN0X2lkPT8iLCAoYm9keVsibmFtZSJdLCBwcm9qZWN0X2lkKSkKICAgIGlmICJkZXNjcmlwdGlvbiIgaW4gYm9keToKICAgICAgICBkYi5leGVjdXRlKCJVUERBVEUgcHJvamVjdHMgU0VUIGRlc2NyaXB0aW9uPT8gV0hFUkUgcHJvamVjdF9pZD0/IiwgKGJvZHlbImRlc2NyaXB0aW9uIl0sIHByb2plY3RfaWQpKQogICAgaWYgImFnZW50X2lkcyIgaW4gYm9keToKICAgICAgICBkYi5leGVjdXRlKCJVUERBVEUgcHJvamVjdHMgU0VUIGFnZW50X2lkcz0/IFdIRVJFIHByb2plY3RfaWQ9PyIsCiAgICAgICAgICAgICAgICAgICAoanNvbi5kdW1wcyhib2R5WyJhZ2VudF9pZHMiXSwgZW5zdXJlX2FzY2lpPUZhbHNlKSwgcHJvamVjdF9pZCkpCiAgICBkYi5leGVjdXRlKCJVUERBVEUgcHJvamVjdHMgU0VUIHVwZGF0ZWRfYXQ9PyBXSEVSRSBwcm9qZWN0X2lkPT8iLCAoZGIubm93KCksIHByb2plY3RfaWQpKQogICAgZGIuYXVkaXQoImh1bWFuIiwgInByb2plY3RfdXBkYXRlIiwgcHJvamVjdF9pZCkKICAgIHJldHVybiB7Im9rIjogVHJ1ZX0KCgpAcm91dGVyLnBvc3QoIi97cHJvamVjdF9pZH0vZGVsZXRlIikKZGVmIGRlbGV0ZV9wcm9qZWN0KHByb2plY3RfaWQ6IHN0cik6CiAgICBpZiBub3QgZGIucXVlcnlfb25lKCJTRUxFQ1QgMSBGUk9NIHByb2plY3RzIFdIRVJFIHByb2plY3RfaWQ9PyIsIChwcm9qZWN0X2lkLCkpOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDA0LCBkZXRhaWw9InByb2plY3Qgbm90IGZvdW5kIikKICAgIGRiLmV4ZWN1dGUoIkRFTEVURSBGUk9NIHByb2plY3RzIFdIRVJFIHByb2plY3RfaWQ9PyIsIChwcm9qZWN0X2lkLCkpCiAgICBkYi5hdWRpdCgiaHVtYW4iLCAicHJvamVjdF9kZWxldGUiLCBwcm9qZWN0X2lkKQogICAgcmV0dXJuIHsib2siOiBUcnVlfQoKCkByb3V0ZXIuZ2V0KCIve3Byb2plY3RfaWR9IikKZGVmIHByb2plY3RfZGV0YWlsKHByb2plY3RfaWQ6IHN0cik6CiAgICByb3cgPSBkYi5xdWVyeV9vbmUoIlNFTEVDVCAqIEZST00gcHJvamVjdHMgV0hFUkUgcHJvamVjdF9pZD0/IiwgKHByb2plY3RfaWQsKSkKICAgIGlmIG5vdCByb3c6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDQsIGRldGFpbD0icHJvamVjdCBub3QgZm91bmQiKQogICAgdHJ5OgogICAgICAgIHJvd1siYWdlbnRfaWRzIl0gPSBqc29uLmxvYWRzKHJvdy5nZXQoImFnZW50X2lkcyIpIG9yICJbXSIpCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJvd1siYWdlbnRfaWRzIl0gPSBbXQogICAgIyDlhbPogZQgQWdlbnQg6K+m5oOFCiAgICBhZ2VudHMgPSBbXQogICAgZm9yIGFpZCBpbiByb3dbImFnZW50X2lkcyJdOgogICAgICAgIGEgPSBkYi5nZXRfYWdlbnQoYWlkKQogICAgICAgIGlmIGE6CiAgICAgICAgICAgIGFbImNhcGFiaWxpdGllcyJdID0ganNvbi5sb2FkcyhhLmdldCgiY2FwYWJpbGl0aWVzIikgb3IgIltdIikKICAgICAgICAgICAgYWdlbnRzLmFwcGVuZChhKQogICAgIyDpobnnm67ni6znq4vkvJror53vvIhjaGFubmVsX3R5cGU9dGFzaywgdGFza19pZD1wcm9qZWN0X2lk77yJCiAgICBtc2dzID0gZGIucXVlcnlfYWxsKAogICAgICAgICJTRUxFQ1QgKiBGUk9NIG1lc3NhZ2VzIFdIRVJFIHRhc2tfaWQ9PyBPUkRFUiBCWSBpZCBBU0MgTElNSVQgMTAwIiwKICAgICAgICAocHJvamVjdF9pZCwpKQogICAgIyDpobnnm67lhbPogZTlt6XkvZzmtYHvvIjliY3nq6/mjIkgcHJvamVjdCDov4fmu6Qgd29ya2Zsb3dzIOihqOaXoOatpOWIl++8jOi/memHjOi/lOWbnuepuu+8jOWJjeerr+WxleekuuWFqOmDqO+8iQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAicHJvamVjdCI6IHJvdywgImFnZW50cyI6IGFnZW50cywgIm1lc3NhZ2VzIjogbXNnc30KCgpAcm91dGVyLmdldCgiL3twcm9qZWN0X2lkfS9tZXNzYWdlcyIpCmRlZiBwcm9qZWN0X21lc3NhZ2VzKHByb2plY3RfaWQ6IHN0ciwgbGltaXQ6IGludCA9IDEwMCk6CiAgICByb3dzID0gZGIucXVlcnlfYWxsKAogICAgICAgICJTRUxFQ1QgKiBGUk9NIG1lc3NhZ2VzIFdIRVJFIHRhc2tfaWQ9PyBPUkRFUiBCWSBpZCBBU0MgTElNSVQgPyIsCiAgICAgICAgKHByb2plY3RfaWQsIGxpbWl0KSkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgIm1lc3NhZ2VzIjogcm93c30K
+"""项目空间：把一批 Agent 归到同一项目，项目有独立消息会话与工作流。"""
+from __future__ import annotations
+
+import json
+
+from fastapi import APIRouter, HTTPException
+
+from .. import db
+
+router = APIRouter(prefix="/projects", tags=["projects"])
+
+
+@router.get("")
+def list_projects():
+    rows = db.query_all("SELECT * FROM projects ORDER BY created_at DESC")
+    for r in rows:
+        try:
+            r["agent_ids"] = json.loads(r.get("agent_ids") or "[]")
+        except Exception:
+            r["agent_ids"] = []
+    return {"ok": True, "projects": rows}
+
+
+@router.post("/create")
+def create_project(body: dict):
+    name = (body.get("name") or "").strip()
+    if not name:
+        raise HTTPException(status_code=400, detail="name required")
+    project_id = db.new_id("proj")
+    ts = db.now()
+    db.execute(
+        "INSERT INTO projects (project_id, name, description, agent_ids, status, created_at, updated_at) "
+        "VALUES (?, ?, ?, ?, 'active', ?, ?)",
+        (project_id, name, body.get("description", ""),
+         json.dumps(body.get("agent_ids", []), ensure_ascii=False), ts, ts),
+    )
+    db.audit("human", "project_create", project_id, {"name": name})
+    return {"ok": True, "project_id": project_id}
+
+
+@router.post("/{project_id}/update")
+def update_project(project_id: str, body: dict):
+    if not db.query_one("SELECT 1 FROM projects WHERE project_id=?", (project_id,)):
+        raise HTTPException(status_code=404, detail="project not found")
+    if "name" in body:
+        db.execute("UPDATE projects SET name=? WHERE project_id=?", (body["name"], project_id))
+    if "description" in body:
+        db.execute("UPDATE projects SET description=? WHERE project_id=?", (body["description"], project_id))
+    if "agent_ids" in body:
+        db.execute("UPDATE projects SET agent_ids=? WHERE project_id=?",
+                   (json.dumps(body["agent_ids"], ensure_ascii=False), project_id))
+    db.execute("UPDATE projects SET updated_at=? WHERE project_id=?", (db.now(), project_id))
+    db.audit("human", "project_update", project_id)
+    return {"ok": True}
+
+
+@router.post("/{project_id}/delete")
+def delete_project(project_id: str):
+    if not db.query_one("SELECT 1 FROM projects WHERE project_id=?", (project_id,)):
+        raise HTTPException(status_code=404, detail="project not found")
+    db.execute("DELETE FROM projects WHERE project_id=?", (project_id,))
+    db.audit("human", "project_delete", project_id)
+    return {"ok": True}
+
+
+@router.get("/{project_id}")
+def project_detail(project_id: str):
+    row = db.query_one("SELECT * FROM projects WHERE project_id=?", (project_id,))
+    if not row:
+        raise HTTPException(status_code=404, detail="project not found")
+    try:
+        row["agent_ids"] = json.loads(row.get("agent_ids") or "[]")
+    except Exception:
+        row["agent_ids"] = []
+    # 关联 Agent 详情
+    agents = []
+    for aid in row["agent_ids"]:
+        a = db.get_agent(aid)
+        if a:
+            a["capabilities"] = json.loads(a.get("capabilities") or "[]")
+            agents.append(a)
+    # 项目独立会话（channel_type=task, task_id=project_id）
+    msgs = db.query_all(
+        "SELECT * FROM messages WHERE task_id=? ORDER BY id ASC LIMIT 100",
+        (project_id,))
+    # 项目关联工作流（前端按 project 过滤 workflows 表无此列，这里返回空，前端展示全部）
+    return {"ok": True, "project": row, "agents": agents, "messages": msgs}
+
+
+@router.get("/{project_id}/messages")
+def project_messages(project_id: str, limit: int = 100):
+    rows = db.query_all(
+        "SELECT * FROM messages WHERE task_id=? ORDER BY id ASC LIMIT ?",
+        (project_id, limit))
+    return {"ok": True, "messages": rows}

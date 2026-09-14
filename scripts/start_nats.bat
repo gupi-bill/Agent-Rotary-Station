@@ -1,1 +1,23 @@
-QGVjaG8gb2ZmClJFTSDkuIDplK7lkK/liqggTkFUUyBTZXJ2ZXIgKyBBZ2VudC1Sb3RhcnktU3RhdGlvbu+8iFAwIOmAmuS/oeWxgu+8iQpSRU0g6aaW5qyh5L2/55So6K+35YWI6L+Q6KGM77yacHl0aG9uIC1tIHBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50cy50eHQKY2QgL2QgIiV+ZHAwIgoKc2V0IE5BVFNfRVhFPSVMT0NBTEFQUERBVEElXE1pY3Jvc29mdFxXaW5HZXRcUGFja2FnZXNcTkFUU0F1dGhvcnMuTkFUU1NlcnZlcl9NaWNyb3NvZnQuV2luZ2V0LlNvdXJjZV84d2VreWIzZDhiYndlXG5hdHMtc2VydmVyLXYyLjE0LjUtd2luZG93cy1hbWQ2NFxuYXRzLXNlcnZlci5leGUKCmlmIG5vdCBleGlzdCAiJU5BVFNfRVhFJSIgKAogICAgZWNobyBbRVJST1JdIOaJvuS4jeWIsCBuYXRzLXNlcnZlci5leGXvvIzor7flhYjmiafooYzvvJoKICAgIGVjaG8gICB3aW5nZXQgaW5zdGFsbCBOQVRTQXV0aG9ycy5OQVRTU2VydmVyIC0tYWNjZXB0LXNvdXJjZS1hZ3JlZW1lbnRzIC0tYWNjZXB0LXBhY2thZ2UtYWdyZWVtZW50cwogICAgcGF1c2UKICAgIGV4aXQgL2IgMQopCgplY2hvIFsxLzJdIOWQr+WKqCBOQVRTIFNlcnZlciAoMTI3LjAuMC4xOjQyMjIpLi4uCnN0YXJ0ICJOQVRTIiAvbWluICIlTkFUU19FWEUlIiAtcCA0MjIyCgp0aW1lb3V0IC90IDIgL25vYnJlYWsgPm51bAoKZWNobyBbMi8yXSDlkK/liqggQWdlbnQtUm90YXJ5LVN0YXRpb24gKDEyNy4wLjAuMTo4MDAwKS4uLgpzZXQgQVJTX05BVFNfRU5BQkxFRD0xCnB5dGhvbiAtbSB1dmljb3JuIGFwcC5tYWluOmFwcCAtLWhvc3QgMTI3LjAuMC4xIC0tcG9ydCA4MDAwCnBhdXNlCg==
+@echo off
+REM 一键启动 NATS Server + Agent-Rotary-Station（P0 通信层）
+REM 首次使用请先运行：python -m pip install -r requirements.txt
+cd /d "%~dp0"
+
+set NATS_EXE=%LOCALAPPDATA%\Microsoft\WinGet\Packages\NATSAuthors.NATSServer_Microsoft.Winget.Source_8wekyb3d8bbwe\nats-server-v2.14.5-windows-amd64\nats-server.exe
+
+if not exist "%NATS_EXE%" (
+    echo [ERROR] 找不到 nats-server.exe，请先执行：
+    echo   winget install NATSAuthors.NATSServer --accept-source-agreements --accept-package-agreements
+    pause
+    exit /b 1
+)
+
+echo [1/2] 启动 NATS Server (127.0.0.1:4222)...
+start "NATS" /min "%NATS_EXE%" -p 4222
+
+timeout /t 2 /nobreak >nul
+
+echo [2/2] 启动 Agent-Rotary-Station (127.0.0.1:8000)...
+set ARS_NATS_ENABLED=1
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+pause

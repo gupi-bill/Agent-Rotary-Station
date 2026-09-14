@@ -1,1 +1,101 @@
-IiIidjMgUDAgTkFUUyDpgJrkv6HlsYLlsIHoo4XvvIjlj6/pgInlkK/nlKjvvIzkuI3lj6/ovr7oh6rliqjpmY3nuqfvvInjgIIKCuiuvuiuoeWOn+WIme+8mgotIOW6leW6p+S7jeaYr+e6r+iwg+W6puWxgu+8jOacrOaooeWdl+WPqui0n+i0oyLmtojmga/pgIHovr4i77yM5LiN5YyF5ZCr5Lu75L2V5Lia5Yqh5Yaz562W44CCCi0gTkFUUyDmnKrlkK/nlKgv5LiN5Y+v6L6+5pe277yM5omA5pyJIHB1Ymxpc2gg6L+U5ZueIEZhbHNlIOW5tumdmem7mOmZjee6p++8jAogIOiwg+eUqOaWuee7p+e7rei1sOWOn+aciSBIVFRQIC8gU1FMaXRlIOmAmumBk++8jOS/neivgeezu+e7n+WPr+eUqOaAp+OAggotIOe0p+aApeWIuei9pueUsei3r+eUseWxgue7n+S4gOaLpuaIqu+8jOacrOaooeWdl+S4jeWNleeLrOaUvuihjOOAggoK5a6e546w6K+05piO77yaCi0g6YeH55SoIuavj+a2iOaBr+efrei/nuaOpSArIGZsdXNoICsgZHJhaW4i5qih5byP77yM6YG/5YWNIG5hdHMtcHkg6L+e5o6l5a+56LGhCiAg6LeoIGFzeW5jaW8g5LqL5Lu25b6q546v5L2/55So5a+86Ie055qE57uR5a6a5Yay56qB77yb5L2O5rWB6YeP5Zy65pmv6Laz5aSf5Y+v6Z2g44CCCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXN5bmNpbwppbXBvcnQganNvbgppbXBvcnQgbG9nZ2luZwpmcm9tIHR5cGluZyBpbXBvcnQgQW55Cgpmcm9tIC4gaW1wb3J0IGNvbmZpZwoKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoImFycy5uYXRzIikKCiMgU3ViamVjdCDluLjph4/vvJrkuI4gZG9jcy9BUkNISVRFQ1RVUkVfVjMubWQg56ysIDQuMSDoioLkv53mjIHkuIDoh7QKU19BR0VOVF9JTkJPWCA9ICJzdGF0aW9uLmFnZW50cy57YWdlbnRfaWR9LmluYm94IgpTX1RBU0tfQlJPQURDQVNUID0gInN0YXRpb24udGFza3Mue3Rhc2tfaWR9LmJyb2FkY2FzdCIKU19UQVNLX0dSQUIgPSAic3RhdGlvbi50YXNrcy57dGFza19pZH0uZ3JhYiIKU19UQVNLX0NIQVQgPSAic3RhdGlvbi50YXNrcy57dGFza19pZH0uY2hhdCIKU19BUFBST1ZBTF9JTkJPWCA9ICJzdGF0aW9uLmFwcHJvdmFsLmluYm94IgpTX0FQUFJPVkFMX1JFU1VMVCA9ICJzdGF0aW9uLmFwcHJvdmFsLnJlc3VsdC57YWdlbnRfaWR9IgpTX1RPT0xTX1FVRVVFID0gInN0YXRpb24udG9vbHMucXVldWUiClNfU0tJTExTX0FOTk9VTkNFID0gInN0YXRpb24uc2tpbGxzLmFubm91bmNlIgpTX0VNRVJHRU5DWV9CTE9DSyA9ICJzdGF0aW9uLmVtZXJnZW5jeS5ibG9jayIKU19BR0VOVF9IRUFSVEJFQVQgPSAic3RhdGlvbi5hZ2VudHMuaGVhcnRiZWF0IgoKCmRlZiBfZm10KHN1YmplY3RfdHBsOiBzdHIsICoqa3dhcmdzOiBBbnkpIC0+IHN0cjoKICAgIHJldHVybiBzdWJqZWN0X3RwbC5mb3JtYXQoKiprd2FyZ3MpCgoKZGVmIF9wdWJsaXNoX29uY2Uoc3ViamVjdDogc3RyLCBkYXRhOiBieXRlcykgLT4gYm9vbDoKICAgICIiIuW7uueri+efrei/nuaOpeWPkeS4gOadoea2iOaBr++8m+S7u+S9leW8guW4uOi/lOWbniBGYWxzZeOAgiIiIgogICAgdHJ5OgogICAgICAgIGltcG9ydCBuYXRzICAjIOW7tui/n+WvvOWFpe+8jOacquWuieijheaXtumZjee6pwogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICByZXR1cm4gRmFsc2UKCiAgICBhc3luYyBkZWYgX2dvKCk6CiAgICAgICAgbmMgPSBhd2FpdCBuYXRzLmNvbm5lY3QoCiAgICAgICAgICAgIGNvbmZpZy5OQVRTX1VSTCwKICAgICAgICAgICAgY29ubmVjdF90aW1lb3V0PWNvbmZpZy5OQVRTX0NPTk5FQ1RfVElNRU9VVCwKICAgICAgICAgICAgYWxsb3dfcmVjb25uZWN0PUZhbHNlLAogICAgICAgICAgICB2ZXJib3NlPUZhbHNlLAogICAgICAgICkKICAgICAgICB0cnk6CiAgICAgICAgICAgIGF3YWl0IG5jLnB1Ymxpc2goc3ViamVjdCwgZGF0YSkKICAgICAgICAgICAgYXdhaXQgbmMuZmx1c2goKQogICAgICAgIGZpbmFsbHk6CiAgICAgICAgICAgIGF3YWl0IG5jLmRyYWluKCkKCiAgICB0cnk6CiAgICAgICAgYXN5bmNpby5ydW4oX2dvKCkpCiAgICAgICAgcmV0dXJuIFRydWUKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZXhjOgogICAgICAgIGxvZ2dlci5kZWJ1ZygiTkFUUyBwdWJsaXNoIGZhaWxlZDogJXMiLCBleGMpCiAgICAgICAgcmV0dXJuIEZhbHNlCgoKZGVmIGlzX2F2YWlsYWJsZSgpIC0+IGJvb2w6CiAgICAiIiLmjqLmtYsgTkFUUyDmmK/lkKblj6/nlKjvvIjnn63ov57mjqXmjqLmtLvvvInjgIIiIiIKICAgIGlmIG5vdCBjb25maWcuTkFUU19FTkFCTEVEOgogICAgICAgIHJldHVybiBGYWxzZQogICAgcmV0dXJuIF9wdWJsaXNoX29uY2UoInN0YXRpb24uaGVhbHRoLnByb2JlIiwgYiJ7fSIpCgoKZGVmIHB1Ymxpc2goc3ViamVjdDogc3RyLCBwYXlsb2FkOiBkaWN0W3N0ciwgQW55XSkgLT4gYm9vbDoKICAgICIiIuWPkeW4g+S4gOadoea2iOaBr++8m+Wksei0pei/lOWbniBGYWxzZe+8jOeUseiwg+eUqOaWuemZjee6p+OAgiIiIgogICAgaWYgbm90IGNvbmZpZy5OQVRTX0VOQUJMRUQ6CiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICBkYXRhID0ganNvbi5kdW1wcyhwYXlsb2FkLCBlbnN1cmVfYXNjaWk9RmFsc2UpLmVuY29kZSgidXRmLTgiKQogICAgcmV0dXJuIF9wdWJsaXNoX29uY2Uoc3ViamVjdCwgZGF0YSkKCgpkZWYgcHVibGlzaF90YXNrX2Jyb2FkY2FzdCh0YXNrX2lkOiBzdHIsIHBheWxvYWQ6IGRpY3Rbc3RyLCBBbnldKSAtPiBib29sOgogICAgcmV0dXJuIHB1Ymxpc2goX2ZtdChTX1RBU0tfQlJPQURDQVNULCB0YXNrX2lkPXRhc2tfaWQpLCBwYXlsb2FkKQoKCmRlZiBwdWJsaXNoX3Rhc2tfZ3JhYih0YXNrX2lkOiBzdHIsIHBheWxvYWQ6IGRpY3Rbc3RyLCBBbnldKSAtPiBib29sOgogICAgcmV0dXJuIHB1Ymxpc2goX2ZtdChTX1RBU0tfR1JBQiwgdGFza19pZD10YXNrX2lkKSwgcGF5bG9hZCkKCgpkZWYgcHVibGlzaF9hZ2VudF9pbmJveChhZ2VudF9pZDogc3RyLCBwYXlsb2FkOiBkaWN0W3N0ciwgQW55XSkgLT4gYm9vbDoKICAgIHJldHVybiBwdWJsaXNoKF9mbXQoU19BR0VOVF9JTkJPWCwgYWdlbnRfaWQ9YWdlbnRfaWQpLCBwYXlsb2FkKQoKCmRlZiBwdWJsaXNoX2FwcHJvdmFsKHBheWxvYWQ6IGRpY3Rbc3RyLCBBbnldKSAtPiBib29sOgogICAgcmV0dXJuIHB1Ymxpc2goU19BUFBST1ZBTF9JTkJPWCwgcGF5bG9hZCkKCgpkZWYgcHVibGlzaF9lbWVyZ2VuY3lfYmxvY2soYWN0aXZlOiBib29sKSAtPiBib29sOgogICAgcmV0dXJuIHB1Ymxpc2goU19FTUVSR0VOQ1lfQkxPQ0ssIHsiYWN0aXZlIjogYWN0aXZlfSkK
+"""v3 P0 NATS 通信层封装（可选启用，不可达自动降级）。
+
+设计原则：
+- 底座仍是纯调度层，本模块只负责"消息送达"，不包含任何业务决策。
+- NATS 未启用/不可达时，所有 publish 返回 False 并静默降级，
+  调用方继续走原有 HTTP / SQLite 通道，保证系统可用性。
+- 紧急刹车由路由层统一拦截，本模块不单独放行。
+
+实现说明：
+- 采用"每消息短连接 + flush + drain"模式，避免 nats-py 连接对象
+  跨 asyncio 事件循环使用导致的绑定冲突；低流量场景足够可靠。
+"""
+from __future__ import annotations
+
+import asyncio
+import json
+import logging
+from typing import Any
+
+from . import config
+
+logger = logging.getLogger("ars.nats")
+
+# Subject 常量：与 docs/ARCHITECTURE_V3.md 第 4.1 节保持一致
+S_AGENT_INBOX = "station.agents.{agent_id}.inbox"
+S_TASK_BROADCAST = "station.tasks.{task_id}.broadcast"
+S_TASK_GRAB = "station.tasks.{task_id}.grab"
+S_TASK_CHAT = "station.tasks.{task_id}.chat"
+S_APPROVAL_INBOX = "station.approval.inbox"
+S_APPROVAL_RESULT = "station.approval.result.{agent_id}"
+S_TOOLS_QUEUE = "station.tools.queue"
+S_SKILLS_ANNOUNCE = "station.skills.announce"
+S_EMERGENCY_BLOCK = "station.emergency.block"
+S_AGENT_HEARTBEAT = "station.agents.heartbeat"
+
+
+def _fmt(subject_tpl: str, **kwargs: Any) -> str:
+    return subject_tpl.format(**kwargs)
+
+
+def _publish_once(subject: str, data: bytes) -> bool:
+    """建立短连接发一条消息；任何异常返回 False。"""
+    try:
+        import nats  # 延迟导入，未安装时降级
+    except Exception:
+        return False
+
+    async def _go():
+        nc = await nats.connect(
+            config.NATS_URL,
+            connect_timeout=config.NATS_CONNECT_TIMEOUT,
+            allow_reconnect=False,
+            verbose=False,
+        )
+        try:
+            await nc.publish(subject, data)
+            await nc.flush()
+        finally:
+            await nc.drain()
+
+    try:
+        asyncio.run(_go())
+        return True
+    except Exception as exc:
+        logger.debug("NATS publish failed: %s", exc)
+        return False
+
+
+def is_available() -> bool:
+    """探测 NATS 是否可用（短连接探活）。"""
+    if not config.NATS_ENABLED:
+        return False
+    return _publish_once("station.health.probe", b"{}")
+
+
+def publish(subject: str, payload: dict[str, Any]) -> bool:
+    """发布一条消息；失败返回 False，由调用方降级。"""
+    if not config.NATS_ENABLED:
+        return False
+    data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    return _publish_once(subject, data)
+
+
+def publish_task_broadcast(task_id: str, payload: dict[str, Any]) -> bool:
+    return publish(_fmt(S_TASK_BROADCAST, task_id=task_id), payload)
+
+
+def publish_task_grab(task_id: str, payload: dict[str, Any]) -> bool:
+    return publish(_fmt(S_TASK_GRAB, task_id=task_id), payload)
+
+
+def publish_agent_inbox(agent_id: str, payload: dict[str, Any]) -> bool:
+    return publish(_fmt(S_AGENT_INBOX, agent_id=agent_id), payload)
+
+
+def publish_approval(payload: dict[str, Any]) -> bool:
+    return publish(S_APPROVAL_INBOX, payload)
+
+
+def publish_emergency_block(active: bool) -> bool:
+    return publish(S_EMERGENCY_BLOCK, {"active": active})

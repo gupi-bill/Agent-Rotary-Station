@@ -1,1 +1,69 @@
-IiIiQWdlbnQg6YCa6K6v77ya56eB6IGK44CB5Lu75Yqh576k6IGK77yM5Y+q55WZ6YCa5L+h5rWB5rC05LiN6L2s6ZW/5pyf6K6w5b+G44CCIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gZmFzdGFwaSBpbXBvcnQgQVBJUm91dGVyLCBIVFRQRXhjZXB0aW9uCgpmcm9tIC4uIGltcG9ydCBjb25maWcsIGRiLCBldmVudHMsIG5hdHNfYnVzCmZyb20gLi5zY2hlbWFzIGltcG9ydCBNZXNzYWdlU2VuZAoKcm91dGVyID0gQVBJUm91dGVyKHByZWZpeD0iL21lc3NhZ2VzIiwgdGFncz1bIm1lc3NhZ2VzIl0pCgoKQHJvdXRlci5wb3N0KCIvc2VuZCIpCmRlZiBzZW5kKGJvZHk6IE1lc3NhZ2VTZW5kKToKICAgIGlmIGNvbmZpZy5FTUVSR0VOQ1lfQkxPQ0s6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MjMsIGRldGFpbD0iZW1lcmdlbmN5IGJsb2NrIGlzIGFjdGl2ZSIpCiAgICBpZiBib2R5LmNoYW5uZWxfdHlwZSBub3QgaW4gKCJwcml2YXRlIiwgImdyb3VwIiwgInRhc2siKToKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwMCwgZGV0YWlsPSJpbnZhbGlkIGNoYW5uZWxfdHlwZSIpCiAgICBtc2dfaWQgPSBkYi5uZXdfaWQoIm1zZyIpCiAgICBkYi5leGVjdXRlKAogICAgICAgICJJTlNFUlQgSU5UTyBtZXNzYWdlcyAobXNnX2lkLCBjaGFubmVsX3R5cGUsIGZyb21fYWdlbnQsIHRvX2FnZW50LCB0YXNrX2lkLCBjb250ZW50LCBjcmVhdGVkX2F0KSAiCiAgICAgICAgIlZBTFVFUyAoPywgPywgPywgPywgPywgPywgPykiLAogICAgICAgIChtc2dfaWQsIGJvZHkuY2hhbm5lbF90eXBlLCBib2R5LmZyb21fYWdlbnQsIGJvZHkudG9fYWdlbnQsIGJvZHkudGFza19pZCwKICAgICAgICAgYm9keS5jb250ZW50LCBkYi5ub3coKSksCiAgICApCiAgICBkYi5hdWRpdChib2R5LmZyb21fYWdlbnQsICJtZXNzYWdlX3NlbmQiLCBib2R5LnRvX2FnZW50IG9yIGJvZHkudGFza19pZCwKICAgICAgICAgICAgIHsiY2hhbm5lbCI6IGJvZHkuY2hhbm5lbF90eXBlLCAibXNnX2lkIjogbXNnX2lkfSkKICAgIF9wYXlsb2FkID0geyJtc2dfaWQiOiBtc2dfaWQsICJjaGFubmVsIjogYm9keS5jaGFubmVsX3R5cGUsCiAgICAgICAgICAgICAgICAiZnJvbSI6IGJvZHkuZnJvbV9hZ2VudCwgInRvIjogYm9keS50b19hZ2VudCwKICAgICAgICAgICAgICAgICJ0YXNrX2lkIjogYm9keS50YXNrX2lkLCAiY29udGVudCI6IGJvZHkuY29udGVudH0KICAgIGV2ZW50cy5wdWJsaXNoKCJtZXNzYWdlIiwgX3BheWxvYWQpCiAgICBpZiBib2R5LmNoYW5uZWxfdHlwZSA9PSAidGFzayIgYW5kIGJvZHkudGFza19pZDoKICAgICAgICBuYXRzX2J1cy5wdWJsaXNoX3Rhc2tfZ3JhYihib2R5LnRhc2tfaWQsIF9wYXlsb2FkKQogICAgZWxpZiBib2R5LnRvX2FnZW50OgogICAgICAgIG5hdHNfYnVzLnB1Ymxpc2hfYWdlbnRfaW5ib3goYm9keS50b19hZ2VudCwgX3BheWxvYWQpCiAgICByZXR1cm4geyJvayI6IFRydWUsICJtc2dfaWQiOiBtc2dfaWR9CgoKQHJvdXRlci5nZXQoIi9oaXN0b3J5IikKZGVmIGhpc3RvcnkoY2hhbm5lbF90eXBlOiBzdHIgfCBOb25lID0gTm9uZSwgdGFza19pZDogc3RyIHwgTm9uZSA9IE5vbmUsCiAgICAgICAgICAgIGZyb21fYWdlbnQ6IHN0ciB8IE5vbmUgPSBOb25lLCB0b19hZ2VudDogc3RyIHwgTm9uZSA9IE5vbmUsCiAgICAgICAgICAgIGxpbWl0OiBpbnQgPSA1MCk6CiAgICBzcWwgPSAiU0VMRUNUICogRlJPTSBtZXNzYWdlcyBXSEVSRSAxPTEiCiAgICBwYXJhbXM6IGxpc3QgPSBbXQogICAgaWYgY2hhbm5lbF90eXBlOgogICAgICAgIHNxbCArPSAiIEFORCBjaGFubmVsX3R5cGU9PyIKICAgICAgICBwYXJhbXMuYXBwZW5kKGNoYW5uZWxfdHlwZSkKICAgIGlmIHRhc2tfaWQ6CiAgICAgICAgc3FsICs9ICIgQU5EIHRhc2tfaWQ9PyIKICAgICAgICBwYXJhbXMuYXBwZW5kKHRhc2tfaWQpCiAgICBpZiBmcm9tX2FnZW50OgogICAgICAgIHNxbCArPSAiIEFORCBmcm9tX2FnZW50PT8iCiAgICAgICAgcGFyYW1zLmFwcGVuZChmcm9tX2FnZW50KQogICAgaWYgdG9fYWdlbnQ6CiAgICAgICAgc3FsICs9ICIgQU5EIHRvX2FnZW50PT8iCiAgICAgICAgcGFyYW1zLmFwcGVuZCh0b19hZ2VudCkKICAgIHNxbCArPSAiIE9SREVSIEJZIGlkIERFU0MgTElNSVQgPyIKICAgIHBhcmFtcy5hcHBlbmQobGltaXQpCiAgICByb3dzID0gZGIucXVlcnlfYWxsKHNxbCwgcGFyYW1zKQogICAgcm93cy5yZXZlcnNlKCkgICMg5oyJ5pe26Ze05q2j5bqP6L+U5ZueCiAgICByZXR1cm4geyJvayI6IFRydWUsICJtZXNzYWdlcyI6IHJvd3N9CgoKQHJvdXRlci5nZXQoIi90YXNrL3t0YXNrX2lkfSIpCmRlZiB0YXNrX2NoYW5uZWwodGFza19pZDogc3RyLCBsaW1pdDogaW50ID0gMTAwKToKICAgIHJvd3MgPSBkYi5xdWVyeV9hbGwoCiAgICAgICAgIlNFTEVDVCAqIEZST00gbWVzc2FnZXMgV0hFUkUgdGFza19pZD0/IE9SREVSIEJZIGlkIEFTQyBMSU1JVCA/IiwKICAgICAgICAodGFza19pZCwgbGltaXQpLAogICAgKQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAibWVzc2FnZXMiOiByb3dzfQo=
+"""Agent 通讯：私聊、任务群聊，只留通信流水不转长期记忆。"""
+from __future__ import annotations
+
+from fastapi import APIRouter, HTTPException
+
+from .. import config, db, events, nats_bus
+from ..schemas import MessageSend
+
+router = APIRouter(prefix="/messages", tags=["messages"])
+
+
+@router.post("/send")
+def send(body: MessageSend):
+    if config.EMERGENCY_BLOCK:
+        raise HTTPException(status_code=423, detail="emergency block is active")
+    if body.channel_type not in ("private", "group", "task"):
+        raise HTTPException(status_code=400, detail="invalid channel_type")
+    msg_id = db.new_id("msg")
+    db.execute(
+        "INSERT INTO messages (msg_id, channel_type, from_agent, to_agent, task_id, content, created_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?)",
+        (msg_id, body.channel_type, body.from_agent, body.to_agent, body.task_id,
+         body.content, db.now()),
+    )
+    db.audit(body.from_agent, "message_send", body.to_agent or body.task_id,
+             {"channel": body.channel_type, "msg_id": msg_id})
+    _payload = {"msg_id": msg_id, "channel": body.channel_type,
+                "from": body.from_agent, "to": body.to_agent,
+                "task_id": body.task_id, "content": body.content}
+    events.publish("message", _payload)
+    if body.channel_type == "task" and body.task_id:
+        nats_bus.publish_task_grab(body.task_id, _payload)
+    elif body.to_agent:
+        nats_bus.publish_agent_inbox(body.to_agent, _payload)
+    return {"ok": True, "msg_id": msg_id}
+
+
+@router.get("/history")
+def history(channel_type: str | None = None, task_id: str | None = None,
+            from_agent: str | None = None, to_agent: str | None = None,
+            limit: int = 50):
+    sql = "SELECT * FROM messages WHERE 1=1"
+    params: list = []
+    if channel_type:
+        sql += " AND channel_type=?"
+        params.append(channel_type)
+    if task_id:
+        sql += " AND task_id=?"
+        params.append(task_id)
+    if from_agent:
+        sql += " AND from_agent=?"
+        params.append(from_agent)
+    if to_agent:
+        sql += " AND to_agent=?"
+        params.append(to_agent)
+    sql += " ORDER BY id DESC LIMIT ?"
+    params.append(limit)
+    rows = db.query_all(sql, params)
+    rows.reverse()  # 按时间正序返回
+    return {"ok": True, "messages": rows}
+
+
+@router.get("/task/{task_id}")
+def task_channel(task_id: str, limit: int = 100):
+    rows = db.query_all(
+        "SELECT * FROM messages WHERE task_id=? ORDER BY id ASC LIMIT ?",
+        (task_id, limit),
+    )
+    return {"ok": True, "messages": rows}

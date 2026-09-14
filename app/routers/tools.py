@@ -1,1 +1,134 @@
-IiIi5bel5YW36LCD55So77yaQWdlbnQg5Y+R6LW3IC0+IOeuoeeQhuWyl+WuoeaJuSAtPiDlupXluqfot6/nlLHliLDlt6XlhbfoioLngrnmiafooYzjgIIiIiINCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMNCg0KaW1wb3J0IGpzb24NCg0KaW1wb3J0IGh0dHB4DQpmcm9tIGZhc3RhcGkgaW1wb3J0IEFQSVJvdXRlciwgSFRUUEV4Y2VwdGlvbg0KDQpmcm9tIC4uIGltcG9ydCBjb25maWcsIGRiDQpmcm9tIC4uc2NoZW1hcyBpbXBvcnQgQXBwcm92YWxEZWNpc2lvbiwgVG9vbENhbGwNCg0Kcm91dGVyID0gQVBJUm91dGVyKHByZWZpeD0iL3Rvb2xzIiwgdGFncz1bInRvb2xzIl0pDQoNCg0KQHJvdXRlci5wb3N0KCIvY2FsbCIpDQpkZWYgY2FsbChib2R5OiBUb29sQ2FsbCk6DQogICAgIiIiQWdlbnQg55SoIHNraWxsX2lkIOWPkei1t+iwg+eUqO+8jOeUn+aIkCBwZW5kaW5nIOivt+axguOAgiIiIg0KICAgIGlmIGNvbmZpZy5FTUVSR0VOQ1lfQkxPQ0s6DQogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDIzLCBkZXRhaWw9ImVtZXJnZW5jeSBibG9jayBpcyBhY3RpdmUiKQ0KICAgIHNraWxsID0gZGIucXVlcnlfb25lKCJTRUxFQ1QgKiBGUk9NIHNraWxscyBXSEVSRSBza2lsbF9pZD0/IEFORCBzdGF0dXM9J2FjdGl2ZSciLCAoYm9keS5za2lsbF9pZCwpKQ0KICAgIGlmIG5vdCBza2lsbDoNCiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDQsIGRldGFpbD0ic2tpbGwgbm90IGZvdW5kIG9yIGRpc2FibGVkIikNCiAgICByZXF1ZXN0X2lkID0gZGIubmV3X2lkKCJ0b29scmVxIikNCiAgICBkYi5leGVjdXRlKA0KICAgICAgICAiSU5TRVJUIElOVE8gdG9vbF9yZXF1ZXN0cyAocmVxdWVzdF9pZCwgYWdlbnRfaWQsIHNraWxsX2lkLCBwYXJhbXMsIHN0YXR1cywgY3JlYXRlZF9hdCkgIg0KICAgICAgICAiVkFMVUVTICg/LCA/LCA/LCA/LCAncGVuZGluZycsID8pIiwNCiAgICAgICAgKHJlcXVlc3RfaWQsIGJvZHkuYWdlbnRfaWQsIGJvZHkuc2tpbGxfaWQsDQogICAgICAgICBqc29uLmR1bXBzKGJvZHkucGFyYW1zLCBlbnN1cmVfYXNjaWk9RmFsc2UpLCBkYi5ub3coKSksDQogICAgKQ0KICAgIGRiLmF1ZGl0KGJvZHkuYWdlbnRfaWQsICJ0b29sX2NhbGxfcmVxdWVzdCIsIGJvZHkuc2tpbGxfaWQsIHsicmVxdWVzdF9pZCI6IHJlcXVlc3RfaWR9KQ0KICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInJlcXVlc3RfaWQiOiByZXF1ZXN0X2lkLCAic3RhdHVzIjogInBlbmRpbmcifQ0KDQoNCkByb3V0ZXIucG9zdCgiL2FwcHJvdmFscy9kZWNpZGUiKQ0KZGVmIGRlY2lkZShib2R5OiBBcHByb3ZhbERlY2lzaW9uKToNCiAgICAiIiLnrqHnkIblspflrqHmibnjgILpgJrov4flkI7lupXluqflkIzmraXovazlj5HliLDlt6XlhbfoioLngrnlubblm57lhpnnu5PmnpzjgIIiIiINCiAgICBtYW5hZ2VyID0gZGIuY3VycmVudF9tYW5hZ2VyKCkNCiAgICBpZiBub3QgbWFuYWdlcjoNCiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDksIGRldGFpbD0ibm8gbWFuYWdlciBvbmxpbmUiKQ0KICAgIGlmIG1hbmFnZXJbImFnZW50X2lkIl0gIT0gYm9keS5tYW5hZ2VyX2lkOg0KICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwMywgZGV0YWlsPSJvbmx5IGN1cnJlbnQgbWFuYWdlciBjYW4gYXBwcm92ZSIpDQogICAgcmVxID0gZGIucXVlcnlfb25lKCJTRUxFQ1QgKiBGUk9NIHRvb2xfcmVxdWVzdHMgV0hFUkUgcmVxdWVzdF9pZD0/IiwgKGJvZHkucmVxdWVzdF9pZCwpKQ0KICAgIGlmIG5vdCByZXE6DQogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDA0LCBkZXRhaWw9InJlcXVlc3Qgbm90IGZvdW5kIikNCiAgICBpZiByZXFbInN0YXR1cyJdICE9ICJwZW5kaW5nIjoNCiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDksIGRldGFpbD0icmVxdWVzdCBhbHJlYWR5IGRlY2lkZWQiKQ0KICAgIG5ld19zdGF0dXMgPSAiYXBwcm92ZWQiIGlmIGJvZHkuYXBwcm92ZSBlbHNlICJkZW5pZWQiDQogICAgZGIuZXhlY3V0ZSgNCiAgICAgICAgIlVQREFURSB0b29sX3JlcXVlc3RzIFNFVCBzdGF0dXM9PywgbWFuYWdlcl9pZD0/LCBkZWNpZGVkX2F0PT8gV0hFUkUgcmVxdWVzdF9pZD0/IiwNCiAgICAgICAgKG5ld19zdGF0dXMsIGJvZHkubWFuYWdlcl9pZCwgZGIubm93KCksIGJvZHkucmVxdWVzdF9pZCksDQogICAgKQ0KICAgIGRiLmF1ZGl0KGJvZHkubWFuYWdlcl9pZCwgInRvb2xfYXBwcm92YWwiLCByZXFbInNraWxsX2lkIl0sDQogICAgICAgICAgICAgeyJyZXF1ZXN0X2lkIjogYm9keS5yZXF1ZXN0X2lkLCAiZGVjaXNpb24iOiBuZXdfc3RhdHVzfSkNCg0KICAgIHJlc3VsdF9wYXlsb2FkID0geyJvayI6IFRydWUsICJyZXF1ZXN0X2lkIjogYm9keS5yZXF1ZXN0X2lkLCAic3RhdHVzIjogbmV3X3N0YXR1c30NCiAgICBpZiBib2R5LmFwcHJvdmU6DQogICAgICAgIHNraWxsID0gZGIucXVlcnlfb25lKCJTRUxFQ1QgKiBGUk9NIHNraWxscyBXSEVSRSBza2lsbF9pZD0/IiwgKHJlcVsic2tpbGxfaWQiXSwpKQ0KICAgICAgICBpZiBub3Qgc2tpbGwgb3Igbm90IHNraWxsWyJlbmRwb2ludF91cmwiXToNCiAgICAgICAgICAgIGRiLmV4ZWN1dGUoIlVQREFURSB0b29sX3JlcXVlc3RzIFNFVCBzdGF0dXM9J2ZhaWxlZCcsIHJlc3VsdD0/IFdIRVJFIHJlcXVlc3RfaWQ9PyIsDQogICAgICAgICAgICAgICAgICAgICAgICgic2tpbGwgZW5kcG9pbnQgbWlzc2luZyIsIGJvZHkucmVxdWVzdF9pZCkpDQogICAgICAgICAgICByZXR1cm4geyJvayI6IFRydWUsICJyZXF1ZXN0X2lkIjogYm9keS5yZXF1ZXN0X2lkLCAic3RhdHVzIjogImZhaWxlZCJ9DQogICAgICAgIGRiLmV4ZWN1dGUoIlVQREFURSB0b29sX3JlcXVlc3RzIFNFVCBzdGF0dXM9J2V4ZWN1dGluZycsIGV4ZWN1dGVkX2F0PT8gV0hFUkUgcmVxdWVzdF9pZD0/IiwNCiAgICAgICAgICAgICAgICAgICAoZGIubm93KCksIGJvZHkucmVxdWVzdF9pZCkpDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIHdpdGggaHR0cHguQ2xpZW50KHRpbWVvdXQ9Y29uZmlnLkhUVFBfVElNRU9VVCkgYXMgY2xpZW50Og0KICAgICAgICAgICAgICAgIHJlc3AgPSBjbGllbnQucG9zdCgNCiAgICAgICAgICAgICAgICAgICAgc2tpbGxbImVuZHBvaW50X3VybCJdLA0KICAgICAgICAgICAgICAgICAgICBqc29uPXsic2tpbGxfaWQiOiBza2lsbFsic2tpbGxfaWQiXSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgInBhcmFtcyI6IGpzb24ubG9hZHMocmVxWyJwYXJhbXMiXSBvciAie30iKX0sDQogICAgICAgICAgICAgICAgKQ0KICAgICAgICAgICAgICAgIHJlc3AucmFpc2VfZm9yX3N0YXR1cygpDQogICAgICAgICAgICAgICAgcmVzdWx0X3RleHQgPSByZXNwLnRleHQNCiAgICAgICAgICAgIGRiLmV4ZWN1dGUoIlVQREFURSB0b29sX3JlcXVlc3RzIFNFVCBzdGF0dXM9J2RvbmUnLCByZXN1bHQ9PyBXSEVSRSByZXF1ZXN0X2lkPT8iLA0KICAgICAgICAgICAgICAgICAgICAgICAocmVzdWx0X3RleHQsIGJvZHkucmVxdWVzdF9pZCkpDQogICAgICAgICAgICBkYi5hdWRpdCgic3lzdGVtIiwgInRvb2xfZXhlY19kb25lIiwgcmVxWyJza2lsbF9pZCJdLA0KICAgICAgICAgICAgICAgICAgICAgeyJyZXF1ZXN0X2lkIjogYm9keS5yZXF1ZXN0X2lkfSkNCiAgICAgICAgICAgIHJlc3VsdF9wYXlsb2FkID0geyJvayI6IFRydWUsICJyZXF1ZXN0X2lkIjogYm9keS5yZXF1ZXN0X2lkLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInN0YXR1cyI6ICJkb25lIiwgInJlc3VsdCI6IHJlc3VsdF90ZXh0fQ0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGV4YzogICMgbm9xYTogQkxFMDAxDQogICAgICAgICAgICBkYi5lbnF1ZXVlX3Rvb2woYm9keS5yZXF1ZXN0X2lkLCByZXFbJ2FnZW50X2lkJ10sIHJlcVsnc2tpbGxfaWQnXSwgcmVxLmdldCgncGFyYW1zJywne30nKSkNCiAgICAgICAgICAgIGRiLmV4ZWN1dGUoIlVQREFURSB0b29sX3JlcXVlc3RzIFNFVCBzdGF0dXM9J3F1ZXVlZCcsIHJlc3VsdD0/IFdIRVJFIHJlcXVlc3RfaWQ9PyIsDQogICAgICAgICAgICAgICAgICAgICAgIChzdHIoZXhjKSwgYm9keS5yZXF1ZXN0X2lkKSkNCiAgICAgICAgICAgIGRiLmF1ZGl0KCJzeXN0ZW0iLCAidG9vbF9leGVjX2ZhaWxlZCIsIHJlcVsic2tpbGxfaWQiXSwNCiAgICAgICAgICAgICAgICAgICAgIHsicmVxdWVzdF9pZCI6IGJvZHkucmVxdWVzdF9pZCwgImVycm9yIjogc3RyKGV4Yyl9KQ0KICAgICAgICAgICAgcmVzdWx0X3BheWxvYWQgPSB7Im9rIjogRmFsc2UsICJyZXF1ZXN0X2lkIjogYm9keS5yZXF1ZXN0X2lkLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInN0YXR1cyI6ICJmYWlsZWQiLCAiZXJyb3IiOiBzdHIoZXhjKX0NCiAgICByZXR1cm4gcmVzdWx0X3BheWxvYWQNCg0KDQpAcm91dGVyLmdldCgiL3F1ZXVlL3BlbmRpbmciKQ0KZGVmIHF1ZXVlX3BlbmRpbmcoKToNCiAgICByb3dzID0gZGIucXVlcnlfYWxsKCJTRUxFQ1QgKiBGUk9NIHRvb2xfcXVldWUgV0hFUkUgc3RhdHVzPSdxdWV1ZWQnIE9SREVSIEJZIGNyZWF0ZWRfYXQgQVNDIikNCiAgICByZXR1cm4geyJvayI6IFRydWUsICJxdWV1ZWQiOiByb3dzfQ0KDQoNCkByb3V0ZXIucG9zdCgiL3F1ZXVlL3Byb2Nlc3MiKQ0KZGVmIHF1ZXVlX3Byb2Nlc3MoKToNCiAgICBmcm9tIC4uIGltcG9ydCBjb25maWcgYXMgY2ZnDQogICAgcmVzdWx0cyA9IFtdDQogICAgd2hpbGUgVHJ1ZToNCiAgICAgICAgaXRlbSA9IGRiLm5leHRfcXVldWVkX3Rvb2woKQ0KICAgICAgICBpZiBub3QgaXRlbToNCiAgICAgICAgICAgIGJyZWFrDQogICAgICAgIHNraWxsID0gZGIucXVlcnlfb25lKCJTRUxFQ1QgKiBGUk9NIHNraWxscyBXSEVSRSBza2lsbF9pZD0/IiwgKGl0ZW1bInNraWxsX2lkIl0sKSkNCiAgICAgICAgaWYgbm90IHNraWxsIG9yIG5vdCBza2lsbFsiZW5kcG9pbnRfdXJsIl06DQogICAgICAgICAgICBkYi5tYXJrX3F1ZXVlX2ZhaWxlZF9vcl9yZXRyeShpdGVtWyJyZXF1ZXN0X2lkIl0sIGl0ZW1bIm1heF9yZXRyaWVzIl0sIGl0ZW1bImV4cGlyZV9hdCJdLCBjZmcuVE9PTF9RVUVVRV9SRVRSWV9JTlRFUlZBTCkNCiAgICAgICAgICAgIHJlc3VsdHMuYXBwZW5kKHsicmVxdWVzdF9pZCI6IGl0ZW1bInJlcXVlc3RfaWQiXSwgInJlc3VsdCI6ICJuby1lbmRwb2ludCJ9KQ0KICAgICAgICAgICAgY29udGludWUNCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgd2l0aCBodHRweC5DbGllbnQodGltZW91dD1jZmcuSFRUUF9USU1FT1VUKSBhcyBjbGllbnQ6DQogICAgICAgICAgICAgICAgcmVzcCA9IGNsaWVudC5wb3N0KHNraWxsWyJlbmRwb2ludF91cmwiXSwganNvbj17InNraWxsX2lkIjogc2tpbGxbInNraWxsX2lkIl0sICJwYXJhbXMiOiBqc29uLmxvYWRzKGl0ZW1bInBhcmFtcyJdIG9yICJ7fSIpfSkNCiAgICAgICAgICAgICAgICByZXNwLnJhaXNlX2Zvcl9zdGF0dXMoKQ0KICAgICAgICAgICAgICAgIHJlc3VsdF90ZXh0ID0gcmVzcC50ZXh0DQogICAgICAgICAgICBkYi5leGVjdXRlKCJVUERBVEUgdG9vbF9yZXF1ZXN0cyBTRVQgc3RhdHVzPSdkb25lJywgcmVzdWx0PT8gV0hFUkUgcmVxdWVzdF9pZD0/IiwgKHJlc3VsdF90ZXh0LCBpdGVtWyJyZXF1ZXN0X2lkIl0pKQ0KICAgICAgICAgICAgZGIubWFya19xdWV1ZV9kb25lKGl0ZW1bInJlcXVlc3RfaWQiXSkNCiAgICAgICAgICAgIHJlc3VsdHMuYXBwZW5kKHsicmVxdWVzdF9pZCI6IGl0ZW1bInJlcXVlc3RfaWQiXSwgInJlc3VsdCI6ICJkb25lIn0pDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246DQogICAgICAgICAgICB2ZXJkaWN0ID0gZGIubWFya19xdWV1ZV9mYWlsZWRfb3JfcmV0cnkoaXRlbVsicmVxdWVzdF9pZCJdLCBpdGVtWyJtYXhfcmV0cmllcyJdLCBpdGVtWyJleHBpcmVfYXQiXSwgY2ZnLlRPT0xfUVVFVUVfUkVUUllfSU5URVJWQUwpDQogICAgICAgICAgICByZXN1bHRzLmFwcGVuZCh7InJlcXVlc3RfaWQiOiBpdGVtWyJyZXF1ZXN0X2lkIl0sICJyZXN1bHQiOiB2ZXJkaWN0fSkNCiAgICByZXR1cm4geyJvayI6IFRydWUsICJwcm9jZXNzZWQiOiByZXN1bHRzfQ0KDQoNCkByb3V0ZXIuZ2V0KCIvcmVxdWVzdHMvcGVuZGluZyIpDQpkZWYgcGVuZGluZygpOg0KICAgIHJvd3MgPSBkYi5xdWVyeV9hbGwoIlNFTEVDVCAqIEZST00gdG9vbF9yZXF1ZXN0cyBXSEVSRSBzdGF0dXM9J3BlbmRpbmcnIE9SREVSIEJZIGNyZWF0ZWRfYXQgQVNDIikNCiAgICByZXR1cm4geyJvayI6IFRydWUsICJwZW5kaW5nIjogcm93c30NCg0KDQpAcm91dGVyLmdldCgiL3JlcXVlc3RzL3tyZXF1ZXN0X2lkfSIpDQpkZWYgcmVxdWVzdF9zdGF0dXMocmVxdWVzdF9pZDogc3RyKToNCiAgICByb3cgPSBkYi5xdWVyeV9vbmUoIlNFTEVDVCAqIEZST00gdG9vbF9yZXF1ZXN0cyBXSEVSRSByZXF1ZXN0X2lkPT8iLCAocmVxdWVzdF9pZCwpKQ0KICAgIGlmIG5vdCByb3c6DQogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDA0LCBkZXRhaWw9InJlcXVlc3Qgbm90IGZvdW5kIikNCiAgICByZXR1cm4geyJvayI6IFRydWUsICJyZXF1ZXN0Ijogcm93fQ0K
+"""工具调用：Agent 发起 -> 管理岗审批 -> 底座路由到工具节点执行。"""
+from __future__ import annotations
+
+import json
+
+import httpx
+from fastapi import APIRouter, HTTPException
+
+from .. import config, db
+from ..schemas import ApprovalDecision, ToolCall
+
+router = APIRouter(prefix="/tools", tags=["tools"])
+
+
+@router.post("/call")
+def call(body: ToolCall):
+    """Agent 用 skill_id 发起调用，生成 pending 请求。"""
+    if config.EMERGENCY_BLOCK:
+        raise HTTPException(status_code=423, detail="emergency block is active")
+    skill = db.query_one("SELECT * FROM skills WHERE skill_id=? AND status='active'", (body.skill_id,))
+    if not skill:
+        raise HTTPException(status_code=404, detail="skill not found or disabled")
+    request_id = db.new_id("toolreq")
+    db.execute(
+        "INSERT INTO tool_requests (request_id, agent_id, skill_id, params, status, created_at) "
+        "VALUES (?, ?, ?, ?, 'pending', ?)",
+        (request_id, body.agent_id, body.skill_id,
+         json.dumps(body.params, ensure_ascii=False), db.now()),
+    )
+    db.audit(body.agent_id, "tool_call_request", body.skill_id, {"request_id": request_id})
+    return {"ok": True, "request_id": request_id, "status": "pending"}
+
+
+@router.post("/approvals/decide")
+def decide(body: ApprovalDecision):
+    """管理岗审批。通过后底座同步转发到工具节点并回写结果。"""
+    manager = db.current_manager()
+    if not manager:
+        raise HTTPException(status_code=409, detail="no manager online")
+    if manager["agent_id"] != body.manager_id:
+        raise HTTPException(status_code=403, detail="only current manager can approve")
+    req = db.query_one("SELECT * FROM tool_requests WHERE request_id=?", (body.request_id,))
+    if not req:
+        raise HTTPException(status_code=404, detail="request not found")
+    if req["status"] != "pending":
+        raise HTTPException(status_code=409, detail="request already decided")
+    new_status = "approved" if body.approve else "denied"
+    db.execute(
+        "UPDATE tool_requests SET status=?, manager_id=?, decided_at=? WHERE request_id=?",
+        (new_status, body.manager_id, db.now(), body.request_id),
+    )
+    db.audit(body.manager_id, "tool_approval", req["skill_id"],
+             {"request_id": body.request_id, "decision": new_status})
+
+    result_payload = {"ok": True, "request_id": body.request_id, "status": new_status}
+    if body.approve:
+        skill = db.query_one("SELECT * FROM skills WHERE skill_id=?", (req["skill_id"],))
+        if not skill or not skill["endpoint_url"]:
+            db.execute("UPDATE tool_requests SET status='failed', result=? WHERE request_id=?",
+                       ("skill endpoint missing", body.request_id))
+            return {"ok": True, "request_id": body.request_id, "status": "failed"}
+        db.execute("UPDATE tool_requests SET status='executing', executed_at=? WHERE request_id=?",
+                   (db.now(), body.request_id))
+        try:
+            with httpx.Client(timeout=config.HTTP_TIMEOUT) as client:
+                resp = client.post(
+                    skill["endpoint_url"],
+                    json={"skill_id": skill["skill_id"],
+                          "params": json.loads(req["params"] or "{}")},
+                )
+                resp.raise_for_status()
+                result_text = resp.text
+            db.execute("UPDATE tool_requests SET status='done', result=? WHERE request_id=?",
+                       (result_text, body.request_id))
+            db.audit("system", "tool_exec_done", req["skill_id"],
+                     {"request_id": body.request_id})
+            result_payload = {"ok": True, "request_id": body.request_id,
+                              "status": "done", "result": result_text}
+        except Exception as exc:  # noqa: BLE001
+            db.enqueue_tool(body.request_id, req['agent_id'], req['skill_id'], req.get('params','{}'))
+            db.execute("UPDATE tool_requests SET status='queued', result=? WHERE request_id=?",
+                       (str(exc), body.request_id))
+            db.audit("system", "tool_exec_failed", req["skill_id"],
+                     {"request_id": body.request_id, "error": str(exc)})
+            result_payload = {"ok": False, "request_id": body.request_id,
+                              "status": "failed", "error": str(exc)}
+    return result_payload
+
+
+@router.get("/queue/pending")
+def queue_pending():
+    rows = db.query_all("SELECT * FROM tool_queue WHERE status='queued' ORDER BY created_at ASC")
+    return {"ok": True, "queued": rows}
+
+
+@router.post("/queue/process")
+def queue_process():
+    from .. import config as cfg
+    results = []
+    while True:
+        item = db.next_queued_tool()
+        if not item:
+            break
+        skill = db.query_one("SELECT * FROM skills WHERE skill_id=?", (item["skill_id"],))
+        if not skill or not skill["endpoint_url"]:
+            db.mark_queue_failed_or_retry(item["request_id"], item["max_retries"], item["expire_at"], cfg.TOOL_QUEUE_RETRY_INTERVAL)
+            results.append({"request_id": item["request_id"], "result": "no-endpoint"})
+            continue
+        try:
+            with httpx.Client(timeout=cfg.HTTP_TIMEOUT) as client:
+                resp = client.post(skill["endpoint_url"], json={"skill_id": skill["skill_id"], "params": json.loads(item["params"] or "{}")})
+                resp.raise_for_status()
+                result_text = resp.text
+            db.execute("UPDATE tool_requests SET status='done', result=? WHERE request_id=?", (result_text, item["request_id"]))
+            db.mark_queue_done(item["request_id"])
+            results.append({"request_id": item["request_id"], "result": "done"})
+        except Exception:
+            verdict = db.mark_queue_failed_or_retry(item["request_id"], item["max_retries"], item["expire_at"], cfg.TOOL_QUEUE_RETRY_INTERVAL)
+            results.append({"request_id": item["request_id"], "result": verdict})
+    return {"ok": True, "processed": results}
+
+
+@router.get("/requests/pending")
+def pending():
+    rows = db.query_all("SELECT * FROM tool_requests WHERE status='pending' ORDER BY created_at ASC")
+    return {"ok": True, "pending": rows}
+
+
+@router.get("/requests/{request_id}")
+def request_status(request_id: str):
+    row = db.query_one("SELECT * FROM tool_requests WHERE request_id=?", (request_id,))
+    if not row:
+        raise HTTPException(status_code=404, detail="request not found")
+    return {"ok": True, "request": row}

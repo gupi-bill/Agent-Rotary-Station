@@ -1,1 +1,106 @@
-IiIi5p6B566A5pyA5bCP6Zet546v5rWL6K+V77yaCgrlpJbpg6ggQWdlbnQg6KGM5Li65qih5ouf77yI5bel5L2c56uZ5Y+q5o+Q5L6bIEFQSe+8jOS4jei3kSBBZ2VudO+8ie+8mgoxLiBhMeOAgWEyIOazqOWGjO+8m2ExIOiuvuS4uiBtYW5hZ2VyCjIuIGEyIOWPkeengeiBiua2iOaBr++8muS4jemcgOimgeWuoeaJue+8jOebtOaOpeiQveW6kwozLiBhMiDmj5DkuqTlhpnorrDlv4bor7fmsYLvvJrmipXpgJLnu5kgbWFuYWdlciDlrqHmibnvvIxhcHByb3ZlIOWQjuiQveW6kwo0LiBhMiDlj5Hotbcgc2tpbGwg6LCD55So77ya5oqV6YCS57uZIG1hbmFnZXIg5a6h5om577yMYXBwcm92ZSDmiY3miafooYzlt6XlhbcKCui/kOihjO+8mgogICAgY2QgQWdlbnQtUm90YXJ5LVN0YXRpb24KICAgIHB5dGhvbiB0ZXN0c1x0ZXN0X2RlbW8ucHkKIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBzeXMKaW1wb3J0IHRocmVhZGluZwppbXBvcnQgdGltZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50LnBhcmVudApzeXMucGF0aC5pbnNlcnQoMCwgc3RyKFJPT1QpKQoKZnJvbSBhcHAgaW1wb3J0IGNvbmZpZywgZGIKZnJvbSBhcHAucm91dGVycyBpbXBvcnQgYWdlbnRzLCBtZW1vcmllcywgbWVzc2FnZXMsIHNraWxscywgdG9vbHMKZnJvbSBhcHAuc2NoZW1hcyBpbXBvcnQgKAogICAgQWdlbnRSZWdpc3RlciwKICAgIEFwcHJvdmFsRGVjaXNpb24sCiAgICBNYW5hZ2VyU2V0LAogICAgTWVtb3J5V3JpdGUsCiAgICBNZXNzYWdlU2VuZCwKICAgIFNraWxsUmVnaXN0ZXIsCiAgICBUb29sQ2FsbCwKKQoKCmRlZiBhcHByb3ZlX2xhdGVzdF9tZW1vcnkobWFuYWdlcl9pZDogc3RyLCBkZWxheTogZmxvYXQgPSAwLjMpIC0+IE5vbmU6CiAgICB0aW1lLnNsZWVwKGRlbGF5KQogICAgcmVxID0gZGIucXVlcnlfb25lKAogICAgICAgICJTRUxFQ1QgcmVxdWVzdF9pZCBGUk9NIG1lbW9yeV9hcHByb3ZhbHMgV0hFUkUgc3RhdHVzPSdwZW5kaW5nJyBPUkRFUiBCWSBpZCBERVNDIExJTUlUIDEiCiAgICApCiAgICBpZiByZXE6CiAgICAgICAgbWVtb3JpZXMuZGVjaWRlKEFwcHJvdmFsRGVjaXNpb24obWFuYWdlcl9pZD1tYW5hZ2VyX2lkLCByZXF1ZXN0X2lkPXJlcVsicmVxdWVzdF9pZCJdLCBhcHByb3ZlPVRydWUpKQoKCmRlZiBtYWluKCkgLT4gTm9uZToKICAgIGNvbmZpZy5FTUVSR0VOQ1lfQkxPQ0sgPSBGYWxzZQogICAgZGIuaW5pdF9kYigpCiAgICBmb3IgdCBpbiBbIm1lbW9yeV9hcHByb3ZhbHMiLCAibWVtb3JpZXMiLCAidG9vbF9yZXF1ZXN0cyIsICJ0YXNrX21lbWJlcnMiLAogICAgICAgICAgICAgICJ0YXNrcyIsICJtZXNzYWdlcyIsICJza2lsbHMiLCAiYXVkaXRfbG9ncyIsICJhZ2VudHMiXToKICAgICAgICBkYi5leGVjdXRlKGYiREVMRVRFIEZST00ge3R9IikKCiAgICAjIDEuIOazqOWGjOS4pOS4qiBBZ2VudAogICAgYWdlbnRzLnJlZ2lzdGVyKEFnZW50UmVnaXN0ZXIoYWdlbnRfaWQ9ImExIiwgbmFtZT0iTWFuYWdlckEiKSkKICAgIGFnZW50cy5yZWdpc3RlcihBZ2VudFJlZ2lzdGVyKGFnZW50X2lkPSJhMiIsIG5hbWU9IldvcmtlckEiKSkKICAgIGFzc2VydCBkYi5nZXRfYWdlbnQoImExIikgYW5kIGRiLmdldF9hZ2VudCgiYTIiKQogICAgcHJpbnQoIlsxXSBhZ2VudCByZWdpc3RlciBPSyIpCgogICAgIyAyLiBhMSDorr7kuLogbWFuYWdlcgogICAgYWdlbnRzLnNldF9tYW5hZ2VyKE1hbmFnZXJTZXQoYWdlbnRfaWQ9ImExIikpCiAgICBhc3NlcnQgZGIuY3VycmVudF9tYW5hZ2VyKClbImFnZW50X2lkIl0gPT0gImExIgogICAgcHJpbnQoIlsyXSBhMSBzZXQgYXMgbWFuYWdlciBPSyIpCgogICAgIyAzLiBhMiDlj5Hnp4HogYrvvIjkuI3pnIDopoHlrqHmibnvvIznm7TmjqXokL3lupPvvIkKICAgIHIgPSBtZXNzYWdlcy5zZW5kKE1lc3NhZ2VTZW5kKGZyb21fYWdlbnQ9ImEyIiwgY2hhbm5lbF90eXBlPSJwcml2YXRlIiwgdG9fYWdlbnQ9ImExIiwgY29udGVudD0iaGkiKSkKICAgIGFzc2VydCByWyJvayJdCiAgICByb3cgPSBkYi5xdWVyeV9vbmUoIlNFTEVDVCAqIEZST00gbWVzc2FnZXMgV0hFUkUgbXNnX2lkPT8iLCAoclsibXNnX2lkIl0sKSkKICAgIGFzc2VydCByb3cgaXMgbm90IE5vbmUKICAgIHByaW50KCJbM10gcHJpdmF0ZSBtZXNzYWdlIGRpcmVjdCAobm8gYXBwcm92YWwpIE9LIikKCiAgICAjIDQuIGEyIOWGmeiusOW/hiAtPiDmipXpgJIgbWFuYWdlciDlrqHmibkgLT4gYXBwcm92ZSDokL3lupMKICAgIGhvbGRlcjogZGljdCA9IHt9CgogICAgZGVmIHN1Ym1pdF93cml0ZSgpOgogICAgICAgIGhvbGRlclsicmVzdWx0Il0gPSBtZW1vcmllcy53cml0ZSgKICAgICAgICAgICAgTWVtb3J5V3JpdGUoYWdlbnRfaWQ9ImEyIiwgZG9tYWluPSJhZ2VudDphMiIsIG1lbV9rZXk9Im5vdGUiLCBjb250ZW50PSJyZW1lbWJlci1tZSIpCiAgICAgICAgKQoKICAgIHRfd3JpdGUgPSB0aHJlYWRpbmcuVGhyZWFkKHRhcmdldD1zdWJtaXRfd3JpdGUpCiAgICB0X2FwcHJvdmUgPSB0aHJlYWRpbmcuVGhyZWFkKHRhcmdldD1hcHByb3ZlX2xhdGVzdF9tZW1vcnksIGFyZ3M9KCJhMSIsKSkKICAgIHRfd3JpdGUuc3RhcnQoKTsgdF9hcHByb3ZlLnN0YXJ0KCk7IHRfd3JpdGUuam9pbigpOyB0X2FwcHJvdmUuam9pbigpCiAgICBhc3NlcnQgaG9sZGVyWyJyZXN1bHQiXVsic3RhdHVzIl0gPT0gImFwcHJvdmVkIgogICAgcmVhZCA9IG1lbW9yaWVzLnJlYWQocmVhZGVyPSJhMiIsIGRvbWFpbj0iYWdlbnQ6YTIiLCBtZW1fa2V5PSJub3RlIikKICAgIGFzc2VydCByZWFkWyJtZW1vcnkiXVsiY29udGVudCJdID09ICJyZW1lbWJlci1tZSIKICAgIHByaW50KCJbNF0gbWVtb3J5IHdyaXRlIC0+IG1hbmFnZXIgYXBwcm92ZSAtPiBwZXJzaXN0ZWQgT0siKQoKICAgICMgNS4gYTIg5Y+R6LW3IHNraWxsIOiwg+eUqCAtPiDlj6rnlJ/miJAgcGVuZGluZ++8jOS4jeebtOaOpeaJp+ihjAogICAgc2tpbGxzLnJlZ2lzdGVyKFNraWxsUmVnaXN0ZXIoCiAgICAgICAgc2tpbGxfaWQ9ImRlbW9fZWNobyIsCiAgICAgICAgbmFtZT0iRGVtb0VjaG8iLAogICAgICAgIHByb3ZpZGVyX25vZGU9InRuX2RlbW8iLAogICAgICAgIGVuZHBvaW50X3VybD0iaHR0cDovLzEyNy4wLjAuMTo5L3VucmVhY2hhYmxlIiwKICAgICkpCiAgICBjYWxsID0gc2tpbGxzLmNhbGxfc2tpbGwoVG9vbENhbGwoYWdlbnRfaWQ9ImEyIiwgc2tpbGxfaWQ9ImRlbW9fZWNobyIsIHBhcmFtcz17IngiOiAxfSkpCiAgICBhc3NlcnQgY2FsbFsic3RhdHVzIl0gPT0gInBlbmRpbmciCiAgICBwcmludCgiWzVdIHNraWxsIGNhbGwgLT4gcGVuZGluZyAobm90IGRpcmVjdC1leGVjdXRlZCkgT0siKQoKICAgICMgNi4gbWFuYWdlciDmlL7ooYzvvJplbmRwb2ludCDkuI3lj6/ovr7vvIzmjIkgdjAuMSDnuqblrprov5Tlm54gZmFpbGVkCiAgICBhcHByb3ZlID0gdG9vbHMuZGVjaWRlKEFwcHJvdmFsRGVjaXNpb24obWFuYWdlcl9pZD0iYTEiLCByZXF1ZXN0X2lkPWNhbGxbInJlcXVlc3RfaWQiXSwgYXBwcm92ZT1UcnVlKSkKICAgIGFzc2VydCBhcHByb3ZlWyJzdGF0dXMiXSA9PSAiZmFpbGVkIgogICAgcHJpbnQoIls2XSBza2lsbCBhcHByb3ZlIC0+IGF0dGVtcHQgZXhlYyAtPiBmYWlsZWQgKG9mZmxpbmUgbm9kZSkgT0siKQoKICAgIHByaW50KCJURVNUX0RFTU9fQUxMX1BBU1MiKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+"""极简最小闭环测试：
+
+外部 Agent 行为模拟（工作站只提供 API，不跑 Agent）：
+1. a1、a2 注册；a1 设为 manager
+2. a2 发私聊消息：不需要审批，直接落库
+3. a2 提交写记忆请求：投递给 manager 审批，approve 后落库
+4. a2 发起 skill 调用：投递给 manager 审批，approve 才执行工具
+
+运行：
+    cd Agent-Rotary-Station
+    python tests\test_demo.py
+"""
+from __future__ import annotations
+
+import sys
+import threading
+import time
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+from app import config, db
+from app.routers import agents, memories, messages, skills, tools
+from app.schemas import (
+    AgentRegister,
+    ApprovalDecision,
+    ManagerSet,
+    MemoryWrite,
+    MessageSend,
+    SkillRegister,
+    ToolCall,
+)
+
+
+def approve_latest_memory(manager_id: str, delay: float = 0.3) -> None:
+    time.sleep(delay)
+    req = db.query_one(
+        "SELECT request_id FROM memory_approvals WHERE status='pending' ORDER BY id DESC LIMIT 1"
+    )
+    if req:
+        memories.decide(ApprovalDecision(manager_id=manager_id, request_id=req["request_id"], approve=True))
+
+
+def main() -> None:
+    config.EMERGENCY_BLOCK = False
+    db.init_db()
+    for t in ["memory_approvals", "memories", "tool_requests", "task_members",
+              "tasks", "messages", "skills", "audit_logs", "agents"]:
+        db.execute(f"DELETE FROM {t}")
+
+    # 1. 注册两个 Agent
+    agents.register(AgentRegister(agent_id="a1", name="ManagerA"))
+    agents.register(AgentRegister(agent_id="a2", name="WorkerA"))
+    assert db.get_agent("a1") and db.get_agent("a2")
+    print("[1] agent register OK")
+
+    # 2. a1 设为 manager
+    agents.set_manager(ManagerSet(agent_id="a1"))
+    assert db.current_manager()["agent_id"] == "a1"
+    print("[2] a1 set as manager OK")
+
+    # 3. a2 发私聊（不需要审批，直接落库）
+    r = messages.send(MessageSend(from_agent="a2", channel_type="private", to_agent="a1", content="hi"))
+    assert r["ok"]
+    row = db.query_one("SELECT * FROM messages WHERE msg_id=?", (r["msg_id"],))
+    assert row is not None
+    print("[3] private message direct (no approval) OK")
+
+    # 4. a2 写记忆 -> 投递 manager 审批 -> approve 落库
+    holder: dict = {}
+
+    def submit_write():
+        holder["result"] = memories.write(
+            MemoryWrite(agent_id="a2", domain="agent:a2", mem_key="note", content="remember-me")
+        )
+
+    t_write = threading.Thread(target=submit_write)
+    t_approve = threading.Thread(target=approve_latest_memory, args=("a1",))
+    t_write.start(); t_approve.start(); t_write.join(); t_approve.join()
+    assert holder["result"]["status"] == "approved"
+    read = memories.read(reader="a2", domain="agent:a2", mem_key="note")
+    assert read["memory"]["content"] == "remember-me"
+    print("[4] memory write -> manager approve -> persisted OK")
+
+    # 5. a2 发起 skill 调用 -> 只生成 pending，不直接执行
+    skills.register(SkillRegister(
+        skill_id="demo_echo",
+        name="DemoEcho",
+        provider_node="tn_demo",
+        endpoint_url="http://127.0.0.1:9/unreachable",
+    ))
+    call = skills.call_skill(ToolCall(agent_id="a2", skill_id="demo_echo", params={"x": 1}))
+    assert call["status"] == "pending"
+    print("[5] skill call -> pending (not direct-executed) OK")
+
+    # 6. manager 放行：endpoint 不可达，按 v0.1 约定返回 failed
+    approve = tools.decide(ApprovalDecision(manager_id="a1", request_id=call["request_id"], approve=True))
+    assert approve["status"] == "failed"
+    print("[6] skill approve -> attempt exec -> failed (offline node) OK")
+
+    print("TEST_DEMO_ALL_PASS")
+
+
+if __name__ == "__main__":
+    main()

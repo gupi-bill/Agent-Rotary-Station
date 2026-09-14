@@ -1,1 +1,295 @@
-IiIidjAuMiBQMO+8muWPr+inhuWMluW3peS9nOa1geWQjuerr+OAggoK57qm5p2f77yaCi0g5LuF5omL5Yqo6Kem5Y+RCi0gREFHIOaJp+ihjOWZqOS4jeiHquW7uuS4muWKoemAu+i+ke+8jOWPquaMieiKgueCueexu+Wei+S+neasoeiwg+eUqCB2MC4xIOWOn+aciSBBUEkKLSDlt6Xlhbcv6K6w5b+G6IqC54K55L6d54S26LWwIG1hbmFnZXIg5a6h5om56ZO+6Lev77yM5LiN55u05o6l6K+75YaZ5pWw5o2u5bqTCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQganNvbgppbXBvcnQgdGltZQpmcm9tIHR5cGluZyBpbXBvcnQgQW55Cgpmcm9tIGZhc3RhcGkgaW1wb3J0IEFQSVJvdXRlciwgSFRUUEV4Y2VwdGlvbgoKZnJvbSAuLiBpbXBvcnQgY29uZmlnLCBkYgpmcm9tIC4uc2NoZW1hcyBpbXBvcnQgV29ya2Zsb3dDcmVhdGUsIFdvcmtmbG93VXBkYXRlCgpyb3V0ZXIgPSBBUElSb3V0ZXIocHJlZml4PSIvd29ya2Zsb3dzIiwgdGFncz1bIndvcmtmbG93cyJdKQoKTk9ERV9UWVBFUyA9IHsiYWdlbnQiLCAidG9vbCIsICJtZW1vcnlfd3JpdGUiLCAibWVtb3J5X3JlYWQiLCAiYXBwcm92YWwifQoKCmRlZiBfbm93KCkgLT4gZmxvYXQ6CiAgICByZXR1cm4gdGltZS50aW1lKCkKCgpkZWYgX3BhcnNlX2RlZihkZWZpbml0aW9uOiBkaWN0W3N0ciwgQW55XSkgLT4gdHVwbGVbbGlzdFtkaWN0W3N0ciwgQW55XV0sIGxpc3RbZGljdFtzdHIsIEFueV1dXToKICAgIG5vZGVzID0gZGVmaW5pdGlvbi5nZXQoIm5vZGVzIikgb3IgW10KICAgIGVkZ2VzID0gZGVmaW5pdGlvbi5nZXQoImVkZ2VzIikgb3IgW10KICAgIGlmIG5vdCBpc2luc3RhbmNlKG5vZGVzLCBsaXN0KSBvciBub3QgaXNpbnN0YW5jZShlZGdlcywgbGlzdCk6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDAsIGRldGFpbD0iZGVmaW5pdGlvbi5ub2Rlcy9lZGdlcyBtdXN0IGJlIGxpc3RzIikKICAgIHJldHVybiBub2RlcywgZWRnZXMKCgpkZWYgX3ZhbGlkYXRlX2RlZmluaXRpb24oZGVmaW5pdGlvbjogZGljdFtzdHIsIEFueV0pIC0+IE5vbmU6CiAgICBub2RlcywgZWRnZXMgPSBfcGFyc2VfZGVmKGRlZmluaXRpb24pCiAgICBpZHMgPSB7bi5nZXQoImlkIikgZm9yIG4gaW4gbm9kZXN9CiAgICBpZiBsZW4oaWRzKSAhPSBsZW4obm9kZXMpOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9ImR1cGxpY2F0ZSBub2RlIGlkIikKICAgIGZvciBuIGluIG5vZGVzOgogICAgICAgIGlmIG4uZ2V0KCJ0eXBlIikgbm90IGluIE5PREVfVFlQRVM6CiAgICAgICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9ZiJpbnZhbGlkIG5vZGUgdHlwZToge24uZ2V0KCd0eXBlJyl9IikKICAgIGZvciBlIGluIGVkZ2VzOgogICAgICAgIGlmIGUuZ2V0KCJzb3VyY2UiKSBub3QgaW4gaWRzIG9yIGUuZ2V0KCJ0YXJnZXQiKSBub3QgaW4gaWRzOgogICAgICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwMCwgZGV0YWlsPSJlZGdlIHBvaW50cyB0byB1bmtub3duIG5vZGUiKQoKCmRlZiBfcnVuX25vZGUobm9kZTogZGljdFtzdHIsIEFueV0sIGN0eDogZGljdFtzdHIsIEFueV0pIC0+IGRpY3Rbc3RyLCBBbnldOgogICAgIiIi5omn6KGM5Y2V5Liq6IqC54K577yM5Y+q6LCD55SoIHYwLjEg5bey5pyJIEFQSeOAgiIiIgogICAgdHlwID0gbm9kZS5nZXQoInR5cGUiKQogICAgZGF0YSA9IG5vZGUuZ2V0KCJkYXRhIikgb3Ige30KICAgIGlmIHR5cCA9PSAiYWdlbnQiOgogICAgICAgIGFnZW50X2lkID0gZGF0YS5nZXQoImFnZW50X2lkIikKICAgICAgICBpZiBub3QgYWdlbnRfaWQ6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoImFnZW50IG5vZGUgbWlzc2luZyBhZ2VudF9pZCIpCiAgICAgICAgY29udGVudCA9IGRhdGEuZ2V0KCJjb250ZW50IiwgIiIpCiAgICAgICAgdGFza19pZCA9IGN0eC5nZXQoInRhc2tfaWQiLCAiIikKICAgICAgICBmcm9tIC4uc2NoZW1hcyBpbXBvcnQgTWVzc2FnZVNlbmQKICAgICAgICBmcm9tIC4gaW1wb3J0IG1lc3NhZ2VzCiAgICAgICAgciA9IG1lc3NhZ2VzLnNlbmQoTWVzc2FnZVNlbmQoCiAgICAgICAgICAgIGZyb21fYWdlbnQ9YWdlbnRfaWQsCiAgICAgICAgICAgIGNoYW5uZWxfdHlwZT0idGFzayIgaWYgdGFza19pZCBlbHNlICJwcml2YXRlIiwKICAgICAgICAgICAgdG9fYWdlbnQ9ZGF0YS5nZXQoInRvX2FnZW50IiwgYWdlbnRfaWQpLAogICAgICAgICAgICB0YXNrX2lkPXRhc2tfaWQsCiAgICAgICAgICAgIGNvbnRlbnQ9Y29udGVudCwKICAgICAgICApKQogICAgICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInJlc3VsdCI6IHJ9CiAgICBpZiB0eXAgPT0gInRvb2wiOgogICAgICAgIGZyb20gLi5zY2hlbWFzIGltcG9ydCBUb29sQ2FsbAogICAgICAgIGZyb20gLiBpbXBvcnQgc2tpbGxzCiAgICAgICAgciA9IHNraWxscy5jYWxsX3NraWxsKFRvb2xDYWxsKAogICAgICAgICAgICBhZ2VudF9pZD1kYXRhLmdldCgib3duZXJfYWdlbnRfaWQiKSBvciBjdHguZ2V0KCJ0cmlnZ2VyX2J5IiwgIndvcmtmbG93IiksCiAgICAgICAgICAgIHNraWxsX2lkPWRhdGEuZ2V0KCJza2lsbF9pZCIsICIiKSwKICAgICAgICAgICAgcGFyYW1zPWRhdGEuZ2V0KCJwYXJhbXMiLCB7fSksCiAgICAgICAgKSkKICAgICAgICByZXR1cm4geyJvayI6IFRydWUsICJyZXN1bHQiOiByfQogICAgaWYgdHlwIGluICgibWVtb3J5X3dyaXRlIiwgIm1lbW9yeV9yZWFkIik6CiAgICAgICAgZnJvbSAuLnNjaGVtYXMgaW1wb3J0IE1lbW9yeVdyaXRlCiAgICAgICAgZnJvbSAuIGltcG9ydCBtZW1vcmllcwogICAgICAgIGRvbWFpbiA9IGRhdGEuZ2V0KCJkb21haW4iLCAiZ2xvYmFsIikKICAgICAgICBtZW1fa2V5ID0gZGF0YS5nZXQoIm1lbV9rZXkiLCAiIikKICAgICAgICBvd25lciA9IGRhdGEuZ2V0KCJvd25lcl9hZ2VudF9pZCIpCiAgICAgICAgaWYgbm90IG93bmVyOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie3R5cH0gbm9kZSBtaXNzaW5nIG93bmVyX2FnZW50X2lkIikKICAgICAgICBpZiB0eXAgPT0gIm1lbW9yeV93cml0ZSI6CiAgICAgICAgICAgIHIgPSBtZW1vcmllcy53cml0ZShNZW1vcnlXcml0ZSgKICAgICAgICAgICAgICAgIGFnZW50X2lkPW93bmVyLAogICAgICAgICAgICAgICAgZG9tYWluPWRvbWFpbiwKICAgICAgICAgICAgICAgIG1lbV9rZXk9bWVtX2tleSwKICAgICAgICAgICAgICAgIGNvbnRlbnQ9ZGF0YS5nZXQoImNvbnRlbnQiLCAiIiksCiAgICAgICAgICAgICkpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgciA9IG1lbW9yaWVzLnJlYWQoCiAgICAgICAgICAgICAgICByZWFkZXI9b3duZXIsCiAgICAgICAgICAgICAgICBkb21haW49ZG9tYWluLAogICAgICAgICAgICAgICAgbWVtX2tleT1tZW1fa2V5IG9yIE5vbmUsCiAgICAgICAgICAgICkKICAgICAgICByZXR1cm4geyJvayI6IFRydWUsICJyZXN1bHQiOiByfQogICAgaWYgdHlwID09ICJhcHByb3ZhbCI6CiAgICAgICAgIyDlrqHmibnoioLngrnvvJrov5Tlm54gcGVuZGluZyDkv6Hlj7fvvIznlLHmiafooYzlmajmjILotbflt6XkvZzmtYEKICAgICAgICByZXR1cm4geyJvayI6IFRydWUsICJwZW5kaW5nIjogVHJ1ZSwgImRldGFpbCI6ICJhcHByb3ZhbCBub2RlIHdhaXRpbmcgZm9yIGRlY2lzaW9uIn0KICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9ZiJ1bmhhbmRsZWQgbm9kZSB0eXBlOiB7dHlwfSIpCgoKZGVmIF90b3BvX29yZGVyKG5vZGVzOiBsaXN0W2RpY3Rbc3RyLCBBbnldXSwgZWRnZXM6IGxpc3RbZGljdFtzdHIsIEFueV1dKSAtPiBsaXN0W2RpY3Rbc3RyLCBBbnldXToKICAgICIiIkthaG4g5ouT5omR5o6S5bqP77yM6L+U5Zue5oyJ5omn6KGM6aG65bqP55qE6IqC54K55YiX6KGo44CCIiIiCiAgICBmcm9tIGNvbGxlY3Rpb25zIGltcG9ydCBkZWZhdWx0ZGljdCwgZGVxdWUKICAgIGluX2RlZyA9IHtuWyJpZCJdOiAwIGZvciBuIGluIG5vZGVzfQogICAgYWRqOiBkaWN0W3N0ciwgbGlzdFtzdHJdXSA9IGRlZmF1bHRkaWN0KGxpc3QpCiAgICBmb3IgZSBpbiBlZGdlczoKICAgICAgICBhZGpbZVsic291cmNlIl1dLmFwcGVuZChlWyJ0YXJnZXQiXSkKICAgICAgICBpbl9kZWdbZVsidGFyZ2V0Il1dID0gaW5fZGVnLmdldChlWyJ0YXJnZXQiXSwgMCkgKyAxCiAgICBxID0gZGVxdWUoW24gZm9yIG4gaW4gbm9kZXMgaWYgaW5fZGVnLmdldChuWyJpZCJdLCAwKSA9PSAwXSkKICAgIG9yZGVyZWQ6IGxpc3RbZGljdFtzdHIsIEFueV1dID0gW10KICAgIGJ5X2lkID0ge25bImlkIl06IG4gZm9yIG4gaW4gbm9kZXN9CiAgICB3aGlsZSBxOgogICAgICAgIGN1ciA9IHEucG9wbGVmdCgpCiAgICAgICAgb3JkZXJlZC5hcHBlbmQoY3VyKQogICAgICAgIGZvciBueHQgaW4gYWRqLmdldChjdXJbImlkIl0sIFtdKToKICAgICAgICAgICAgaW5fZGVnW254dF0gLT0gMQogICAgICAgICAgICBpZiBpbl9kZWdbbnh0XSA9PSAwOgogICAgICAgICAgICAgICAgcS5hcHBlbmQoYnlfaWRbbnh0XSkKICAgIGlmIGxlbihvcmRlcmVkKSAhPSBsZW4obm9kZXMpOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9IndvcmtmbG93IGRlZmluaXRpb24gY29udGFpbnMgYSBjeWNsZSIpCiAgICByZXR1cm4gb3JkZXJlZAoKCmRlZiBfcnVuX3dvcmtmbG93X2Zyb20od2Y6IGRpY3Rbc3RyLCBBbnldLCBydW5faWQ6IHN0ciwgdHJpZ2dlcl9ieTogc3RyLAogICAgICAgICAgICAgICAgICAgICAgIHN0YXJ0X25vZGVzOiBsaXN0W2RpY3Rbc3RyLCBBbnldXSkgLT4gZGljdFtzdHIsIEFueV06CiAgICAiIiLmiafooYzkuIDmrrXoioLngrnluo/liJfvvIzpgYflrqHmibnoioLngrnmjILotbfjgIIiIiIKICAgIGN0eCA9IHsidGFza19pZCI6ICIiLCAidHJpZ2dlcl9ieSI6IHRyaWdnZXJfYnksICJ3b3JrZmxvd19pZCI6IHdmWyJ3b3JrZmxvd19pZCJdfQogICAgcmVzdWx0czogbGlzdFtkaWN0W3N0ciwgQW55XV0gPSBbXQogICAgZm9yIG5vZGUgaW4gc3RhcnRfbm9kZXM6CiAgICAgICAgZGIuZXhlY3V0ZSgiVVBEQVRFIHdvcmtmbG93X3J1bnMgU0VUIGN1cnJlbnRfbm9kZT0/IFdIRVJFIHJ1bl9pZD0/IiwgKG5vZGVbImlkIl0sIHJ1bl9pZCkpCiAgICAgICAgdHJ5OgogICAgICAgICAgICBvdXQgPSBfcnVuX25vZGUobm9kZSwgY3R4KQogICAgICAgICAgICByZXN1bHRzLmFwcGVuZCh7Im5vZGUiOiBub2RlWyJpZCJdLCAib2siOiBUcnVlLCAicmVzdWx0Ijogb3V0fSkKICAgICAgICAgICAgaWYgbm9kZVsidHlwZSJdID09ICJhZ2VudCIgYW5kIG91dC5nZXQoInJlc3VsdCIsIHt9KS5nZXQoIm9rIik6CiAgICAgICAgICAgICAgICBjdHhbInRhc2tfaWQiXSA9IG91dFsicmVzdWx0Il0uZ2V0KCJtc2dfaWQiLCAiIikgb3IgY3R4WyJ0YXNrX2lkIl0KICAgICAgICAgICAgaWYgbm9kZVsidHlwZSJdID09ICJhcHByb3ZhbCIgYW5kIG91dC5nZXQoInBlbmRpbmciKToKICAgICAgICAgICAgICAgICMg5oyC6LW377ya5L+d5a2Y5Ymp5L2Z6IqC54K55L6b5oGi5aSNCiAgICAgICAgICAgICAgICByZW1haW5pbmcgPSBqc29uLmR1bXBzKHN0YXJ0X25vZGVzW2xlbihyZXN1bHRzKTpdLCBlbnN1cmVfYXNjaWk9RmFsc2UpCiAgICAgICAgICAgICAgICBkYi5leGVjdXRlKAogICAgICAgICAgICAgICAgICAgICJVUERBVEUgd29ya2Zsb3dfcnVucyBTRVQgc3RhdHVzPSdhd2FpdGluZ19hcHByb3ZhbCcsIGN1cnJlbnRfbm9kZT0/LCByZXN1bHQ9PyBXSEVSRSBydW5faWQ9PyIsCiAgICAgICAgICAgICAgICAgICAgKG5vZGVbImlkIl0sIHJlbWFpbmluZywgcnVuX2lkKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInJ1bl9pZCI6IHJ1bl9pZCwgInN0YXR1cyI6ICJhd2FpdGluZ19hcHByb3ZhbCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJub2RlIjogbm9kZVsiaWQiXSwgInJlc3VsdHMiOiByZXN1bHRzfQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZXhjOiAgIyBub3FhOiBCTEUwMDEKICAgICAgICAgICAgZGIuZXhlY3V0ZSgKICAgICAgICAgICAgICAgICJVUERBVEUgd29ya2Zsb3dfcnVucyBTRVQgc3RhdHVzPSdmYWlsZWQnLCBlcnJvcj0/LCBmaW5pc2hlZF9hdD0/IFdIRVJFIHJ1bl9pZD0/IiwKICAgICAgICAgICAgICAgIChzdHIoZXhjKSwgX25vdygpLCBydW5faWQpLAogICAgICAgICAgICApCiAgICAgICAgICAgIHJlc3VsdHMuYXBwZW5kKHsibm9kZSI6IG5vZGVbImlkIl0sICJvayI6IEZhbHNlLCAiZXJyb3IiOiBzdHIoZXhjKX0pCiAgICAgICAgICAgIHJldHVybiB7Im9rIjogRmFsc2UsICJydW5faWQiOiBydW5faWQsICJzdGF0dXMiOiAiZmFpbGVkIiwKICAgICAgICAgICAgICAgICAgICAiZXJyb3IiOiBzdHIoZXhjKSwgInJlc3VsdHMiOiByZXN1bHRzfQogICAgZGIuZXhlY3V0ZSgKICAgICAgICAiVVBEQVRFIHdvcmtmbG93X3J1bnMgU0VUIHN0YXR1cz0nZG9uZScsIHJlc3VsdD0/LCBjdXJyZW50X25vZGU9JycsIGZpbmlzaGVkX2F0PT8gV0hFUkUgcnVuX2lkPT8iLAogICAgICAgIChqc29uLmR1bXBzKHJlc3VsdHMsIGVuc3VyZV9hc2NpaT1GYWxzZSksIF9ub3coKSwgcnVuX2lkKSwKICAgICkKICAgIGRiLmF1ZGl0KHRyaWdnZXJfYnksICJ3b3JrZmxvd19ydW5fZG9uZSIsIHdmWyJ3b3JrZmxvd19pZCJdLCB7InJ1bl9pZCI6IHJ1bl9pZH0pCiAgICByZXR1cm4geyJvayI6IFRydWUsICJydW5faWQiOiBydW5faWQsICJzdGF0dXMiOiAiZG9uZSIsICJyZXN1bHRzIjogcmVzdWx0c30KCgpkZWYgX2V4ZWN1dGVfd29ya2Zsb3cod2Y6IGRpY3Rbc3RyLCBBbnldLCB0cmlnZ2VyX2J5OiBzdHIpIC0+IGRpY3Rbc3RyLCBBbnldOgogICAgIiIi5omn6KGMIERBR++8jOi/lOWbniBydW4g54q25oCB44CC5pWP5oSf5pON5L2c6LWwIHYwLjEg5a6h5om5IEFQSeOAgiIiIgogICAgaWYgY29uZmlnLkVNRVJHRU5DWV9CTE9DSzoKICAgICAgICByZXR1cm4geyJvayI6IEZhbHNlLCAic3RhdHVzIjogImJsb2NrZWQiLCAiZXJyb3IiOiAiZW1lcmdlbmN5IGJsb2NrIGlzIGFjdGl2ZSJ9CiAgICBkZWZpbml0aW9uID0ganNvbi5sb2Fkcyh3ZlsiZGVmaW5pdGlvbiJdIG9yICd7Im5vZGVzIjpbXSwiZWRnZXMiOltdfScpCiAgICBub2RlcywgZWRnZXMgPSBfcGFyc2VfZGVmKGRlZmluaXRpb24pCiAgICBvcmRlcmVkID0gX3RvcG9fb3JkZXIobm9kZXMsIGVkZ2VzKQogICAgcnVuX2lkID0gZGIubmV3X2lkKCJ3ZnJ1biIpCiAgICBkYi5leGVjdXRlKAogICAgICAgICJJTlNFUlQgSU5UTyB3b3JrZmxvd19ydW5zIChydW5faWQsIHdvcmtmbG93X2lkLCBzdGF0dXMsIGNyZWF0ZWRfYXQpIFZBTFVFUyAoPywgPywgJ3J1bm5pbmcnLCA/KSIsCiAgICAgICAgKHJ1bl9pZCwgd2ZbIndvcmtmbG93X2lkIl0sIF9ub3coKSksCiAgICApCiAgICByZXR1cm4gX3J1bl93b3JrZmxvd19mcm9tKHdmLCBydW5faWQsIHRyaWdnZXJfYnksIG9yZGVyZWQpCgoKQHJvdXRlci5wb3N0KCIvY3JlYXRlIikKZGVmIGNyZWF0ZShib2R5OiBXb3JrZmxvd0NyZWF0ZSk6CiAgICBfdmFsaWRhdGVfZGVmaW5pdGlvbihib2R5LmRlZmluaXRpb24pCiAgICB3b3JrZmxvd19pZCA9IGRiLm5ld19pZCgid2YiKQogICAgbm93ID0gX25vdygpCiAgICBkYi5leGVjdXRlKAogICAgICAgICJJTlNFUlQgSU5UTyB3b3JrZmxvd3MgKHdvcmtmbG93X2lkLCBuYW1lLCBkZXNjcmlwdGlvbiwgZGVmaW5pdGlvbiwgc3RhdHVzLCBjcmVhdGVkX2F0LCB1cGRhdGVkX2F0KSAiCiAgICAgICAgIlZBTFVFUyAoPywgPywgPywgPywgJ2FjdGl2ZScsID8sID8pIiwKICAgICAgICAod29ya2Zsb3dfaWQsIGJvZHkubmFtZSwgYm9keS5kZXNjcmlwdGlvbiwKICAgICAgICAganNvbi5kdW1wcyhib2R5LmRlZmluaXRpb24sIGVuc3VyZV9hc2NpaT1GYWxzZSksIG5vdywgbm93KSwKICAgICkKICAgIGRiLmF1ZGl0KCJodW1hbiIsICJ3b3JrZmxvd19jcmVhdGUiLCB3b3JrZmxvd19pZCwgeyJuYW1lIjogYm9keS5uYW1lfSkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgIndvcmtmbG93X2lkIjogd29ya2Zsb3dfaWR9CgoKQHJvdXRlci5nZXQoIiIpCmRlZiBsaXN0X3dvcmtmbG93cygpOgogICAgcm93cyA9IGRiLnF1ZXJ5X2FsbCgiU0VMRUNUICogRlJPTSB3b3JrZmxvd3MgT1JERVIgQlkgaWQgREVTQyIpCiAgICBmb3IgciBpbiByb3dzOgogICAgICAgIHJbImRlZmluaXRpb24iXSA9IGpzb24ubG9hZHMoci5nZXQoImRlZmluaXRpb24iKSBvciAneyJub2RlcyI6W10sImVkZ2VzIjpbXX0nKQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAid29ya2Zsb3dzIjogcm93c30KCgpAcm91dGVyLmdldCgiL3t3b3JrZmxvd19pZH0iKQpkZWYgZ2V0X3dvcmtmbG93KHdvcmtmbG93X2lkOiBzdHIpOgogICAgd2YgPSBkYi5xdWVyeV9vbmUoIlNFTEVDVCAqIEZST00gd29ya2Zsb3dzIFdIRVJFIHdvcmtmbG93X2lkPT8iLCAod29ya2Zsb3dfaWQsKSkKICAgIGlmIG5vdCB3ZjoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgZGV0YWlsPSJ3b3JrZmxvdyBub3QgZm91bmQiKQogICAgd2ZbImRlZmluaXRpb24iXSA9IGpzb24ubG9hZHMod2YuZ2V0KCJkZWZpbml0aW9uIikgb3IgJ3sibm9kZXMiOltdLCJlZGdlcyI6W119JykKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgIndvcmtmbG93Ijogd2Z9CgoKQHJvdXRlci5wb3N0KCIve3dvcmtmbG93X2lkfS91cGRhdGUiKQpkZWYgdXBkYXRlKHdvcmtmbG93X2lkOiBzdHIsIGJvZHk6IFdvcmtmbG93VXBkYXRlKToKICAgIHdmID0gZGIucXVlcnlfb25lKCJTRUxFQ1QgKiBGUk9NIHdvcmtmbG93cyBXSEVSRSB3b3JrZmxvd19pZD0/IiwgKHdvcmtmbG93X2lkLCkpCiAgICBpZiBub3Qgd2Y6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDQsIGRldGFpbD0id29ya2Zsb3cgbm90IGZvdW5kIikKICAgIGlmIGJvZHkuZGVmaW5pdGlvbiBpcyBub3QgTm9uZToKICAgICAgICBfdmFsaWRhdGVfZGVmaW5pdGlvbihib2R5LmRlZmluaXRpb24pCiAgICBuYW1lID0gYm9keS5uYW1lIGlmIGJvZHkubmFtZSBpcyBub3QgTm9uZSBlbHNlIHdmWyJuYW1lIl0KICAgIGRlc2MgPSBib2R5LmRlc2NyaXB0aW9uIGlmIGJvZHkuZGVzY3JpcHRpb24gaXMgbm90IE5vbmUgZWxzZSB3ZlsiZGVzY3JpcHRpb24iXQogICAgZGVmaW5pdGlvbiA9IChqc29uLmR1bXBzKGJvZHkuZGVmaW5pdGlvbiwgZW5zdXJlX2FzY2lpPUZhbHNlKSBpZiBib2R5LmRlZmluaXRpb24gaXMgbm90IE5vbmUKICAgICAgICAgICAgICAgICAgZWxzZSB3ZlsiZGVmaW5pdGlvbiJdKQogICAgc3RhdHVzID0gYm9keS5zdGF0dXMgaWYgYm9keS5zdGF0dXMgaXMgbm90IE5vbmUgZWxzZSB3Zlsic3RhdHVzIl0KICAgIGRiLmV4ZWN1dGUoCiAgICAgICAgIlVQREFURSB3b3JrZmxvd3MgU0VUIG5hbWU9PywgZGVzY3JpcHRpb249PywgZGVmaW5pdGlvbj0/LCBzdGF0dXM9PywgdXBkYXRlZF9hdD0/IFdIRVJFIHdvcmtmbG93X2lkPT8iLAogICAgICAgIChuYW1lLCBkZXNjLCBkZWZpbml0aW9uLCBzdGF0dXMsIF9ub3coKSwgd29ya2Zsb3dfaWQpLAogICAgKQogICAgZGIuYXVkaXQoImh1bWFuIiwgIndvcmtmbG93X3VwZGF0ZSIsIHdvcmtmbG93X2lkKQogICAgcmV0dXJuIHsib2siOiBUcnVlfQoKCkByb3V0ZXIucG9zdCgiL3t3b3JrZmxvd19pZH0vZGVsZXRlIikKZGVmIGRlbGV0ZSh3b3JrZmxvd19pZDogc3RyKToKICAgIGRiLmV4ZWN1dGUoIkRFTEVURSBGUk9NIHdvcmtmbG93cyBXSEVSRSB3b3JrZmxvd19pZD0/IiwgKHdvcmtmbG93X2lkLCkpCiAgICBkYi5hdWRpdCgiaHVtYW4iLCAid29ya2Zsb3dfZGVsZXRlIiwgd29ya2Zsb3dfaWQpCiAgICByZXR1cm4geyJvayI6IFRydWV9CgoKQHJvdXRlci5wb3N0KCIve3dvcmtmbG93X2lkfS9ydW4iKQpkZWYgcnVuKHdvcmtmbG93X2lkOiBzdHIsIHRyaWdnZXJfYnk6IHN0ciA9ICJodW1hbiIpOgogICAgIiIi5omL5Yqo6Kem5Y+R5bel5L2c5rWB44CCIiIiCiAgICB3ZiA9IGRiLnF1ZXJ5X29uZSgiU0VMRUNUICogRlJPTSB3b3JrZmxvd3MgV0hFUkUgd29ya2Zsb3dfaWQ9PyIsICh3b3JrZmxvd19pZCwpKQogICAgaWYgbm90IHdmOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDA0LCBkZXRhaWw9IndvcmtmbG93IG5vdCBmb3VuZCIpCiAgICBpZiB3Zlsic3RhdHVzIl0gIT0gImFjdGl2ZSI6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDksIGRldGFpbD0id29ya2Zsb3cgaXMgZGlzYWJsZWQiKQogICAgcmV0dXJuIF9leGVjdXRlX3dvcmtmbG93KHdmLCB0cmlnZ2VyX2J5KQoKCkByb3V0ZXIuZ2V0KCIvcnVucy97cnVuX2lkfSIpCmRlZiBydW5fc3RhdHVzKHJ1bl9pZDogc3RyKToKICAgIHJvdyA9IGRiLnF1ZXJ5X29uZSgiU0VMRUNUICogRlJPTSB3b3JrZmxvd19ydW5zIFdIRVJFIHJ1bl9pZD0/IiwgKHJ1bl9pZCwpKQogICAgaWYgbm90IHJvdzoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgZGV0YWlsPSJydW4gbm90IGZvdW5kIikKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInJ1biI6IHJvd30KCgpAcm91dGVyLmdldCgiL3t3b3JrZmxvd19pZH0vcnVucyIpCmRlZiBsaXN0X3J1bnMod29ya2Zsb3dfaWQ6IHN0cik6CiAgICByb3dzID0gZGIucXVlcnlfYWxsKAogICAgICAgICJTRUxFQ1QgKiBGUk9NIHdvcmtmbG93X3J1bnMgV0hFUkUgd29ya2Zsb3dfaWQ9PyBPUkRFUiBCWSBpZCBERVNDIiwKICAgICAgICAod29ya2Zsb3dfaWQsKSwKICAgICkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInJ1bnMiOiByb3dzfQoKCkByb3V0ZXIucG9zdCgiL3J1bnMve3J1bl9pZH0vYXBwcm92ZSIpCmRlZiBhcHByb3ZlX3J1bihydW5faWQ6IHN0ciwgbWFuYWdlcl9pZDogc3RyID0gImh1bWFuIik6CiAgICAiIiLlrqHmibnpgJrov4fvvJrnu6fnu63miafooYzmjILotbflt6XkvZzmtYHnmoTliankvZnoioLngrnjgIIiIiIKICAgIHJ1biA9IGRiLnF1ZXJ5X29uZSgiU0VMRUNUICogRlJPTSB3b3JrZmxvd19ydW5zIFdIRVJFIHJ1bl9pZD0/IiwgKHJ1bl9pZCwpKQogICAgaWYgbm90IHJ1bjoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgZGV0YWlsPSJydW4gbm90IGZvdW5kIikKICAgIGlmIHJ1blsic3RhdHVzIl0gIT0gImF3YWl0aW5nX2FwcHJvdmFsIjoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwOSwgZGV0YWlsPSJydW4gaXMgbm90IGF3YWl0aW5nIGFwcHJvdmFsIikKICAgIHJlbWFpbmluZyA9IGpzb24ubG9hZHMocnVuWyJyZXN1bHQiXSBvciAiW10iKQogICAgd2YgPSBkYi5xdWVyeV9vbmUoIlNFTEVDVCAqIEZST00gd29ya2Zsb3dzIFdIRVJFIHdvcmtmbG93X2lkPT8iLCAocnVuWyJ3b3JrZmxvd19pZCJdLCkpCiAgICBpZiBub3Qgd2Y6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDQsIGRldGFpbD0id29ya2Zsb3cgbm90IGZvdW5kIikKICAgIGRiLmV4ZWN1dGUoIlVQREFURSB3b3JrZmxvd19ydW5zIFNFVCBzdGF0dXM9J3J1bm5pbmcnLCByZXN1bHQ9JycsIGN1cnJlbnRfbm9kZT0nJyBXSEVSRSBydW5faWQ9PyIsIChydW5faWQsKSkKICAgIHJldHVybiBfcnVuX3dvcmtmbG93X2Zyb20od2YsIHJ1bl9pZCwgbWFuYWdlcl9pZCwgcmVtYWluaW5nKQoKCkByb3V0ZXIucG9zdCgiL3J1bnMve3J1bl9pZH0vZGVueSIpCmRlZiBkZW55X3J1bihydW5faWQ6IHN0ciwgbWFuYWdlcl9pZDogc3RyID0gImh1bWFuIik6CiAgICAiIiLlrqHmibnmi5Lnu53vvJrnu4jmraLlt6XkvZzmtYHjgIIiIiIKICAgIHJ1biA9IGRiLnF1ZXJ5X29uZSgiU0VMRUNUICogRlJPTSB3b3JrZmxvd19ydW5zIFdIRVJFIHJ1bl9pZD0/IiwgKHJ1bl9pZCwpKQogICAgaWYgbm90IHJ1bjoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgZGV0YWlsPSJydW4gbm90IGZvdW5kIikKICAgIGlmIHJ1blsic3RhdHVzIl0gIT0gImF3YWl0aW5nX2FwcHJvdmFsIjoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwOSwgZGV0YWlsPSJydW4gaXMgbm90IGF3YWl0aW5nIGFwcHJvdmFsIikKICAgIGRiLmV4ZWN1dGUoIlVQREFURSB3b3JrZmxvd19ydW5zIFNFVCBzdGF0dXM9J2RlbmllZCcsIGN1cnJlbnRfbm9kZT0nJywgZmluaXNoZWRfYXQ9PyBXSEVSRSBydW5faWQ9PyIsCiAgICAgICAgICAgICAgIChfbm93KCksIHJ1bl9pZCkpCiAgICBkYi5hdWRpdChtYW5hZ2VyX2lkLCAid29ya2Zsb3dfcnVuX2RlbmllZCIsIHJ1blsid29ya2Zsb3dfaWQiXSwgeyJydW5faWQiOiBydW5faWR9KQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAicnVuX2lkIjogcnVuX2lkLCAic3RhdHVzIjogImRlbmllZCJ9Cg==
+"""v0.2 P0：可视化工作流后端。
+
+约束：
+- 仅手动触发
+- DAG 执行器不自建业务逻辑，只按节点类型依次调用 v0.1 原有 API
+- 工具/记忆节点依然走 manager 审批链路，不直接读写数据库
+"""
+from __future__ import annotations
+
+import json
+import time
+from typing import Any
+
+from fastapi import APIRouter, HTTPException
+
+from .. import config, db
+from ..schemas import WorkflowCreate, WorkflowUpdate
+
+router = APIRouter(prefix="/workflows", tags=["workflows"])
+
+NODE_TYPES = {"agent", "tool", "memory_write", "memory_read", "approval"}
+
+
+def _now() -> float:
+    return time.time()
+
+
+def _parse_def(definition: dict[str, Any]) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    nodes = definition.get("nodes") or []
+    edges = definition.get("edges") or []
+    if not isinstance(nodes, list) or not isinstance(edges, list):
+        raise HTTPException(status_code=400, detail="definition.nodes/edges must be lists")
+    return nodes, edges
+
+
+def _validate_definition(definition: dict[str, Any]) -> None:
+    nodes, edges = _parse_def(definition)
+    ids = {n.get("id") for n in nodes}
+    if len(ids) != len(nodes):
+        raise HTTPException(status_code=400, detail="duplicate node id")
+    for n in nodes:
+        if n.get("type") not in NODE_TYPES:
+            raise HTTPException(status_code=400, detail=f"invalid node type: {n.get('type')}")
+    for e in edges:
+        if e.get("source") not in ids or e.get("target") not in ids:
+            raise HTTPException(status_code=400, detail="edge points to unknown node")
+
+
+def _run_node(node: dict[str, Any], ctx: dict[str, Any]) -> dict[str, Any]:
+    """执行单个节点，只调用 v0.1 已有 API。"""
+    typ = node.get("type")
+    data = node.get("data") or {}
+    if typ == "agent":
+        agent_id = data.get("agent_id")
+        if not agent_id:
+            raise ValueError("agent node missing agent_id")
+        content = data.get("content", "")
+        task_id = ctx.get("task_id", "")
+        from ..schemas import MessageSend
+        from . import messages
+        r = messages.send(MessageSend(
+            from_agent=agent_id,
+            channel_type="task" if task_id else "private",
+            to_agent=data.get("to_agent", agent_id),
+            task_id=task_id,
+            content=content,
+        ))
+        return {"ok": True, "result": r}
+    if typ == "tool":
+        from ..schemas import ToolCall
+        from . import skills
+        r = skills.call_skill(ToolCall(
+            agent_id=data.get("owner_agent_id") or ctx.get("trigger_by", "workflow"),
+            skill_id=data.get("skill_id", ""),
+            params=data.get("params", {}),
+        ))
+        return {"ok": True, "result": r}
+    if typ in ("memory_write", "memory_read"):
+        from ..schemas import MemoryWrite
+        from . import memories
+        domain = data.get("domain", "global")
+        mem_key = data.get("mem_key", "")
+        owner = data.get("owner_agent_id")
+        if not owner:
+            raise ValueError(f"{typ} node missing owner_agent_id")
+        if typ == "memory_write":
+            r = memories.write(MemoryWrite(
+                agent_id=owner,
+                domain=domain,
+                mem_key=mem_key,
+                content=data.get("content", ""),
+            ))
+        else:
+            r = memories.read(
+                reader=owner,
+                domain=domain,
+                mem_key=mem_key or None,
+            )
+        return {"ok": True, "result": r}
+    if typ == "approval":
+        # 审批节点：返回 pending 信号，由执行器挂起工作流
+        return {"ok": True, "pending": True, "detail": "approval node waiting for decision"}
+    raise HTTPException(status_code=400, detail=f"unhandled node type: {typ}")
+
+
+def _topo_order(nodes: list[dict[str, Any]], edges: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Kahn 拓扑排序，返回按执行顺序的节点列表。"""
+    from collections import defaultdict, deque
+    in_deg = {n["id"]: 0 for n in nodes}
+    adj: dict[str, list[str]] = defaultdict(list)
+    for e in edges:
+        adj[e["source"]].append(e["target"])
+        in_deg[e["target"]] = in_deg.get(e["target"], 0) + 1
+    q = deque([n for n in nodes if in_deg.get(n["id"], 0) == 0])
+    ordered: list[dict[str, Any]] = []
+    by_id = {n["id"]: n for n in nodes}
+    while q:
+        cur = q.popleft()
+        ordered.append(cur)
+        for nxt in adj.get(cur["id"], []):
+            in_deg[nxt] -= 1
+            if in_deg[nxt] == 0:
+                q.append(by_id[nxt])
+    if len(ordered) != len(nodes):
+        raise HTTPException(status_code=400, detail="workflow definition contains a cycle")
+    return ordered
+
+
+def _run_workflow_from(wf: dict[str, Any], run_id: str, trigger_by: str,
+                       start_nodes: list[dict[str, Any]]) -> dict[str, Any]:
+    """执行一段节点序列，遇审批节点挂起。"""
+    ctx = {"task_id": "", "trigger_by": trigger_by, "workflow_id": wf["workflow_id"]}
+    results: list[dict[str, Any]] = []
+    for node in start_nodes:
+        db.execute("UPDATE workflow_runs SET current_node=? WHERE run_id=?", (node["id"], run_id))
+        try:
+            out = _run_node(node, ctx)
+            results.append({"node": node["id"], "ok": True, "result": out})
+            if node["type"] == "agent" and out.get("result", {}).get("ok"):
+                ctx["task_id"] = out["result"].get("msg_id", "") or ctx["task_id"]
+            if node["type"] == "approval" and out.get("pending"):
+                # 挂起：保存剩余节点供恢复
+                remaining = json.dumps(start_nodes[len(results):], ensure_ascii=False)
+                db.execute(
+                    "UPDATE workflow_runs SET status='awaiting_approval', current_node=?, result=? WHERE run_id=?",
+                    (node["id"], remaining, run_id),
+                )
+                return {"ok": True, "run_id": run_id, "status": "awaiting_approval",
+                        "node": node["id"], "results": results}
+        except Exception as exc:  # noqa: BLE001
+            db.execute(
+                "UPDATE workflow_runs SET status='failed', error=?, finished_at=? WHERE run_id=?",
+                (str(exc), _now(), run_id),
+            )
+            results.append({"node": node["id"], "ok": False, "error": str(exc)})
+            return {"ok": False, "run_id": run_id, "status": "failed",
+                    "error": str(exc), "results": results}
+    db.execute(
+        "UPDATE workflow_runs SET status='done', result=?, current_node='', finished_at=? WHERE run_id=?",
+        (json.dumps(results, ensure_ascii=False), _now(), run_id),
+    )
+    db.audit(trigger_by, "workflow_run_done", wf["workflow_id"], {"run_id": run_id})
+    return {"ok": True, "run_id": run_id, "status": "done", "results": results}
+
+
+def _execute_workflow(wf: dict[str, Any], trigger_by: str) -> dict[str, Any]:
+    """执行 DAG，返回 run 状态。敏感操作走 v0.1 审批 API。"""
+    if config.EMERGENCY_BLOCK:
+        return {"ok": False, "status": "blocked", "error": "emergency block is active"}
+    definition = json.loads(wf["definition"] or '{"nodes":[],"edges":[]}')
+    nodes, edges = _parse_def(definition)
+    ordered = _topo_order(nodes, edges)
+    run_id = db.new_id("wfrun")
+    db.execute(
+        "INSERT INTO workflow_runs (run_id, workflow_id, status, created_at) VALUES (?, ?, 'running', ?)",
+        (run_id, wf["workflow_id"], _now()),
+    )
+    return _run_workflow_from(wf, run_id, trigger_by, ordered)
+
+
+@router.post("/create")
+def create(body: WorkflowCreate):
+    _validate_definition(body.definition)
+    workflow_id = db.new_id("wf")
+    now = _now()
+    db.execute(
+        "INSERT INTO workflows (workflow_id, name, description, definition, status, created_at, updated_at) "
+        "VALUES (?, ?, ?, ?, 'active', ?, ?)",
+        (workflow_id, body.name, body.description,
+         json.dumps(body.definition, ensure_ascii=False), now, now),
+    )
+    db.audit("human", "workflow_create", workflow_id, {"name": body.name})
+    return {"ok": True, "workflow_id": workflow_id}
+
+
+@router.get("")
+def list_workflows():
+    rows = db.query_all("SELECT * FROM workflows ORDER BY id DESC")
+    for r in rows:
+        r["definition"] = json.loads(r.get("definition") or '{"nodes":[],"edges":[]}')
+    return {"ok": True, "workflows": rows}
+
+
+@router.get("/{workflow_id}")
+def get_workflow(workflow_id: str):
+    wf = db.query_one("SELECT * FROM workflows WHERE workflow_id=?", (workflow_id,))
+    if not wf:
+        raise HTTPException(status_code=404, detail="workflow not found")
+    wf["definition"] = json.loads(wf.get("definition") or '{"nodes":[],"edges":[]}')
+    return {"ok": True, "workflow": wf}
+
+
+@router.post("/{workflow_id}/update")
+def update(workflow_id: str, body: WorkflowUpdate):
+    wf = db.query_one("SELECT * FROM workflows WHERE workflow_id=?", (workflow_id,))
+    if not wf:
+        raise HTTPException(status_code=404, detail="workflow not found")
+    if body.definition is not None:
+        _validate_definition(body.definition)
+    name = body.name if body.name is not None else wf["name"]
+    desc = body.description if body.description is not None else wf["description"]
+    definition = (json.dumps(body.definition, ensure_ascii=False) if body.definition is not None
+                  else wf["definition"])
+    status = body.status if body.status is not None else wf["status"]
+    db.execute(
+        "UPDATE workflows SET name=?, description=?, definition=?, status=?, updated_at=? WHERE workflow_id=?",
+        (name, desc, definition, status, _now(), workflow_id),
+    )
+    db.audit("human", "workflow_update", workflow_id)
+    return {"ok": True}
+
+
+@router.post("/{workflow_id}/delete")
+def delete(workflow_id: str):
+    db.execute("DELETE FROM workflows WHERE workflow_id=?", (workflow_id,))
+    db.audit("human", "workflow_delete", workflow_id)
+    return {"ok": True}
+
+
+@router.post("/{workflow_id}/run")
+def run(workflow_id: str, trigger_by: str = "human"):
+    """手动触发工作流。"""
+    wf = db.query_one("SELECT * FROM workflows WHERE workflow_id=?", (workflow_id,))
+    if not wf:
+        raise HTTPException(status_code=404, detail="workflow not found")
+    if wf["status"] != "active":
+        raise HTTPException(status_code=409, detail="workflow is disabled")
+    return _execute_workflow(wf, trigger_by)
+
+
+@router.get("/runs/{run_id}")
+def run_status(run_id: str):
+    row = db.query_one("SELECT * FROM workflow_runs WHERE run_id=?", (run_id,))
+    if not row:
+        raise HTTPException(status_code=404, detail="run not found")
+    return {"ok": True, "run": row}
+
+
+@router.get("/{workflow_id}/runs")
+def list_runs(workflow_id: str):
+    rows = db.query_all(
+        "SELECT * FROM workflow_runs WHERE workflow_id=? ORDER BY id DESC",
+        (workflow_id,),
+    )
+    return {"ok": True, "runs": rows}
+
+
+@router.post("/runs/{run_id}/approve")
+def approve_run(run_id: str, manager_id: str = "human"):
+    """审批通过：继续执行挂起工作流的剩余节点。"""
+    run = db.query_one("SELECT * FROM workflow_runs WHERE run_id=?", (run_id,))
+    if not run:
+        raise HTTPException(status_code=404, detail="run not found")
+    if run["status"] != "awaiting_approval":
+        raise HTTPException(status_code=409, detail="run is not awaiting approval")
+    remaining = json.loads(run["result"] or "[]")
+    wf = db.query_one("SELECT * FROM workflows WHERE workflow_id=?", (run["workflow_id"],))
+    if not wf:
+        raise HTTPException(status_code=404, detail="workflow not found")
+    db.execute("UPDATE workflow_runs SET status='running', result='', current_node='' WHERE run_id=?", (run_id,))
+    return _run_workflow_from(wf, run_id, manager_id, remaining)
+
+
+@router.post("/runs/{run_id}/deny")
+def deny_run(run_id: str, manager_id: str = "human"):
+    """审批拒绝：终止工作流。"""
+    run = db.query_one("SELECT * FROM workflow_runs WHERE run_id=?", (run_id,))
+    if not run:
+        raise HTTPException(status_code=404, detail="run not found")
+    if run["status"] != "awaiting_approval":
+        raise HTTPException(status_code=409, detail="run is not awaiting approval")
+    db.execute("UPDATE workflow_runs SET status='denied', current_node='', finished_at=? WHERE run_id=?",
+               (_now(), run_id))
+    db.audit(manager_id, "workflow_run_denied", run["workflow_id"], {"run_id": run_id})
+    return {"ok": True, "run_id": run_id, "status": "denied"}

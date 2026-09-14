@@ -1,1 +1,236 @@
-IiIi57O757uf77ya5YGl5bq35qOA5p+l44CB5a6h6K6h5pel5b+X44CB57Sn5oCl5Yi56L2m44CB5b+D6Lez6LaF5pe244CB5bel5YW36Zif5YiX44CBU1NFIOS6i+S7tua1geOAgiIiIg0KZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucw0KDQppbXBvcnQgYXN5bmNpbw0KaW1wb3J0IHN5cw0KaW1wb3J0IGpzb24NCg0KZnJvbSBmYXN0YXBpIGltcG9ydCBBUElSb3V0ZXINCmZyb20gZmFzdGFwaS5yZXNwb25zZXMgaW1wb3J0IFN0cmVhbWluZ1Jlc3BvbnNlDQoNCmZyb20gLi4gaW1wb3J0IGNvbmZpZywgZGIsIGV2ZW50cywgbmF0c19idXMNCg0Kcm91dGVyID0gQVBJUm91dGVyKHByZWZpeD0iL3N5c3RlbSIsIHRhZ3M9WyJzeXN0ZW0iXSkNCg0KDQpAcm91dGVyLmdldCgiL2hlYWx0aCIpDQpkZWYgaGVhbHRoKCk6DQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAic3RhdGlvbiI6ICJBZ2VudC1Sb3RhcnktU3RhdGlvbiIsDQogICAgICAgICAgICAiZW1lcmdlbmN5X2Jsb2NrIjogY29uZmlnLkVNRVJHRU5DWV9CTE9DS30NCg0KDQpAcm91dGVyLmdldCgiL3N0YXRzIikNCmRlZiBzdGF0cygpOg0KICAgICIiIuaAu+iniOe7n+iuoe+8muWcqOe6vyBBZ2VudCAvIOW+heWuoeaJuSjorrDlv4Yr5bel5YW3KSAvIOi/kOihjOS4reW3peS9nOa1gSAvIOS7u+WKoSAvIOe0p+aApeWIuei9puOAgg0KDQogICAg57uf6K6h5YWo6YOo5Zyo5bqV5bqn5a6M5oiQ77yM5YmN56uv5Y+q5YGa5bGV56S677yI5L6bIEJsdWVEZWVyIG5ld191aSDnm5HmjqfpnaLmnb/vvInjgIINCiAgICAiIiINCiAgICBkZWYgX2NvdW50KHNxbDogc3RyKSAtPiBpbnQ6DQogICAgICAgIHRyeToNCiAgICAgICAgICAgIHJvdyA9IGRiLnF1ZXJ5X29uZShzcWwpDQogICAgICAgICAgICByZXR1cm4gaW50KChyb3cgb3Ige30pLmdldCgiYyIpIG9yIDApDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246DQogICAgICAgICAgICByZXR1cm4gMA0KDQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAic3RhdHMiOiB7DQogICAgICAgICJhZ2VudHNfdG90YWwiOiBfY291bnQoIlNFTEVDVCBDT1VOVCgqKSBjIEZST00gYWdlbnRzIiksDQogICAgICAgICJhZ2VudHNfb25saW5lIjogX2NvdW50KCJTRUxFQ1QgQ09VTlQoKikgYyBGUk9NIGFnZW50cyBXSEVSRSBzdGF0dXM9J29ubGluZSciKSwNCiAgICAgICAgImFwcHJvdmFsc19wZW5kaW5nIjogX2NvdW50KCJTRUxFQ1QgQ09VTlQoKikgYyBGUk9NIG1lbW9yeV9hcHByb3ZhbHMgV0hFUkUgc3RhdHVzPSdwZW5kaW5nJyIpLA0KICAgICAgICAidG9vbF9wZW5kaW5nIjogX2NvdW50KCJTRUxFQ1QgQ09VTlQoKikgYyBGUk9NIHRvb2xfcmVxdWVzdHMgV0hFUkUgc3RhdHVzPSdwZW5kaW5nJyIpLA0KICAgICAgICAid29ya2Zsb3dzX2FjdGl2ZSI6IF9jb3VudCgiU0VMRUNUIENPVU5UKCopIGMgRlJPTSB3b3JrZmxvd3MgV0hFUkUgc3RhdHVzPSdhY3RpdmUnIiksDQogICAgICAgICJ3b3JrZmxvd3NfcnVubmluZyI6IF9jb3VudCgNCiAgICAgICAgICAgICJTRUxFQ1QgQ09VTlQoKikgYyBGUk9NIHdvcmtmbG93X3J1bnMgV0hFUkUgc3RhdHVzIElOICgncnVubmluZycsJ2F3YWl0aW5nX2FwcHJvdmFsJywncGVuZGluZycpIg0KICAgICAgICApLA0KICAgICAgICAidGFza3NfcGVuZGluZyI6IF9jb3VudCgNCiAgICAgICAgICAgICJTRUxFQ1QgQ09VTlQoKikgYyBGUk9NIHRhc2tzIFdIRVJFIHN0YXR1cyBJTiAoJ3BlbmRpbmcnLCdicm9hZGNhc3RpbmcnLCdhc3NpZ25lZCcpIg0KICAgICAgICApLA0KICAgICAgICAibWVzc2FnZXNfdG90YWwiOiBfY291bnQoIlNFTEVDVCBDT1VOVCgqKSBjIEZST00gbWVzc2FnZXMiKSwNCiAgICAgICAgImVtZXJnZW5jeV9ibG9jayI6IGJvb2woY29uZmlnLkVNRVJHRU5DWV9CTE9DSyksDQogICAgfX0NCg0KDQpAcm91dGVyLmdldCgiL2F1ZGl0LWxvZ3MiKQ0KZGVmIGF1ZGl0X2xvZ3MobGltaXQ6IGludCA9IDEwMCwgYWN0b3I6IHN0ciB8IE5vbmUgPSBOb25lLA0KICAgICAgICAgICAgICAgYWN0aW9uOiBzdHIgfCBOb25lID0gTm9uZSwgc3RhcnQ6IGZsb2F0IHwgTm9uZSA9IE5vbmUsDQogICAgICAgICAgICAgICBlbmQ6IGZsb2F0IHwgTm9uZSA9IE5vbmUsIHE6IHN0ciB8IE5vbmUgPSBOb25lKToNCiAgICAiIiLlrqHorqHml6Xlv5fvvIzmlK/mjIHmjIkgYWN0b3IgLyBhY3Rpb24gLyDml7bpl7TnqpcgLyDlhbPplK7lrZfov4fmu6TmkJzntKLjgIIiIiINCiAgICBzcWwgPSAiU0VMRUNUICogRlJPTSBhdWRpdF9sb2dzIFdIRVJFIDE9MSINCiAgICBwYXJhbXM6IGxpc3QgPSBbXQ0KICAgIGlmIGFjdG9yOg0KICAgICAgICBzcWwgKz0gIiBBTkQgYWN0b3I9PyINCiAgICAgICAgcGFyYW1zLmFwcGVuZChhY3RvcikNCiAgICBpZiBhY3Rpb246DQogICAgICAgIHNxbCArPSAiIEFORCBhY3Rpb249PyINCiAgICAgICAgcGFyYW1zLmFwcGVuZChhY3Rpb24pDQogICAgaWYgc3RhcnQgaXMgbm90IE5vbmU6DQogICAgICAgIHNxbCArPSAiIEFORCB0cz49PyINCiAgICAgICAgcGFyYW1zLmFwcGVuZChzdGFydCkNCiAgICBpZiBlbmQgaXMgbm90IE5vbmU6DQogICAgICAgIHNxbCArPSAiIEFORCB0czw9PyINCiAgICAgICAgcGFyYW1zLmFwcGVuZChlbmQpDQogICAgaWYgcToNCiAgICAgICAgc3FsICs9ICIgQU5EIChhY3RvciBMSUtFID8gT1IgYWN0aW9uIExJS0UgPyBPUiB0YXJnZXQgTElLRSA/IE9SIGRldGFpbCBMSUtFID8pIg0KICAgICAgICBsaWtlID0gZiIle3F9JSINCiAgICAgICAgcGFyYW1zICs9IFtsaWtlLCBsaWtlLCBsaWtlLCBsaWtlXQ0KICAgIHNxbCArPSAiIE9SREVSIEJZIGlkIERFU0MgTElNSVQgPyINCiAgICBwYXJhbXMuYXBwZW5kKGxpbWl0KQ0KICAgIHJvd3MgPSBkYi5xdWVyeV9hbGwoc3FsLCBwYXJhbXMpDQogICAgZm9yIHIgaW4gcm93czoNCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgclsiZGV0YWlsIl0gPSBqc29uLmxvYWRzKHIuZ2V0KCJkZXRhaWwiKSBvciAie30iKQ0KICAgICAgICBleGNlcHQganNvbi5KU09ORGVjb2RlRXJyb3I6DQogICAgICAgICAgICBwYXNzDQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAibG9ncyI6IHJvd3N9DQoNCg0KQHJvdXRlci5nZXQoIi9lbWVyZ2VuY3ktYmxvY2siKQ0KZGVmIGdldF9ibG9jaygpOg0KICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgImVtZXJnZW5jeV9ibG9jayI6IGNvbmZpZy5FTUVSR0VOQ1lfQkxPQ0t9DQoNCg0KQHJvdXRlci5wb3N0KCIvZW1lcmdlbmN5LWJsb2NrL3RvZ2dsZSIpDQpkZWYgdG9nZ2xlX2Jsb2NrKGFjdGl2ZTogYm9vbCA9IFRydWUpOg0KICAgICIiIuS6uuexu+acgOmrmOe0p+aApeaLpuaIqu+8muS/ruaUuSBjb25maWcg5qih5Z2X57qn5byA5YWz77yM5omA5pyJ6Lev55Sx5a6e5pe255Sf5pWI44CCIiIiDQogICAgY29uZmlnLkVNRVJHRU5DWV9CTE9DSyA9IGFjdGl2ZQ0KICAgIGRiLmF1ZGl0KCJodW1hbiIsICJlbWVyZ2VuY3lfYmxvY2tfdG9nZ2xlIiwgc3RyKGFjdGl2ZSkpDQogICAgbmF0c19idXMucHVibGlzaF9lbWVyZ2VuY3lfYmxvY2soYWN0aXZlKQ0KICAgIGV2ZW50cy5wdWJsaXNoKCJlbWVyZ2VuY3lfYmxvY2siLCB7ImFjdGl2ZSI6IGFjdGl2ZX0pDQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAiZW1lcmdlbmN5X2Jsb2NrIjogY29uZmlnLkVNRVJHRU5DWV9CTE9DS30NCg0KDQpAcm91dGVyLnBvc3QoIi9oZWFydGJlYXQtY2hlY2siKQ0KZGVmIGhlYXJ0YmVhdF9jaGVjaygpOg0KICAgICIiIuaJi+WKqOinpuWPkeW/g+i3s+i2heaXtuajgOafpe+8mui2heaXtiBBZ2VudCDnva7kuLogb2ZmbGluZeOAgiIiIg0KICAgIGNvdW50ID0gZGIubWFya19zdGFsZV9hZ2VudHNfb2ZmbGluZShjb25maWcuQUdFTlRfSEVBUlRCRUFUX1RJTUVPVVQpDQogICAgaWYgY291bnQ6DQogICAgICAgIGV2ZW50cy5wdWJsaXNoKCJhZ2VudHNfb2ZmbGluZSIsIHsiY291bnQiOiBjb3VudH0pDQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAibWFya2VkX29mZmxpbmUiOiBjb3VudH0NCg0KDQojIC0tLS0g5o6n5Yi25Y+w6K6+572u77yI5YmN56uv6K6+572u5Lit5b+D5a2Y5bqV5bqn77yM55yf5a6e55Sf5pWI77yJIC0tLS0NCg0KDQpkZWYgX2dldF9zZXR0aW5ncygpIC0+IGRpY3Q6DQogICAgcm93cyA9IGRiLnF1ZXJ5X2FsbCgiU0VMRUNUIGtleSwgdmFsdWUgRlJPTSBzZXR0aW5ncyIpDQogICAgb3V0OiBkaWN0ID0ge30NCiAgICBmb3IgciBpbiByb3dzOg0KICAgICAgICB0cnk6DQogICAgICAgICAgICBvdXRbclsia2V5Il1dID0ganNvbi5sb2FkcyhyWyJ2YWx1ZSJdKQ0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uOg0KICAgICAgICAgICAgb3V0W3JbImtleSJdXSA9IHJbInZhbHVlIl0NCiAgICByZXR1cm4gb3V0DQoNCg0KQHJvdXRlci5nZXQoIi9zZXR0aW5ncyIpDQpkZWYgZ2V0X3NldHRpbmdzKCk6DQogICAgIiIi5o6n5Yi25Y+w6K6+572u77yI6buY6K6k6Ieq5Yqo5bqU562U5qih5p2/562J77yJ77yM5YmN56uv6K6+572u5Lit5b+D6K+75YaZ44CCIiIiDQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAic2V0dGluZ3MiOiBfZ2V0X3NldHRpbmdzKCl9DQoNCg0KQHJvdXRlci5wb3N0KCIvc2V0dGluZ3MiKQ0KZGVmIHNhdmVfc2V0dGluZ3MoYm9keTogZGljdCk6DQogICAgIiIi5ZCI5bm25L+d5a2Y6K6+572u77yI5Y+q5YaZ5Lyg5YWl55qEIGtlee+8ieOAgiIiIg0KICAgIGlmIG5vdCBpc2luc3RhbmNlKGJvZHksIGRpY3QpOg0KICAgICAgICByZXR1cm4geyJvayI6IEZhbHNlLCAiZXJyb3IiOiAiYm9keSBtdXN0IGJlIG9iamVjdCJ9DQogICAgdHMgPSBkYi5ub3coKQ0KICAgIGZvciBrLCB2IGluIGJvZHkuaXRlbXMoKToNCiAgICAgICAgZGIuZXhlY3V0ZSgNCiAgICAgICAgICAgICJJTlNFUlQgSU5UTyBzZXR0aW5ncyAoa2V5LCB2YWx1ZSwgdXBkYXRlZF9hdCkgVkFMVUVTICg/LCA/LCA/KSAiDQogICAgICAgICAgICAiT04gQ09ORkxJQ1Qoa2V5KSBETyBVUERBVEUgU0VUIHZhbHVlPWV4Y2x1ZGVkLnZhbHVlLCB1cGRhdGVkX2F0PWV4Y2x1ZGVkLnVwZGF0ZWRfYXQiLA0KICAgICAgICAgICAgKGssIGpzb24uZHVtcHModiwgZW5zdXJlX2FzY2lpPUZhbHNlKSwgdHMpLA0KICAgICAgICApDQogICAgZGIuYXVkaXQoImh1bWFuIiwgInNldHRpbmdzX3NhdmUiLCAiLCIuam9pbihib2R5LmtleXMoKSkpDQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAic2V0dGluZ3MiOiBfZ2V0X3NldHRpbmdzKCl9DQoNCg0KQHJvdXRlci5nZXQoIi9wcm9iZS1tb2RlbHMiKQ0KZGVmIHByb2JlX21vZGVscyhhcGlfYmFzZTogc3RyID0gIiIsIGFwaV9rZXk6IHN0ciA9ICIiKToNCiAgICAiIiLnnJ/lrp7mjqLmtYvmqKHlnovliJfooajjgIINCg0KICAgIGFwaV9iYXNlIOS4uuepuiDihpIg5o6i5rWL5pys5ZywIE9sbGFtYSgxMTQzNCAvYXBpL3RhZ3Mp77ybDQogICAg5ZCm5YiZ5oyJIE9wZW5BSSDlhbzlrrnnq6/ngrkgR0VUIHthcGlfYmFzZX0vbW9kZWxz77yI5pSv5oyB56GF5Z+65rWB5YqoL0RlZXBTZWVrL0dpdEh1YiBNb2RlbHMv5pm66LCx77yJ44CCDQogICAgIiIiDQogICAgaW1wb3J0IHVybGxpYi5yZXF1ZXN0DQoNCiAgICBpZiBub3QgYXBpX2Jhc2U6DQogICAgICAgIHRyeToNCiAgICAgICAgICAgIHJlcSA9IHVybGxpYi5yZXF1ZXN0LlJlcXVlc3QoImh0dHA6Ly8xMjcuMC4wLjE6MTE0MzQvYXBpL3RhZ3MiLCBtZXRob2Q9IkdFVCIpDQogICAgICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxLCB0aW1lb3V0PTMuMCkgYXMgcmVzcDoNCiAgICAgICAgICAgICAgICBkYXRhID0ganNvbi5sb2FkcyhyZXNwLnJlYWQoKS5kZWNvZGUoInV0Zi04IikpDQogICAgICAgICAgICBtb2RlbHMgPSBbbS5nZXQoIm5hbWUiLCAiIikgZm9yIG0gaW4gZGF0YS5nZXQoIm1vZGVscyIsIFtdKSBpZiBtLmdldCgibmFtZSIpXQ0KICAgICAgICAgICAgcmV0dXJuIHsib2siOiBUcnVlLCAic291cmNlIjogIm9sbGFtYSIsICJtb2RlbHMiOiBtb2RlbHN9DQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIHJldHVybiB7Im9rIjogRmFsc2UsICJzb3VyY2UiOiAib2xsYW1hIiwgIm1vZGVscyI6IFtdLCAiZXJyb3IiOiBmIk9sbGFtYSDmnKrov5DooYw6IHtlfSJ9DQoNCiAgICBiYXNlID0gYXBpX2Jhc2UucnN0cmlwKCIvIikNCiAgICB1cmwgPSBiYXNlICsgIi9tb2RlbHMiDQogICAgdHJ5Og0KICAgICAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KHVybCwgbWV0aG9kPSJHRVQiKQ0KICAgICAgICBpZiBhcGlfa2V5Og0KICAgICAgICAgICAgcmVxLmFkZF9oZWFkZXIoIkF1dGhvcml6YXRpb24iLCAiQmVhcmVyICIgKyBhcGlfa2V5KQ0KICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxLCB0aW1lb3V0PTUuMCkgYXMgcmVzcDoNCiAgICAgICAgICAgIGRhdGEgPSBqc29uLmxvYWRzKHJlc3AucmVhZCgpLmRlY29kZSgidXRmLTgiKSkNCiAgICAgICAgbW9kZWxzID0gW20uZ2V0KCJpZCIsICIiKSBmb3IgbSBpbiBkYXRhLmdldCgiZGF0YSIsIFtdKSBpZiBtLmdldCgiaWQiKV0NCiAgICAgICAgaWYgbm90IG1vZGVscyBhbmQgaXNpbnN0YW5jZShkYXRhLCBkaWN0KToNCiAgICAgICAgICAgICMg5YW85a65IHttb2RlbHM6Wy4uLl19IOW9ouaAgQ0KICAgICAgICAgICAgbW9kZWxzID0gW20uZ2V0KCJpZCIsIG0gaWYgaXNpbnN0YW5jZShtLCBzdHIpIGVsc2UgIiIpIGZvciBtIGluIGRhdGEuZ2V0KCJtb2RlbHMiLCBbXSldDQogICAgICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInNvdXJjZSI6IGJhc2UsICJtb2RlbHMiOiBtb2RlbHN9DQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICByZXR1cm4geyJvayI6IEZhbHNlLCAic291cmNlIjogYmFzZSwgIm1vZGVscyI6IFtdLCAiZXJyb3IiOiBzdHIoZSl9DQoNCg0KQHJvdXRlci5wb3N0KCIvdG9vbC1xdWV1ZS9wcm9jZXNzIikNCmRlZiB0b29sX3F1ZXVlX3Byb2Nlc3MoKToNCiAgICAiIiLmiYvliqjop6blj5HlvoXooaXlj5Hlt6XlhbfpmJ/liJfjgIIiIiINCiAgICBmcm9tIC4gaW1wb3J0IHRvb2xzDQogICAgcmVzdWx0ID0gdG9vbHMucXVldWVfcHJvY2VzcygpDQogICAgZXZlbnRzLnB1Ymxpc2goInRvb2xfcXVldWVfcHJvY2Vzc2VkIiwgcmVzdWx0KQ0KICAgIHJldHVybiByZXN1bHQNCg0KDQpAcm91dGVyLmdldCgiL2V2ZW50cyIpDQphc3luYyBkZWYgZXZlbnRzX3N0cmVhbSgpOg0KICAgICIiIlNTRSDlrp7ml7bkuovku7bmtYHvvIjlgJ/pibQgUG9ja2V0QmFzZSDlrp7ml7borqLpmIXnkIblv7XvvInjgIINCg0KICAgIFdlYlVJIOeUqCBFdmVudFNvdXJjZSDorqLpmIXvvIzojrflvpfku7vliqEv5a6h5om5L+iusOW/hi/lt6Xlhbcv57Sn5oCl5Yi56L2m562JDQogICAg54q25oCB5Y+Y5pu055qE5a6e5pe25o6o6YCB77yb5pWw5o2u5LuN5LulIFNRTGl0ZSDkuLrllK/kuIDkuLvlrZjlgqjjgIINCiAgICAiIiINCiAgICBxdWV1ZSA9IGV2ZW50cy5zdWJzY3JpYmUoKQ0KDQogICAgYXN5bmMgZGVmIGdlbigpOg0KICAgICAgICB0cnk6DQogICAgICAgICAgICAjIOWFiOihpeWPkeacgOi/keS6i+S7tu+8jOmBv+WFjeaWree6v+mHjei/nuS4ouWOhuWPsg0KICAgICAgICAgICAgZm9yIGV2IGluIGV2ZW50cy5yZWNlbnRfZXZlbnRzKGxpbWl0PTUwKToNCiAgICAgICAgICAgICAgICB5aWVsZCBldmVudHMuc3NlX2Zvcm1hdChldikNCiAgICAgICAgICAgIHdoaWxlIFRydWU6DQogICAgICAgICAgICAgICAgdHJ5Og0KICAgICAgICAgICAgICAgICAgICBldiA9IGF3YWl0IGFzeW5jaW8ud2FpdF9mb3IocXVldWUuZ2V0KCksIHRpbWVvdXQ9MTUuMCkNCiAgICAgICAgICAgICAgICAgICAgeWllbGQgZXZlbnRzLnNzZV9mb3JtYXQoZXYpDQogICAgICAgICAgICAgICAgZXhjZXB0IGFzeW5jaW8uVGltZW91dEVycm9yOg0KICAgICAgICAgICAgICAgICAgICAjIOW/g+i3s+azqOmHiuihjO+8jOS/neaMgei/nuaOpQ0KICAgICAgICAgICAgICAgICAgICB5aWVsZCAiOiBwaW5nXG5cbiINCiAgICAgICAgZmluYWxseToNCiAgICAgICAgICAgIGV2ZW50cy51bnN1YnNjcmliZShxdWV1ZSkNCg0KICAgIHJldHVybiBTdHJlYW1pbmdSZXNwb25zZShnZW4oKSwgbWVkaWFfdHlwZT0idGV4dC9ldmVudC1zdHJlYW0iLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXJzPXsiQ2FjaGUtQ29udHJvbCI6ICJuby1jYWNoZSIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJYLUFjY2VsLUJ1ZmZlcmluZyI6ICJubyJ9KQ0KDQoNCkByb3V0ZXIuZ2V0KCIvdmVyc2lvbiIpDQpkZWYgdmVyc2lvbigpOg0KICAgIHJldHVybiB7Im5hbWUiOiAiQWdlbnQtUm90YXJ5LVN0YXRpb24iLCAidmVyc2lvbiI6ICIwLjIuMCIsDQogICAgICAgICAgICAicHl0aG9uIjogc3lzLnZlcnNpb24uc3BsaXQoKVswXSwgInBsYXRmb3JtIjogc3lzLnBsYXRmb3JtfQ0KDQoNCkByb3V0ZXIuZ2V0KCIvaW5mbyIpDQpkZWYgaW5mbygpOg0KICAgIHJldHVybiB7DQogICAgICAgICJvayI6IFRydWUsDQogICAgICAgICJ2ZXJzaW9uIjogIjAuMi4wIiwNCiAgICAgICAgImRhdGFfZGlyIjogc3RyKGNvbmZpZy5EQVRBX0RJUiksDQogICAgICAgICJkYl9wYXRoIjogc3RyKGNvbmZpZy5EQl9QQVRIKSwNCiAgICAgICAgIm5hdHNfZW5hYmxlZCI6IGNvbmZpZy5OQVRTX0VOQUJMRUQsDQogICAgICAgICJlbWVyZ2VuY3lfYmxvY2siOiBjb25maWcuRU1FUkdFTkNZX0JMT0NLLA0KICAgICAgICAidG9rZW5fY29uZmlndXJlZCI6IGJvb2woY29uZmlnLlNUQVRJT05fVE9LRU4pLA0KICAgIH0NCg==
+"""系统：健康检查、审计日志、紧急刹车、心跳超时、工具队列、SSE 事件流。"""
+from __future__ import annotations
+
+import asyncio
+import sys
+import json
+
+from fastapi import APIRouter
+from fastapi.responses import StreamingResponse
+
+from .. import config, db, events, nats_bus
+
+router = APIRouter(prefix="/system", tags=["system"])
+
+
+@router.get("/health")
+def health():
+    return {"ok": True, "station": "Agent-Rotary-Station",
+            "emergency_block": config.EMERGENCY_BLOCK}
+
+
+@router.get("/stats")
+def stats():
+    """总览统计：在线 Agent / 待审批(记忆+工具) / 运行中工作流 / 任务 / 紧急刹车。
+
+    统计全部在底座完成，前端只做展示（供 BlueDeer new_ui 监控面板）。
+    """
+    def _count(sql: str) -> int:
+        try:
+            row = db.query_one(sql)
+            return int((row or {}).get("c") or 0)
+        except Exception:
+            return 0
+
+    return {"ok": True, "stats": {
+        "agents_total": _count("SELECT COUNT(*) c FROM agents"),
+        "agents_online": _count("SELECT COUNT(*) c FROM agents WHERE status='online'"),
+        "approvals_pending": _count("SELECT COUNT(*) c FROM memory_approvals WHERE status='pending'"),
+        "tool_pending": _count("SELECT COUNT(*) c FROM tool_requests WHERE status='pending'"),
+        "workflows_active": _count("SELECT COUNT(*) c FROM workflows WHERE status='active'"),
+        "workflows_running": _count(
+            "SELECT COUNT(*) c FROM workflow_runs WHERE status IN ('running','awaiting_approval','pending')"
+        ),
+        "tasks_pending": _count(
+            "SELECT COUNT(*) c FROM tasks WHERE status IN ('pending','broadcasting','assigned')"
+        ),
+        "messages_total": _count("SELECT COUNT(*) c FROM messages"),
+        "emergency_block": bool(config.EMERGENCY_BLOCK),
+    }}
+
+
+@router.get("/audit-logs")
+def audit_logs(limit: int = 100, actor: str | None = None,
+               action: str | None = None, start: float | None = None,
+               end: float | None = None, q: str | None = None):
+    """审计日志，支持按 actor / action / 时间窗 / 关键字过滤搜索。"""
+    sql = "SELECT * FROM audit_logs WHERE 1=1"
+    params: list = []
+    if actor:
+        sql += " AND actor=?"
+        params.append(actor)
+    if action:
+        sql += " AND action=?"
+        params.append(action)
+    if start is not None:
+        sql += " AND ts>=?"
+        params.append(start)
+    if end is not None:
+        sql += " AND ts<=?"
+        params.append(end)
+    if q:
+        sql += " AND (actor LIKE ? OR action LIKE ? OR target LIKE ? OR detail LIKE ?)"
+        like = f"%{q}%"
+        params += [like, like, like, like]
+    sql += " ORDER BY id DESC LIMIT ?"
+    params.append(limit)
+    rows = db.query_all(sql, params)
+    for r in rows:
+        try:
+            r["detail"] = json.loads(r.get("detail") or "{}")
+        except json.JSONDecodeError:
+            pass
+    return {"ok": True, "logs": rows}
+
+
+@router.get("/emergency-block")
+def get_block():
+    return {"ok": True, "emergency_block": config.EMERGENCY_BLOCK}
+
+
+@router.post("/emergency-block/toggle")
+def toggle_block(active: bool = True):
+    """人类最高紧急拦截：修改 config 模块级开关，所有路由实时生效。"""
+    config.EMERGENCY_BLOCK = active
+    db.audit("human", "emergency_block_toggle", str(active))
+    nats_bus.publish_emergency_block(active)
+    events.publish("emergency_block", {"active": active})
+    return {"ok": True, "emergency_block": config.EMERGENCY_BLOCK}
+
+
+@router.post("/heartbeat-check")
+def heartbeat_check():
+    """手动触发心跳超时检查：超时 Agent 置为 offline。"""
+    count = db.mark_stale_agents_offline(config.AGENT_HEARTBEAT_TIMEOUT)
+    if count:
+        events.publish("agents_offline", {"count": count})
+    return {"ok": True, "marked_offline": count}
+
+
+# ---- 控制台设置（前端设置中心存底座，真实生效） ----
+
+
+def _get_settings() -> dict:
+    rows = db.query_all("SELECT key, value FROM settings")
+    out: dict = {}
+    for r in rows:
+        try:
+            out[r["key"]] = json.loads(r["value"])
+        except Exception:
+            out[r["key"]] = r["value"]
+    return out
+
+
+@router.get("/settings")
+def get_settings():
+    """控制台设置（默认自动应答模板等），前端设置中心读写。"""
+    return {"ok": True, "settings": _get_settings()}
+
+
+@router.post("/settings")
+def save_settings(body: dict):
+    """合并保存设置（只写传入的 key）。"""
+    if not isinstance(body, dict):
+        return {"ok": False, "error": "body must be object"}
+    ts = db.now()
+    for k, v in body.items():
+        db.execute(
+            "INSERT INTO settings (key, value, updated_at) VALUES (?, ?, ?) "
+            "ON CONFLICT(key) DO UPDATE SET value=excluded.value, updated_at=excluded.updated_at",
+            (k, json.dumps(v, ensure_ascii=False), ts),
+        )
+    db.audit("human", "settings_save", ",".join(body.keys()))
+    return {"ok": True, "settings": _get_settings()}
+
+
+@router.get("/probe-models")
+def probe_models(api_base: str = "", api_key: str = ""):
+    """真实探测模型列表。
+
+    api_base 为空 → 探测本地 Ollama(11434 /api/tags)；
+    否则按 OpenAI 兼容端点 GET {api_base}/models（支持硅基流动/DeepSeek/GitHub Models/智谱）。
+    """
+    import urllib.request
+
+    if not api_base:
+        try:
+            req = urllib.request.Request("http://127.0.0.1:11434/api/tags", method="GET")
+            with urllib.request.urlopen(req, timeout=3.0) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            models = [m.get("name", "") for m in data.get("models", []) if m.get("name")]
+            return {"ok": True, "source": "ollama", "models": models}
+        except Exception as e:
+            return {"ok": False, "source": "ollama", "models": [], "error": f"Ollama 未运行: {e}"}
+
+    base = api_base.rstrip("/")
+    url = base + "/models"
+    try:
+        req = urllib.request.Request(url, method="GET")
+        if api_key:
+            req.add_header("Authorization", "Bearer " + api_key)
+        with urllib.request.urlopen(req, timeout=5.0) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        models = [m.get("id", "") for m in data.get("data", []) if m.get("id")]
+        if not models and isinstance(data, dict):
+            # 兼容 {models:[...]} 形态
+            models = [m.get("id", m if isinstance(m, str) else "") for m in data.get("models", [])]
+        return {"ok": True, "source": base, "models": models}
+    except Exception as e:
+        return {"ok": False, "source": base, "models": [], "error": str(e)}
+
+
+@router.post("/tool-queue/process")
+def tool_queue_process():
+    """手动触发待补发工具队列。"""
+    from . import tools
+    result = tools.queue_process()
+    events.publish("tool_queue_processed", result)
+    return result
+
+
+@router.get("/events")
+async def events_stream():
+    """SSE 实时事件流（借鉴 PocketBase 实时订阅理念）。
+
+    WebUI 用 EventSource 订阅，获得任务/审批/记忆/工具/紧急刹车等
+    状态变更的实时推送；数据仍以 SQLite 为唯一主存储。
+    """
+    queue = events.subscribe()
+
+    async def gen():
+        try:
+            # 先补发最近事件，避免断线重连丢历史
+            for ev in events.recent_events(limit=50):
+                yield events.sse_format(ev)
+            while True:
+                try:
+                    ev = await asyncio.wait_for(queue.get(), timeout=15.0)
+                    yield events.sse_format(ev)
+                except asyncio.TimeoutError:
+                    # 心跳注释行，保持连接
+                    yield ": ping\n\n"
+        finally:
+            events.unsubscribe(queue)
+
+    return StreamingResponse(gen(), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache",
+                                      "X-Accel-Buffering": "no"})
+
+
+@router.get("/version")
+def version():
+    return {"name": "Agent-Rotary-Station", "version": "0.2.0",
+            "python": sys.version.split()[0], "platform": sys.platform}
+
+
+@router.get("/info")
+def info():
+    return {
+        "ok": True,
+        "version": "0.2.0",
+        "data_dir": str(config.DATA_DIR),
+        "db_path": str(config.DB_PATH),
+        "nats_enabled": config.NATS_ENABLED,
+        "emergency_block": config.EMERGENCY_BLOCK,
+        "token_configured": bool(config.STATION_TOKEN),
+    }
