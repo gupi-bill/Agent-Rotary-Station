@@ -1,1 +1,54 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ2h0dHBzOi8vZXNtLnNoL3JlYWN0QDE4JzsKaW1wb3J0IGh0bSBmcm9tICdodHRwczovL2VzbS5zaC9odG1AMyc7CmltcG9ydCB7IEFnZW50cywgV29ya2Zsb3dzLCBNZW1vcmllcywgVG9vbHMsIFN5c3RlbSB9IGZyb20gJy4uL2FwaS5qcyc7CmNvbnN0IGggPSBodG0uYmluZChSZWFjdC5jcmVhdGVFbGVtZW50KTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIERhc2hib2FyZCgpIHsKICBjb25zdCBbc3RhdHMsIHNldFN0YXRzXSA9IFJlYWN0LnVzZVN0YXRlKG51bGwpOwogIGNvbnN0IFtlcnIsIHNldEVycl0gPSBSZWFjdC51c2VTdGF0ZSgnJyk7CgogIGFzeW5jIGZ1bmN0aW9uIGxvYWQoKSB7CiAgICBzZXRFcnIoJycpOwogICAgdHJ5IHsKICAgICAgY29uc3QgW2FnZW50cywgd29ya2Zsb3dzLCBtZW1QZW5kaW5nLCB0b29sUGVuZGluZywgaGVhbHRoXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgICBBZ2VudHMubGlzdCgpLCBXb3JrZmxvd3MubGlzdCgpLCBNZW1vcmllcy5wZW5kaW5nKCksIFRvb2xzLnJlcXVlc3RzUGVuZGluZygpLCBTeXN0ZW0uaGVhbHRoKCksCiAgICAgIF0pOwogICAgICBzZXRTdGF0cyh7CiAgICAgICAgYWdlbnRzOiBhZ2VudHMuYWdlbnRzIHx8IFtdLAogICAgICAgIHdvcmtmbG93czogd29ya2Zsb3dzLndvcmtmbG93cyB8fCBbXSwKICAgICAgICBtZW1QZW5kaW5nOiBtZW1QZW5kaW5nLnBlbmRpbmcgfHwgbWVtUGVuZGluZy5yZXF1ZXN0cyB8fCBbXSwKICAgICAgICB0b29sUGVuZGluZzogdG9vbFBlbmRpbmcucGVuZGluZyB8fCBbXSwKICAgICAgICBoZWFsdGg6IGhlYWx0aCwKICAgICAgfSk7CiAgICB9IGNhdGNoIChlKSB7IHNldEVycihlLm1lc3NhZ2UpOyB9CiAgfQoKICBSZWFjdC51c2VFZmZlY3QoKCkgPT4geyBsb2FkKCk7IH0sIFtdKTsKCiAgY29uc3Qgb25saW5lID0gc3RhdHMgPyBzdGF0cy5hZ2VudHMuZmlsdGVyKGEgPT4gYS5zdGF0dXMgPT09ICdvbmxpbmUnKS5sZW5ndGggOiAwOwogIGNvbnN0IG1hbmFnZXIgPSBzdGF0cyA/IHN0YXRzLmFnZW50cy5maW5kKGEgPT4gYS5yb2xlID09PSAnbWFuYWdlcicpIDogbnVsbDsKICBjb25zdCBwZW5kaW5nQ291bnQgPSBzdGF0cyA/IChzdGF0cy5tZW1QZW5kaW5nLmxlbmd0aCArIHN0YXRzLnRvb2xQZW5kaW5nLmxlbmd0aCkgOiAwOwoKICByZXR1cm4gaGAKICA8ZGl2PgogICAgPGgyIGNsYXNzPSJwYWdlLXRpdGxlIj7wn5OKIOaAu+iniDwvaDI+CiAgICAke2VyciAmJiBoYDxkaXYgY2xhc3M9InRvYXN0Ij4ke2Vycn08L2Rpdj5gfQogICAgPGRpdiBjbGFzcz0iZ3JpZCI+CiAgICAgIDxkaXYgY2xhc3M9InN0YXQiPjxkaXYgY2xhc3M9Im51bSI+JHtzdGF0cyA/IHN0YXRzLmFnZW50cy5sZW5ndGggOiAnLSd9PC9kaXY+PGRpdiBjbGFzcz0ibGJsIj5BZ2VudCDmgLvmlbA8L2Rpdj48L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ic3RhdCI+PGRpdiBjbGFzcz0ibnVtIj4ke29ubGluZX08L2Rpdj48ZGl2IGNsYXNzPSJsYmwiPuWcqOe6vyBBZ2VudDwvZGl2PjwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJzdGF0Ij48ZGl2IGNsYXNzPSJudW0iPiR7c3RhdHMgPyBzdGF0cy53b3JrZmxvd3MubGVuZ3RoIDogJy0nfTwvZGl2PjxkaXYgY2xhc3M9ImxibCI+5bel5L2c5rWBPC9kaXY+PC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InN0YXQiPjxkaXYgY2xhc3M9Im51bSI+JHtwZW5kaW5nQ291bnR9PC9kaXY+PGRpdiBjbGFzcz0ibGJsIj7lvoXlrqHmibk8L2Rpdj48L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2FyZCI+CiAgICAgIDxoMz7wn6etIOeuoeeQhuWylzwvaDM+CiAgICAgIDxkaXY+JHttYW5hZ2VyID8gaGA8c3BhbiBjbGFzcz0iY2hpcCI+JHttYW5hZ2VyLm5hbWV9ICgke21hbmFnZXIuYWdlbnRfaWR9KTwvc3Bhbj5gIDogaGA8c3BhbiBjbGFzcz0iZGltIj7mmoLml6DnrqHnkIblspc8L3NwYW4+YH08L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2FyZCI+CiAgICAgIDxoMz7wn5uRIOe0p+aApeWIuei9pjwvaDM+CiAgICAgIDxkaXYgY2xhc3M9JHtzdGF0cyAmJiBzdGF0cy5oZWFsdGggJiYgc3RhdHMuaGVhbHRoLmVtZXJnZW5jeV9ibG9jayA/ICdlcnInIDogJ29rJ30+CiAgICAgICAgJHtzdGF0cyAmJiBzdGF0cy5oZWFsdGggJiYgc3RhdHMuaGVhbHRoLmVtZXJnZW5jeV9ibG9jayA/ICflt7LlkK/nlKjvvIjlupXluqfmnIDpq5jmi6bmiKrnlJ/mlYjvvIknIDogJ+acquWQr+eUqCd9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8YnV0dG9uIGNsYXNzPSJzZWNvbmRhcnkiIG9uQ2xpY2s9JHtsb2FkfT7wn5SEIOWIt+aWsDwvYnV0dG9uPgogIDwvZGl2PmA7Cn0K
+import React from 'https://esm.sh/react@18';
+import htm from 'https://esm.sh/htm@3';
+import { Agents, Workflows, Memories, Tools, System } from '../api.js';
+const h = htm.bind(React.createElement);
+
+export default function Dashboard() {
+  const [stats, setStats] = React.useState(null);
+  const [err, setErr] = React.useState('');
+
+  async function load() {
+    setErr('');
+    try {
+      const [agents, workflows, memPending, toolPending, health] = await Promise.all([
+        Agents.list(), Workflows.list(), Memories.pending(), Tools.requestsPending(), System.health(),
+      ]);
+      setStats({
+        agents: agents.agents || [],
+        workflows: workflows.workflows || [],
+        memPending: memPending.pending || memPending.requests || [],
+        toolPending: toolPending.pending || [],
+        health: health,
+      });
+    } catch (e) { setErr(e.message); }
+  }
+
+  React.useEffect(() => { load(); }, []);
+
+  const online = stats ? stats.agents.filter(a => a.status === 'online').length : 0;
+  const manager = stats ? stats.agents.find(a => a.role === 'manager') : null;
+  const pendingCount = stats ? (stats.memPending.length + stats.toolPending.length) : 0;
+
+  return h`
+  <div>
+    <h2 class="page-title">📊 总览</h2>
+    ${err && h`<div class="toast">${err}</div>`}
+    <div class="grid">
+      <div class="stat"><div class="num">${stats ? stats.agents.length : '-'}</div><div class="lbl">Agent 总数</div></div>
+      <div class="stat"><div class="num">${online}</div><div class="lbl">在线 Agent</div></div>
+      <div class="stat"><div class="num">${stats ? stats.workflows.length : '-'}</div><div class="lbl">工作流</div></div>
+      <div class="stat"><div class="num">${pendingCount}</div><div class="lbl">待审批</div></div>
+    </div>
+    <div class="card">
+      <h3>🧭 管理岗</h3>
+      <div>${manager ? h`<span class="chip">${manager.name} (${manager.agent_id})</span>` : h`<span class="dim">暂无管理岗</span>`}</div>
+    </div>
+    <div class="card">
+      <h3>🛑 紧急刹车</h3>
+      <div class=${stats && stats.health && stats.health.emergency_block ? 'err' : 'ok'}>
+        ${stats && stats.health && stats.health.emergency_block ? '已启用（底座最高拦截生效）' : '未启用'}
+      </div>
+    </div>
+    <button class="secondary" onClick=${load}>🔄 刷新</button>
+  </div>`;
+}

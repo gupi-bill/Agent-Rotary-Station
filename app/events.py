@@ -1,1 +1,90 @@
-IiIidjMgUDEg5YCf6Ym0IFBvY2tldEJhc2Ug5a6e5pe26K6i6ZiF55CG5b+155qEIFNTRSDkuovku7bmgLvnur/jgIIKCuWumuS9je+8mgotIEFSUyDkuLvlrZjlgqjku43mmK8gU1FMaXRl77yM5a6h5om56ZO+6Lev5LiN5Y+Y77yM5pys5qih5Z2X5LiN5YaZ5bqT44CB5LiN5pS55Lia5Yqh44CCCi0g5YWz6ZSu5Lia5Yqh5Yqo5L2c5Y+R55Sf5ZCO77yM5ZCR5YaF5a2Y5LqL5Lu25oC757q/5bm/5pKt5LiA5p2h5LqL5Lu277yMCiAgV2ViVUkg6YCa6L+HIC9zeXN0ZW0vZXZlbnRzIFNTRSDnq6/ngrnorqLpmIXvvIzojrflvpci6ZWc5YOP6Z2i5p2/IueahOWunuaXtuWIt+aWsOS9k+mqjOOAggotIOWAn+mJtCBQb2NrZXRCYXNlIEFkbWluIFVJIOWPr+inhuWMlueQhuW/te+8jOS9huS4jeW8leWFpSBQb2NrZXRCYXNlIOS+nei1luOAggoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGFzeW5jaW8KaW1wb3J0IGpzb24KaW1wb3J0IHRpbWUKZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVxdWUKZnJvbSB0eXBpbmcgaW1wb3J0IEFueSwgRGVxdWUKCiMg5q+P5Liq5LqL5Lu257G75Z6L5pyA5aSa5L+d55WZ55qE5pyA6L+R5LqL5Lu25pWwCl9NQVhfRVZFTlRTID0gMjAwCgojIOeOr+W9oue8k+WGsu+8muaWsOS6i+S7tui/m+adpe+8jOaXp+S6i+S7tua6ouWHugpfZXZlbnRzOiBEZXF1ZVtkaWN0W3N0ciwgQW55XV0gPSBkZXF1ZShtYXhsZW49X01BWF9FVkVOVFMpCgojIOiuoumYheiAhe+8muavj+S4quiuoumYheaYryB7cXVldWV9Cl9zdWJzY3JpYmVyczogbGlzdFtkaWN0W3N0ciwgQW55XV0gPSBbXQoKCmRlZiBfbm93KCkgLT4gZmxvYXQ6CiAgICByZXR1cm4gdGltZS50aW1lKCkKCgpkZWYgcHVibGlzaChldmVudF90eXBlOiBzdHIsIHBheWxvYWQ6IGRpY3Rbc3RyLCBBbnldKSAtPiBOb25lOgogICAgIiIi5Y+R5biD5LiA5p2h5LqL5Lu244CC5LqL5Lu25Y+q5bm/5pKt57uZ6K6i6ZiF6ICF77yM5LiN6Zi75aGe6LCD55So5pa544CCIiIiCiAgICBldmVudCA9IHsKICAgICAgICAic2VxIjogbGVuKF9ldmVudHMpLAogICAgICAgICJ0cyI6IF9ub3coKSwKICAgICAgICAidHlwZSI6IGV2ZW50X3R5cGUsCiAgICAgICAgImRhdGEiOiBwYXlsb2FkLAogICAgfQogICAgX2V2ZW50cy5hcHBlbmQoZXZlbnQpCiAgICBfYnJvYWRjYXN0KGV2ZW50KQoKCmRlZiBfYnJvYWRjYXN0KGV2ZW50OiBkaWN0W3N0ciwgQW55XSkgLT4gTm9uZToKICAgICIiIuaKiuS6i+S7tuaKlemAkue7meaJgOacieiuoumYheiAhemYn+WIl++8m+mYn+WIl+a7oeWImeS4ouW8g++8iOS4jemYu+Whnu+8ieOAgiIiIgogICAgZGVhZCA9IFtdCiAgICBmb3Igc3ViIGluIF9zdWJzY3JpYmVyczoKICAgICAgICB0cnk6CiAgICAgICAgICAgIHN1YlsicXVldWUiXS5wdXRfbm93YWl0KGV2ZW50KQogICAgICAgIGV4Y2VwdCBhc3luY2lvLlF1ZXVlRnVsbDoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgc3ViWyJxdWV1ZSJdLmdldF9ub3dhaXQoKQogICAgICAgICAgICAgICAgc3ViWyJxdWV1ZSJdLnB1dF9ub3dhaXQoZXZlbnQpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBwYXNzCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgZGVhZC5hcHBlbmQoc3ViKQogICAgZm9yIHN1YiBpbiBkZWFkOgogICAgICAgIHRyeToKICAgICAgICAgICAgX3N1YnNjcmliZXJzLnJlbW92ZShzdWIpCiAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgIHBhc3MKCgpkZWYgc3Vic2NyaWJlKCkgLT4gYXN5bmNpby5RdWV1ZToKICAgICIiIuazqOWGjOS4gOS4quiuoumYheiAhe+8jOi/lOWbnuWFtuS6i+S7tumYn+WIl+OAgiIiIgogICAgcTogYXN5bmNpby5RdWV1ZSA9IGFzeW5jaW8uUXVldWUobWF4c2l6ZT0yNTYpCiAgICBfc3Vic2NyaWJlcnMuYXBwZW5kKHsicXVldWUiOiBxfSkKICAgIHJldHVybiBxCgoKZGVmIHVuc3Vic2NyaWJlKHE6IGFzeW5jaW8uUXVldWUpIC0+IE5vbmU6CiAgICAiIiLnp7vpmaTorqLpmIXogIXjgIIiIiIKICAgIGZvciBzdWIgaW4gX3N1YnNjcmliZXJzOgogICAgICAgIGlmIHN1YlsicXVldWUiXSBpcyBxOgogICAgICAgICAgICBfc3Vic2NyaWJlcnMucmVtb3ZlKHN1YikKICAgICAgICAgICAgcmV0dXJuCgoKZGVmIHJlY2VudF9ldmVudHMobGltaXQ6IGludCA9IDUwLCBldmVudF90eXBlOiBzdHIgfCBOb25lID0gTm9uZSkgLT4gbGlzdFtkaWN0W3N0ciwgQW55XV06CiAgICAiIiLov5Tlm57mnIDov5Hkuovku7bvvIjnlKjkuo4gU1NFIOaWree6v+mHjei/nuWQjueahOihpeWPke+8ieOAgiIiIgogICAgaXRlbXMgPSBsaXN0KF9ldmVudHMpCiAgICBpZiBldmVudF90eXBlOgogICAgICAgIGl0ZW1zID0gW2UgZm9yIGUgaW4gaXRlbXMgaWYgZVsidHlwZSJdID09IGV2ZW50X3R5cGVdCiAgICByZXR1cm4gaXRlbXNbLWxpbWl0Ol0KCgpkZWYgc3NlX2Zvcm1hdChldmVudDogZGljdFtzdHIsIEFueV0pIC0+IHN0cjoKICAgICIiIuaKiuS6i+S7tuW6j+WIl+WMluS4uiBTU0Ug5bin44CCIiIiCiAgICBkYXRhID0ganNvbi5kdW1wcyhldmVudCwgZW5zdXJlX2FzY2lpPUZhbHNlKQogICAgcmV0dXJuIGYiaWQ6IHtldmVudFsnc2VxJ119XG5kYXRhOiB7ZGF0YX1cblxuIgo=
+"""v3 P1 借鉴 PocketBase 实时订阅理念的 SSE 事件总线。
+
+定位：
+- ARS 主存储仍是 SQLite，审批链路不变，本模块不写库、不改业务。
+- 关键业务动作发生后，向内存事件总线广播一条事件，
+  WebUI 通过 /system/events SSE 端点订阅，获得"镜像面板"的实时刷新体验。
+- 借鉴 PocketBase Admin UI 可视化理念，但不引入 PocketBase 依赖。
+"""
+from __future__ import annotations
+
+import asyncio
+import json
+import time
+from collections import deque
+from typing import Any, Deque
+
+# 每个事件类型最多保留的最近事件数
+_MAX_EVENTS = 200
+
+# 环形缓冲：新事件进来，旧事件溢出
+_events: Deque[dict[str, Any]] = deque(maxlen=_MAX_EVENTS)
+
+# 订阅者：每个订阅是 {queue}
+_subscribers: list[dict[str, Any]] = []
+
+
+def _now() -> float:
+    return time.time()
+
+
+def publish(event_type: str, payload: dict[str, Any]) -> None:
+    """发布一条事件。事件只广播给订阅者，不阻塞调用方。"""
+    event = {
+        "seq": len(_events),
+        "ts": _now(),
+        "type": event_type,
+        "data": payload,
+    }
+    _events.append(event)
+    _broadcast(event)
+
+
+def _broadcast(event: dict[str, Any]) -> None:
+    """把事件投递给所有订阅者队列；队列满则丢弃（不阻塞）。"""
+    dead = []
+    for sub in _subscribers:
+        try:
+            sub["queue"].put_nowait(event)
+        except asyncio.QueueFull:
+            try:
+                sub["queue"].get_nowait()
+                sub["queue"].put_nowait(event)
+            except Exception:
+                pass
+        except Exception:
+            dead.append(sub)
+    for sub in dead:
+        try:
+            _subscribers.remove(sub)
+        except ValueError:
+            pass
+
+
+def subscribe() -> asyncio.Queue:
+    """注册一个订阅者，返回其事件队列。"""
+    q: asyncio.Queue = asyncio.Queue(maxsize=256)
+    _subscribers.append({"queue": q})
+    return q
+
+
+def unsubscribe(q: asyncio.Queue) -> None:
+    """移除订阅者。"""
+    for sub in _subscribers:
+        if sub["queue"] is q:
+            _subscribers.remove(sub)
+            return
+
+
+def recent_events(limit: int = 50, event_type: str | None = None) -> list[dict[str, Any]]:
+    """返回最近事件（用于 SSE 断线重连后的补发）。"""
+    items = list(_events)
+    if event_type:
+        items = [e for e in items if e["type"] == event_type]
+    return items[-limit:]
+
+
+def sse_format(event: dict[str, Any]) -> str:
+    """把事件序列化为 SSE 帧。"""
+    data = json.dumps(event, ensure_ascii=False)
+    return f"id: {event['seq']}\ndata: {data}\n\n"

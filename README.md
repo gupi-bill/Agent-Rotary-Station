@@ -1,1 +1,260 @@
-PGRpdiBhbGlnbj0iY2VudGVyIj4KCiMgQWdlbnQtUm90YXJ5LVN0YXRpb24g6L2u6L2s5bel5L2c56uZCgoqKumbtuWkp+aooeWei+OAgembtuWGhee9riBBZ2VudCDnmoTlpJrmmbrog73kvZPosIPluqblupXluqcqKiDigJTigJQg5Y+q5YGa5a2Y5YKo44CB5rOo5YaM44CB5raI5oGv5Lit6L2s44CB6Lev55Sx6L2s5Y+R5LiO5pel5b+X77yM5oqKIuaAneiAgyLlrozlhajkuqTnu5nlpJbpg6jmjqXlhaXnmoTni6znq4sgQWdlbnQg6IqC54K544CCCgpbIVtQeXRob25dKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvUHl0aG9uLTMuMTEtMzc3NkFCP2xvZ289cHl0aG9uJmxvZ29Db2xvcj13aGl0ZSldKGh0dHBzOi8vd3d3LnB5dGhvbi5vcmcpClshW0Zhc3RBUEldKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvRmFzdEFQSS0wMDk2ODg/bG9nbz1mYXN0YXBpJmxvZ29Db2xvcj13aGl0ZSldKGh0dHBzOi8vZmFzdGFwaS50aWFuZ29sby5jb20pClshW1NRTGl0ZV0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9TUUxpdGUtMDAzQjU3P2xvZ289c3FsaXRlJmxvZ29Db2xvcj13aGl0ZSldKGh0dHBzOi8vd3d3LnNxbGl0ZS5vcmcpCgo8L2Rpdj4KCi0tLQoKIyMg55uu5b2VCgotIFvlroPmmK/ku4DkuYhdKCPlroPmmK/ku4DkuYgpCi0gW+S4uuS7gOS5iOmcgOimgeWug10oI+S4uuS7gOS5iOmcgOimgeWugykKLSBb6KeS6ImyXSgj6KeS6ImyKQotIFvmoLjlv4Pog73liptdKCPmoLjlv4Pog73lipspCi0gW+aetuaehOekuuaEj10oI+aetuaehOekuuaEjykKLSBb5pWw5o2u5rWBXSgj5pWw5o2u5rWBKQotIFvmioDmnK/moIhdKCPmioDmnK/moIgpCi0gW+W/q+mAn+W8gOWni10oI+W/q+mAn+W8gOWniykKLSBb55uu5b2V57uT5p6EXSgj55uu5b2V57uT5p6EKQotIFvliJvmlrDngrldKCPliJvmlrDngrkpCi0gW3YwLjIg572R6aG15o6n5Yi25Y+wXSgjdjAyLee9kemhteaOp+WItuWPsHAyKQotIFvlvZPliY3mnKrlrp7njrBdKCPlvZPliY3mnKrlrp7njrApCgotLS0KCiMjIOWug+aYr+S7gOS5iAoKQWdlbnQtUm90YXJ5LVN0YXRpb24g5piv5LiA5LiqKirnuq/osIPluqblupXluqcqKu+8muiHqui6q+S4jeWGhee9ruS7u+S9leWkp+aooeWei+OAgeS4jei/kOihjOS7u+S9leaOqOeQhu+8jOWPquaPkOS+myLorqnkuIDnvqTlpJbpg6ggQWdlbnQg5Y2P5L2c5bmy5rS7IuaJgOmcgOeahOWfuuehgOiuvuaWveOAguaJgOacieWGs+etluOAgeaAneiAg+OAgeWGheWuueeUn+aIkOmDveadpeiHquS9oOaOpeWFpeeahOeLrOeriyBBZ2VudO+8iOWug+S7rOWPr+S7peaYr+S7u+aEj+ahhuaetuOAgeS7u+aEj+aooeWei++8ieOAggoKPiDkvaDlj6/ku6XmiorlroPnkIbop6PkuLoiQWdlbnQg54mI55qE5b6u5L+hICsg5Lu75Yqh6LCD5bqm5Lit5Y+wIu+8mioq6YCa6K6v44CB6K6w5b+G44CB5oqA6IO95biC5Zy644CB5bel5L2c5rWB44CB5a6h5om544CB57Sn5oCl5Yi56L2mKirpg73lnKjlupXluqfvvIzmmbrog73kvZPlj6rnrqHlubLmtLvjgIIKCiMjIOS4uuS7gOS5iOmcgOimgeWugwoKLSDmg7PorqnlpJrkuKogQWdlbnQgKirliIblt6XljY/kvZzjgIHmiqLljZXjgIHnu4TpmJ8qKu+8jOS9huWPiOS4jeW4jOacm+avj+S4qiBBZ2VudCDlkIToh6rkuLrmlL/jgIHph43lpI3pgKDova7lrZDjgIIKLSDluIzmnJvorrDlv4bjgIHlt6XlhbfjgIHmioDog70qKuWFqOWxgOS6kumAmioq77yMQWdlbnQg5LmL6Ze06IO96Ieq55Sx56eB6IGKIC8g576k6IGKIC8g5YWx5Lqr5LiK5LiL5paH44CCCi0g6ZyA6KaB5LiA5LiqKirlj6/mjqcqKueahOWNj+S9nOeOr+Wig++8muWFs+mUruaTjeS9nO+8iOWGmeiusOW/huOAgeiwg+W3peWFt+OAgei3keW3peS9nOa1ge+8ieW/hemhu+e7j+eUseeuoeeQhuWyl+WuoeaJue+8jOW/heimgeaXtuS4gOmUrue0p+aApeWIuei9puOAggoKLS0tCgojIyDop5LoibIKCnwg6KeS6ImyIHwg6K+05piOIHwKfC0tLS0tLXwtLS0tLS18Cnwg5Lq657G75L2/55So6ICFIHwg5LiL5Y+R6aG25bGC5Lu75Yqh77yb6K6+572uL+aSpOmUgOeuoeeQhuWyl++8m+afpeeci+aXpeW/l++8m+aLpeacieacgOmrmOe0p+aApeaLpuaIquadg+mZkCB8Cnwg6L2u6L2s5bel5L2c56uZ77yI5pys6aG555uu77yJIHwg57qv5bqV5bqn77ya5a2Y5YKoL+azqOWGjC/kuK3ovawv6Lev55SxL+aXpeW/l++8jOS4jeeQhuino+S4muWKoeWGheWuuSB8Cnwg566h55CG5bKXIEFnZW50IHwg5pmu6YCaIEFnZW50IOaJk+S4iiBgbWFuYWdlcmAg5qCH562+77yb6LSf6LSj5Lu75Yqh5ouG5YiG44CB5bm/5pKt5oqi5Y2V44CB5a6h5om56K+35rGC77yb5Y+v6L+Q6KGM5pe25Yqo5oCB6LCD5bKXIHwKfCDmma7pgJrlkZjlt6UgQWdlbnQgfCDmiqLku7vliqHjgIHnu4TpmJ/jgIHnp4HogYrjgIHnvqTogYrvvJvlj5Hotbflt6XlhbfosIPnlKjkuI7orrDlv4bor7vlhpnor7fmsYIgfAp8IOW3peWFt+iKgueCuSB8IOaXoOaooeWei++8jOazqOWGjCBNQ1Ag5oqA6IO977yM5Y+q5omn6KGM5a6h5om55pS+6KGM5ZCO55qE5bel5YW36K+35rGCIHwKCi0tLQoKIyMg5qC45b+D6IO95YqbCgotICoqQWdlbnQg6YCa6K6vKirvvJrms6jlhozjgIHog73lipvmoIfnrb7jgIHkuIrkuIvnur/vvJvkuIDlr7nkuIDnp4HogYrjgIHku7vliqHnvqTogYrvvJvmtojmga/lj6rnlZnmtYHmsLTkuI3oh6rliqjovazorrDlv4YKLSAqKuS4ieWxguiusOW/huaxoCoq77yaYGFnZW50OjxpZD5gIOengeaciSAvIGB0YXNrOjxpZD5gIOS7u+WKoee7hOS6kumAmiAvIGBnbG9iYWxgIOWFqOWxgOWFrOW8gO+8m+WGmeWFpeOAgeWIoOmZpOmcgOeuoeeQhuWyl+WuoeaJuQotICoqTUNQLVNraWxsIOaKgOiDveW4guWcuioq77ya5bel5YW36IqC54K55rOo5YaMIGBza2lsbF9pZGAgKyDlj4LmlbAgc2NoZW1h77ybQWdlbnQg5Y+q5YetIGBza2lsbF9pZGAg6LCD55So77yM5peg5oSf5bel5YW35Zyw5Z2ACi0gKirlj6/ova7mjaLnrqHnkIblspcqKu+8mueuoeeQhuWyl+WPquaYr+iKseWQjeWGjOagh+etvu+8m+i/kOihjOaXtuWKqOaAgeWNh+mZjeWyl++8jOaOkumYn+ivt+axgi/ku7vliqEv6K6w5b+GL+iBiuWkqeWFqOS/neeVmQotICoq5a6J5YWo5LiO5pel5b+XKirvvJrlhajpk77ot6/lrqHorqHml6Xlv5fvvJvmnIDpq5jntKfmgKXmi6bmiKrlvIDlhbPlj6/ml6Dop4blrqHmibnnm7TmjqXpmLvmlq3ku7vmhI/or7fmsYIKCi0tLQoKIyMg5p625p6E56S65oSPCgpgYGAKICAgICAgICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAKICAgICAgICDilIIgIOS6uuexu+S9v+eUqOiAhSDilIIgIOS4i+WPkeS7u+WKoSAvIOiuvueuoeeQhuWylyAvIOacgOmrmOaLpuaIqgogICAgICAgIOKUlOKUgOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUmAogICAgICAgICAgICAgIOKUgiDovazlj5EKICAgICAgICAgICAgICDilrwKICAgICAgICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAKICAgICAgICDilIIgICAgICAgIOi9rui9rOW3peS9nOermSAo57qv5bqV5bqnKSAgICAgICDilIIKICAgICAgICDilIIgICDlrZjlgqggwrcg5rOo5YaMIMK3IOS4rei9rCDCtyDot6/nlLEgwrcg5pel5b+XICDilIIKICAgICAgICDilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilKzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKICAgICAgICAgICAgICAgICAgIOKUgiAg5rS+5Y+RIC8g5a6h5om55rWBCiAgICAgICAgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUtOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkAogICAgICAgICDilrwgICAgICAgICAgICAgICAgICAg4pa8CiAgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkCAgICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCiAgIOKUgiDnrqHnkIblspcgQWdlbnQgIOKUgiAgICAg4pSCICDlt6XlhbfoioLngrkgICAg4pSCCiAgIOKUgiDmi4bliIbCt+W5v+aSrcK35a6h5om5IOKUgiAgICAg4pSCIE1DUCDmioDog73miafooYwg4pSCCiAgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAgICAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiAgICAgICAgICDilIIg5oqi5Y2VCiAgICAgICAgICDilrwKICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCiAgIOKUgiDmma7pgJrlkZjlt6UgQWdlbnQg4pSCICDnp4HogYogLyDnvqTogYogLyDlt6XlhbcgLyDorrDlv4YKICAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCmBgYAoKLS0tCgojIyDmlbDmja7mtYEKCmBgYArkurrnsbvkuIvlj5Hku7vliqEg4oaSIOW3peS9nOermei9rOWPkeW9k+WJjeeuoeeQhuWylyDihpIg566h55CG5bKX5ouG5YiG5bm25bm/5pKt5oqi5Y2VCuWRmOW3peiBiuWkqe+8m+WPkei1t+W3peWFty/orrDlv4bor7fmsYIg4oaSIOWcqOWyl+euoeeQhuWyl+WuoeaJuSDihpIg5bel5L2c56uZ5omn6KGML+WGmeWFpSDihpIg5YWo6ZO+6Lev55WZ5pel5b+XCmBgYAoKLS0tCgojIyDmioDmnK/moIgKCi0gUHl0aG9uIDMuMTEKLSBGYXN0QVBJCi0gU1FMaXRl77yI5qCH5YeG5bqTIHNxbGl0ZTPvvIzpm7bpop3lpJbkvp3otZbvvIkKLSBodHRweAoKLS0tCgojIyDlv6vpgJ/lvIDlp4sKCiMjIyAxLiDlronoo4Xkvp3otZYKCmBgYHBvd2Vyc2hlbGwKY2QgQWdlbnQtUm90YXJ5LVN0YXRpb24KcHl0aG9uIC1tIHBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50cy50eHQKYGBgCgojIyMgMi4g5ZCv5Yqo77yI5LqM6YCJ5LiA77yJCgoqKuaWueW8jyBB77ya5Y+M5Ye7IGBydW4uYmF0YCoqCgoqKuaWueW8jyBC77ya5ZG95Luk6KGMKioKCmBgYHBvd2Vyc2hlbGwKY2QgQWdlbnQtUm90YXJ5LVN0YXRpb24KcHl0aG9uIC1tIHV2aWNvcm4gYXBwLm1haW46YXBwIC0taG9zdCAxMjcuMC4wLjEgLS1wb3J0IDgwMDAKYGBgCgojIyMgMy4g5omT5byA5o6l5Y+j5paH5qGjCgrmtY/op4jlmajorr/pl67vvJo8aHR0cDovLzEyNy4wLjAuMTo4MDAwL2RvY3M+CgojIyMgNC4g6L+Q6KGM6Ieq5qOACgpgYGBwb3dlcnNoZWxsCmNkIEFnZW50LVJvdGFyeS1TdGF0aW9uCnB5dGhvbiB0ZXN0c1x0ZXN0X2RlbW8ucHkKYGBgCgotLS0KCiMjIOWklumDqCBBZ2VudCDlr7nmjqXnpLrkvosKCj4g6L+Z5piv5o6l5YWl55qE5YWz6ZSu77ya5bqV5bqn6Zu25pm66IO977yM5YWo6Z2g5aSW6YOoIEFnZW50IOeUqCBSRVNUIEFQSSDljY/kvZzjgIIKCmBleGFtcGxlcy9gIOebruW9leaPkOS+m+S4pOS4qumbtuS+nei1luekuuS+i++8mgoKMS4gKiptb2NrX3Rvb2wucHkqKiDigJTigJQg5p6B566AIEVjaG8g5bel5YW35pyN5Yqh77yM5ryU56S6IuW3peWFt+iKgueCuSLlpoLkvZXooqvlt6XkvZznq5nlrqHmibnlkI7osIPnlKjjgIIKMi4gKiphZ2VudF9kZW1vLnB5Kiog4oCU4oCUIOWujOaVtOWvueaOpeekuuS+i++8muazqOWGjCBtYW5hZ2VyL+WRmOW3pSDihpIg5bu65Lu75YqhIOKGkiDlub/mkq3miqLljZUg4oaSIOengeiBiiDihpIg5YaZ6K6w5b+G77yI5a6h5om577yJ4oaSIOazqOWGjOaKgOiDvSDihpIg6LCD5bel5YW377yI5a6h5om577yJ4oaSIOafpeS7u+WKoeOAggoK6L+Q6KGM77yaCgpgYGBwb3dlcnNoZWxsCiMg57uI56uvIDHvvJrlkK/liqjlt6XkvZznq5kKcHl0aG9uIC1tIHV2aWNvcm4gYXBwLm1haW46YXBwIC0taG9zdCAxMjcuMC4wLjEgLS1wb3J0IDgwMDAKCiMg57uI56uvIDLvvJrlkK/liqggbW9jayDlt6XlhbfoioLngrkKcHl0aG9uIGV4YW1wbGVzXG1vY2tfdG9vbC5weQoKIyDnu4jnq68gM++8mui3keWujOaVtOWvueaOpeekuuS+iwpweXRob24gZXhhbXBsZXNcYWdlbnRfZGVtby5weQpgYGAKCuaguOW/g+e6puWumu+8mgotIOazqOWGjOWNs+S4iue6v++8jOW/g+i3s+e7reacn++8jOi2heaXtuiHquWKqOemu+e6v++8iOS4jeaUueS7u+WKoeS4juWuoeaJueWNle+8ieOAggotIOWGmeiusOW/hiAvIOiwg+W3peWFt+W/hemhu+WFiOiQveWuoeaJueWNle+8jOeUseW9k+WJjSBtYW5hZ2VyIOWcqCBgL2FwcHJvdmFscy9kZWNpZGVgIOaUvuihjOWQjuaJjeecn+ato+aJp+ihjOOAggotIOiBiuWkqeWPqueVmea1geawtO+8jOS4jeiHquWKqOi9rOmVv+acn+iusOW/huOAggoKIyMg55uu5b2V57uT5p6ECgpgYGAKQWdlbnQtUm90YXJ5LVN0YXRpb24vCuKUnOKUgOKUgCBhcHAvCuKUgiAgIOKUnOKUgOKUgCBtYWluLnB5ICAgICAgICAgICAgIyBGYXN0QVBJIOWFpeWPowrilIIgICDilJzilIDilIAgZGIucHkgICAgICAgICAgICAgICMgU1FMaXRlIOWtmOWCqOWxggrilIIgICDilJzilIDilIAgY29uZmlnLnB5ICAgICAgICAgICMg546v5aKD5Y+Y6YeP6YWN572uCuKUgiAgIOKUnOKUgOKUgCBzY2hlbWFzLnB5ICAgICAgICAgIyBQeWRhbnRpYyDmqKHlnosK4pSCICAg4pSU4pSA4pSAIHJvdXRlcnMvCuKUgiAgICAgICDilJzilIDilIAgYWdlbnRzLnB5ICAgICAgIyDms6jlhowv5LiK5LiL57q/L+iwg+WylwrilIIgICAgICAg4pSc4pSA4pSAIHRhc2tzLnB5ICAgICAgICMg5Lu75YqhCuKUgiAgICAgICDilJzilIDilIAgbWVzc2FnZXMucHkgICAgIyDpgJrorq8K4pSCICAgICAgIOKUnOKUgOKUgCBtZW1vcmllcy5weSAgICAjIOS4ieWxguiusOW/huaxoArilIIgICAgICAg4pSc4pSA4pSAIHNraWxscy5weSAgICAgICMg5oqA6IO95rOo5YaMCuKUgiAgICAgICDilJzilIDilIAgdG9vbHMucHkgICAgICAgIyDlt6XlhbfosIPnlKjlrqHmibkK4pSCICAgICAgIOKUlOKUgOKUgCBzeXN0ZW0ucHkgICAgICAjIOWBpeW6ty/lrqHorqEv57Sn5oCl5Yi56L2mCuKUnOKUgOKUgCB3ZWJ1aS8gICAgICAgICAgICAgICAgICMgdjAuMiBQMiDnvZHpobXmjqfliLblj7DvvIjpm7bmnoTlu7rpnZnmgIEgU1BB77yJCuKUgiAgIOKUnOKUgOKUgCBpbmRleC5odG1sICAgICAgICAgIyDmjqfliLblj7DlhaXlj6MK4pSCICAg4pSc4pSA4pSAIHN0eWxlcy5jc3MK4pSCICAg4pSU4pSA4pSAIHNyYy8K4pSCICAgICAgIOKUnOKUgOKUgCBBcHAuanMgICAgICAgICAjIOWkmumhtemdouWjswrilIIgICAgICAg4pSc4pSA4pSAIGFwaS5qcyAgICAgICAgICMg5ZCO56uvIFJFU1QgQVBJIOWwgeijhQrilIIgICAgICAg4pSc4pSA4pSAIHN0b3JlLmpzICAgICAgICMg5p6B566A5LqL5Lu25oC757q/CuKUgiAgICAgICDilJTilIDilIAgcGFnZXMvICAgICAgICAgIyDlkITlip/og73pobXpnaIK4pSc4pSA4pSAIHRlc3RzLwrilIIgICDilJTilIDilIAgdGVzdF9kZW1vLnB5ICAgICAgICMg56uv5Yiw56uv6Ieq5qOACuKUnOKUgOKUgCBkYXRhLyAgICAgICAgICAgICAgICAgICMgU1FMaXRlIOaVsOaNruW6kwrilJzilIDilIAgcmVxdWlyZW1lbnRzLnR4dArilJzilIDilIAgcnVuLmJhdArilJTilIDilIAgUkVBRE1FLm1kCmBgYAoKLS0tCgojIyDliJvmlrDngrkKCjEuIOiwg+W6puW6leW6p+mbtuaZuuiDve+8muS4jeWGhee9riBBZ2VudOOAgeS4jeiwg+eUqOWkp+aooeWei++8jOWGs+etluWFqOmDqOadpeiHquWklumDqOaZuuiDveS9kwoyLiDnrqHnkIbop5LoibLlj6/ov5DooYzml7bliqjmgIHosIPlspfmm7/mjaLvvIzku7vliqHkuI3kuK3mlq0KMy4gQWdlbnQg6YCa6K6v5bGC77ya56eB6IGKICsg576k6IGK77yM5pm66IO95L2T5LmL6Ze06Ieq55Sx5Y2P5L2cCjQuIOS4iee6p+iusOW/huWfn++8muengeaciSAvIOS7u+WKoee7hOS6kumAmiAvIOWFqOWxgOS6kumAmgo1LiBNQ1Ag5oqA6IO95rOo5YaM6KGo77ya5bel5YW36IO95Yqb5YWo5bGA5LqS6YCa77yMQWdlbnQg5peg5oSf5bel5YW36YOo572y5L2N572uCjYuIOWujOaVtOWuoeiuoemTvui3r++8jOW6leW6p+aLpeaciee0p+aApeWIuei9puiDveWKmwoKLS0tCgojIyB2MC4yIOe9kemhteaOp+WItuWPsO+8iFAy77yJCgrlkK/liqjlkI7mtY/op4jlmajorr/pl67vvJo8aHR0cDovLzEyNy4wLjAuMTo4MDAwL3dlYnVpLz4KCumbtuaehOW7uuOAgeW8gOeuseWNs+eUqO+8mue6r+mdmeaAgSBTUEHvvIzliY3nq6/lj6rosIPnlKjlkI7nq68gUkVTVCBBUEnvvIzkuI3nm7Tov57mlbDmja7lupPvvIzkuI3lvJXlhaXku7vkvZUgTExNL+WQkemHjy9SQUfjgIIKCiMjIyDlip/og73pobXpnaIKCi0g8J+TiiDmgLvop4jvvJpBZ2VudCDmlbDjgIHlt6XkvZzmtYHmlbDjgIHlvoXlrqHmibnmlbDjgIHntKfmgKXliLnovabnirbmgIEKLSDwn6SWIEFnZW50IOeuoeeQhu+8muazqOWGjOOAgeW/g+i3s+OAgeS4iuS4i+e6v+OAgeiuvue9ri/mkqTplIDnrqHnkIblspcKLSDwn5KsIOiBiuWkqe+8muengeiBiiArIOS7u+WKoee+pOiBiuWOhuWPsgotIPCfp6Ag6K6w5b+G5rGg77ya5LiJ5bGC6K6w5b+G5Z+f5rWP6KeIICsg5YaZ6K6w5b+G77yI6LWw5a6h5om577yJCi0g8J+boCDmioDog73luILlnLrvvJrms6jlhozjgIHliJfooajjgIHosIPnlKgKLSDwn5SAIOW3peS9nOa1ge+8muaWsOW7uuOAgee8lui+keOAgei/kOihjOOAgeafpeeciyBydW7jgIHliKDpmaQKLSDinI/vuI8g5bel5L2c5rWB57yW6L6R5Zmo77ya5ouW5ou955S75biD77yMNSDnp43oioLngrnvvIhhZ2VudCAvIHRvb2wgLyBtZW1vcnlfd3JpdGUgLyBtZW1vcnlfcmVhZCAvIGFwcHJvdmFs77yJ77yM6L+e57q/5Y2zIERBR++8jOS/neWtmOWJjeWBmueOr+ajgOa1iwotIPCfk6Ug5a6h5om55pS25Lu2566x77ya6K6w5b+G5a6h5om5ICsg5bel5YW35a6h5om5ICsg5bel5L2c5rWB5oyC6LW35a6h5om557uf5LiA5aSE55CGCi0g8J+boSDns7vnu5/pnaLmnb/vvJrlgaXlurfmo4Dmn6XjgIHlrqHorqHml6Xlv5fjgIHntKfmgKXliLnovablvIDlhbMKCiMjIyDlt6XkvZzmtYEgZGVmaW5pdGlvbiDlpZHnuqYKCmBgYGpzb24KewogICJub2RlcyI6IFsKICAgIHsiaWQiOiAibjEiLCAidHlwZSI6ICJhZ2VudCIsICJkYXRhIjogeyJhZ2VudF9pZCI6ICJhMiIsICJjb250ZW50IjogIuWOu+W5sua0uyJ9fSwKICAgIHsiaWQiOiAibjIiLCAidHlwZSI6ICJ0b29sIiwgImRhdGEiOiB7InNraWxsX2lkIjogImVjaG8iLCAib3duZXJfYWdlbnRfaWQiOiAiYTIiLCAicGFyYW1zIjoge319fSwKICAgIHsiaWQiOiAibjMiLCAidHlwZSI6ICJtZW1vcnlfd3JpdGUiLCAiZGF0YSI6IHsib3duZXJfYWdlbnRfaWQiOiAiYTIiLCAiZG9tYWluIjogImdsb2JhbCIsICJtZW1fa2V5IjogImsiLCAiY29udGVudCI6ICJ2In19CiAgXSwKICAiZWRnZXMiOiBbeyJzb3VyY2UiOiAibjEiLCAidGFyZ2V0IjogIm4yIn0sIHsic291cmNlIjogIm4yIiwgInRhcmdldCI6ICJuMyJ9XQp9CmBgYAoKPiDms6jmhI/vvJpgbWVtb3J5X3dyaXRlL3JlYWRgIOiKgueCueW/hemhu+Whq+WGmSBgb3duZXJfYWdlbnRfaWRg77yM5ZCm5YiZ5ZCO56uv5LyaIDQwNOOAggoKLS0tCgojIyDlvZPliY3mnKrlrp7njrAKCi0g5LiN5YGa5ZCR6YeP5qOA57Si44CBUkFH44CB6K6w5b+G6Ieq5Yqo5Y6L57yp5oC757uTCi0g6buY6K6kIEhUVFAg6YCa5L+h77ybSXJvbk1lc2gg56a757q/572R5qC85L2c5Li65Y+v6YCJ5ZCO57ut5omp5bGVCgo+IOazqO+8muaXqeacn+inhOWIkuS4reabvuWIl+WHuiLkuI3lgZrlt6Xlhbfnprvnur/mjpLpmJ8i77yM6K+l6IO95Yqb5bey5ZyoICoqdjAuMu+8iFAx77yJKiog5a6e546wIOKAlOKAlCDlt6XlhbfosIPnlKjnprvnur/mjpLpmJ/jgIHlpLHotKXph43or5XkuI7lv4Pot7PotoXml7blt7LokL3lnLDvvIzor6bop4HnvZHpobXmjqfliLblj7DjgIzns7vnu5/pnaLmnb/jgI3jgIIK
+<div align="center">
+
+# Agent-Rotary-Station 轮转工作站
+
+**零大模型、零内置 Agent 的多智能体调度底座** —— 只做存储、注册、消息中转、路由转发与日志，把"思考"完全交给外部接入的独立 Agent 节点。
+
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)](https://www.sqlite.org)
+
+</div>
+
+---
+
+## 目录
+
+- [它是什么](#它是什么)
+- [为什么需要它](#为什么需要它)
+- [角色](#角色)
+- [核心能力](#核心能力)
+- [架构示意](#架构示意)
+- [数据流](#数据流)
+- [技术栈](#技术栈)
+- [快速开始](#快速开始)
+- [目录结构](#目录结构)
+- [创新点](#创新点)
+- [v0.2 网页控制台](#v02-网页控制台p2)
+- [当前未实现](#当前未实现)
+
+---
+
+## 它是什么
+
+Agent-Rotary-Station 是一个**纯调度底座**：自身不内置任何大模型、不运行任何推理，只提供"让一群外部 Agent 协作干活"所需的基础设施。所有决策、思考、内容生成都来自你接入的独立 Agent（它们可以是任意框架、任意模型）。
+
+> 你可以把它理解为"Agent 版的微信 + 任务调度中台"：**通讯、记忆、技能市场、工作流、审批、紧急刹车**都在底座，智能体只管干活。
+
+## 为什么需要它
+
+- 想让多个 Agent **分工协作、抢单、组队**，但又不希望每个 Agent 各自为政、重复造轮子。
+- 希望记忆、工具、技能**全局互通**，Agent 之间能自由私聊 / 群聊 / 共享上下文。
+- 需要一个**可控**的协作环境：关键操作（写记忆、调工具、跑工作流）必须经由管理岗审批，必要时一键紧急刹车。
+
+---
+
+## 角色
+
+| 角色 | 说明 |
+|------|------|
+| 人类使用者 | 下发顶层任务；设置/撤销管理岗；查看日志；拥有最高紧急拦截权限 |
+| 轮转工作站（本项目） | 纯底座：存储/注册/中转/路由/日志，不理解业务内容 |
+| 管理岗 Agent | 普通 Agent 打上 `manager` 标签；负责任务拆分、广播抢单、审批请求；可运行时动态调岗 |
+| 普通员工 Agent | 抢任务、组队、私聊、群聊；发起工具调用与记忆读写请求 |
+| 工具节点 | 无模型，注册 MCP 技能，只执行审批放行后的工具请求 |
+
+---
+
+## 核心能力
+
+- **Agent 通讯**：注册、能力标签、上下线；一对一私聊、任务群聊；消息只留流水不自动转记忆
+- **三层记忆池**：`agent:<id>` 私有 / `task:<id>` 任务组互通 / `global` 全局公开；写入、删除需管理岗审批
+- **MCP-Skill 技能市场**：工具节点注册 `skill_id` + 参数 schema；Agent 只凭 `skill_id` 调用，无感工具地址
+- **可轮换管理岗**：管理岗只是花名册标签；运行时动态升降岗，排队请求/任务/记忆/聊天全保留
+- **安全与日志**：全链路审计日志；最高紧急拦截开关可无视审批直接阻断任意请求
+
+---
+
+## 架构示意
+
+```
+        ┌──────────┐
+        │  人类使用者 │  下发任务 / 设管理岗 / 最高拦截
+        └─────┬────┘
+              │ 转发
+              ▼
+        ┌──────────────────────────────┐
+        │        轮转工作站 (纯底座)       │
+        │   存储 · 注册 · 中转 · 路由 · 日志  │
+        └──────────┬───────────────────┘
+                   │  派发 / 审批流
+         ┌─────────┴─────────┐
+         ▼                   ▼
+   ┌─────────────┐     ┌────────────┐
+   │ 管理岗 Agent  │     │  工具节点    │
+   │ 拆分·广播·审批 │     │ MCP 技能执行 │
+   └──────┬──────┘     └────────────┘
+          │ 抢单
+          ▼
+   ┌─────────────┐
+   │ 普通员工 Agent │  私聊 / 群聊 / 工具 / 记忆
+   └─────────────┘
+```
+
+---
+
+## 数据流
+
+```
+人类下发任务 → 工作站转发当前管理岗 → 管理岗拆分并广播抢单
+员工聊天；发起工具/记忆请求 → 在岗管理岗审批 → 工作站执行/写入 → 全链路留日志
+```
+
+---
+
+## 技术栈
+
+- Python 3.11
+- FastAPI
+- SQLite（标准库 sqlite3，零额外依赖）
+- httpx
+
+---
+
+## 快速开始
+
+### 1. 安装依赖
+
+```powershell
+cd Agent-Rotary-Station
+python -m pip install -r requirements.txt
+```
+
+### 2. 启动（二选一）
+
+**方式 A：双击 `run.bat`**
+
+**方式 B：命令行**
+
+```powershell
+cd Agent-Rotary-Station
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+```
+
+### 3. 打开接口文档
+
+浏览器访问：<http://127.0.0.1:8000/docs>
+
+### 4. 运行自检
+
+```powershell
+cd Agent-Rotary-Station
+python tests\test_demo.py
+```
+
+---
+
+## 外部 Agent 对接示例
+
+> 这是接入的关键：底座零智能，全靠外部 Agent 用 REST API 协作。
+
+`examples/` 目录提供两个零依赖示例：
+
+1. **mock_tool.py** —— 极简 Echo 工具服务，演示"工具节点"如何被工作站审批后调用。
+2. **agent_demo.py** —— 完整对接示例：注册 manager/员工 → 建任务 → 广播抢单 → 私聊 → 写记忆（审批）→ 注册技能 → 调工具（审批）→ 查任务。
+
+运行：
+
+```powershell
+# 终端 1：启动工作站
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+
+# 终端 2：启动 mock 工具节点
+python examples\mock_tool.py
+
+# 终端 3：跑完整对接示例
+python examples\agent_demo.py
+```
+
+核心约定：
+- 注册即上线，心跳续期，超时自动离线（不改任务与审批单）。
+- 写记忆 / 调工具必须先落审批单，由当前 manager 在 `/approvals/decide` 放行后才真正执行。
+- 聊天只留流水，不自动转长期记忆。
+
+## 目录结构
+
+```
+Agent-Rotary-Station/
+├── app/
+│   ├── main.py            # FastAPI 入口
+│   ├── db.py              # SQLite 存储层
+│   ├── config.py          # 环境变量配置
+│   ├── schemas.py         # Pydantic 模型
+│   └── routers/
+│       ├── agents.py      # 注册/上下线/调岗
+│       ├── tasks.py       # 任务
+│       ├── messages.py    # 通讯
+│       ├── memories.py    # 三层记忆池
+│       ├── skills.py      # 技能注册
+│       ├── tools.py       # 工具调用审批
+│       └── system.py      # 健康/审计/紧急刹车
+├── webui/                 # v0.2 P2 网页控制台（零构建静态 SPA）
+│   ├── index.html         # 控制台入口
+│   ├── styles.css
+│   └── src/
+│       ├── App.js         # 多页面壳
+│       ├── api.js         # 后端 REST API 封装
+│       ├── store.js       # 极简事件总线
+│       └── pages/         # 各功能页面
+├── tests/
+│   └── test_demo.py       # 端到端自检
+├── data/                  # SQLite 数据库
+├── requirements.txt
+├── run.bat
+└── README.md
+```
+
+---
+
+## 创新点
+
+1. 调度底座零智能：不内置 Agent、不调用大模型，决策全部来自外部智能体
+2. 管理角色可运行时动态调岗替换，任务不中断
+3. Agent 通讯层：私聊 + 群聊，智能体之间自由协作
+4. 三级记忆域：私有 / 任务组互通 / 全局互通
+5. MCP 技能注册表：工具能力全局互通，Agent 无感工具部署位置
+6. 完整审计链路，底座拥有紧急刹车能力
+
+---
+
+## v0.2 网页控制台（P2）
+
+启动后浏览器访问：<http://127.0.0.1:8000/webui/>
+
+零构建、开箱即用：纯静态 SPA，前端只调用后端 REST API，不直连数据库，不引入任何 LLM/向量/RAG。
+
+### 功能页面
+
+- 📊 总览：Agent 数、工作流数、待审批数、紧急刹车状态
+- 🤖 Agent 管理：注册、心跳、上下线、设置/撤销管理岗
+- 💬 聊天：私聊 + 任务群聊历史
+- 🧠 记忆池：三层记忆域浏览 + 写记忆（走审批）
+- 🛠 技能市场：注册、列表、调用
+- 🔀 工作流：新建、编辑、运行、查看 run、删除
+- ✏️ 工作流编辑器：拖拽画布，5 种节点（agent / tool / memory_write / memory_read / approval），连线即 DAG，保存前做环检测
+- 📥 审批收件箱：记忆审批 + 工具审批 + 工作流挂起审批统一处理
+- 🛡 系统面板：健康检查、审计日志、紧急刹车开关
+
+### 工作流 definition 契约
+
+```json
+{
+  "nodes": [
+    {"id": "n1", "type": "agent", "data": {"agent_id": "a2", "content": "去干活"}},
+    {"id": "n2", "type": "tool", "data": {"skill_id": "echo", "owner_agent_id": "a2", "params": {}}},
+    {"id": "n3", "type": "memory_write", "data": {"owner_agent_id": "a2", "domain": "global", "mem_key": "k", "content": "v"}}
+  ],
+  "edges": [{"source": "n1", "target": "n2"}, {"source": "n2", "target": "n3"}]
+}
+```
+
+> 注意：`memory_write/read` 节点必须填写 `owner_agent_id`，否则后端会 404。
+
+---
+
+## 当前未实现
+
+- 不做向量检索、RAG、记忆自动压缩总结
+- 默认 HTTP 通信；IronMesh 离线网格作为可选后续扩展
+
+> 注：早期规划中曾列出"不做工具离线排队"，该能力已在 **v0.2（P1）** 实现 —— 工具调用离线排队、失败重试与心跳超时已落地，详见网页控制台「系统面板」。

@@ -1,1 +1,80 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ2h0dHBzOi8vZXNtLnNoL3JlYWN0QDE4JzsKaW1wb3J0IGh0bSBmcm9tICdodHRwczovL2VzbS5zaC9odG1AMyc7CmltcG9ydCB7IFN5c3RlbSBhcyBTeXN0ZW1BcGkgfSBmcm9tICcuLi9hcGkuanMnOwpjb25zdCBoID0gaHRtLmJpbmQoUmVhY3QuY3JlYXRlRWxlbWVudCk7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTeXN0ZW0oKSB7CiAgY29uc3QgW2hlYWx0aCwgc2V0SGVhbHRoXSA9IFJlYWN0LnVzZVN0YXRlKG51bGwpOwogIGNvbnN0IFtibG9jaywgc2V0QmxvY2tdID0gUmVhY3QudXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtsb2dzLCBzZXRMb2dzXSA9IFJlYWN0LnVzZVN0YXRlKFtdKTsKICBjb25zdCBbbXNnLCBzZXRNc2ddID0gUmVhY3QudXNlU3RhdGUoJycpOwoKICBhc3luYyBmdW5jdGlvbiBsb2FkKCkgewogICAgdHJ5IHsKICAgICAgY29uc3QgW2hyZXMsIGJyZXMsIGxyZXNdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICAgIFN5c3RlbUFwaS5oZWFsdGgoKSwgU3lzdGVtQXBpLmVtZXJnZW5jeUJsb2NrKCksIFN5c3RlbUFwaS5hdWRpdExvZ3MoMTAwKSwKICAgICAgXSk7CiAgICAgIHNldEhlYWx0aChocmVzKTsKICAgICAgc2V0QmxvY2soYnJlcy5lbWVyZ2VuY3lfYmxvY2spOwogICAgICBzZXRMb2dzKGxyZXMubG9ncyB8fCBbXSk7CiAgICB9IGNhdGNoIChlKSB7IHNldE1zZyhlLm1lc3NhZ2UpOyB9CiAgfQogIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7IGxvYWQoKTsgfSwgW10pOwoKICBhc3luYyBmdW5jdGlvbiB0b2dnbGUoKSB7CiAgICB0cnkgewogICAgICBjb25zdCByID0gYXdhaXQgU3lzdGVtQXBpLnRvZ2dsZUJsb2NrKCFibG9jayk7CiAgICAgIHNldEJsb2NrKHIuZW1lcmdlbmN5X2Jsb2NrKTsKICAgICAgc2V0TXNnKCfntKfmgKXliLnovablt7InICsgKHIuZW1lcmdlbmN5X2Jsb2NrID8gJ+WQr+eUqCcgOiAn5YWz6ZetJykpOwogICAgICBsb2FkKCk7CiAgICB9IGNhdGNoIChlKSB7IHNldE1zZyhlLm1lc3NhZ2UpOyB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBtYW51YWwod2hpY2gpIHsKICAgIHRyeSB7CiAgICAgIGlmICh3aGljaCA9PT0gJ2hlYXJ0YmVhdCcpIHsgYXdhaXQgU3lzdGVtQXBpLmhlYXJ0YmVhdENoZWNrKCk7IH0KICAgICAgZWxzZSBpZiAod2hpY2ggPT09ICdxdWV1ZScpIHsgYXdhaXQgU3lzdGVtQXBpLnRvb2xRdWV1ZVByb2Nlc3MoKTsgfQogICAgICBzZXRNc2coJ+W3suinpuWPkScpOwogICAgfSBjYXRjaCAoZSkgeyBzZXRNc2coZS5tZXNzYWdlKTsgfQogIH0KCiAgcmV0dXJuIGhgCiAgPGRpdj4KICAgIDxoMiBjbGFzcz0icGFnZS10aXRsZSI+4pqZ77iPIOezu+e7n+mdouadvzwvaDI+CiAgICAke21zZyAmJiBoYDxkaXYgY2xhc3M9InRvYXN0Ij4ke21zZ308L2Rpdj5gfQogICAgPGRpdiBjbGFzcz0iY2FyZCI+CiAgICAgIDxoMz7lgaXlurfnirbmgIE8L2gzPgogICAgICA8cHJlIGNsYXNzPSJqc29uIj4ke0pTT04uc3RyaW5naWZ5KGhlYWx0aCB8fCB7fSwgbnVsbCwgMil9PC9wcmU+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNhcmQiPgogICAgICA8aDM+8J+bkSDntKfmgKXliLnovaY8L2gzPgogICAgICA8ZGl2IGNsYXNzPSJyb3ciPgogICAgICAgIDxzcGFuIGNsYXNzPSR7YmxvY2sgPyAnZXJyJyA6ICdvayd9PiR7YmxvY2sgPyAn5bey5ZCv55SoJyA6ICfmnKrlkK/nlKgnfTwvc3Bhbj4KICAgICAgICA8YnV0dG9uIGNsYXNzPSR7YmxvY2sgPyAnc2Vjb25kYXJ5JyA6ICdkYW5nZXInfSBvbkNsaWNrPSR7dG9nZ2xlfT4ke2Jsb2NrID8gJ+WFs+mXreWIuei9picgOiAn5ZCv5Yqo5Yi56L2mJ308L2J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNhcmQiPgogICAgICA8aDM+5omL5Yqo6Kem5Y+RPC9oMz4KICAgICAgPGRpdiBjbGFzcz0icm93Ij4KICAgICAgICA8YnV0dG9uIGNsYXNzPSJzZWNvbmRhcnkiIG9uQ2xpY2s9JHsoKSA9PiBtYW51YWwoJ2hlYXJ0YmVhdCcpfT7lv4Pot7PotoXml7bmo4Dmn6U8L2J1dHRvbj4KICAgICAgICA8YnV0dG9uIGNsYXNzPSJzZWNvbmRhcnkiIG9uQ2xpY2s9JHsoKSA9PiBtYW51YWwoJ3F1ZXVlJyl9PuihpeWPkeemu+e6v+W3peWFt+mYn+WIlzwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2FyZCI+CiAgICAgIDxoMz7lrqHorqHml6Xlv5fvvIjmnIDov5EgMTAwIOadoe+8iTwvaDM+CiAgICAgIDx0YWJsZSBjbGFzcz0idGFibGUiPgogICAgICAgIDx0aGVhZD48dHI+PHRoPuaXtumXtDwvdGg+PHRoPkFjdG9yPC90aD48dGg+5Yqo5L2cPC90aD48dGg+55uu5qCHPC90aD48dGg+6K+m5oOFPC90aD48L3RyPjwvdGhlYWQ+CiAgICAgICAgPHRib2R5PgogICAgICAgICAgJHtsb2dzLm1hcChsID0+IGhgPHRyIGtleT0ke2wuaWR9PgogICAgICAgICAgICA8dGQgY2xhc3M9Im11dGVkIj4ke2wuY3JlYXRlZF9hdCB8fCAnJ308L3RkPgogICAgICAgICAgICA8dGQ+JHtsLmFjdG9yfTwvdGQ+CiAgICAgICAgICAgIDx0ZD4ke2wuYWN0aW9ufTwvdGQ+CiAgICAgICAgICAgIDx0ZD4ke2wudGFyZ2V0IHx8ICcnfTwvdGQ+CiAgICAgICAgICAgIDx0ZCBjbGFzcz0ibXV0ZWQiPiR7SlNPTi5zdHJpbmdpZnkobC5kZXRhaWwpfTwvdGQ+CiAgICAgICAgICA8L3RyPmApfQogICAgICAgIDwvdGJvZHk+CiAgICAgIDwvdGFibGU+CiAgICA8L2Rpdj4KICAgIDxidXR0b24gY2xhc3M9InNlY29uZGFyeSIgb25DbGljaz0ke2xvYWR9PvCflIQg5Yi35pawPC9idXR0b24+CiAgPC9kaXY+YDsKfQo=
+import React from 'https://esm.sh/react@18';
+import htm from 'https://esm.sh/htm@3';
+import { System as SystemApi } from '../api.js';
+const h = htm.bind(React.createElement);
+
+export default function System() {
+  const [health, setHealth] = React.useState(null);
+  const [block, setBlock] = React.useState(false);
+  const [logs, setLogs] = React.useState([]);
+  const [msg, setMsg] = React.useState('');
+
+  async function load() {
+    try {
+      const [hres, bres, lres] = await Promise.all([
+        SystemApi.health(), SystemApi.emergencyBlock(), SystemApi.auditLogs(100),
+      ]);
+      setHealth(hres);
+      setBlock(bres.emergency_block);
+      setLogs(lres.logs || []);
+    } catch (e) { setMsg(e.message); }
+  }
+  React.useEffect(() => { load(); }, []);
+
+  async function toggle() {
+    try {
+      const r = await SystemApi.toggleBlock(!block);
+      setBlock(r.emergency_block);
+      setMsg('紧急刹车已' + (r.emergency_block ? '启用' : '关闭'));
+      load();
+    } catch (e) { setMsg(e.message); }
+  }
+
+  async function manual(which) {
+    try {
+      if (which === 'heartbeat') { await SystemApi.heartbeatCheck(); }
+      else if (which === 'queue') { await SystemApi.toolQueueProcess(); }
+      setMsg('已触发');
+    } catch (e) { setMsg(e.message); }
+  }
+
+  return h`
+  <div>
+    <h2 class="page-title">⚙️ 系统面板</h2>
+    ${msg && h`<div class="toast">${msg}</div>`}
+    <div class="card">
+      <h3>健康状态</h3>
+      <pre class="json">${JSON.stringify(health || {}, null, 2)}</pre>
+    </div>
+    <div class="card">
+      <h3>🛑 紧急刹车</h3>
+      <div class="row">
+        <span class=${block ? 'err' : 'ok'}>${block ? '已启用' : '未启用'}</span>
+        <button class=${block ? 'secondary' : 'danger'} onClick=${toggle}>${block ? '关闭刹车' : '启动刹车'}</button>
+      </div>
+    </div>
+    <div class="card">
+      <h3>手动触发</h3>
+      <div class="row">
+        <button class="secondary" onClick=${() => manual('heartbeat')}>心跳超时检查</button>
+        <button class="secondary" onClick=${() => manual('queue')}>补发离线工具队列</button>
+      </div>
+    </div>
+    <div class="card">
+      <h3>审计日志（最近 100 条）</h3>
+      <table class="table">
+        <thead><tr><th>时间</th><th>Actor</th><th>动作</th><th>目标</th><th>详情</th></tr></thead>
+        <tbody>
+          ${logs.map(l => h`<tr key=${l.id}>
+            <td class="muted">${l.created_at || ''}</td>
+            <td>${l.actor}</td>
+            <td>${l.action}</td>
+            <td>${l.target || ''}</td>
+            <td class="muted">${JSON.stringify(l.detail)}</td>
+          </tr>`)}
+        </tbody>
+      </table>
+    </div>
+    <button class="secondary" onClick=${load}>🔄 刷新</button>
+  </div>`;
+}

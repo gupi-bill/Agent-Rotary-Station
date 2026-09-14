@@ -1,1 +1,144 @@
-IiIi5a6a5pe26LCD5bqm77yaY3JvbiDlop7liKDmlLnjgIHlkK/lgZzjgIHmiYvliqjop6blj5HjgIHmiafooYzljoblj7IgKyDlkI7lj7DosIPluqbnur/nqIvjgIIiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGpzb24KaW1wb3J0IHRocmVhZGluZwppbXBvcnQgdGltZQoKZnJvbSBmYXN0YXBpIGltcG9ydCBBUElSb3V0ZXIsIEhUVFBFeGNlcHRpb24KCmZyb20gLi4gaW1wb3J0IGRiCgpyb3V0ZXIgPSBBUElSb3V0ZXIocHJlZml4PSIvY3JvbnMiLCB0YWdzPVsiY3JvbnMiXSkKCgpkZWYgX3J1bl9jcm9uX2FjdGlvbihjcm9uOiBkaWN0LCB0cmlnZ2VyOiBzdHIgPSAic2NoZWR1bGUiKSAtPiBkaWN0OgogICAgIiIi5omn6KGM5LiA5LiqIGNyb24g55qE5Yqo5L2c77yIbWVzc2FnZT3nu5nnm67moIcgQWdlbnQg5Y+R5raI5oGvIC8gd29ya2Zsb3c96Kem5Y+R5bel5L2c5rWB6L+Q6KGM77yJ44CCIiIiCiAgICBjcm9uX2lkID0gY3JvblsiY3Jvbl9pZCJdCiAgICB0cnk6CiAgICAgICAgcGF5bG9hZCA9IGpzb24ubG9hZHMoY3Jvbi5nZXQoInBheWxvYWQiKSBvciAie30iKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBwYXlsb2FkID0ge30KICAgIHJ1bl9pZCA9IGRiLm5ld19pZCgiY3JydW4iKQogICAgdHJ5OgogICAgICAgIGlmIGNyb24uZ2V0KCJhY3Rpb24iKSA9PSAid29ya2Zsb3ciOgogICAgICAgICAgICAjIOinpuWPkeW3peS9nOa1gei/kOihjAogICAgICAgICAgICB3aWQgPSBjcm9uLmdldCgidGFyZ2V0Iikgb3IgIiIKICAgICAgICAgICAgZnJvbSAud29ya2Zsb3dzIGltcG9ydCBfZXhlY3V0ZV93b3JrZmxvdwogICAgICAgICAgICB3ZiA9IGRiLnF1ZXJ5X29uZSgiU0VMRUNUICogRlJPTSB3b3JrZmxvd3MgV0hFUkUgd29ya2Zsb3dfaWQ9PyIsICh3aWQsKSkKICAgICAgICAgICAgaWYgbm90IHdmOgogICAgICAgICAgICAgICAgZGV0YWlsID0gZiJ3b3JrZmxvdyB7d2lkfSBub3QgZm91bmQiCiAgICAgICAgICAgICAgICBzdGF0dXMgPSAiZXJyb3IiCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgX2V4ZWN1dGVfd29ya2Zsb3cod2YsICJjcm9uIikKICAgICAgICAgICAgICAgICAgICBkZXRhaWwgPSBmIndvcmtmbG93IHt3aWR9IHRyaWdnZXJlZCIKICAgICAgICAgICAgICAgICAgICBzdGF0dXMgPSAic3VjY2VzcyIKICAgICAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZXg6CiAgICAgICAgICAgICAgICAgICAgZGV0YWlsID0gZiJ3b3JrZmxvdyB7d2lkfSBlcnJvcjoge2V4fSIKICAgICAgICAgICAgICAgICAgICBzdGF0dXMgPSAiZXJyb3IiCiAgICAgICAgZWxzZToKICAgICAgICAgICAgIyDpu5jorqTvvJrlkJHnm67moIcgQWdlbnQg5Y+R5raI5oGvCiAgICAgICAgICAgIHRvX2FnZW50ID0gY3Jvbi5nZXQoInRhcmdldCIpIG9yICIiCiAgICAgICAgICAgIGNvbnRlbnQgPSBzdHIocGF5bG9hZC5nZXQoImNvbnRlbnQiKSBvciBmIuWumuaXtuS7u+WKoeOAjHtjcm9uLmdldCgnbmFtZScsICcnKX3jgI3op6blj5EiKQogICAgICAgICAgICBkYi5leGVjdXRlKAogICAgICAgICAgICAgICAgIklOU0VSVCBJTlRPIG1lc3NhZ2VzIChtc2dfaWQsIGNoYW5uZWxfdHlwZSwgZnJvbV9hZ2VudCwgdG9fYWdlbnQsIHRhc2tfaWQsIGNvbnRlbnQsIGNyZWF0ZWRfYXQpICIKICAgICAgICAgICAgICAgICJWQUxVRVMgKD8sICdwcml2YXRlJywgJ2Nyb24nLCA/LCAnJywgPywgPykiLAogICAgICAgICAgICAgICAgKGRiLm5ld19pZCgibXNnIiksIHRvX2FnZW50LCBjb250ZW50LCBkYi5ub3coKSksCiAgICAgICAgICAgICkKICAgICAgICAgICAgZGV0YWlsID0gZiJtZXNzYWdlIC0+IHt0b19hZ2VudH0iCiAgICAgICAgICAgIHN0YXR1cyA9ICJzdWNjZXNzIgogICAgICAgIGRiLmV4ZWN1dGUoCiAgICAgICAgICAgICJJTlNFUlQgSU5UTyBjcm9uX3J1bnMgKHJ1bl9pZCwgY3Jvbl9pZCwgc3RhdHVzLCBkZXRhaWwsIHRyaWdnZXJlZF9ieSwgY3JlYXRlZF9hdCkgIgogICAgICAgICAgICAiVkFMVUVTICg/LCA/LCA/LCA/LCA/LCA/KSIsCiAgICAgICAgICAgIChydW5faWQsIGNyb25faWQsIHN0YXR1cywgZGV0YWlsLCB0cmlnZ2VyLCBkYi5ub3coKSksCiAgICAgICAgKQogICAgICAgIGRiLmV4ZWN1dGUoIlVQREFURSBjcm9ucyBTRVQgbGFzdF9ydW5fYXQ9PyBXSEVSRSBjcm9uX2lkPT8iLCAoZGIubm93KCksIGNyb25faWQpKQogICAgICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInJ1bl9pZCI6IHJ1bl9pZCwgInN0YXR1cyI6IHN0YXR1cywgImRldGFpbCI6IGRldGFpbH0KICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBkYi5leGVjdXRlKAogICAgICAgICAgICAiSU5TRVJUIElOVE8gY3Jvbl9ydW5zIChydW5faWQsIGNyb25faWQsIHN0YXR1cywgZGV0YWlsLCB0cmlnZ2VyZWRfYnksIGNyZWF0ZWRfYXQpICIKICAgICAgICAgICAgIlZBTFVFUyAoPywgPywgJ2Vycm9yJywgPywgPywgPykiLAogICAgICAgICAgICAocnVuX2lkLCBjcm9uX2lkLCBzdHIoZSksIHRyaWdnZXIsIGRiLm5vdygpKSwKICAgICAgICApCiAgICAgICAgcmV0dXJuIHsib2siOiBGYWxzZSwgInJ1bl9pZCI6IHJ1bl9pZCwgInN0YXR1cyI6ICJlcnJvciIsICJkZXRhaWwiOiBzdHIoZSl9CgoKZGVmIHNjaGVkdWxlcl9sb29wKHN0b3A6IHRocmVhZGluZy5FdmVudCwgaW50ZXJ2YWw6IGZsb2F0ID0gMS4wKSAtPiBOb25lOgogICAgIiIi5ZCO5Y+w6LCD5bqm57q/56iL77ya5q+P56eS5omr5LiA5qyh77yM5oqK5Yiw5pyf55qE5ZCv55SoIGNyb24g5omn6KGM5o6J44CCIiIiCiAgICB3aGlsZSBub3Qgc3RvcC5pc19zZXQoKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIG5vdyA9IGRiLm5vdygpCiAgICAgICAgICAgIHJvd3MgPSBkYi5xdWVyeV9hbGwoCiAgICAgICAgICAgICAgICAiU0VMRUNUICogRlJPTSBjcm9ucyBXSEVSRSBlbmFibGVkPTEgQU5EIChuZXh0X3J1bl9hdCBJUyBOVUxMIE9SIG5leHRfcnVuX2F0PD0/KSIsCiAgICAgICAgICAgICAgICAobm93LCkpCiAgICAgICAgICAgIGZvciBjcm9uIGluIHJvd3M6CiAgICAgICAgICAgICAgICBfcnVuX2Nyb25fYWN0aW9uKGNyb24sICJzY2hlZHVsZSIpCiAgICAgICAgICAgICAgICBkYi5leGVjdXRlKCJVUERBVEUgY3JvbnMgU0VUIG5leHRfcnVuX2F0PT8gV0hFUkUgY3Jvbl9pZD0/IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgKG5vdyArIGZsb2F0KGNyb24uZ2V0KCJpbnRlcnZhbF9zZWMiKSBvciAzNjAwKSwgY3JvblsiY3Jvbl9pZCJdKSkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBwYXNzCiAgICAgICAgc3RvcC53YWl0KGludGVydmFsKQoKCkByb3V0ZXIuZ2V0KCIiKQpkZWYgbGlzdF9jcm9ucygpOgogICAgcm93cyA9IGRiLnF1ZXJ5X2FsbCgiU0VMRUNUICogRlJPTSBjcm9ucyBPUkRFUiBCWSBjcmVhdGVkX2F0IERFU0MiKQogICAgcmV0dXJuIHsib2siOiBUcnVlLCAiY3JvbnMiOiByb3dzfQoKCkByb3V0ZXIucG9zdCgiL2NyZWF0ZSIpCmRlZiBjcmVhdGVfY3Jvbihib2R5OiBkaWN0KToKICAgIG5hbWUgPSAoYm9keS5nZXQoIm5hbWUiKSBvciAiIikuc3RyaXAoKQogICAgaWYgbm90IG5hbWU6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDAsIGRldGFpbD0ibmFtZSByZXF1aXJlZCIpCiAgICBjcm9uX2lkID0gZGIubmV3X2lkKCJjcm9uIikKICAgIGludGVydmFsID0gaW50KGJvZHkuZ2V0KCJpbnRlcnZhbF9zZWMiKSBvciAzNjAwKQogICAgdHMgPSBkYi5ub3coKQogICAgZGIuZXhlY3V0ZSgKICAgICAgICAiSU5TRVJUIElOVE8gY3JvbnMgKGNyb25faWQsIG5hbWUsIHNjaGVkdWxlLCBpbnRlcnZhbF9zZWMsIGFjdGlvbiwgdGFyZ2V0LCBwYXlsb2FkLCBlbmFibGVkLCBuZXh0X3J1bl9hdCwgY3JlYXRlZF9hdCwgdXBkYXRlZF9hdCkgIgogICAgICAgICJWQUxVRVMgKD8sID8sID8sID8sID8sID8sID8sID8sID8sID8sID8pIiwKICAgICAgICAoY3Jvbl9pZCwgbmFtZSwgYm9keS5nZXQoInNjaGVkdWxlIiwgZiJldmVyeSB7aW50ZXJ2YWx9cyIpLCBpbnRlcnZhbCwKICAgICAgICAgYm9keS5nZXQoImFjdGlvbiIsICJtZXNzYWdlIiksIGJvZHkuZ2V0KCJ0YXJnZXQiLCAiIiksCiAgICAgICAgIGpzb24uZHVtcHMoYm9keS5nZXQoInBheWxvYWQiLCB7fSksIGVuc3VyZV9hc2NpaT1GYWxzZSksCiAgICAgICAgIDEgaWYgYm9keS5nZXQoImVuYWJsZWQiLCBUcnVlKSBlbHNlIDAsIHRzICsgaW50ZXJ2YWwsIHRzLCB0cyksCiAgICApCiAgICBkYi5hdWRpdCgiaHVtYW4iLCAiY3Jvbl9jcmVhdGUiLCBjcm9uX2lkLCB7Im5hbWUiOiBuYW1lfSkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgImNyb25faWQiOiBjcm9uX2lkfQoKCkByb3V0ZXIucG9zdCgiL3tjcm9uX2lkfS90b2dnbGUiKQpkZWYgdG9nZ2xlX2Nyb24oY3Jvbl9pZDogc3RyKToKICAgIHJvdyA9IGRiLnF1ZXJ5X29uZSgiU0VMRUNUICogRlJPTSBjcm9ucyBXSEVSRSBjcm9uX2lkPT8iLCAoY3Jvbl9pZCwpKQogICAgaWYgbm90IHJvdzoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgZGV0YWlsPSJjcm9uIG5vdCBmb3VuZCIpCiAgICBuZXdfZW5hYmxlZCA9IDAgaWYgcm93LmdldCgiZW5hYmxlZCIpIGVsc2UgMQogICAgZGIuZXhlY3V0ZSgiVVBEQVRFIGNyb25zIFNFVCBlbmFibGVkPT8gV0hFUkUgY3Jvbl9pZD0/IiwgKG5ld19lbmFibGVkLCBjcm9uX2lkKSkKICAgIGRiLmF1ZGl0KCJodW1hbiIsICJjcm9uX3RvZ2dsZSIsIGNyb25faWQsIHsiZW5hYmxlZCI6IGJvb2wobmV3X2VuYWJsZWQpfSkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgImNyb25faWQiOiBjcm9uX2lkLCAiZW5hYmxlZCI6IGJvb2wobmV3X2VuYWJsZWQpfQoKCkByb3V0ZXIucG9zdCgiL3tjcm9uX2lkfS9ydW4iKQpkZWYgcnVuX2Nyb25fbm93KGNyb25faWQ6IHN0cik6CiAgICByb3cgPSBkYi5xdWVyeV9vbmUoIlNFTEVDVCAqIEZST00gY3JvbnMgV0hFUkUgY3Jvbl9pZD0/IiwgKGNyb25faWQsKSkKICAgIGlmIG5vdCByb3c6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDQsIGRldGFpbD0iY3JvbiBub3QgZm91bmQiKQogICAgcmV0dXJuIF9ydW5fY3Jvbl9hY3Rpb24ocm93LCAibWFudWFsIikKCgpAcm91dGVyLnBvc3QoIi97Y3Jvbl9pZH0vZGVsZXRlIikKZGVmIGRlbGV0ZV9jcm9uKGNyb25faWQ6IHN0cik6CiAgICBpZiBub3QgZGIucXVlcnlfb25lKCJTRUxFQ1QgMSBGUk9NIGNyb25zIFdIRVJFIGNyb25faWQ9PyIsIChjcm9uX2lkLCkpOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDA0LCBkZXRhaWw9ImNyb24gbm90IGZvdW5kIikKICAgIGRiLmV4ZWN1dGUoIkRFTEVURSBGUk9NIGNyb25zIFdIRVJFIGNyb25faWQ9PyIsIChjcm9uX2lkLCkpCiAgICBkYi5leGVjdXRlKCJERUxFVEUgRlJPTSBjcm9uX3J1bnMgV0hFUkUgY3Jvbl9pZD0/IiwgKGNyb25faWQsKSkKICAgIGRiLmF1ZGl0KCJodW1hbiIsICJjcm9uX2RlbGV0ZSIsIGNyb25faWQpCiAgICByZXR1cm4geyJvayI6IFRydWV9CgoKQHJvdXRlci5nZXQoIi97Y3Jvbl9pZH0vaGlzdG9yeSIpCmRlZiBjcm9uX2hpc3RvcnkoY3Jvbl9pZDogc3RyLCBsaW1pdDogaW50ID0gMzApOgogICAgcm93cyA9IGRiLnF1ZXJ5X2FsbCgKICAgICAgICAiU0VMRUNUICogRlJPTSBjcm9uX3J1bnMgV0hFUkUgY3Jvbl9pZD0/IE9SREVSIEJZIGlkIERFU0MgTElNSVQgPyIsCiAgICAgICAgKGNyb25faWQsIGxpbWl0KSkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInJ1bnMiOiByb3dzfQo=
+"""定时调度：cron 增删改、启停、手动触发、执行历史 + 后台调度线程。"""
+from __future__ import annotations
+
+import json
+import threading
+import time
+
+from fastapi import APIRouter, HTTPException
+
+from .. import db
+
+router = APIRouter(prefix="/crons", tags=["crons"])
+
+
+def _run_cron_action(cron: dict, trigger: str = "schedule") -> dict:
+    """执行一个 cron 的动作（message=给目标 Agent 发消息 / workflow=触发工作流运行）。"""
+    cron_id = cron["cron_id"]
+    try:
+        payload = json.loads(cron.get("payload") or "{}")
+    except Exception:
+        payload = {}
+    run_id = db.new_id("crrun")
+    try:
+        if cron.get("action") == "workflow":
+            # 触发工作流运行
+            wid = cron.get("target") or ""
+            from .workflows import _execute_workflow
+            wf = db.query_one("SELECT * FROM workflows WHERE workflow_id=?", (wid,))
+            if not wf:
+                detail = f"workflow {wid} not found"
+                status = "error"
+            else:
+                try:
+                    _execute_workflow(wf, "cron")
+                    detail = f"workflow {wid} triggered"
+                    status = "success"
+                except Exception as ex:
+                    detail = f"workflow {wid} error: {ex}"
+                    status = "error"
+        else:
+            # 默认：向目标 Agent 发消息
+            to_agent = cron.get("target") or ""
+            content = str(payload.get("content") or f"定时任务「{cron.get('name', '')}」触发")
+            db.execute(
+                "INSERT INTO messages (msg_id, channel_type, from_agent, to_agent, task_id, content, created_at) "
+                "VALUES (?, 'private', 'cron', ?, '', ?, ?)",
+                (db.new_id("msg"), to_agent, content, db.now()),
+            )
+            detail = f"message -> {to_agent}"
+            status = "success"
+        db.execute(
+            "INSERT INTO cron_runs (run_id, cron_id, status, detail, triggered_by, created_at) "
+            "VALUES (?, ?, ?, ?, ?, ?)",
+            (run_id, cron_id, status, detail, trigger, db.now()),
+        )
+        db.execute("UPDATE crons SET last_run_at=? WHERE cron_id=?", (db.now(), cron_id))
+        return {"ok": True, "run_id": run_id, "status": status, "detail": detail}
+    except Exception as e:
+        db.execute(
+            "INSERT INTO cron_runs (run_id, cron_id, status, detail, triggered_by, created_at) "
+            "VALUES (?, ?, 'error', ?, ?, ?)",
+            (run_id, cron_id, str(e), trigger, db.now()),
+        )
+        return {"ok": False, "run_id": run_id, "status": "error", "detail": str(e)}
+
+
+def scheduler_loop(stop: threading.Event, interval: float = 1.0) -> None:
+    """后台调度线程：每秒扫一次，把到期的启用 cron 执行掉。"""
+    while not stop.is_set():
+        try:
+            now = db.now()
+            rows = db.query_all(
+                "SELECT * FROM crons WHERE enabled=1 AND (next_run_at IS NULL OR next_run_at<=?)",
+                (now,))
+            for cron in rows:
+                _run_cron_action(cron, "schedule")
+                db.execute("UPDATE crons SET next_run_at=? WHERE cron_id=?",
+                           (now + float(cron.get("interval_sec") or 3600), cron["cron_id"]))
+        except Exception:
+            pass
+        stop.wait(interval)
+
+
+@router.get("")
+def list_crons():
+    rows = db.query_all("SELECT * FROM crons ORDER BY created_at DESC")
+    return {"ok": True, "crons": rows}
+
+
+@router.post("/create")
+def create_cron(body: dict):
+    name = (body.get("name") or "").strip()
+    if not name:
+        raise HTTPException(status_code=400, detail="name required")
+    cron_id = db.new_id("cron")
+    interval = int(body.get("interval_sec") or 3600)
+    ts = db.now()
+    db.execute(
+        "INSERT INTO crons (cron_id, name, schedule, interval_sec, action, target, payload, enabled, next_run_at, created_at, updated_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        (cron_id, name, body.get("schedule", f"every {interval}s"), interval,
+         body.get("action", "message"), body.get("target", ""),
+         json.dumps(body.get("payload", {}), ensure_ascii=False),
+         1 if body.get("enabled", True) else 0, ts + interval, ts, ts),
+    )
+    db.audit("human", "cron_create", cron_id, {"name": name})
+    return {"ok": True, "cron_id": cron_id}
+
+
+@router.post("/{cron_id}/toggle")
+def toggle_cron(cron_id: str):
+    row = db.query_one("SELECT * FROM crons WHERE cron_id=?", (cron_id,))
+    if not row:
+        raise HTTPException(status_code=404, detail="cron not found")
+    new_enabled = 0 if row.get("enabled") else 1
+    db.execute("UPDATE crons SET enabled=? WHERE cron_id=?", (new_enabled, cron_id))
+    db.audit("human", "cron_toggle", cron_id, {"enabled": bool(new_enabled)})
+    return {"ok": True, "cron_id": cron_id, "enabled": bool(new_enabled)}
+
+
+@router.post("/{cron_id}/run")
+def run_cron_now(cron_id: str):
+    row = db.query_one("SELECT * FROM crons WHERE cron_id=?", (cron_id,))
+    if not row:
+        raise HTTPException(status_code=404, detail="cron not found")
+    return _run_cron_action(row, "manual")
+
+
+@router.post("/{cron_id}/delete")
+def delete_cron(cron_id: str):
+    if not db.query_one("SELECT 1 FROM crons WHERE cron_id=?", (cron_id,)):
+        raise HTTPException(status_code=404, detail="cron not found")
+    db.execute("DELETE FROM crons WHERE cron_id=?", (cron_id,))
+    db.execute("DELETE FROM cron_runs WHERE cron_id=?", (cron_id,))
+    db.audit("human", "cron_delete", cron_id)
+    return {"ok": True}
+
+
+@router.get("/{cron_id}/history")
+def cron_history(cron_id: str, limit: int = 30):
+    rows = db.query_all(
+        "SELECT * FROM cron_runs WHERE cron_id=? ORDER BY id DESC LIMIT ?",
+        (cron_id, limit))
+    return {"ok": True, "runs": rows}

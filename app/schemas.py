@@ -1,1 +1,135 @@
-IiIiUHlkYW50aWMg6K+35rGCL+WTjeW6lOaooeWei+OAguW6leW6p+WPquagoemqjOe7k+aehO+8jOS4jeeQhuino+S4muWKoeOAgiIiIg0KZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucw0KDQpmcm9tIHR5cGluZyBpbXBvcnQgQW55DQoNCmZyb20gcHlkYW50aWMgaW1wb3J0IEJhc2VNb2RlbCwgRmllbGQNCg0KDQpjbGFzcyBBZ2VudFJlZ2lzdGVyKEJhc2VNb2RlbCk6DQogICAgYWdlbnRfaWQ6IHN0cg0KICAgIG5hbWU6IHN0cg0KICAgIHJvbGU6IHN0ciA9ICJ3b3JrZXIiICAjIHdvcmtlciB8IHRvb2xub2RlDQogICAgY2FwYWJpbGl0aWVzOiBsaXN0W3N0cl0gPSBGaWVsZChkZWZhdWx0X2ZhY3Rvcnk9bGlzdCkNCiAgICBlbmRwb2ludF91cmw6IHN0ciA9ICIiDQogICAgdG9rZW46IHN0ciA9ICIiDQogICAgYXV0b19yZXBseTogZGljdFtzdHIsIEFueV0gPSBGaWVsZChkZWZhdWx0X2ZhY3Rvcnk9ZGljdCkNCg0KDQpjbGFzcyBBZ2VudEhlYXJ0YmVhdChCYXNlTW9kZWwpOg0KICAgIGFnZW50X2lkOiBzdHINCg0KDQpjbGFzcyBBZ2VudFVwZGF0ZShCYXNlTW9kZWwpOg0KICAgIG5hbWU6IHN0ciB8IE5vbmUgPSBOb25lDQogICAgY2FwYWJpbGl0aWVzOiBsaXN0W3N0cl0gfCBOb25lID0gTm9uZQ0KICAgIGVuZHBvaW50X3VybDogc3RyIHwgTm9uZSA9IE5vbmUNCiAgICBhdXRvX3JlcGx5OiBkaWN0W3N0ciwgQW55XSB8IE5vbmUgPSBOb25lDQogICAgc3lzdGVtX3Byb21wdDogc3RyIHwgTm9uZSA9IE5vbmUNCg0KDQpjbGFzcyBBZ2VudEF1dG9SZXBseShCYXNlTW9kZWwpOg0KICAgICIiIuWtkCBBZ2VudCDoh6rliqjlupTnrZTphY3nva7vvJrmlLbliLDku7vliqHmtojmga/ml7bmjInmqKHmnb/oh6rliqjlm57lpI3jgIIiIiINCiAgICBlbmFibGVkOiBib29sID0gVHJ1ZQ0KICAgIHJlcGx5X3RlbXBsYXRlOiBzdHIgPSAi5pS25Yiw77yMe2Zyb21944CC5Lu75Yqh44CMe3Rhc2t944CN5bey6K6w5b2V77yM5aSE55CG5Lit4oCmIg0KDQoNCmNsYXNzIFRhc2tDcmVhdGUoQmFzZU1vZGVsKToNCiAgICB0aXRsZTogc3RyDQogICAgZGVzY3JpcHRpb246IHN0ciA9ICIiDQoNCg0KY2xhc3MgVGFza0Jyb2FkY2FzdChCYXNlTW9kZWwpOg0KICAgIHRhc2tfaWQ6IHN0cg0KICAgIG1hbmFnZXJfaWQ6IHN0cg0KDQoNCmNsYXNzIFRhc2tBc3NpZ24oQmFzZU1vZGVsKToNCiAgICB0YXNrX2lkOiBzdHINCiAgICBhZ2VudF9pZDogc3RyDQogICAgcm9sZTogc3RyID0gIm1lbWJlciINCg0KDQpjbGFzcyBUYXNrU3RhdHVzKEJhc2VNb2RlbCk6DQogICAgdGFza19pZDogc3RyDQogICAgc3RhdHVzOiBzdHIgICMgcGVuZGluZ3xicm9hZGNhc3Rpbmd8aW5fcHJvZ3Jlc3N8ZG9uZXxmYWlsZWR8Y2FuY2VsbGVkDQoNCg0KY2xhc3MgTWVzc2FnZVNlbmQoQmFzZU1vZGVsKToNCiAgICBmcm9tX2FnZW50OiBzdHINCiAgICBjaGFubmVsX3R5cGU6IHN0ciAgIyBwcml2YXRlIHwgZ3JvdXAgfCB0YXNrDQogICAgdG9fYWdlbnQ6IHN0ciA9ICIiDQogICAgdGFza19pZDogc3RyID0gIiINCiAgICBjb250ZW50OiBzdHINCg0KDQpjbGFzcyBNZW1vcnlXcml0ZShCYXNlTW9kZWwpOg0KICAgIGFnZW50X2lkOiBzdHINCiAgICBkb21haW46IHN0ciAgIyBhZ2VudDo8aWQ+IHwgdGFzazo8aWQ+IHwgZ2xvYmFsDQogICAgbWVtX2tleTogc3RyDQogICAgY29udGVudDogc3RyDQoNCg0KY2xhc3MgTWVtb3J5RGVsZXRlKEJhc2VNb2RlbCk6DQogICAgYWdlbnRfaWQ6IHN0cg0KICAgIGRvbWFpbjogc3RyDQogICAgbWVtX2tleTogc3RyDQoNCg0KY2xhc3MgQXBwcm92YWxEZWNpc2lvbihCYXNlTW9kZWwpOg0KICAgIG1hbmFnZXJfaWQ6IHN0cg0KICAgIHJlcXVlc3RfaWQ6IHN0cg0KICAgIGFwcHJvdmU6IGJvb2wNCg0KDQpjbGFzcyBTa2lsbFJlZ2lzdGVyKEJhc2VNb2RlbCk6DQogICAgc2tpbGxfaWQ6IHN0cg0KICAgIG5hbWU6IHN0cg0KICAgIGRlc2NyaXB0aW9uOiBzdHIgPSAiIg0KICAgIHBhcmFtX3NjaGVtYTogZGljdFtzdHIsIEFueV0gPSBGaWVsZChkZWZhdWx0X2ZhY3Rvcnk9ZGljdCkNCiAgICBlbmRwb2ludF91cmw6IHN0cg0KICAgIHByb3ZpZGVyX25vZGU6IHN0ciA9ICIiDQoNCg0KY2xhc3MgVG9vbENhbGwoQmFzZU1vZGVsKToNCiAgICBhZ2VudF9pZDogc3RyDQogICAgc2tpbGxfaWQ6IHN0cg0KICAgIHBhcmFtczogZGljdFtzdHIsIEFueV0gPSBGaWVsZChkZWZhdWx0X2ZhY3Rvcnk9ZGljdCkNCg0KDQpjbGFzcyBNYW5hZ2VyU2V0KEJhc2VNb2RlbCk6DQogICAgYWdlbnRfaWQ6IHN0cg0KDQoNCmNsYXNzIERlbGVnYXRlUmVxdWVzdChCYXNlTW9kZWwpOg0KICAgICIiIkFnZW50IOWnlOaJmOiwg+eUqO+8mueItiBBZ2VudCDnu5nnm67moIflrZAgQWdlbnQg5rS+5Lu75Yqh44CCDQoNCiAgICDnm67moIflrZAgQWdlbnQg6Iul5byA5LqG6Ieq5Yqo5bqU562UKGF1dG9fcmVwbHkp77yM5bqV5bqn56uL5Y2z55Sf5oiQ5bqU562U5bm25YaZ5Zue5raI5oGv77yMDQogICAg5b2i5oiQ44CM6LCD55SoIOKGkiDlupTnrZTjgI3pl63njq/vvJvmnKrlvIDliJnmtojmga/ov5vlhbbmlLbku7bnrrHvvIznrYnkurrlt6Uv5ZCO57ut5aSE55CG44CCDQogICAgIiIiDQogICAgZnJvbV9hZ2VudDogc3RyDQogICAgdG9fYWdlbnQ6IHN0cg0KICAgIHRhc2tfY29udGVudDogc3RyDQoNCg0KIyAtLS0tIHYwLjIg5bel5L2c5rWBIC0tLS0NCg0KDQpjbGFzcyBXb3JrZmxvd0NyZWF0ZShCYXNlTW9kZWwpOg0KICAgIG5hbWU6IHN0cg0KICAgIGRlc2NyaXB0aW9uOiBzdHIgPSAiIg0KICAgIGRlZmluaXRpb246IGRpY3Rbc3RyLCBBbnldID0gRmllbGQoDQogICAgICAgIGRlZmF1bHRfZmFjdG9yeT1sYW1iZGE6IHsibm9kZXMiOiBbXSwgImVkZ2VzIjogW119DQogICAgKQ0KDQoNCmNsYXNzIFdvcmtmbG93VXBkYXRlKEJhc2VNb2RlbCk6DQogICAgbmFtZTogc3RyIHwgTm9uZSA9IE5vbmUNCiAgICBkZXNjcmlwdGlvbjogc3RyIHwgTm9uZSA9IE5vbmUNCiAgICBkZWZpbml0aW9uOiBkaWN0W3N0ciwgQW55XSB8IE5vbmUgPSBOb25lDQogICAgc3RhdHVzOiBzdHIgfCBOb25lID0gTm9uZSAgIyBhY3RpdmUgfCBkaXNhYmxlZA0KDQoNCmNsYXNzIFdvcmtmbG93U3RlcERlY2lzaW9uKEJhc2VNb2RlbCk6DQogICAgYXBwcm92ZTogYm9vbA0KICAgIGNvbW1lbnQ6IHN0ciA9ICIiDQo=
+"""Pydantic 请求/响应模型。底座只校验结构，不理解业务。"""
+from __future__ import annotations
+
+from typing import Any
+
+from pydantic import BaseModel, Field
+
+
+class AgentRegister(BaseModel):
+    agent_id: str
+    name: str
+    role: str = "worker"  # worker | toolnode
+    capabilities: list[str] = Field(default_factory=list)
+    endpoint_url: str = ""
+    token: str = ""
+    auto_reply: dict[str, Any] = Field(default_factory=dict)
+
+
+class AgentHeartbeat(BaseModel):
+    agent_id: str
+
+
+class AgentUpdate(BaseModel):
+    name: str | None = None
+    capabilities: list[str] | None = None
+    endpoint_url: str | None = None
+    auto_reply: dict[str, Any] | None = None
+    system_prompt: str | None = None
+
+
+class AgentAutoReply(BaseModel):
+    """子 Agent 自动应答配置：收到任务消息时按模板自动回复。"""
+    enabled: bool = True
+    reply_template: str = "收到，{from}。任务「{task}」已记录，处理中…"
+
+
+class TaskCreate(BaseModel):
+    title: str
+    description: str = ""
+
+
+class TaskBroadcast(BaseModel):
+    task_id: str
+    manager_id: str
+
+
+class TaskAssign(BaseModel):
+    task_id: str
+    agent_id: str
+    role: str = "member"
+
+
+class TaskStatus(BaseModel):
+    task_id: str
+    status: str  # pending|broadcasting|in_progress|done|failed|cancelled
+
+
+class MessageSend(BaseModel):
+    from_agent: str
+    channel_type: str  # private | group | task
+    to_agent: str = ""
+    task_id: str = ""
+    content: str
+
+
+class MemoryWrite(BaseModel):
+    agent_id: str
+    domain: str  # agent:<id> | task:<id> | global
+    mem_key: str
+    content: str
+
+
+class MemoryDelete(BaseModel):
+    agent_id: str
+    domain: str
+    mem_key: str
+
+
+class ApprovalDecision(BaseModel):
+    manager_id: str
+    request_id: str
+    approve: bool
+
+
+class SkillRegister(BaseModel):
+    skill_id: str
+    name: str
+    description: str = ""
+    param_schema: dict[str, Any] = Field(default_factory=dict)
+    endpoint_url: str
+    provider_node: str = ""
+
+
+class ToolCall(BaseModel):
+    agent_id: str
+    skill_id: str
+    params: dict[str, Any] = Field(default_factory=dict)
+
+
+class ManagerSet(BaseModel):
+    agent_id: str
+
+
+class DelegateRequest(BaseModel):
+    """Agent 委托调用：父 Agent 给目标子 Agent 派任务。
+
+    目标子 Agent 若开了自动应答(auto_reply)，底座立即生成应答并写回消息，
+    形成「调用 → 应答」闭环；未开则消息进其收件箱，等人工/后续处理。
+    """
+    from_agent: str
+    to_agent: str
+    task_content: str
+
+
+# ---- v0.2 工作流 ----
+
+
+class WorkflowCreate(BaseModel):
+    name: str
+    description: str = ""
+    definition: dict[str, Any] = Field(
+        default_factory=lambda: {"nodes": [], "edges": []}
+    )
+
+
+class WorkflowUpdate(BaseModel):
+    name: str | None = None
+    description: str | None = None
+    definition: dict[str, Any] | None = None
+    status: str | None = None  # active | disabled
+
+
+class WorkflowStepDecision(BaseModel):
+    approve: bool
+    comment: str = ""

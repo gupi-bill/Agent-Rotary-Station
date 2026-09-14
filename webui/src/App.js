@@ -1,1 +1,69 @@
-Ly8gQXBwLmpzIOKAlOKAlCDlpJrpobXpnaLmjqfliLblj7Dlo7PvvJrkvqfovrnmoI/lr7zoiKogKyDpobXpnaLliIfmjaLjgIIKLy8g6Zu25p6E5bu677yaaHRtIOaooeadv+Wtl+espuS4siArIEVTIG1vZHVsZe+8jOa1j+iniOWZqOWOn+eUn+WKoOi9ve+8jOS4jeW8leWFpeS7u+S9lSBMTE0v5ZCR6YePL+aehOW7uuatpemqpOOAggppbXBvcnQgUmVhY3QgZnJvbSAnaHR0cHM6Ly9lc20uc2gvcmVhY3RAMTgnOwppbXBvcnQgaHRtIGZyb20gJ2h0dHBzOi8vZXNtLnNoL2h0bUAzJzsKaW1wb3J0IERhc2hib2FyZCBmcm9tICcuL3BhZ2VzL0Rhc2hib2FyZC5qcyc7CmltcG9ydCBBZ2VudHMgZnJvbSAnLi9wYWdlcy9BZ2VudHMuanMnOwppbXBvcnQgQ2hhdCBmcm9tICcuL3BhZ2VzL0NoYXQuanMnOwppbXBvcnQgTWVtb3JpZXMgZnJvbSAnLi9wYWdlcy9NZW1vcmllcy5qcyc7CmltcG9ydCBTa2lsbHMgZnJvbSAnLi9wYWdlcy9Ta2lsbHMuanMnOwppbXBvcnQgU3lzdGVtIGZyb20gJy4vcGFnZXMvU3lzdGVtLmpzJzsKaW1wb3J0IFdvcmtmbG93cyBmcm9tICcuL3BhZ2VzL1dvcmtmbG93cy5qcyc7CmltcG9ydCBXb3JrZmxvd0VkaXRvciBmcm9tICcuL3BhZ2VzL1dvcmtmbG93RWRpdG9yLmpzJzsKaW1wb3J0IEFwcHJvdmFsSW5ib3ggZnJvbSAnLi9wYWdlcy9BcHByb3ZhbEluYm94LmpzJzsKaW1wb3J0IHsgc3RvcmUgfSBmcm9tICcuL3N0b3JlLmpzJzsKCmNvbnN0IGggPSBodG0uYmluZChSZWFjdC5jcmVhdGVFbGVtZW50KTsKCmNvbnN0IE5BViA9IFsKICB7IGtleTogJ2Rhc2hib2FyZCcsIGxhYmVsOiAn8J+TiiDmgLvop4gnLCBlbDogRGFzaGJvYXJkIH0sCiAgeyBrZXk6ICdhZ2VudHMnLCBsYWJlbDogJ/CfpJYgQWdlbnQg566h55CGJywgZWw6IEFnZW50cyB9LAogIHsga2V5OiAnY2hhdCcsIGxhYmVsOiAn8J+SrCDogYrlpKknLCBlbDogQ2hhdCB9LAogIHsga2V5OiAnbWVtb3JpZXMnLCBsYWJlbDogJ/Cfp6Ag6K6w5b+G5rGgJywgZWw6IE1lbW9yaWVzIH0sCiAgeyBrZXk6ICdza2lsbHMnLCBsYWJlbDogJ/Cfm6Ag5oqA6IO95biC5Zy6JywgZWw6IFNraWxscyB9LAogIHsga2V5OiAnd29ya2Zsb3dzJywgbGFiZWw6ICfwn5SAIOW3peS9nOa1gScsIGVsOiBXb3JrZmxvd3MgfSwKICB7IGtleTogJ2luYm94JywgbGFiZWw6ICfwn5OlIOWuoeaJueaUtuS7tueusScsIGVsOiBBcHByb3ZhbEluYm94IH0sCiAgeyBrZXk6ICdzeXN0ZW0nLCBsYWJlbDogJ/Cfm6Eg57O757uf6Z2i5p2/JywgZWw6IFN5c3RlbSB9LApdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQXBwKCkgewogIGNvbnN0IFtwYWdlLCBzZXRQYWdlXSA9IFJlYWN0LnVzZVN0YXRlKCdkYXNoYm9hcmQnKTsKICBjb25zdCBbZWRpdGluZ0lkLCBzZXRFZGl0aW5nSWRdID0gUmVhY3QudXNlU3RhdGUobnVsbCk7IC8vIOmdnuepuuaXtui/m+WFpeW3peS9nOa1gee8lui+keWZqAogIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7IHN0b3JlLnN0YXJ0UmVhbHRpbWUoKTsgcmV0dXJuICgpID0+IHN0b3JlLnN0b3BSZWFsdGltZSgpOyB9LCBbXSk7CgogIGZ1bmN0aW9uIG5hdihrZXkpIHsKICAgIHNldEVkaXRpbmdJZChudWxsKTsKICAgIHNldFBhZ2Uoa2V5KTsKICB9CgogIGZ1bmN0aW9uIG9wZW5FZGl0b3IoaWQpIHsKICAgIHNldEVkaXRpbmdJZChpZCB8fCBudWxsKTsKICAgIHNldFBhZ2UoJ2VkaXRvcicpOwogIH0KCiAgbGV0IGNvbnRlbnQ7CiAgaWYgKHBhZ2UgPT09ICdlZGl0b3InKSB7CiAgICBjb250ZW50ID0gaGA8JHtXb3JrZmxvd0VkaXRvcn0gd29ya2Zsb3dJZD0ke2VkaXRpbmdJZH0gb25CYWNrPSR7KCkgPT4gbmF2KCd3b3JrZmxvd3MnKX0gLz5gOwogIH0gZWxzZSB7CiAgICBjb25zdCBpdGVtID0gTkFWLmZpbmQobiA9PiBuLmtleSA9PT0gcGFnZSkgfHwgTkFWWzBdOwogICAgY29uc3QgUGFnZSA9IGl0ZW0uZWw7CiAgICBjb250ZW50ID0gaGA8JHtQYWdlfSBvbk9wZW5FZGl0b3I9JHtvcGVuRWRpdG9yfSAvPmA7CiAgfQoKICByZXR1cm4gaGAKICA8ZGl2IGNsYXNzTmFtZT0iYXBwIj4KICAgIDxhc2lkZSBjbGFzc05hbWU9InNpZGViYXIiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iYnJhbmQiPvCflIQg6L2u6L2s5bel5L2c56uZPC9kaXY+CiAgICAgIDxuYXYgY2xhc3NOYW1lPSJuYXYiPgogICAgICAgICR7TkFWLm1hcChuID0+IGhgCiAgICAgICAgICA8YnV0dG9uIGtleT0ke24ua2V5fQogICAgICAgICAgICBjbGFzc05hbWU9JHsnbmF2LWl0ZW0nICsgKHBhZ2UgPT09IG4ua2V5ID8gJyBhY3RpdmUnIDogJycpfQogICAgICAgICAgICBvbkNsaWNrPSR7KCkgPT4gbmF2KG4ua2V5KX0+JHtuLmxhYmVsfTwvYnV0dG9uPmApfQogICAgICA8L25hdj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im11dGVkIiBzdHlsZT0ke3sgcGFkZGluZzogJzEwcHggMTJweCcsIGJvcmRlclRvcDogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXIpJyB9fT4KICAgICAgICB2MC4yIMK3IOmbtuWkp+aooeWei+W6leW6pwogICAgICA8L2Rpdj4KICAgIDwvYXNpZGU+CiAgICA8bWFpbiBjbGFzc05hbWU9ImNvbnRlbnQiPiR7Y29udGVudH08L21haW4+CiAgPC9kaXY+YDsKfQo=
+// App.js —— 多页面控制台壳：侧边栏导航 + 页面切换。
+// 零构建：htm 模板字符串 + ES module，浏览器原生加载，不引入任何 LLM/向量/构建步骤。
+import React from 'https://esm.sh/react@18';
+import htm from 'https://esm.sh/htm@3';
+import Dashboard from './pages/Dashboard.js';
+import Agents from './pages/Agents.js';
+import Chat from './pages/Chat.js';
+import Memories from './pages/Memories.js';
+import Skills from './pages/Skills.js';
+import System from './pages/System.js';
+import Workflows from './pages/Workflows.js';
+import WorkflowEditor from './pages/WorkflowEditor.js';
+import ApprovalInbox from './pages/ApprovalInbox.js';
+import { store } from './store.js';
+
+const h = htm.bind(React.createElement);
+
+const NAV = [
+  { key: 'dashboard', label: '📊 总览', el: Dashboard },
+  { key: 'agents', label: '🤖 Agent 管理', el: Agents },
+  { key: 'chat', label: '💬 聊天', el: Chat },
+  { key: 'memories', label: '🧠 记忆池', el: Memories },
+  { key: 'skills', label: '🛠 技能市场', el: Skills },
+  { key: 'workflows', label: '🔀 工作流', el: Workflows },
+  { key: 'inbox', label: '📥 审批收件箱', el: ApprovalInbox },
+  { key: 'system', label: '🛡 系统面板', el: System },
+];
+
+export default function App() {
+  const [page, setPage] = React.useState('dashboard');
+  const [editingId, setEditingId] = React.useState(null); // 非空时进入工作流编辑器
+  React.useEffect(() => { store.startRealtime(); return () => store.stopRealtime(); }, []);
+
+  function nav(key) {
+    setEditingId(null);
+    setPage(key);
+  }
+
+  function openEditor(id) {
+    setEditingId(id || null);
+    setPage('editor');
+  }
+
+  let content;
+  if (page === 'editor') {
+    content = h`<${WorkflowEditor} workflowId=${editingId} onBack=${() => nav('workflows')} />`;
+  } else {
+    const item = NAV.find(n => n.key === page) || NAV[0];
+    const Page = item.el;
+    content = h`<${Page} onOpenEditor=${openEditor} />`;
+  }
+
+  return h`
+  <div className="app">
+    <aside className="sidebar">
+      <div className="brand">🔄 轮转工作站</div>
+      <nav className="nav">
+        ${NAV.map(n => h`
+          <button key=${n.key}
+            className=${'nav-item' + (page === n.key ? ' active' : '')}
+            onClick=${() => nav(n.key)}>${n.label}</button>`)}
+      </nav>
+      <div className="muted" style=${{ padding: '10px 12px', borderTop: '1px solid var(--border)' }}>
+        v0.2 · 零大模型底座
+      </div>
+    </aside>
+    <main className="content">${content}</main>
+  </div>`;
+}

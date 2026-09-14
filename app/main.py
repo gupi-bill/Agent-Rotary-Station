@@ -1,1 +1,92 @@
-IiIiQWdlbnQtUm90YXJ5LVN0YXRpb24g6L2u6L2s5bel5L2c56uZ5YWl5Y+j44CCCgrlupXluqfpm7blpKfmqKHlnovjgIHml6DlhoXnva4gQWdlbnTvvIzlj6rlgZrlrZjlgqgv5rOo5YaML+S4rei9rC/ot6/nlLEv5pel5b+X44CCCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgdGhyZWFkaW5nCmZyb20gY29udGV4dGxpYiBpbXBvcnQgYXN5bmNjb250ZXh0bWFuYWdlcgoKZnJvbSBmYXN0YXBpIGltcG9ydCBGYXN0QVBJCgpmcm9tIC4gaW1wb3J0IGRiCmZyb20gLnJvdXRlcnMgaW1wb3J0IGFnZW50cywgY3JvbnMsIGZpbGVzLCBtZW1vcmllcywgbWVzc2FnZXMsIHByb2plY3RzLCBza2lsbHMsIHN5c3RlbSwgdGFza3MsIHRvb2xzLCB3b3JrZmxvd3MKCgpkZWYgX21haW50ZW5hbmNlX2xvb3AoKSAtPiBOb25lOgogICAgIiIi5ZCO5Y+w57u05oqk57q/56iL77ya5b+D6Lez6LaF5pe25qOA5p+lICsg5bel5YW36Zif5YiX6KGl5Y+R44CCIiIiCiAgICBpbXBvcnQgdGltZQogICAgZnJvbSAuIGltcG9ydCBjb25maWcKICAgIHdoaWxlIFRydWU6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBkYi5tYXJrX3N0YWxlX2FnZW50c19vZmZsaW5lKGNvbmZpZy5BR0VOVF9IRUFSVEJFQVRfVElNRU9VVCkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBwYXNzCiAgICAgICAgdHJ5OgogICAgICAgICAgICB0b29scy5xdWV1ZV9wcm9jZXNzKCkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBwYXNzCiAgICAgICAgdGltZS5zbGVlcChjb25maWcuVE9PTF9RVUVVRV9SRVRSWV9JTlRFUlZBTCkKCgpfc3RvcCA9IHRocmVhZGluZy5FdmVudCgpCgpAYXN5bmNjb250ZXh0bWFuYWdlcgphc3luYyBkZWYgbGlmZXNwYW4oYXBwOiBGYXN0QVBJKToKICAgIGRiLmluaXRfZGIoKQogICAgdCA9IHRocmVhZGluZy5UaHJlYWQodGFyZ2V0PV9tYWludGVuYW5jZV9sb29wLCBkYWVtb249VHJ1ZSkKICAgIHQuc3RhcnQoKQogICAgZnJvbSAucm91dGVycyBpbXBvcnQgY3JvbnMgYXMgX2Nyb25zCiAgICB0YyA9IHRocmVhZGluZy5UaHJlYWQodGFyZ2V0PV9jcm9ucy5zY2hlZHVsZXJfbG9vcCwgYXJncz0oX3N0b3AsKSwgZGFlbW9uPVRydWUpCiAgICB0Yy5zdGFydCgpCiAgICB5aWVsZAogICAgX3N0b3Auc2V0KCkKCgphcHAgPSBGYXN0QVBJKAogICAgdGl0bGU9IkFnZW50LVJvdGFyeS1TdGF0aW9uIiwKICAgIHZlcnNpb249IjAuMi4wIiwKICAgIGRlc2NyaXB0aW9uPSJBZ2VudOeJiOW+ruS/oSArIOWkmuaZuuiDveS9k+iwg+W6puW6leW6p++8iOe6r+W6leW6p++8jOmbtuaZuuiDve+8iSIsCiAgICBsaWZlc3Bhbj1saWZlc3BhbiwKKQoKIyAtLS0tIENPUlPvvJrlhYHorrjot6jln5/vvIjkvpsgQmx1ZURlZXIgbmV3X3VpIOetieWklumDqOWJjeerr+ebtOi/nu+8iSAtLS0tCmZyb20gZmFzdGFwaS5taWRkbGV3YXJlLmNvcnMgaW1wb3J0IENPUlNNaWRkbGV3YXJlCgphcHAuYWRkX21pZGRsZXdhcmUoCiAgICBDT1JTTWlkZGxld2FyZSwKICAgIGFsbG93X29yaWdpbnM9WyIqIl0sCiAgICBhbGxvd19jcmVkZW50aWFscz1GYWxzZSwKICAgIGFsbG93X21ldGhvZHM9WyIqIl0sCiAgICBhbGxvd19oZWFkZXJzPVsiKiJdLAopCgojIC0tLS0gQVBJIOiupOivgeS4remXtOS7tiAtLS0tCmZyb20gLm1pZGRsZXdhcmUgaW1wb3J0IEF1dGhNaWRkbGV3YXJlCmFwcC5hZGRfbWlkZGxld2FyZShBdXRoTWlkZGxld2FyZSkKCmFwcC5pbmNsdWRlX3JvdXRlcihhZ2VudHMucm91dGVyKQphcHAuaW5jbHVkZV9yb3V0ZXIodGFza3Mucm91dGVyKQphcHAuaW5jbHVkZV9yb3V0ZXIobWVzc2FnZXMucm91dGVyKQphcHAuaW5jbHVkZV9yb3V0ZXIobWVtb3JpZXMucm91dGVyKQphcHAuaW5jbHVkZV9yb3V0ZXIoc2tpbGxzLnJvdXRlcikKYXBwLmluY2x1ZGVfcm91dGVyKHRvb2xzLnJvdXRlcikKYXBwLmluY2x1ZGVfcm91dGVyKHN5c3RlbS5yb3V0ZXIpCmFwcC5pbmNsdWRlX3JvdXRlcih3b3JrZmxvd3Mucm91dGVyKQphcHAuaW5jbHVkZV9yb3V0ZXIocHJvamVjdHMucm91dGVyKQphcHAuaW5jbHVkZV9yb3V0ZXIoY3JvbnMucm91dGVyKQphcHAuaW5jbHVkZV9yb3V0ZXIoZmlsZXMucm91dGVyKQoKCiMgLS0tLSBQMiBXZWJVSSDpnZnmgIHmiZjnrqHvvIjllK/kuIDlkI7nq6/mlLnliqjvvJrkuI3kv67mlLnku7vkvZUgcm91dGVyIOS4muWKoemAu+i+ke+8iSAtLS0tCmltcG9ydCBvcwpmcm9tIGZhc3RhcGkuc3RhdGljZmlsZXMgaW1wb3J0IFN0YXRpY0ZpbGVzCldFQlVJX0RJUiA9IG9zLnBhdGguam9pbihvcy5wYXRoLmRpcm5hbWUoX19maWxlX18pLCAiLi4iLCAid2VidWkiKQppZiBvcy5wYXRoLmlzZGlyKFdFQlVJX0RJUik6CiAgICBhcHAubW91bnQoIi93ZWJ1aSIsIFN0YXRpY0ZpbGVzKGRpcmVjdG9yeT1XRUJVSV9ESVIsIGh0bWw9VHJ1ZSksIG5hbWU9IndlYnVpIikKCgpAYXBwLmdldCgiLyIpCmRlZiByb290KCk6CiAgICByZXR1cm4geyJvayI6IFRydWUsICJzdGF0aW9uIjogIkFnZW50LVJvdGFyeS1TdGF0aW9uIiwgInZlcnNpb24iOiAiMC4yLjAiLAogICAgICAgICAgICAiZG9jcyI6ICIvZG9jcyJ9Cg==
+"""Agent-Rotary-Station 轮转工作站入口。
+
+底座零大模型、无内置 Agent，只做存储/注册/中转/路由/日志。
+"""
+from __future__ import annotations
+
+import threading
+from contextlib import asynccontextmanager
+
+from fastapi import FastAPI
+
+from . import db
+from .routers import agents, crons, files, memories, messages, projects, skills, system, tasks, tools, workflows
+
+
+def _maintenance_loop() -> None:
+    """后台维护线程：心跳超时检查 + 工具队列补发。"""
+    import time
+    from . import config
+    while True:
+        try:
+            db.mark_stale_agents_offline(config.AGENT_HEARTBEAT_TIMEOUT)
+        except Exception:
+            pass
+        try:
+            tools.queue_process()
+        except Exception:
+            pass
+        time.sleep(config.TOOL_QUEUE_RETRY_INTERVAL)
+
+
+_stop = threading.Event()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    db.init_db()
+    t = threading.Thread(target=_maintenance_loop, daemon=True)
+    t.start()
+    from .routers import crons as _crons
+    tc = threading.Thread(target=_crons.scheduler_loop, args=(_stop,), daemon=True)
+    tc.start()
+    yield
+    _stop.set()
+
+
+app = FastAPI(
+    title="Agent-Rotary-Station",
+    version="0.2.0",
+    description="Agent版微信 + 多智能体调度底座（纯底座，零智能）",
+    lifespan=lifespan,
+)
+
+# ---- CORS：允许跨域（供 BlueDeer new_ui 等外部前端直连） ----
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# ---- API 认证中间件 ----
+from .middleware import AuthMiddleware
+app.add_middleware(AuthMiddleware)
+
+app.include_router(agents.router)
+app.include_router(tasks.router)
+app.include_router(messages.router)
+app.include_router(memories.router)
+app.include_router(skills.router)
+app.include_router(tools.router)
+app.include_router(system.router)
+app.include_router(workflows.router)
+app.include_router(projects.router)
+app.include_router(crons.router)
+app.include_router(files.router)
+
+
+# ---- P2 WebUI 静态托管（唯一后端改动：不修改任何 router 业务逻辑） ----
+import os
+from fastapi.staticfiles import StaticFiles
+WEBUI_DIR = os.path.join(os.path.dirname(__file__), "..", "webui")
+if os.path.isdir(WEBUI_DIR):
+    app.mount("/webui", StaticFiles(directory=WEBUI_DIR, html=True), name="webui")
+
+
+@app.get("/")
+def root():
+    return {"ok": True, "station": "Agent-Rotary-Station", "version": "0.2.0",
+            "docs": "/docs"}

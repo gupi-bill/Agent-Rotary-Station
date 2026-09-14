@@ -1,1 +1,114 @@
-IiIidjAuMiDnuqLnur/lm57lvZLvvJp3b3JrZmxvdyDnmoQgbWVtb3J5L3Rvb2wg6IqC54K55b+F6aG76LWw5a6h5om577yM546v5qOA5rWL77yM57Sn5oCl5Yi56L2m44CCIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBzeXMKaW1wb3J0IHRpbWUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudC5wYXJlbnQKc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihST09UKSkKCmZyb20gYXBwIGltcG9ydCBjb25maWcsIGRiCmZyb20gYXBwLnJvdXRlcnMgaW1wb3J0IGFnZW50cywgbWVtb3JpZXMsIHNraWxscywgd29ya2Zsb3dzCmZyb20gYXBwLnNjaGVtYXMgaW1wb3J0ICgKICAgIEFnZW50UmVnaXN0ZXIsCiAgICBNYW5hZ2VyU2V0LAogICAgU2tpbGxSZWdpc3RlciwKICAgIFdvcmtmbG93Q3JlYXRlLAogICAgQXBwcm92YWxEZWNpc2lvbiwKKQoKY29uZmlnLkVNRVJHRU5DWV9CTE9DSyA9IEZhbHNlCm1lbW9yaWVzLkFQUFJPVkFMX1dBSVRfVElNRU9VVCA9IDAuMyAgIyDmtYvor5XliqDpgJ/vvIzkuI3lvbHlk40gcHJvZCDpu5jorqQgMzBzCgoKZGVmIGNsZWFuKCk6CiAgICBkYi5pbml0X2RiKCkKICAgIGZvciB0IGluIFsid29ya2Zsb3dfcnVucyIsICJ3b3JrZmxvd3MiLCAidG9vbF9xdWV1ZSIsICJ0b29sX3JlcXVlc3RzIiwKICAgICAgICAgICAgICAibWVtb3J5X2FwcHJvdmFscyIsICJtZW1vcmllcyIsICJ0YXNrX21lbWJlcnMiLCAidGFza3MiLAogICAgICAgICAgICAgICJtZXNzYWdlcyIsICJza2lsbHMiLCAiYXVkaXRfbG9ncyIsICJhZ2VudHMiXToKICAgICAgICBkYi5leGVjdXRlKGYiREVMRVRFIEZST00ge3R9IikKCgpkZWYgdGVzdF93Zl9tZW1vcnlfd3JpdGVfdmlhX2FwcHJvdmFsKCk6CiAgICAiIiJtZW1vcnlfd3JpdGUg6IqC54K55b+F6aG755Sf5oiQ5a6h5om55Y2V77yMbWFuYWdlciDmlL7ooYzlkI7miY3okL3lupPvvIjnuqLnur/vvInjgIIiIiIKICAgIGNsZWFuKCkKICAgIGFnZW50cy5yZWdpc3RlcihBZ2VudFJlZ2lzdGVyKGFnZW50X2lkPSJtMSIsIG5hbWU9Ik0iKSkKICAgIGFnZW50cy5zZXRfbWFuYWdlcihNYW5hZ2VyU2V0KGFnZW50X2lkPSJtMSIpKQogICAgYWdlbnRzLnJlZ2lzdGVyKEFnZW50UmVnaXN0ZXIoYWdlbnRfaWQ9IncxIiwgbmFtZT0iVyIpKQogICAgd2YgPSB3b3JrZmxvd3MuY3JlYXRlKFdvcmtmbG93Q3JlYXRlKG5hbWU9Im13IiwgZGVmaW5pdGlvbj17CiAgICAgICAgIm5vZGVzIjogW3siaWQiOiAibjEiLCAidHlwZSI6ICJtZW1vcnlfd3JpdGUiLAogICAgICAgICAgICAgICAgICAgImRhdGEiOiB7Im93bmVyX2FnZW50X2lkIjogIncxIiwgImRvbWFpbiI6ICJhZ2VudDp3MSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAibWVtX2tleSI6ICJrIiwgImNvbnRlbnQiOiAidiJ9fV0sCiAgICAgICAgImVkZ2VzIjogW10sCiAgICB9KSkKICAgICMgbWVtb3J5IOiKgueCuei1sCB2MC4xIOW8guatpeWuoeaJue+8mnJ1biDov5Tlm57lkI4gcGVuZGluZyDlrqHmibnljZXlupTlt7LnlJ/miJAKICAgIHdvcmtmbG93cy5ydW4od2ZbIndvcmtmbG93X2lkIl0sIHRyaWdnZXJfYnk9Imh1bWFuIikKICAgIHJhID0gZGIucXVlcnlfb25lKCJTRUxFQ1QgKiBGUk9NIG1lbW9yeV9hcHByb3ZhbHMgV0hFUkUgc3RhdHVzPSdwZW5kaW5nJyBPUkRFUiBCWSBpZCBERVNDIikKICAgIGFzc2VydCByYSBpcyBub3QgTm9uZSwgIm1lbW9yeV93cml0ZSBub2RlIG11c3QgY3JlYXRlIGEgcGVuZGluZyBhcHByb3ZhbCIKICAgIG1lbW9yaWVzLmRlY2lkZShBcHByb3ZhbERlY2lzaW9uKG1hbmFnZXJfaWQ9Im0xIiwgcmVxdWVzdF9pZD1yYVsicmVxdWVzdF9pZCJdLCBhcHByb3ZlPVRydWUpKQogICAgbWVtID0gZGIucXVlcnlfb25lKCJTRUxFQ1QgKiBGUk9NIG1lbW9yaWVzIFdIRVJFIGRvbWFpbj0nYWdlbnQ6dzEnIEFORCBtZW1fa2V5PSdrJyIpCiAgICBhc3NlcnQgbWVtIGlzIG5vdCBOb25lIGFuZCBtZW1bImNvbnRlbnQiXSA9PSAidiIsICJtZW1vcnkgbm90IHBlcnNpc3RlZCBhZnRlciBhcHByb3ZhbCIKICAgIHByaW50KCJPSyB3ZiBtZW1vcnlfd3JpdGUgdmlhIGFwcHJvdmFsIC0+IHBlcnNpc3RlZCIpCgoKZGVmIHRlc3Rfd2ZfdG9vbF9ub2RlX3BlbmRpbmcoKToKICAgICIiInRvb2wg6IqC54K55Y+q55Sf5oiQIHBlbmRpbmcg5a6h5om577yM5LiN55u05o6l5omn6KGM77yI57qi57q/77yJ44CCIiIiCiAgICBjbGVhbigpCiAgICBhZ2VudHMucmVnaXN0ZXIoQWdlbnRSZWdpc3RlcihhZ2VudF9pZD0ibTEiLCBuYW1lPSJNIikpCiAgICBhZ2VudHMuc2V0X21hbmFnZXIoTWFuYWdlclNldChhZ2VudF9pZD0ibTEiKSkKICAgIHNraWxscy5yZWdpc3RlcihTa2lsbFJlZ2lzdGVyKAogICAgICAgIHNraWxsX2lkPSJ0MSIsIG5hbWU9IlQiLCBwcm92aWRlcl9ub2RlPSJ0biIsIGVuZHBvaW50X3VybD0iaHR0cDovLzEyNy4wLjAuMTo5L3giKSkKICAgIHdmID0gd29ya2Zsb3dzLmNyZWF0ZShXb3JrZmxvd0NyZWF0ZShuYW1lPSJ0biIsIGRlZmluaXRpb249ewogICAgICAgICJub2RlcyI6IFt7ImlkIjogIm4xIiwgInR5cGUiOiAidG9vbCIsCiAgICAgICAgICAgICAgICAgICAiZGF0YSI6IHsic2tpbGxfaWQiOiAidDEiLCAicGFyYW1zIjoge319fV0sCiAgICAgICAgImVkZ2VzIjogW10sCiAgICB9KSkKICAgIHdvcmtmbG93cy5ydW4od2ZbIndvcmtmbG93X2lkIl0sIHRyaWdnZXJfYnk9Imh1bWFuIikKICAgIHRyID0gZGIucXVlcnlfb25lKCJTRUxFQ1QgKiBGUk9NIHRvb2xfcmVxdWVzdHMgV0hFUkUgc3RhdHVzPSdwZW5kaW5nJyBPUkRFUiBCWSBpZCBERVNDIikKICAgIGFzc2VydCB0ciBpcyBub3QgTm9uZSwgInRvb2wgbm9kZSBtdXN0IGNyZWF0ZSBhIHBlbmRpbmcgdG9vbF9yZXF1ZXN0IgogICAgcHJpbnQoIk9LIHdmIHRvb2wgbm9kZSAtPiBwZW5kaW5nIGFwcHJvdmFsIChubyBkaXJlY3QgZXhlYykiKQoKCmRlZiB0ZXN0X3dmX2N5Y2xlX3JlamVjdGVkKCk6CiAgICAiIiLlkKvnjq/nmoTlrprkuYnlnKjov5DooYzml7blv4Xpobvooqvmi5PmiZHmjpLluo/mi5Lnu53jgIIiIiIKICAgIGNsZWFuKCkKICAgIGFnZW50cy5yZWdpc3RlcihBZ2VudFJlZ2lzdGVyKGFnZW50X2lkPSJ4IiwgbmFtZT0iWCIpKQogICAgd2YgPSB3b3JrZmxvd3MuY3JlYXRlKFdvcmtmbG93Q3JlYXRlKG5hbWU9ImN5YyIsIGRlZmluaXRpb249ewogICAgICAgICJub2RlcyI6IFsKICAgICAgICAgICAgeyJpZCI6ICJhIiwgInR5cGUiOiAiYWdlbnQiLCAiZGF0YSI6IHsiYWdlbnRfaWQiOiAieCIsICJjb250ZW50IjogIjEifX0sCiAgICAgICAgICAgIHsiaWQiOiAiYiIsICJ0eXBlIjogImFnZW50IiwgImRhdGEiOiB7ImFnZW50X2lkIjogIngiLCAiY29udGVudCI6ICIyIn19LAogICAgICAgIF0sCiAgICAgICAgImVkZ2VzIjogW3sic291cmNlIjogImEiLCAidGFyZ2V0IjogImIifSwgeyJzb3VyY2UiOiAiYiIsICJ0YXJnZXQiOiAiYSJ9XSwKICAgIH0pKQogICAgYXNzZXJ0IHdmWyJvayJdCiAgICBjYXVnaHQgPSBGYWxzZQogICAgdHJ5OgogICAgICAgIHdvcmtmbG93cy5ydW4od2ZbIndvcmtmbG93X2lkIl0sIHRyaWdnZXJfYnk9Imh1bWFuIikKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZTogICMgbm9xYTogQkxFMDAxCiAgICAgICAgY2F1Z2h0ID0gImN5Y2xlIiBpbiBzdHIoZSkubG93ZXIoKQogICAgYXNzZXJ0IGNhdWdodCwgImN5Y2xlIHdvcmtmbG93IG11c3QgYmUgcmVqZWN0ZWQgYXQgcnVuIgogICAgcHJpbnQoIk9LIHdmIGN5Y2xlIHJlamVjdGVkIGF0IHJ1biIpCgoKZGVmIHRlc3RfZW1lcmdlbmN5X2Jsb2NrKCk6CiAgICAiIiLntKfmgKXliLnovabmv4DmtLvml7bvvIzku7vkvZXlt6XkvZzmtYHov5DooYzlv4XpobvooqvpmLvmlq3jgIIiIiIKICAgIGNsZWFuKCkKICAgIGFnZW50cy5yZWdpc3RlcihBZ2VudFJlZ2lzdGVyKGFnZW50X2lkPSJ4IiwgbmFtZT0iWCIpKQogICAgd2YgPSB3b3JrZmxvd3MuY3JlYXRlKFdvcmtmbG93Q3JlYXRlKG5hbWU9ImViIiwgZGVmaW5pdGlvbj17CiAgICAgICAgIm5vZGVzIjogW3siaWQiOiAibjEiLCAidHlwZSI6ICJhZ2VudCIsICJkYXRhIjogeyJhZ2VudF9pZCI6ICJ4IiwgImNvbnRlbnQiOiAiMSJ9fV0sCiAgICAgICAgImVkZ2VzIjogW10sCiAgICB9KSkKICAgIGNvbmZpZy5FTUVSR0VOQ1lfQkxPQ0sgPSBUcnVlCiAgICByID0gd29ya2Zsb3dzLnJ1bih3Zlsid29ya2Zsb3dfaWQiXSwgdHJpZ2dlcl9ieT0iaHVtYW4iKQogICAgY29uZmlnLkVNRVJHRU5DWV9CTE9DSyA9IEZhbHNlCiAgICBhc3NlcnQgclsic3RhdHVzIl0gPT0gImJsb2NrZWQiLCBzdHIocikKICAgIHByaW50KCJPSyBlbWVyZ2VuY3kgYmxvY2sgaGFsdHMgd29ya2Zsb3ciKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICB0ZXN0X3dmX21lbW9yeV93cml0ZV92aWFfYXBwcm92YWwoKQogICAgdGVzdF93Zl90b29sX25vZGVfcGVuZGluZygpCiAgICB0ZXN0X3dmX2N5Y2xlX3JlamVjdGVkKCkKICAgIHRlc3RfZW1lcmdlbmN5X2Jsb2NrKCkKICAgIHByaW50KCJXRl9DT1JFX0FMTF9QQVNTIikK
+"""v0.2 红线回归：workflow 的 memory/tool 节点必须走审批，环检测，紧急刹车。"""
+from __future__ import annotations
+
+import sys
+import time
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+from app import config, db
+from app.routers import agents, memories, skills, workflows
+from app.schemas import (
+    AgentRegister,
+    ManagerSet,
+    SkillRegister,
+    WorkflowCreate,
+    ApprovalDecision,
+)
+
+config.EMERGENCY_BLOCK = False
+memories.APPROVAL_WAIT_TIMEOUT = 0.3  # 测试加速，不影响 prod 默认 30s
+
+
+def clean():
+    db.init_db()
+    for t in ["workflow_runs", "workflows", "tool_queue", "tool_requests",
+              "memory_approvals", "memories", "task_members", "tasks",
+              "messages", "skills", "audit_logs", "agents"]:
+        db.execute(f"DELETE FROM {t}")
+
+
+def test_wf_memory_write_via_approval():
+    """memory_write 节点必须生成审批单，manager 放行后才落库（红线）。"""
+    clean()
+    agents.register(AgentRegister(agent_id="m1", name="M"))
+    agents.set_manager(ManagerSet(agent_id="m1"))
+    agents.register(AgentRegister(agent_id="w1", name="W"))
+    wf = workflows.create(WorkflowCreate(name="mw", definition={
+        "nodes": [{"id": "n1", "type": "memory_write",
+                   "data": {"owner_agent_id": "w1", "domain": "agent:w1",
+                            "mem_key": "k", "content": "v"}}],
+        "edges": [],
+    }))
+    # memory 节点走 v0.1 异步审批：run 返回后 pending 审批单应已生成
+    workflows.run(wf["workflow_id"], trigger_by="human")
+    ra = db.query_one("SELECT * FROM memory_approvals WHERE status='pending' ORDER BY id DESC")
+    assert ra is not None, "memory_write node must create a pending approval"
+    memories.decide(ApprovalDecision(manager_id="m1", request_id=ra["request_id"], approve=True))
+    mem = db.query_one("SELECT * FROM memories WHERE domain='agent:w1' AND mem_key='k'")
+    assert mem is not None and mem["content"] == "v", "memory not persisted after approval"
+    print("OK wf memory_write via approval -> persisted")
+
+
+def test_wf_tool_node_pending():
+    """tool 节点只生成 pending 审批，不直接执行（红线）。"""
+    clean()
+    agents.register(AgentRegister(agent_id="m1", name="M"))
+    agents.set_manager(ManagerSet(agent_id="m1"))
+    skills.register(SkillRegister(
+        skill_id="t1", name="T", provider_node="tn", endpoint_url="http://127.0.0.1:9/x"))
+    wf = workflows.create(WorkflowCreate(name="tn", definition={
+        "nodes": [{"id": "n1", "type": "tool",
+                   "data": {"skill_id": "t1", "params": {}}}],
+        "edges": [],
+    }))
+    workflows.run(wf["workflow_id"], trigger_by="human")
+    tr = db.query_one("SELECT * FROM tool_requests WHERE status='pending' ORDER BY id DESC")
+    assert tr is not None, "tool node must create a pending tool_request"
+    print("OK wf tool node -> pending approval (no direct exec)")
+
+
+def test_wf_cycle_rejected():
+    """含环的定义在运行时必须被拓扑排序拒绝。"""
+    clean()
+    agents.register(AgentRegister(agent_id="x", name="X"))
+    wf = workflows.create(WorkflowCreate(name="cyc", definition={
+        "nodes": [
+            {"id": "a", "type": "agent", "data": {"agent_id": "x", "content": "1"}},
+            {"id": "b", "type": "agent", "data": {"agent_id": "x", "content": "2"}},
+        ],
+        "edges": [{"source": "a", "target": "b"}, {"source": "b", "target": "a"}],
+    }))
+    assert wf["ok"]
+    caught = False
+    try:
+        workflows.run(wf["workflow_id"], trigger_by="human")
+    except Exception as e:  # noqa: BLE001
+        caught = "cycle" in str(e).lower()
+    assert caught, "cycle workflow must be rejected at run"
+    print("OK wf cycle rejected at run")
+
+
+def test_emergency_block():
+    """紧急刹车激活时，任何工作流运行必须被阻断。"""
+    clean()
+    agents.register(AgentRegister(agent_id="x", name="X"))
+    wf = workflows.create(WorkflowCreate(name="eb", definition={
+        "nodes": [{"id": "n1", "type": "agent", "data": {"agent_id": "x", "content": "1"}}],
+        "edges": [],
+    }))
+    config.EMERGENCY_BLOCK = True
+    r = workflows.run(wf["workflow_id"], trigger_by="human")
+    config.EMERGENCY_BLOCK = False
+    assert r["status"] == "blocked", str(r)
+    print("OK emergency block halts workflow")
+
+
+if __name__ == "__main__":
+    test_wf_memory_write_via_approval()
+    test_wf_tool_node_pending()
+    test_wf_cycle_rejected()
+    test_emergency_block()
+    print("WF_CORE_ALL_PASS")

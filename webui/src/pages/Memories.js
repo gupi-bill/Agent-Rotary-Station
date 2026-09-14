@@ -1,1 +1,98 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ2h0dHBzOi8vZXNtLnNoL3JlYWN0QDE4JzsKaW1wb3J0IGh0bSBmcm9tICdodHRwczovL2VzbS5zaC9odG1AMyc7CmltcG9ydCB7IE1lbW9yaWVzIGFzIE1lbUFwaSwgQWdlbnRzIGFzIEFnZW50c0FwaSB9IGZyb20gJy4uL2FwaS5qcyc7CmltcG9ydCB7IHN0b3JlIH0gZnJvbSAnLi4vc3RvcmUuanMnOwpjb25zdCBoID0gaHRtLmJpbmQoUmVhY3QuY3JlYXRlRWxlbWVudCk7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNZW1vcmllcygpIHsKICBjb25zdCBbZG9tYWlucywgc2V0RG9tYWluc10gPSBSZWFjdC51c2VTdGF0ZShbXSk7CiAgY29uc3QgW2VudHJpZXMsIHNldEVudHJpZXNdID0gUmVhY3QudXNlU3RhdGUoW10pOwogIGNvbnN0IFthZ2VudHMsIHNldEFnZW50c10gPSBSZWFjdC51c2VTdGF0ZShbXSk7CiAgY29uc3QgW2Zvcm0sIHNldEZvcm1dID0gUmVhY3QudXNlU3RhdGUoeyBhZ2VudF9pZDogJycsIGRvbWFpbjogJ2dsb2JhbCcsIG1lbV9rZXk6ICcnLCBjb250ZW50OiAnJyB9KTsKICBjb25zdCBbcXVlcnksIHNldFF1ZXJ5XSA9IFJlYWN0LnVzZVN0YXRlKHsgcmVhZGVyOiAnJywgZG9tYWluOiAnJywgbWVtX2tleTogJycgfSk7CiAgY29uc3QgW21zZywgc2V0TXNnXSA9IFJlYWN0LnVzZVN0YXRlKCcnKTsKCiAgYXN5bmMgZnVuY3Rpb24gbG9hZEFnZW50cygpIHsKICAgIHRyeSB7IGNvbnN0IGEgPSBhd2FpdCBBZ2VudHNBcGkubGlzdCgpOyBzZXRBZ2VudHMoYS5hZ2VudHMgfHwgW10pOyB9IGNhdGNoIHt9CiAgfQogIGFzeW5jIGZ1bmN0aW9uIGxvYWREb21haW5zKCkgewogICAgaWYgKCFxdWVyeS5yZWFkZXIpIHJldHVybjsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHIgPSBhd2FpdCBNZW1BcGkubGlzdERvbWFpbnMocXVlcnkucmVhZGVyKTsKICAgICAgc2V0RG9tYWlucyhyLmRvbWFpbnMgfHwgci5lbnRyaWVzIHx8IFtdKTsKICAgIH0gY2F0Y2ggKGUpIHsgc2V0TXNnKGUubWVzc2FnZSk7IH0KICB9CiAgYXN5bmMgZnVuY3Rpb24gbG9hZEVudHJpZXMoKSB7CiAgICB0cnkgewogICAgICBjb25zdCBwYXJhbXMgPSB7fTsKICAgICAgaWYgKHF1ZXJ5LnJlYWRlcikgcGFyYW1zLnJlYWRlciA9IHF1ZXJ5LnJlYWRlcjsKICAgICAgaWYgKHF1ZXJ5LmRvbWFpbikgcGFyYW1zLmRvbWFpbiA9IHF1ZXJ5LmRvbWFpbjsKICAgICAgaWYgKHF1ZXJ5Lm1lbV9rZXkpIHBhcmFtcy5tZW1fa2V5ID0gcXVlcnkubWVtX2tleTsKICAgICAgY29uc3QgciA9IGF3YWl0IE1lbUFwaS5yZWFkKHBhcmFtcyk7CiAgICAgIHNldEVudHJpZXMoci5lbnRyaWVzIHx8IHIubWVtb3JpZXMgfHwgW10pOwogICAgfSBjYXRjaCAoZSkgeyBzZXRNc2coZS5tZXNzYWdlKTsgfQogIH0KICBSZWFjdC51c2VFZmZlY3QoKCkgPT4geyBsb2FkQWdlbnRzKCk7IH0sIFtdKTsKCiAgYXN5bmMgZnVuY3Rpb24gZG9Xcml0ZSgpIHsKICAgIHNldE1zZygnJyk7CiAgICB0cnkgewogICAgICBjb25zdCByID0gYXdhaXQgTWVtQXBpLndyaXRlKGZvcm0pOwogICAgICBzZXRNc2coJ+WGmeiusOW/huW3suaPkOS6pO+8micgKyBKU09OLnN0cmluZ2lmeShyKSk7CiAgICAgIHN0b3JlLm5vdGlmeSgpOwogICAgfSBjYXRjaCAoZSkgeyBzZXRNc2coZS5tZXNzYWdlKTsgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gZG9EZWxldGUoZW50cnkpIHsKICAgIHNldE1zZygnJyk7CiAgICB0cnkgewogICAgICBjb25zdCByID0gYXdhaXQgTWVtQXBpLmRlbGV0ZSh7IGFnZW50X2lkOiBmb3JtLmFnZW50X2lkIHx8IHF1ZXJ5LnJlYWRlciB8fCAnaHVtYW4nLCBkb21haW46IGVudHJ5LmRvbWFpbiwgbWVtX2tleTogZW50cnkubWVtX2tleSB9KTsKICAgICAgc2V0TXNnKCfliKDpmaTlt7Lmj5DkuqTvvJonICsgSlNPTi5zdHJpbmdpZnkocikpOwogICAgICBzdG9yZS5ub3RpZnkoKTsKICAgIH0gY2F0Y2ggKGUpIHsgc2V0TXNnKGUubWVzc2FnZSk7IH0KICB9CgogIHJldHVybiBoYAogIDxkaXY+CiAgICA8aDIgY2xhc3M9InBhZ2UtdGl0bGUiPvCfp6Ag5LiJ5bGC6K6w5b+G5rGgPC9oMj4KICAgICR7bXNnICYmIGhgPGRpdiBjbGFzcz0idG9hc3QiPiR7bXNnfTwvZGl2PmB9CiAgICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgICAgPGgzPuWGmeiusOW/hu+8iOmcgOeuoeeQhuWyl+WuoeaJue+8iTwvaDM+CiAgICAgIDxkaXYgY2xhc3M9InJvdyI+CiAgICAgICAgPHNlbGVjdCB2YWx1ZT0ke2Zvcm0uYWdlbnRfaWR9IG9uQ2hhbmdlPSR7ZSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgYWdlbnRfaWQ6IGUudGFyZ2V0LnZhbHVlIH0pfT4KICAgICAgICAgIDxvcHRpb24gdmFsdWU9IiI+6YCJ5oup5Y+R6LW3IEFnZW50PC9vcHRpb24+CiAgICAgICAgICAke2FnZW50cy5tYXAoYSA9PiBoYDxvcHRpb24gdmFsdWU9JHthLmFnZW50X2lkfSBrZXk9JHthLmFnZW50X2lkfT4ke2EubmFtZX0gKCR7YS5hZ2VudF9pZH0pPC9vcHRpb24+YCl9CiAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgPGlucHV0IHBsYWNlaG9sZGVyPSJkb21haW46IGdsb2JhbCAvIGFnZW50OmlkIC8gdGFzazppZCIgdmFsdWU9JHtmb3JtLmRvbWFpbn0gb25JbnB1dD0ke2UgPT4gc2V0Rm9ybSh7IC4uLmZvcm0sIGRvbWFpbjogZS50YXJnZXQudmFsdWUgfSl9IC8+CiAgICAgICAgPGlucHV0IHBsYWNlaG9sZGVyPSJtZW1fa2V5IiB2YWx1ZT0ke2Zvcm0ubWVtX2tleX0gb25JbnB1dD0ke2UgPT4gc2V0Rm9ybSh7IC4uLmZvcm0sIG1lbV9rZXk6IGUudGFyZ2V0LnZhbHVlIH0pfSAvPgogICAgICAgIDxpbnB1dCBwbGFjZWhvbGRlcj0i5YaF5a65IiB2YWx1ZT0ke2Zvcm0uY29udGVudH0gb25JbnB1dD0ke2UgPT4gc2V0Rm9ybSh7IC4uLmZvcm0sIGNvbnRlbnQ6IGUudGFyZ2V0LnZhbHVlIH0pfSBzdHlsZT0ke3sgZmxleDogMSB9fSAvPgogICAgICAgIDxidXR0b24gb25DbGljaz0ke2RvV3JpdGV9PuaPkOS6pOWGmeiusOW/hjwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2FyZCI+CiAgICAgIDxoMz7mn6Xor6LorrDlv4Y8L2gzPgogICAgICA8ZGl2IGNsYXNzPSJyb3ciPgogICAgICAgIDxpbnB1dCBwbGFjZWhvbGRlcj0icmVhZGVy77yIYWdlbnRfaWTvvIkiIHZhbHVlPSR7cXVlcnkucmVhZGVyfSBvbklucHV0PSR7ZSA9PiBzZXRRdWVyeSh7IC4uLnF1ZXJ5LCByZWFkZXI6IGUudGFyZ2V0LnZhbHVlIH0pfSAvPgogICAgICAgIDxpbnB1dCBwbGFjZWhvbGRlcj0iZG9tYWlu77yI5Y+v56m677yJIiB2YWx1ZT0ke3F1ZXJ5LmRvbWFpbn0gb25JbnB1dD0ke2UgPT4gc2V0UXVlcnkoeyAuLi5xdWVyeSwgZG9tYWluOiBlLnRhcmdldC52YWx1ZSB9KX0gLz4KICAgICAgICA8aW5wdXQgcGxhY2Vob2xkZXI9Im1lbV9rZXnvvIjlj6/nqbrvvIkiIHZhbHVlPSR7cXVlcnkubWVtX2tleX0gb25JbnB1dD0ke2UgPT4gc2V0UXVlcnkoeyAuLi5xdWVyeSwgbWVtX2tleTogZS50YXJnZXQudmFsdWUgfSl9IC8+CiAgICAgICAgPGJ1dHRvbiBjbGFzcz0ic2Vjb25kYXJ5IiBvbkNsaWNrPSR7bG9hZERvbWFpbnN9Puafpeeci+WfnzwvYnV0dG9uPgogICAgICAgIDxidXR0b24gb25DbGljaz0ke2xvYWRFbnRyaWVzfT7mn6Xor6I8L2J1dHRvbj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InJvdyIgc3R5bGU9JHt7IG1hcmdpblRvcDogJzhweCcgfX0+CiAgICAgICAgJHtkb21haW5zLm1hcChkID0+IGhgPHNwYW4gY2xhc3M9ImNoaXAiIGtleT0ke0pTT04uc3RyaW5naWZ5KGQpfT4ke3R5cGVvZiBkID09PSAnc3RyaW5nJyA/IGQgOiBKU09OLnN0cmluZ2lmeShkKX08L3NwYW4+YCl9CiAgICAgIDwvZGl2PgogICAgICA8dGFibGUgY2xhc3M9InRhYmxlIj4KICAgICAgICA8dGhlYWQ+PHRyPjx0aD5kb21haW48L3RoPjx0aD5rZXk8L3RoPjx0aD5jb250ZW50PC90aD48dGg+b3duZXI8L3RoPjx0aD48L3RoPjwvdHI+PC90aGVhZD4KICAgICAgICA8dGJvZHk+CiAgICAgICAgICAke2VudHJpZXMubWFwKGVuID0+IGhgPHRyIGtleT0ke2VuLmRvbWFpbiArICc6JyArIGVuLm1lbV9rZXl9PgogICAgICAgICAgICA8dGQ+JHtlbi5kb21haW59PC90ZD4KICAgICAgICAgICAgPHRkPiR7ZW4ubWVtX2tleX08L3RkPgogICAgICAgICAgICA8dGQ+JHtlbi5jb250ZW50fTwvdGQ+CiAgICAgICAgICAgIDx0ZD4ke2VuLm93bmVyX2FnZW50IHx8ICcnfTwvdGQ+CiAgICAgICAgICAgIDx0ZD48YnV0dG9uIGNsYXNzPSJnaG9zdCIgb25DbGljaz0keygpID0+IGRvRGVsZXRlKGVuKX0+5YigPC9idXR0b24+PC90ZD4KICAgICAgICAgIDwvdHI+YCl9CiAgICAgICAgPC90Ym9keT4KICAgICAgPC90YWJsZT4KICAgIDwvZGl2PgogIDwvZGl2PmA7Cn0K
+import React from 'https://esm.sh/react@18';
+import htm from 'https://esm.sh/htm@3';
+import { Memories as MemApi, Agents as AgentsApi } from '../api.js';
+import { store } from '../store.js';
+const h = htm.bind(React.createElement);
+
+export default function Memories() {
+  const [domains, setDomains] = React.useState([]);
+  const [entries, setEntries] = React.useState([]);
+  const [agents, setAgents] = React.useState([]);
+  const [form, setForm] = React.useState({ agent_id: '', domain: 'global', mem_key: '', content: '' });
+  const [query, setQuery] = React.useState({ reader: '', domain: '', mem_key: '' });
+  const [msg, setMsg] = React.useState('');
+
+  async function loadAgents() {
+    try { const a = await AgentsApi.list(); setAgents(a.agents || []); } catch {}
+  }
+  async function loadDomains() {
+    if (!query.reader) return;
+    try {
+      const r = await MemApi.listDomains(query.reader);
+      setDomains(r.domains || r.entries || []);
+    } catch (e) { setMsg(e.message); }
+  }
+  async function loadEntries() {
+    try {
+      const params = {};
+      if (query.reader) params.reader = query.reader;
+      if (query.domain) params.domain = query.domain;
+      if (query.mem_key) params.mem_key = query.mem_key;
+      const r = await MemApi.read(params);
+      setEntries(r.entries || r.memories || []);
+    } catch (e) { setMsg(e.message); }
+  }
+  React.useEffect(() => { loadAgents(); }, []);
+
+  async function doWrite() {
+    setMsg('');
+    try {
+      const r = await MemApi.write(form);
+      setMsg('写记忆已提交：' + JSON.stringify(r));
+      store.notify();
+    } catch (e) { setMsg(e.message); }
+  }
+
+  async function doDelete(entry) {
+    setMsg('');
+    try {
+      const r = await MemApi.delete({ agent_id: form.agent_id || query.reader || 'human', domain: entry.domain, mem_key: entry.mem_key });
+      setMsg('删除已提交：' + JSON.stringify(r));
+      store.notify();
+    } catch (e) { setMsg(e.message); }
+  }
+
+  return h`
+  <div>
+    <h2 class="page-title">🧠 三层记忆池</h2>
+    ${msg && h`<div class="toast">${msg}</div>`}
+    <div class="card">
+      <h3>写记忆（需管理岗审批）</h3>
+      <div class="row">
+        <select value=${form.agent_id} onChange=${e => setForm({ ...form, agent_id: e.target.value })}>
+          <option value="">选择发起 Agent</option>
+          ${agents.map(a => h`<option value=${a.agent_id} key=${a.agent_id}>${a.name} (${a.agent_id})</option>`)}
+        </select>
+        <input placeholder="domain: global / agent:id / task:id" value=${form.domain} onInput=${e => setForm({ ...form, domain: e.target.value })} />
+        <input placeholder="mem_key" value=${form.mem_key} onInput=${e => setForm({ ...form, mem_key: e.target.value })} />
+        <input placeholder="内容" value=${form.content} onInput=${e => setForm({ ...form, content: e.target.value })} style=${{ flex: 1 }} />
+        <button onClick=${doWrite}>提交写记忆</button>
+      </div>
+    </div>
+    <div class="card">
+      <h3>查询记忆</h3>
+      <div class="row">
+        <input placeholder="reader（agent_id）" value=${query.reader} onInput=${e => setQuery({ ...query, reader: e.target.value })} />
+        <input placeholder="domain（可空）" value=${query.domain} onInput=${e => setQuery({ ...query, domain: e.target.value })} />
+        <input placeholder="mem_key（可空）" value=${query.mem_key} onInput=${e => setQuery({ ...query, mem_key: e.target.value })} />
+        <button class="secondary" onClick=${loadDomains}>查看域</button>
+        <button onClick=${loadEntries}>查询</button>
+      </div>
+      <div class="row" style=${{ marginTop: '8px' }}>
+        ${domains.map(d => h`<span class="chip" key=${JSON.stringify(d)}>${typeof d === 'string' ? d : JSON.stringify(d)}</span>`)}
+      </div>
+      <table class="table">
+        <thead><tr><th>domain</th><th>key</th><th>content</th><th>owner</th><th></th></tr></thead>
+        <tbody>
+          ${entries.map(en => h`<tr key=${en.domain + ':' + en.mem_key}>
+            <td>${en.domain}</td>
+            <td>${en.mem_key}</td>
+            <td>${en.content}</td>
+            <td>${en.owner_agent || ''}</td>
+            <td><button class="ghost" onClick=${() => doDelete(en)}>删</button></td>
+          </tr>`)}
+        </tbody>
+      </table>
+    </div>
+  </div>`;
+}

@@ -1,1 +1,62 @@
-IiIiTUNQLVNraWxsIOWFqOWxgOaKgOiDveazqOWGjOihqOOAguW3peWFt+iKgueCueS4iue6v+azqOWGjO+8jEFnZW50IOeUqCBza2lsbF9pZCDosIPnlKjjgIIKCi9za2lsbC9jYWxsIOWkjeeUqCAvdG9vbHMvY2FsbCDnmoTlrqHmibnpk77ot6/vvJrosIPnlKjkuI3nm7TmjqXmiafooYzlt6XlhbfvvIwK5YWI6JC9IHRvb2xfcmVxdWVzdHMocGVuZGluZynvvIznrYkgbWFuYWdlciDlnKggL3Rvb2xzL2FwcHJvdmFscy9kZWNpZGUg5pS+6KGM5ZCO5omN5omn6KGM44CCCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQganNvbgoKZnJvbSBmYXN0YXBpIGltcG9ydCBBUElSb3V0ZXIsIEhUVFBFeGNlcHRpb24KCmZyb20gLi4gaW1wb3J0IGRiCmZyb20gLi5zY2hlbWFzIGltcG9ydCBTa2lsbFJlZ2lzdGVyLCBUb29sQ2FsbAoKcm91dGVyID0gQVBJUm91dGVyKHByZWZpeD0iL3NraWxscyIsIHRhZ3M9WyJza2lsbHMiXSkKCgpAcm91dGVyLnBvc3QoIi9yZWdpc3RlciIpCmRlZiByZWdpc3Rlcihib2R5OiBTa2lsbFJlZ2lzdGVyKToKICAgIGRiLmV4ZWN1dGUoCiAgICAgICAgIklOU0VSVCBJTlRPIHNraWxscyAoc2tpbGxfaWQsIG5hbWUsIGRlc2NyaXB0aW9uLCBwYXJhbV9zY2hlbWEsIGVuZHBvaW50X3VybCwgcHJvdmlkZXJfbm9kZSwgc3RhdHVzLCBjcmVhdGVkX2F0KSAiCiAgICAgICAgIlZBTFVFUyAoPywgPywgPywgPywgPywgPywgJ2FjdGl2ZScsID8pICIKICAgICAgICAiT04gQ09ORkxJQ1Qoc2tpbGxfaWQpIERPIFVQREFURSBTRVQgIgogICAgICAgICJuYW1lPWV4Y2x1ZGVkLm5hbWUsIGRlc2NyaXB0aW9uPWV4Y2x1ZGVkLmRlc2NyaXB0aW9uLCBwYXJhbV9zY2hlbWE9ZXhjbHVkZWQucGFyYW1fc2NoZW1hLCAiCiAgICAgICAgImVuZHBvaW50X3VybD1leGNsdWRlZC5lbmRwb2ludF91cmwsIHByb3ZpZGVyX25vZGU9ZXhjbHVkZWQucHJvdmlkZXJfbm9kZSwgc3RhdHVzPSdhY3RpdmUnIiwKICAgICAgICAoYm9keS5za2lsbF9pZCwgYm9keS5uYW1lLCBib2R5LmRlc2NyaXB0aW9uLAogICAgICAgICBqc29uLmR1bXBzKGJvZHkucGFyYW1fc2NoZW1hLCBlbnN1cmVfYXNjaWk9RmFsc2UpLAogICAgICAgICBib2R5LmVuZHBvaW50X3VybCwgYm9keS5wcm92aWRlcl9ub2RlLCBkYi5ub3coKSksCiAgICApCiAgICBkYi5hdWRpdChib2R5LnByb3ZpZGVyX25vZGUgb3IgInRvb2xub2RlIiwgInNraWxsX3JlZ2lzdGVyIiwgYm9keS5za2lsbF9pZCkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInNraWxsX2lkIjogYm9keS5za2lsbF9pZH0KCgpAcm91dGVyLnBvc3QoIi97c2tpbGxfaWR9L2Rpc2FibGUiKQpkZWYgZGlzYWJsZShza2lsbF9pZDogc3RyKToKICAgIGRiLmV4ZWN1dGUoIlVQREFURSBza2lsbHMgU0VUIHN0YXR1cz0nZGlzYWJsZWQnIFdIRVJFIHNraWxsX2lkPT8iLCAoc2tpbGxfaWQsKSkKICAgIGRiLmF1ZGl0KCJzeXN0ZW0iLCAic2tpbGxfZGlzYWJsZSIsIHNraWxsX2lkKQogICAgcmV0dXJuIHsib2siOiBUcnVlfQoKCkByb3V0ZXIuZ2V0KCIiKQpkZWYgbGlzdF9za2lsbHMoKToKICAgIHJvd3MgPSBkYi5xdWVyeV9hbGwoIlNFTEVDVCBza2lsbF9pZCwgbmFtZSwgZGVzY3JpcHRpb24sIHBhcmFtX3NjaGVtYSwgcHJvdmlkZXJfbm9kZSwgc3RhdHVzIEZST00gc2tpbGxzIFdIRVJFIHN0YXR1cz0nYWN0aXZlJyIpCiAgICBmb3IgciBpbiByb3dzOgogICAgICAgIHJbInBhcmFtX3NjaGVtYSJdID0ganNvbi5sb2FkcyhyLmdldCgicGFyYW1fc2NoZW1hIikgb3IgInt9IikKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInNraWxscyI6IHJvd3N9CgoKQHJvdXRlci5nZXQoIi97c2tpbGxfaWR9IikKZGVmIGdldF9za2lsbChza2lsbF9pZDogc3RyKToKICAgIHJvdyA9IGRiLnF1ZXJ5X29uZSgiU0VMRUNUICogRlJPTSBza2lsbHMgV0hFUkUgc2tpbGxfaWQ9PyIsIChza2lsbF9pZCwpKQogICAgaWYgbm90IHJvdzoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgZGV0YWlsPSJza2lsbCBub3QgZm91bmQiKQogICAgcm93WyJwYXJhbV9zY2hlbWEiXSA9IGpzb24ubG9hZHMocm93LmdldCgicGFyYW1fc2NoZW1hIikgb3IgInt9IikKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgInNraWxsIjogcm93fQoKCkByb3V0ZXIucG9zdCgiL2NhbGwiKQpkZWYgY2FsbF9za2lsbChib2R5OiBUb29sQ2FsbCk6CiAgICAiIiLmioDog73osIPnlKjliKvlkI3vvJrlpI3nlKggL3Rvb2xzL2NhbGwg55qE5a6h5om56ZO+6Lev77yM5LiN55u05o6l5omn6KGM5bel5YW344CCIiIiCiAgICBmcm9tIC50b29scyBpbXBvcnQgY2FsbCBhcyBfdG9vbF9jYWxsCiAgICByZXR1cm4gX3Rvb2xfY2FsbChib2R5KQo=
+"""MCP-Skill 全局技能注册表。工具节点上线注册，Agent 用 skill_id 调用。
+
+/skill/call 复用 /tools/call 的审批链路：调用不直接执行工具，
+先落 tool_requests(pending)，等 manager 在 /tools/approvals/decide 放行后才执行。
+"""
+from __future__ import annotations
+
+import json
+
+from fastapi import APIRouter, HTTPException
+
+from .. import db
+from ..schemas import SkillRegister, ToolCall
+
+router = APIRouter(prefix="/skills", tags=["skills"])
+
+
+@router.post("/register")
+def register(body: SkillRegister):
+    db.execute(
+        "INSERT INTO skills (skill_id, name, description, param_schema, endpoint_url, provider_node, status, created_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, 'active', ?) "
+        "ON CONFLICT(skill_id) DO UPDATE SET "
+        "name=excluded.name, description=excluded.description, param_schema=excluded.param_schema, "
+        "endpoint_url=excluded.endpoint_url, provider_node=excluded.provider_node, status='active'",
+        (body.skill_id, body.name, body.description,
+         json.dumps(body.param_schema, ensure_ascii=False),
+         body.endpoint_url, body.provider_node, db.now()),
+    )
+    db.audit(body.provider_node or "toolnode", "skill_register", body.skill_id)
+    return {"ok": True, "skill_id": body.skill_id}
+
+
+@router.post("/{skill_id}/disable")
+def disable(skill_id: str):
+    db.execute("UPDATE skills SET status='disabled' WHERE skill_id=?", (skill_id,))
+    db.audit("system", "skill_disable", skill_id)
+    return {"ok": True}
+
+
+@router.get("")
+def list_skills():
+    rows = db.query_all("SELECT skill_id, name, description, param_schema, provider_node, status FROM skills WHERE status='active'")
+    for r in rows:
+        r["param_schema"] = json.loads(r.get("param_schema") or "{}")
+    return {"ok": True, "skills": rows}
+
+
+@router.get("/{skill_id}")
+def get_skill(skill_id: str):
+    row = db.query_one("SELECT * FROM skills WHERE skill_id=?", (skill_id,))
+    if not row:
+        raise HTTPException(status_code=404, detail="skill not found")
+    row["param_schema"] = json.loads(row.get("param_schema") or "{}")
+    return {"ok": True, "skill": row}
+
+
+@router.post("/call")
+def call_skill(body: ToolCall):
+    """技能调用别名：复用 /tools/call 的审批链路，不直接执行工具。"""
+    from .tools import call as _tool_call
+    return _tool_call(body)

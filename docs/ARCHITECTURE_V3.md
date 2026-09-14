@@ -1,1 +1,174 @@
-IyBBZ2VudC1Sb3RhcnktU3RhdGlvbiB2MyDkuInku7blpZfmnrbmnoTmlrnmoYgKCj4g54q25oCB77ya6I2J5qGI77yI5b6F55So5oi356Gu6K6k5ZCO6L+b5YWl5a6e5pa977yJCj4g55uu5qCH77ya5oqK5b2T5YmNIHYwLjIg55qE5Y2V5L2T44CMRmFzdEFQSSArIFNRTGl0ZSArIOWQjuWPsOe6v+eoi+OAjeaetuaehO+8jOa8lOi/m+S4uuOAjFBvY2tldEJhc2XvvIjnirbmgIHvvIkrIE5BVFMgSmV0U3RyZWFt77yI6YCa5L+h77yJKyBGbG93aXNl77yI5Y+v6YCJIEFJIOe8luaOku+8ieOAjeS4ieS7tuWll+OAggo+IOW6lee6v++8mioq5bqV5bqn5LuN6Zu25aSn5qih5Z6LKirvvJtGbG93aXNlIOWPquaYr+WklumDqOaOpeWFpeeahOe8luaOkuiKgueCue+8jExMTS/lkJHph48vUkFHIOS4jei/m+W6leW6p+OAggoKLS0tCgojIyAxLiDkuInkuKrnu4Tku7bmmK/ku4DkuYjvvIjkuIDlj6Xor53vvIkKCnwg57uE5Lu2IHwg5pys6LSoIHwg5ZyoIEFSUyDph4zotJ/otKMgfAp8LS0tfC0tLXwtLS18CnwgKipQb2NrZXRCYXNlKiogfCDljZXmlofku7YgQmFhU++8iH4xNU1C77yJ77yaU1FMaXRlICsg6Ieq5YqoIFJFU1QgQVBJICsg5a6e5pe2IFdlYlNvY2tldCDorqLpmIUgKyBBZG1pbiBVSSArIOiupOivgSB8IOWtmOS7u+WKoS9BZ2VudC/orrDlv4Yv5oqA6IO9L+WuoeaJuS/ml6Xlv5fvvIznu5nkurrnsbvkuIDkuKrlj6/op4bljJbnrqHnkIbpnaLmnb8gfAp8ICoqTkFUUyArIEpldFN0cmVhbSoqIHwgQ05DRiDlvIDmupDmtojmga/ns7vnu5/vvIh+MTVNQu+8ie+8mlB1Yi9TdWLjgIFRdWV1ZSBHcm91cHMg5oqi5Y2V44CBUmVxdWVzdC1SZXBseeOAgeaMgeS5heWMluWbnuaUvuOAgeW7tui/n+a2iOaBryB8IEFnZW50IOmXtOS8oOivneOAgeS7u+WKoeW5v+aSreOAgeaKouWNlemYn+WIl+OAgeWuoeaJuemAmuefpeOAgeW/g+i3s+OAgeW3peWFt+mYn+WIl+ihpeWPkSB8CnwgKipGbG93aXNl77yI5Y+v6YCJ77yJKiogfCDlvIDmupDkvY7ku6PnoIEgQUkg5bel5L2c5rWB57yW5o6S77yI5Z+65LqOIExhbmdDaGFpbu+8ie+8muaLluaLveeUu+W4g+OAgVJBR+OAgUNoYXRmbG93L0FnZW50Zmxvd+OAgeWvvOWHuuWvvOWFpSBKU09O44CB5LiA6ZSuIEFQSSB8IOS7u+WKoeaLhuino+OAgeWGheWuueeUn+aIkOOAgVJBRyDpl67nrZTnrYnpnIDopoHlpKfmqKHlnovnmoTjgIzohJHlipvmtLvjgI3vvIzkvZzkuLrlpJbpg6jnvJbmjpLoioLngrnosIPnlKggQVJTIEFQSSB8CgotLS0KCiMjIDIuIOaAu+aetuaehOWbvgoKYGBgbWVybWFpZApmbG93Y2hhcnQgVEIKICAgIEhbIvCfkaQg5Lq657G75L2/55So6ICFIl0gLS0+fOS4i+WPkeS7u+WKoS/ntKfmgKXliLnovaYv55yL6Z2i5p2/fCBQQlVJWyJQb2NrZXRCYXNlIEFkbWluIFVJIl0KICAgIEggLS0+fOe8luaOkiBBSSDpgLvovpF8IEZMT1dbIkZsb3dpc2XvvIjlj6/pgInvvIzlpJbpg6jvvIkiXQoKICAgIHN1YmdyYXBoIENPUkVbIui9rui9rOW3peS9nOermeW6leW6p++8iOmbtuWkp+aooeWei++8iSJdCiAgICAgICAgQVBJWyJGYXN0QVBJIOiwg+W6puWxgjxici8+5a6h5om56ZO+6LevICsg57Sn5oCl5Yi56L2mICsg5a6h6K6hIl0KICAgICAgICBQQlsiUG9ja2V0QmFzZTxici8+5Lu75YqhL0FnZW50L+iusOW/hi/mioDog70v5a6h5om55Y2VL+aXpeW/lyJdCiAgICAgICAgTkFUU1siTkFUUyBKZXRTdHJlYW08YnIvPuW5v+aSrS/miqLljZUv5Lyg6K+dL+mAmuefpS/pmJ/liJciXQogICAgZW5kCgogICAgQVBJIDwtLT586K+75YaZ54q25oCBfCBQQgogICAgQVBJIDwtLT585Y+R5biDL+iuoumYhS/pmJ/liJd8IE5BVFMKCiAgICBNR1JbIueuoeeQhuWylyBBZ2VudCJdIDwtLT586K6i6ZiF5a6h5om56YCa55+lfCBOQVRTCiAgICBXWyLmma7pgJrlkZjlt6UgQWdlbnQiXSA8LS0+fOaKouWNlS/np4HogYov576k6IGKfCBOQVRTCiAgICBUWyLlt6XlhbfoioLngrkgTUNQIl0gPC0tPnzmiafooYzmlL7ooYzlkI7nmoTor7fmsYJ8IEFQSQogICAgRkxPVyAtLT585L2c5Li65aSW6YOo57yW5o6S6IqC54K56LCDIEFQSXwgQVBJCmBgYAoKLS0tCgojIyAzLiDlip/og73mmKDlsITvvJrnjrDmnIkgMTIg5byg6KGoIOKGkiBQb2NrZXRCYXNlIGNvbGxlY3Rpb25zCgojIyMgMy4xIFBvY2tldEJhc2UgY29sbGVjdGlvbnPvvIjmib/mjqXlhajpg6jjgIznirbmgIEgKyDorrDlvZXjgI3vvIkKCnwg546w5pyJIFNRTGl0ZSDooaggfCBQb2NrZXRCYXNlIGNvbGxlY3Rpb24gfCDlhbPplK7lrZfmrrUgfCDor7TmmI4gfAp8LS0tfC0tLXwtLS18LS0tfAp8IGBhZ2VudHNgIHwgYGFnZW50c2AgfCBgYWdlbnRfaWRgKHVuaXF1ZSksIGBuYW1lYCwgYHJvbGVgLCBgc3RhdHVzYCwgYGNhcGFiaWxpdGllc2AsIGBsYXN0X2hlYXJ0YmVhdGAgfCDoirHlkI3lhozvvJttYW5hZ2VyIOagh+etvuWNsyBgcm9sZT0nbWFuYWdlcidgIHwKfCBgdGFza3NgIHwgYHRhc2tzYCB8IGB0YXNrX2lkYCh1bmlxdWUpLCBgdGl0bGVgLCBgZGVzY3JpcHRpb25gLCBgc3RhdHVzYChwZW5kaW5nL2luX3Byb2dyZXNzL2RvbmUpLCBgbWFuYWdlcl9pZGAgfCDku7vliqHorrDlvZXkuI7nirbmgIHvvIzlrp7ml7borqLpmIXnirbmgIHlj5jljJYgfAp8IGB0YXNrX21lbWJlcnNgIHwgYHRhc2tfbWVtYmVyc2AgfCBgdGFza19pZGAsIGBhZ2VudF9pZGAsIGByb2xlYCwgYGpvaW5lZF9hdGAgfCDku7vliqHnu4TlhbPns7sgfAp8IGBtZXNzYWdlc2AgfCBgbWVzc2FnZXNgIHwgYG1zZ19pZGAodW5pcXVlKSwgYGNoYW5uZWxfdHlwZWAsIGBmcm9tX2FnZW50YCwgYHRvX2FnZW50YCwgYHRhc2tfaWRgLCBgY29udGVudGAgfCDogYrlpKnmtYHmsLTvvIjlj6rnlZnnl5XkuI3ovazorrDlv4bvvIkgfAp8IGBtZW1vcmllc2AgfCBgbWVtb3JpZXNgIHwgYGRvbWFpbmAsIGBtZW1fa2V5YCwgYGNvbnRlbnRgLCBgb3duZXJfYWdlbnRgIHwg5LiJ5bGC6K6w5b+G5rGgIHwKfCBgbWVtb3J5X2FwcHJvdmFsc2AgfCBgYXBwcm92YWxzYCB8IGByZXF1ZXN0X2lkYCwgYGtpbmRgKG1lbW9yeS90b29sL3dvcmtmbG93KSwgYGFnZW50X2lkYCwgYGFjdGlvbmAsIGBzdGF0dXNgIHwg5a6h5om55Y2V57uf5LiA5YyW77yMYGtpbmRgIOWMuuWIhuexu+WeiyB8CnwgYHNraWxsc2AgfCBgc2tpbGxzYCB8IGBza2lsbF9pZGAodW5pcXVlKSwgYG5hbWVgLCBgZGVzY3JpcHRpb25gLCBgcGFyYW1fc2NoZW1hYCwgYGVuZHBvaW50X3VybGAsIGBzdGF0dXNgIHwg5oqA6IO95biC5Zy6IHwKfCBgdG9vbF9yZXF1ZXN0c2AgfCBgdG9vbF9yZXF1ZXN0c2AgfCBgcmVxdWVzdF9pZGAodW5pcXVlKSwgYGFnZW50X2lkYCwgYHNraWxsX2lkYCwgYHBhcmFtc2AsIGBzdGF0dXNgIHwg5bel5YW36LCD55So6K+35rGCIHwKfCBgdG9vbF9xdWV1ZWAgfCBgdG9vbF9xdWV1ZWAgfCBgcmVxdWVzdF9pZGAodW5pcXVlKSwgYHJldHJpZXNgLCBgZXhwaXJlX2F0YCwgYHN0YXR1c2AgfCDnprvnur/mjpLpmJ/vvIjmnKrmnaXlj6/nlLEgSmV0U3RyZWFtIOa2iOi0ueiAheWPluS7o++8iSB8CnwgYHdvcmtmbG93c2AgfCBgd29ya2Zsb3dzYCB8IGB3b3JrZmxvd19pZGAodW5pcXVlKSwgYG5hbWVgLCBgZGVmaW5pdGlvbmAoanNvbiksIGBzdGF0dXNgIHwg5bel5L2c5rWB5a6a5LmJIHwKfCBgd29ya2Zsb3dfcnVuc2AgfCBgd29ya2Zsb3dfcnVuc2AgfCBgcnVuX2lkYCh1bmlxdWUpLCBgd29ya2Zsb3dfaWRgLCBgc3RhdHVzYCwgYGN1cnJlbnRfbm9kZWAsIGByZXN1bHRgIHwg5bel5L2c5rWB6L+Q6KGM5a6e5L6LIHwKfCBgYXVkaXRfbG9nc2AgfCBgYXVkaXRfbG9nc2AgfCBgdHNgLCBgYWN0b3JgLCBgYWN0aW9uYCwgYHRhcmdldGAsIGBkZXRhaWxgIHwg5YWo6ZO+6Lev5a6h6K6hIHwKCiMjIyAzLjIgUG9ja2V0QmFzZSDluKbmnaXnmoTkuInkuKrnm7TmjqXmlLbnm4oKCjEuICoqV2ViU29ja2V0IOWunuaXtuiuoumYhSoq77yaQWdlbnQv5YmN56uv6K6i6ZiFIGB0YXNrc2Ag5Y+Y5YyW77yM5Lu75Yqh54q25oCB5LiA5pS556uL5Y2z5o6o6YCB77yM5LiN5YaN6L2u6K+i44CCCjIuICoqQWRtaW4gVUkqKu+8muS6uuexu+mbtuS7o+eggeeuoeeQhiBBZ2VudOOAgeS7u+WKoeOAgeaKgOiDveOAgeiusOW/huOAgeWuoeaJueWNleKAlOKAlOmhtuaOieWkp+mDqOWIhuiHqueglCBXZWJVSSDnmoQgQ1JVRCDpobXjgIIKMy4gKiroh6rliqggUkVTVCBBUEkqKu+8muW7uiBjb2xsZWN0aW9uIOWNs+W+lyBDUlVE77yM5YeP5bCR6Ieq56CU6Lev55Sx55qE5qC35p2/5Luj56CB44CCCgo+IOKaoO+4jyDms6jmhI/vvJpQb2NrZXRCYXNlIOiHquWKqCBDUlVEIOaYr+OAjOebtOi/nuaVsOaNruOAjeeahO+8jCoq5LiN6IO9KirnlKjmnaXnu5Xov4flrqHmibnjgILlhpnorrDlv4bjgIHosIPlt6XlhbfjgIHot5Hlt6XkvZzmtYHku43lv4XpobvotbAgRmFzdEFQSSDosIPluqblsYLvvIznlLHnrqHnkIblmajlrqHmibnjgIJBZG1pbiBVSSDlj6rnlKjmnaXjgIznnIvjgI3lkozjgIzmlLnlhYPmlbDmja7vvIjlpoLosIPlspfjgIHnpoHnlKjmioDog73vvInjgI3vvIzkuI3mm7/ku6PkuJrliqHlhpnot6/lvoTjgIIKCi0tLQoKIyMgNC4gTkFUUyBKZXRTdHJlYW3vvJpzdWJqZWN0ICsgc3RyZWFtIOiuvuiuoQoKIyMjIDQuMSBTdWJqZWN0IOWRveWQjee6puWumgoKYGBgCnN0YXRpb24uYWdlbnRzLjxhZ2VudF9pZD4uaW5ib3ggICAgICAjIOWPkee7meafkOS4qiBBZ2VudCDnmoTnp4HogYoKc3RhdGlvbi50YXNrcy48dGFza19pZD4uYnJvYWRjYXN0ICAgICMg5Lu75Yqh5bm/5pKt77yI5omA5pyJ57uE5ZGY6K6i6ZiF77yJCnN0YXRpb24udGFza3MuPHRhc2tfaWQ+LmdyYWIgICAgICAgICAjIOaKouWNlemYn+WIl++8iFF1ZXVlIEdyb3Vw77yM5LiA5p2h5Y+q6KKr5LiA5Liq5oqi77yJCnN0YXRpb24udGFza3MuPHRhc2tfaWQ+LmNoYXQgICAgICAgICAjIOS7u+WKoee+pOiBigpzdGF0aW9uLmFwcHJvdmFsLmluYm94ICAgICAgICAgICAgICAgIyDlrqHmibnor7fmsYLvvIhtYW5hZ2VyIOiuoumYhe+8iQpzdGF0aW9uLmFwcHJvdmFsLnJlc3VsdC48YWdlbnRfaWQ+ICAgIyDlrqHmibnnu5Pmnpzlm57mipXlj5HotbfogIUKc3RhdGlvbi50b29scy5xdWV1ZSAgICAgICAgICAgICAgICAgICMg5bel5YW356a757q/5o6S6ZifL+mHjeivlQpzdGF0aW9uLnNraWxscy5hbm5vdW5jZSAgICAgICAgICAgICAgIyDmioDog73ms6jlhowv56aB55So5YWs5ZGKCnN0YXRpb24uZW1lcmdlbmN5LmJsb2NrICAgICAgICAgICAgICAjIOe0p+aApeWIuei9puW5v+aSrQpzdGF0aW9uLmFnZW50cy5oZWFydGJlYXQgICAgICAgICAgICAgIyBBZ2VudCDlv4Pot7MKYGBgCgojIyMgNC4yIFN0cmVhbSDorr7orqHvvIhKZXRTdHJlYW0g5oyB5LmF5YyW77yJCgp8IFN0cmVhbSB8IOiuoumYhSBzdWJqZWN0IHwg55So6YCUIHwg5YWz6ZSu6YWN572uIHwKfC0tLXwtLS18LS0tfC0tLXwKfCBgQVBQUk9WQUxTYCB8IGBzdGF0aW9uLmFwcHJvdmFsLipgIHwg5a6h5om56K+35rGC5oyB5LmF5YyW77yMbWFuYWdlciDmjonnur/kuI3kuKIgfCDkv53nlZkgMjRo77yMYWNrIOWQjuWIoOmZpCB8CnwgYFRBU0tfRVZFTlRTYCB8IGBzdGF0aW9uLnRhc2tzLipgIHwg5Lu75Yqh5bm/5pKtL+aKouWNlS/nirbmgIHlj5jmm7Tkuovku7YgfCDkv53nlZkgN2TvvIzlj6/lm57mlL4gfAp8IGBUT09MX1FVRVVFYCB8IGBzdGF0aW9uLnRvb2xzLnF1ZXVlYCB8IOW3peWFt+Wksei0pemHjeivlemYn+WIlyB8IOaJi+WKqCBhY2vvvIzpgIDpgb/ph43mipUgfAp8IGBIRUFSVEJFQVRTYCB8IGBzdGF0aW9uLmFnZW50cy5oZWFydGJlYXRgIHwg5b+D6Lez5LiO6LaF5pe25Yik5a6aIHwg55+t5L+d55WZ77yM6YWN5ZCI5bu26L+f5raI5oGvIHwKCiMjIyA0LjMg5YWz6ZSu5Zy65pmv5a+554WnCgp8IOeOsOacieiDveWKmyB8IOi/geenu+WQjuWunueOsCB8CnwtLS18LS0tfAp8IGAvdGFza3MvYnJvYWRjYXN0YCDova7or6IgfCBtYW5hZ2VyIOWPkSBgdGFza3MuPGlkPi5icm9hZGNhc3Rg77yM5Zyo57q/5ZGY5bel5a6e5pe25pS25YiwIHwKfCBgL3Rhc2tzL2Fzc2lnbmAg5omL5Yqo5oyH5rS+IHwg5Y+R5YiwIGB0YXNrcy48aWQ+LmdyYWJgIOmYn+WIl++8jOesrOS4gOS4qua2iOi0ueeahCBBZ2VudCDmiqLliLAgfAp8IGAvbWVzc2FnZXMvc2VuZGAgSFRUUCDkvKDor50gfCBOQVRTIOWunuaXtumAgei+viArIFBvY2tldEJhc2Ug6JC95rWB5rC0IHwKfCBgL21lbW9yaWVzL2FwcHJvdmFscy8qYCDlrqHmibkgfCDlrqHmibnor7fmsYLov5sgYEFQUFJPVkFMU2Agc3RyZWFt77yMbWFuYWdlciDmjonnur/mtojmga/kuI3kuKLvvIzmlrAgbWFuYWdlciDkuIrku7vmjqXnnYDmtojotLkgfAp8IGB0b29sX3F1ZXVlYCArIOWQjuWPsOe6v+eoi+ihpeWPkSB8IEpldFN0cmVhbSDmtojotLnogIUgKyBgTmF0cy1TY2hlZHVsZWAg5bu26L+f6YeN5oqVICsg6L+H5pyf5Lii5byDIHwKfCBgL2hlYXJ0YmVhdGAg5ZCO5Y+w57q/56iL5omr6LaF5pe2IHwgQWdlbnQg5Y+R5b+D6LezICsgSmV0U3RyZWFtIOW7tui/n+a2iOaBr+inpuWPkee9riBvZmZsaW5lIHwKfCBgL2VtZXJnZW5jeS1ibG9jay90b2dnbGVgIHwg5Y+RIGBzdGF0aW9uLmVtZXJnZW5jeS5ibG9ja2DvvIzmiYDmnIkgQWdlbnQg56eS57qn5YGc5omLIHwKCi0tLQoKIyMgNS4gRmxvd2lzZSDmjqXlhaXljY/orq7vvIjlj6/pgInvvIzlrojkvY/nuqLnur/vvIkKCiMjIyA1LjEg5a6a5L2NCgpGbG93aXNlIOaYryoq5aSW6YOo57yW5o6S6IqC54K5KirvvIzop5LoibLnrYnlkIzkuo7kuIDkuKrjgIzkvJrmgJ3ogIPnmoTmma7pgJogQWdlbnTjgI3vvIzlj6rmmK/lroPnmoTjgIzohJHjgI3mmK8gTExN44CCCgojIyMgNS4yIOaOpeWFpeaWueW8jwoKYGBgCkZsb3dpc2Ug55S75biD5ouG6Kej5Lu75YqhCiAgICAgICAg4pSCICBIVFRQIOiwgyBBUlMgQVBJCiAgICAgICAg4pa8ClBPU1QgL3Rhc2tzL2NyZWF0ZSAgICAgICAgICAjIOS4i+WPkeaLhuino+WQjueahOWtkOS7u+WKoQpQT1NUIC9tZXNzYWdlcy9zZW5kICAgICAgICAgICMg57uZIEFnZW50IOWPkeaMh+S7pApQT1NUIC9tZW1vcmllcy93cml0ZSAgICAgICAgICMg5YaZ6K6w5b+G77yI6LWwIG1hbmFnZXIg5a6h5om577yJClBPU1QgL3NraWxscy9jYWxsIC8gdG9vbHMvY2FsbCAjIOiwg+W3peWFt++8iOi1sCBtYW5hZ2VyIOWuoeaJue+8iQpQT1NUIC93b3JrZmxvd3MvcnVuICAgICAgICAgICMg6Kem5Y+RIEFSUyDnmoQgREFHIOiwg+W6pgpgYGAKCiMjIyA1LjMg5LiO546w5pyJIHdvcmtmbG93cy5weSDnmoTliIblt6UKCnwgfCBBUlMgYHdvcmtmbG93cy5weWDvvIjkv53nlZnvvIkgfCBGbG93aXNlIHwKfC0tLXwtLS18LS0tfAp8IOeuoeS7gOS5iCB8ICoq6LeoIEFnZW50IOiwg+W6pioq77ya6LCB5Zyo5LuA5LmI6aG65bqP5omn6KGM44CB5a6h5om55oyC6LW35LiO5oGi5aSNIHwgKipBSSDlhoXpg6jpgLvovpEqKu+8mkxMTSDosIPnlKjpk77jgIFSQUfjgIHmj5DnpLror43jgIHlpJrmqKHlnosgfAp8IOacieayoeaciSBMTE0gfCDml6AgfCDmnIkgfAp8IOS6pOS6kuaWueW8jyB8IOW6leW6p+WGhemDqOaJp+ihjCB8IOWklumDqCBBUEkg6LCD55SoIHwKCuS4pOiAheWPr+S4suiBlO+8mkZsb3dpc2Ug5ouG6Kej5Ye65q2l6aqkIOKGkiDpgJrov4cgYC93b3JrZmxvd3MvcnVuYCDkuqTnu5kgQVJTIOeahCBEQUcg5Y676LCD5bqm5omn6KGM44CCCgotLS0KCiMjIDYuIOW/hemhu+WuiOS9j+eahOe6oue6v++8iOi/geenu+WQjuS4jeWPmO+8iQoKMS4gKirlupXluqfpm7blpKfmqKHlnosqKu+8mkZhc3RBUEkg6LCD5bqm5bGC5LiNIGltcG9ydCDku7vkvZUgTExNIC8g5ZCR6YeP5bqT44CCCjIuICoq5a6h5om56ZO+6Lev5LiN6KKr57uV6L+HKirvvJrlhpnorrDlv4bjgIHosIPlt6XlhbfjgIHot5HmlY/mhJ/lt6XkvZzmtYHoioLngrnvvIzku43otbAgbWFuYWdlciDlrqHmibnvvIzkuI3lhYHorrjlm77mlrnkvr/nm7TmjqXov54gUG9ja2V0QmFzZSDlhpnmlbDmja7jgIIKMy4gKirntKfmgKXliLnovablhajlsYDnlJ/mlYgqKu+8mk5BVFMg5rS+5Y+R44CBUG9ja2V0QmFzZSDlhpnlhaXjgIHlt6XlhbfosIPnlKjnu5/kuIDooqvlkIzkuIDkuKrlvIDlhbPmi6bkvY/jgIIKNC4gKirlhajpk77ot6/lrqHorqEqKu+8muaJgOacieWFs+mUruWKqOS9nOiQvSBgYXVkaXRfbG9nc2DjgIIKNS4gKirogYrlpKnkuI3oh6rliqjovazorrDlv4YqKu+8mk5BVFMg5Lyg6K+d5Y+q5L+d6K+B6YCB6L6+77yM5LiN6Ieq5Yqo5oC757uT44CCCgotLS0KCiMjIDcuIOi/geenu+i3r+e6v++8iOW7uuiuruWIhuaJue+8jOS4jeS4gOasoeaAp+mHjeaehO+8iQoKIyMjIFAw77ya5YWI6L+B6YCa5L+h5bGC77yITkFUU++8iQotIOS7u+WKoeW5v+aSreaKouWNleOAgeengeiBiue+pOiBiuOAgeWuoeaJuemAmuefpeOAgeW/g+i3s+OAgee0p+aApeWIuei9puW5v+aSrSDihpIgTkFUUwotIOWtmOWCqOS7jeeUqOeOsOaciSBTUUxpdGXvvIzlh4/lsJHpo47pmakKCiMjIyBQMe+8muWGjei/geWtmOWCqOWxgu+8iFBvY2tldEJhc2XvvIkKLSAxMiDlvKDooagg4oaSIDEyIOS4qiBjb2xsZWN0aW9uc++8jEZhc3RBUEkg6K+75YaZ5pS56LWwIFBvY2tldEJhc2UgU0RLCi0g55SoIEFkbWluIFVJIOmhtuabv+mDqOWIhiBXZWJVSSBDUlVEIOmhtQoKIyMjIFAy77ya5Y+v6YCJ5o6lIEZsb3dpc2UKLSDlhpkgRmxvd2lzZSDlr7nmjqXnpLrkvovvvIzkvZzkuLrlpJbpg6jnvJbmjpLoioLngrnmjqXlhaUKCj4g5q+P5Liq6Zi25q615a6M5oiQ5ZCO6LeR6YCa546w5pyJIHRlc3RzIOW5tuihpeWFheaWsOa1i+ivle+8jOehruiupOe6oue6v+acquegtOWGjei/m+S4i+S4gOmYtuauteOAggoKLS0tCgojIyA4LiDlvoXnoa7orqTpl67popgKCjEuIFAwL1AxL1AyIOaYr+WQpuaMieS4iui/sOmhuuW6j+aJp+ihjO+8nwoyLiBQb2NrZXRCYXNlIOS4jiBOQVRTIOaYr+WQpumDvemDqOe9suWcqOacrOacuu+8iFdpbmRvd3PvvInvvIzov5jmmK/lkI7nu63opoHot6jorr7lpIfvvJ8KMy4g5piv5ZCm5o6l5Y+X44CMUG9ja2V0QmFzZSBBZG1pbiBVSSDpobbmjonpg6jliIboh6rnoJQgV2ViVUkg6aG16Z2i44CN77yM6L+Y5piv5L+d55WZ546w5pyJIFdlYlVJ44CBUG9ja2V0QmFzZSDku4XlgZrmlbDmja7lsYLvvJ8K
+# Agent-Rotary-Station v3 三件套架构方案
+
+> 状态：草案（待用户确认后进入实施）
+> 目标：把当前 v0.2 的单体「FastAPI + SQLite + 后台线程」架构，演进为「PocketBase（状态）+ NATS JetStream（通信）+ Flowise（可选 AI 编排）」三件套。
+> 底线：**底座仍零大模型**；Flowise 只是外部接入的编排节点，LLM/向量/RAG 不进底座。
+
+---
+
+## 1. 三个组件是什么（一句话）
+
+| 组件 | 本质 | 在 ARS 里负责 |
+|---|---|---|
+| **PocketBase** | 单文件 BaaS（~15MB）：SQLite + 自动 REST API + 实时 WebSocket 订阅 + Admin UI + 认证 | 存任务/Agent/记忆/技能/审批/日志，给人类一个可视化管理面板 |
+| **NATS + JetStream** | CNCF 开源消息系统（~15MB）：Pub/Sub、Queue Groups 抢单、Request-Reply、持久化回放、延迟消息 | Agent 间传话、任务广播、抢单队列、审批通知、心跳、工具队列补发 |
+| **Flowise（可选）** | 开源低代码 AI 工作流编排（基于 LangChain）：拖拽画布、RAG、Chatflow/Agentflow、导出导入 JSON、一键 API | 任务拆解、内容生成、RAG 问答等需要大模型的「脑力活」，作为外部编排节点调用 ARS API |
+
+---
+
+## 2. 总架构图
+
+```mermaid
+flowchart TB
+    H["👤 人类使用者"] -->|下发任务/紧急刹车/看面板| PBUI["PocketBase Admin UI"]
+    H -->|编排 AI 逻辑| FLOW["Flowise（可选，外部）"]
+
+    subgraph CORE["轮转工作站底座（零大模型）"]
+        API["FastAPI 调度层<br/>审批链路 + 紧急刹车 + 审计"]
+        PB["PocketBase<br/>任务/Agent/记忆/技能/审批单/日志"]
+        NATS["NATS JetStream<br/>广播/抢单/传话/通知/队列"]
+    end
+
+    API <-->|读写状态| PB
+    API <-->|发布/订阅/队列| NATS
+
+    MGR["管理岗 Agent"] <-->|订阅审批通知| NATS
+    W["普通员工 Agent"] <-->|抢单/私聊/群聊| NATS
+    T["工具节点 MCP"] <-->|执行放行后的请求| API
+    FLOW -->|作为外部编排节点调 API| API
+```
+
+---
+
+## 3. 功能映射：现有 12 张表 → PocketBase collections
+
+### 3.1 PocketBase collections（承接全部「状态 + 记录」）
+
+| 现有 SQLite 表 | PocketBase collection | 关键字段 | 说明 |
+|---|---|---|---|
+| `agents` | `agents` | `agent_id`(unique), `name`, `role`, `status`, `capabilities`, `last_heartbeat` | 花名册；manager 标签即 `role='manager'` |
+| `tasks` | `tasks` | `task_id`(unique), `title`, `description`, `status`(pending/in_progress/done), `manager_id` | 任务记录与状态，实时订阅状态变化 |
+| `task_members` | `task_members` | `task_id`, `agent_id`, `role`, `joined_at` | 任务组关系 |
+| `messages` | `messages` | `msg_id`(unique), `channel_type`, `from_agent`, `to_agent`, `task_id`, `content` | 聊天流水（只留痕不转记忆） |
+| `memories` | `memories` | `domain`, `mem_key`, `content`, `owner_agent` | 三层记忆池 |
+| `memory_approvals` | `approvals` | `request_id`, `kind`(memory/tool/workflow), `agent_id`, `action`, `status` | 审批单统一化，`kind` 区分类型 |
+| `skills` | `skills` | `skill_id`(unique), `name`, `description`, `param_schema`, `endpoint_url`, `status` | 技能市场 |
+| `tool_requests` | `tool_requests` | `request_id`(unique), `agent_id`, `skill_id`, `params`, `status` | 工具调用请求 |
+| `tool_queue` | `tool_queue` | `request_id`(unique), `retries`, `expire_at`, `status` | 离线排队（未来可由 JetStream 消费者取代） |
+| `workflows` | `workflows` | `workflow_id`(unique), `name`, `definition`(json), `status` | 工作流定义 |
+| `workflow_runs` | `workflow_runs` | `run_id`(unique), `workflow_id`, `status`, `current_node`, `result` | 工作流运行实例 |
+| `audit_logs` | `audit_logs` | `ts`, `actor`, `action`, `target`, `detail` | 全链路审计 |
+
+### 3.2 PocketBase 带来的三个直接收益
+
+1. **WebSocket 实时订阅**：Agent/前端订阅 `tasks` 变化，任务状态一改立即推送，不再轮询。
+2. **Admin UI**：人类零代码管理 Agent、任务、技能、记忆、审批单——顶掉大部分自研 WebUI 的 CRUD 页。
+3. **自动 REST API**：建 collection 即得 CRUD，减少自研路由的样板代码。
+
+> ⚠️ 注意：PocketBase 自动 CRUD 是「直连数据」的，**不能**用来绕过审批。写记忆、调工具、跑工作流仍必须走 FastAPI 调度层，由管理器审批。Admin UI 只用来「看」和「改元数据（如调岗、禁用技能）」，不替代业务写路径。
+
+---
+
+## 4. NATS JetStream：subject + stream 设计
+
+### 4.1 Subject 命名约定
+
+```
+station.agents.<agent_id>.inbox      # 发给某个 Agent 的私聊
+station.tasks.<task_id>.broadcast    # 任务广播（所有组员订阅）
+station.tasks.<task_id>.grab         # 抢单队列（Queue Group，一条只被一个抢）
+station.tasks.<task_id>.chat         # 任务群聊
+station.approval.inbox               # 审批请求（manager 订阅）
+station.approval.result.<agent_id>   # 审批结果回投发起者
+station.tools.queue                  # 工具离线排队/重试
+station.skills.announce              # 技能注册/禁用公告
+station.emergency.block              # 紧急刹车广播
+station.agents.heartbeat             # Agent 心跳
+```
+
+### 4.2 Stream 设计（JetStream 持久化）
+
+| Stream | 订阅 subject | 用途 | 关键配置 |
+|---|---|---|---|
+| `APPROVALS` | `station.approval.*` | 审批请求持久化，manager 掉线不丢 | 保留 24h，ack 后删除 |
+| `TASK_EVENTS` | `station.tasks.*` | 任务广播/抢单/状态变更事件 | 保留 7d，可回放 |
+| `TOOL_QUEUE` | `station.tools.queue` | 工具失败重试队列 | 手动 ack，退避重投 |
+| `HEARTBEATS` | `station.agents.heartbeat` | 心跳与超时判定 | 短保留，配合延迟消息 |
+
+### 4.3 关键场景对照
+
+| 现有能力 | 迁移后实现 |
+|---|---|
+| `/tasks/broadcast` 轮询 | manager 发 `tasks.<id>.broadcast`，在线员工实时收到 |
+| `/tasks/assign` 手动指派 | 发到 `tasks.<id>.grab` 队列，第一个消费的 Agent 抢到 |
+| `/messages/send` HTTP 传话 | NATS 实时送达 + PocketBase 落流水 |
+| `/memories/approvals/*` 审批 | 审批请求进 `APPROVALS` stream，manager 掉线消息不丢，新 manager 上任接着消费 |
+| `tool_queue` + 后台线程补发 | JetStream 消费者 + `Nats-Schedule` 延迟重投 + 过期丢弃 |
+| `/heartbeat` 后台线程扫超时 | Agent 发心跳 + JetStream 延迟消息触发置 offline |
+| `/emergency-block/toggle` | 发 `station.emergency.block`，所有 Agent 秒级停手 |
+
+---
+
+## 5. Flowise 接入协议（可选，守住红线）
+
+### 5.1 定位
+
+Flowise 是**外部编排节点**，角色等同于一个「会思考的普通 Agent」，只是它的「脑」是 LLM。
+
+### 5.2 接入方式
+
+```
+Flowise 画布拆解任务
+        │  HTTP 调 ARS API
+        ▼
+POST /tasks/create          # 下发拆解后的子任务
+POST /messages/send          # 给 Agent 发指令
+POST /memories/write         # 写记忆（走 manager 审批）
+POST /skills/call / tools/call # 调工具（走 manager 审批）
+POST /workflows/run          # 触发 ARS 的 DAG 调度
+```
+
+### 5.3 与现有 workflows.py 的分工
+
+| | ARS `workflows.py`（保留） | Flowise |
+|---|---|---|
+| 管什么 | **跨 Agent 调度**：谁在什么顺序执行、审批挂起与恢复 | **AI 内部逻辑**：LLM 调用链、RAG、提示词、多模型 |
+| 有没有 LLM | 无 | 有 |
+| 交互方式 | 底座内部执行 | 外部 API 调用 |
+
+两者可串联：Flowise 拆解出步骤 → 通过 `/workflows/run` 交给 ARS 的 DAG 去调度执行。
+
+---
+
+## 6. 必须守住的红线（迁移后不变）
+
+1. **底座零大模型**：FastAPI 调度层不 import 任何 LLM / 向量库。
+2. **审批链路不被绕过**：写记忆、调工具、跑敏感工作流节点，仍走 manager 审批，不允许图方便直接连 PocketBase 写数据。
+3. **紧急刹车全局生效**：NATS 派发、PocketBase 写入、工具调用统一被同一个开关拦住。
+4. **全链路审计**：所有关键动作落 `audit_logs`。
+5. **聊天不自动转记忆**：NATS 传话只保证送达，不自动总结。
+
+---
+
+## 7. 迁移路线（建议分批，不一次性重构）
+
+### P0：先迁通信层（NATS）
+- 任务广播抢单、私聊群聊、审批通知、心跳、紧急刹车广播 → NATS
+- 存储仍用现有 SQLite，减少风险
+
+### P1：再迁存储层（PocketBase）
+- 12 张表 → 12 个 collections，FastAPI 读写改走 PocketBase SDK
+- 用 Admin UI 顶替部分 WebUI CRUD 页
+
+### P2：可选接 Flowise
+- 写 Flowise 对接示例，作为外部编排节点接入
+
+> 每个阶段完成后跑通现有 tests 并补充新测试，确认红线未破再进下一阶段。
+
+---
+
+## 8. 待确认问题
+
+1. P0/P1/P2 是否按上述顺序执行？
+2. PocketBase 与 NATS 是否都部署在本机（Windows），还是后续要跨设备？
+3. 是否接受「PocketBase Admin UI 顶掉部分自研 WebUI 页面」，还是保留现有 WebUI、PocketBase 仅做数据层？
