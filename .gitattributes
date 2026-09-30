@@ -1,0 +1,40 @@
+# ============================================
+# GitHub Linguist 语言统计修正
+# ============================================
+# 问题：本项目后端是 Python/FastAPI（app/ 下 25 个 .py），
+# 但 webui/ 前端静态资源体积是 app/ 的 5 倍，
+# GitHub Linguist 按「字节数」判定，导致仓库被标成 JavaScript。
+# 这会误导搜索、误导贡献者。
+#
+# 事实：后端 = Python 3 + FastAPI + NATS；前端 = 原生 JS（无构建）。
+# 这里显式声明，让统计结果回到真实情况。
+
+# ---- 前端：明确标为 JavaScript / TypeScript ----
+webui/**/*.js   linguist-language=JavaScript
+webui/**/*.ts   linguist-language=TypeScript
+webui/**/*.html linguist-language=HTML
+webui/**/*.css  linguist-language=CSS
+
+# ---- 后端：Python 是本项目主体，强制参与统计 ----
+app/**/*.py      linguist-detectable=true
+tests/**/*.py    linguist-detectable=true
+examples/**/*.py linguist-detectable=true
+scripts/**/*.py  linguist-detectable=true
+
+# ---- 文档不是代码，别抢语言占比 ----
+*.md    linguist-documentation
+docs/** linguist-documentation
+
+# ---- 数据 / 配置 / 脚本不参与语言统计 ----
+data/** linguist-vendored
+*.db    linguist-vendored
+*.json  linguist-vendored
+*.bat   linguist-vendored
+
+# ---- 行尾统一 ----
+*      text=auto eol=lf
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+*.py   text
+*.js   text
+*.md   text

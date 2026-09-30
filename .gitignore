@@ -1,0 +1,69 @@
+# ============================================
+# Agent-Rotary-Station
+# ============================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 测试 / 工具缓存 ----
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ---- 运行时数据（这些是你的数据，不该进版本库）----
+# ⚠️ 2026-09-29 清理：data/pb_data/data.db 的 _superusers 表曾包含
+#    bcrypt 密码哈希与 PocketBase tokenKey（JWT 签名密钥），
+#    且已进入 git 历史。已从历史中彻底清除。
+#    若你还在用这个 PocketBase 实例，请务必在后台重新生成 tokenKey。
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+data/*
+!data/.gitkeep
+!data/README.md
+
+# ---- 密钥 / 配置 ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ---- 日志 / PID ----
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
