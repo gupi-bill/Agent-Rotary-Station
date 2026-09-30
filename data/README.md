@@ -23,6 +23,15 @@
 ./run.sh          # 或 run.bat
 ```
 
+## PocketBase 类型声明
+
+`pb_data/types.d.ts` 曾被提交（约 787KB，PocketBase 官方生成，非业务代码），
+已移出版本库。需要 TypeScript 补全时重新生成：
+
+```bash
+npx pocketbase typegen
+```
+
 ## 备份
 
 ```bash

@@ -44,6 +44,10 @@ data/*
 !data/.gitkeep
 !data/README.md
 
+# PocketBase 官方生成的 TypeScript 类型声明（~787KB，非业务代码）。
+# 需要时重新生成：npx pocketbase typegen
+data/pb_data/types.d.ts
+
 # ---- 密钥 / 配置 ----
 .env
 .env.*
