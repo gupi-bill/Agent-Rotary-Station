@@ -1,0 +1,55 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      # NATS 是 P0 通信层。测试里如果连不上会自己降级，
+      # 但有真服务更接近实际运行环境。
+      nats:
+        image: nats:2
+        ports: ['4222:4222']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 装依赖
+        run: |
+          python -m pip install -q --upgrade pip
+          python -m pip install -q -r requirements.txt
+          python -m pip install -q pytest httpx
+
+      - name: 单元测试
+        # data/ 已在 .gitignore 里，CI 上是干净的库，首次运行自动建表
+        run: python -m pytest tests/ -q
+
+      - name: 启动脚本存在且语法正确
+        run: |
+          for f in run.sh scripts/start_nats.sh; do
+            test -f "$f" || { echo "::error::$f 不存在"; exit 1; }
+            bash -n "$f" || { echo "::error::$f 语法错误"; exit 1; }
+          done
+          # .bat 不能在 Linux 上跑语法检查，至少确认存在且没有硬编码个人路径
+          for f in run.bat scripts/start_nats.bat; do
+            test -f "$f" || { echo "::error::$f 不存在"; exit 1; }
+            grep -qE '[A-Za-z]:\\Users\\|/Users/[a-z]|/home/[a-z]' "$f" && {
+              echo "::error::$f 里有硬编码的个人路径"; exit 1; }
+          done
+          echo "✓ 启动脚本就绪"
+
+      - name: 运行库不应进库
+        run: |
+          if git ls-files | grep -qE '\.db$'; then
+            echo "::error::有 .db 被跟踪（凭据风险）"
+            git ls-files | grep -E '\.db$'
+            exit 1
+          fi
+          echo "✓ 仓库里没有数据库文件"
